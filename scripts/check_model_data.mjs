@@ -1,0 +1,24 @@
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+import {loadModelBytes} from './model_data.js';
+
+const expected=await readFile(new URL('../output/UChicago_HydePark.3ds',import.meta.url));
+const hash=value=>createHash('sha256').update(value).digest('hex');
+const source=await readFile(new URL('../assets/model-local.js',import.meta.url),'utf8');
+const prefix='window.__UCHICAGO_MODEL_BASE64__=';
+assert.ok(source.startsWith(prefix)&&source.endsWith(';\n'));
+const encoded=JSON.parse(source.slice(prefix.length,-2));
+assert.equal(hash(await loadModelBytes({model:encoded})),hash(expected));
+let requested;
+const http=await loadModelBytes({modelUrl:'output/UChicago_HydePark.3ds'},{protocol:'https:',fetch:async url=>{requested=url;return {ok:true,arrayBuffer:async()=>expected.buffer.slice(expected.byteOffset,expected.byteOffset+expected.byteLength)};}});
+assert.equal(requested,'output/UChicago_HydePark.3ds');assert.equal(hash(http),hash(expected));
+await assert.rejects(loadModelBytes({modelUrl:'missing.3ds'},{protocol:'https:',fetch:async()=>({ok:false,status:404})}),/HTTP 404/);
+const target={};let localPath;let removed=false;
+const document={createElement:()=>({remove(){removed=true;}}),head:{append(script){localPath=script.src;target.__UCHICAGO_MODEL_BASE64__=encoded;script.onload();}}};
+const local=await loadModelBytes({offlineModelScript:'assets/model-local.js'},{protocol:'file:',document,target});
+assert.equal(localPath,'assets/model-local.js');assert.ok(removed);assert.equal(hash(local),hash(expected));
+assert.ok(!('__UCHICAGO_MODEL_BASE64__' in target));
+const brokenDocument={createElement:()=>({remove(){}}),head:{append(script){script.onerror();}}};
+await assert.rejects(loadModelBytes({offlineModelScript:'missing.js'},{protocol:'file:',document:brokenDocument,target:{}}),/could not be loaded/);
+console.log('Model loader checks passed: HTTP binary, file script, inline edition, error handling; original 3DS SHA-256 preserved.');

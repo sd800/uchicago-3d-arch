@@ -40,3 +40,6 @@ __pycache__/
 /output/*.tmp
 
 # Keep index.html, the CAD models, previews and source data tracked.
+
+# Generated single-file edition is included in the local delivery ZIP.
+/output/UChicago_Campus_Offline.html

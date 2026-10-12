@@ -1,0 +1,1343 @@
+[
+  {
+    "code": "U001",
+    "name": "Campus North Parking Garage",
+    "name_zh": "校区北部停车楼",
+    "short_zh": "校区北部停车楼",
+    "aliases_zh": [
+      "北校区停车楼"
+    ]
+  },
+  {
+    "code": "U002",
+    "name": "Campus North Residential Commons",
+    "name_zh": "校区北部住宿社区",
+    "short_zh": "北部住宿社区",
+    "aliases_zh": [
+      "北校区住宿社区"
+    ]
+  },
+  {
+    "code": "U003",
+    "name": "Gerald Ratner Athletics Center",
+    "name_zh": "杰拉尔德·拉特纳体育中心",
+    "short_zh": "拉特纳体育中心",
+    "aliases_zh": []
+  },
+  {
+    "code": "U004",
+    "name": "Cochrane-Woods Art Center",
+    "name_zh": "科克伦-伍兹艺术中心",
+    "short_zh": "科克伦-伍兹艺术中心",
+    "aliases_zh": []
+  },
+  {
+    "code": "U005",
+    "name": "Court Theatre",
+    "name_zh": "庭院剧院",
+    "short_zh": "庭院剧院",
+    "aliases_zh": [
+      "考特剧院"
+    ]
+  },
+  {
+    "code": "U006",
+    "name": "Henry Crown Field House",
+    "name_zh": "亨利·克朗体育馆",
+    "short_zh": "亨利·克朗体育馆",
+    "aliases_zh": []
+  },
+  {
+    "code": "U007",
+    "name": "David and Alfred Smart Museum of Art",
+    "name_zh": "戴维与阿尔弗雷德·斯马特艺术博物馆",
+    "short_zh": "斯马特艺术博物馆",
+    "aliases_zh": [
+      "斯玛特艺术博物馆"
+    ]
+  },
+  {
+    "code": "U008",
+    "name": "Young Memorial Building",
+    "name_zh": "杨纪念楼",
+    "short_zh": "杨纪念楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U009",
+    "name": "Stagg Field",
+    "name_zh": "斯塔格运动场",
+    "short_zh": "斯塔格运动场",
+    "aliases_zh": [
+      "斯塔格体育场附属楼"
+    ]
+  },
+  {
+    "code": "U010",
+    "name": "847 East 56th Street",
+    "name_zh": "东56街847号",
+    "short_zh": "东56街847号",
+    "aliases_zh": []
+  },
+  {
+    "code": "U011",
+    "name": "Max Palevsky Commons Central",
+    "name_zh": "马克斯·帕莱夫斯基宿舍中楼",
+    "short_zh": "帕莱夫斯基宿舍中楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U012",
+    "name": "University of Chicago Auto Service Facility",
+    "name_zh": "芝加哥大学车辆服务设施",
+    "short_zh": "芝加哥大学车辆服务设施",
+    "aliases_zh": [
+      "大学车辆服务中心"
+    ]
+  },
+  {
+    "code": "U013",
+    "name": "West Campus Combined Utility Plant",
+    "name_zh": "校区西部综合能源站",
+    "short_zh": "校区西部综合能源站",
+    "aliases_zh": [
+      "西校区能源中心"
+    ]
+  },
+  {
+    "code": "U014",
+    "name": "Max Palevsky Commons West",
+    "name_zh": "马克斯·帕莱夫斯基宿舍西楼",
+    "short_zh": "帕莱夫斯基宿舍西楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U015",
+    "name": "High Bay Research Building",
+    "name_zh": "高净空科研楼",
+    "short_zh": "高净空科研楼",
+    "aliases_zh": [
+      "高跨科研楼"
+    ]
+  },
+  {
+    "code": "U016",
+    "name": "Michelson Center for Physics",
+    "name_zh": "迈克尔逊物理中心",
+    "short_zh": "迈克尔逊物理中心",
+    "aliases_zh": []
+  },
+  {
+    "code": "U017",
+    "name": "Molecular Engineering Modular Offices",
+    "name_zh": "分子工程模块化办公楼",
+    "short_zh": "分子工程模块化办公楼",
+    "aliases_zh": [
+      "分子工程临时办公楼"
+    ]
+  },
+  {
+    "code": "U018",
+    "name": "Max Palevsky Commons East",
+    "name_zh": "马克斯·帕莱夫斯基宿舍东楼",
+    "short_zh": "帕莱夫斯基宿舍东楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U019",
+    "name": "Accelerator Building",
+    "name_zh": "加速器实验楼",
+    "short_zh": "加速器实验楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U020",
+    "name": "UChicago Child Development Center - Drexel",
+    "name_zh": "芝加哥大学儿童发展中心（德雷克塞尔）",
+    "short_zh": "芝加哥大学儿童发展中心（德雷克塞尔）",
+    "aliases_zh": [
+      "大学儿童发展中心（Drexel）"
+    ]
+  },
+  {
+    "code": "U021",
+    "name": "Knapp Research Center",
+    "name_zh": "纳普研究中心",
+    "short_zh": "纳普研究中心",
+    "aliases_zh": []
+  },
+  {
+    "code": "U022",
+    "name": "Joseph Regenstein Library",
+    "name_zh": "约瑟夫·雷根斯坦图书馆",
+    "short_zh": "雷根斯坦图书馆",
+    "aliases_zh": []
+  },
+  {
+    "code": "U023",
+    "name": "Medical Campus Parking Garage B",
+    "name_zh": "医学区B停车楼",
+    "short_zh": "医学区B停车楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U024",
+    "name": "Joe and Rika Mansueto Library",
+    "name_zh": "乔与丽卡·曼苏托图书馆",
+    "short_zh": "曼苏托图书馆",
+    "aliases_zh": []
+  },
+  {
+    "code": "U025",
+    "name": "Knapp Center for Biomedical Discovery",
+    "name_zh": "纳普生物医学研究中心",
+    "short_zh": "纳普生物医学研究中心",
+    "aliases_zh": []
+  },
+  {
+    "code": "U026",
+    "name": "Greenhouse",
+    "name_zh": "温室",
+    "short_zh": "温室",
+    "aliases_zh": []
+  },
+  {
+    "code": "U027",
+    "name": "Bartlett Dining Commons",
+    "name_zh": "巴特利特餐厅",
+    "short_zh": "巴特利特餐厅",
+    "aliases_zh": []
+  },
+  {
+    "code": "U028",
+    "name": "William Eckhardt Research Center",
+    "name_zh": "威廉·埃克哈特研究中心",
+    "short_zh": "埃克哈特研究中心",
+    "aliases_zh": []
+  },
+  {
+    "code": "U029",
+    "name": "Donnelley Biological Sciences Learning Center",
+    "name_zh": "唐纳利生物科学教学中心",
+    "short_zh": "唐纳利生物科学教学中心",
+    "aliases_zh": []
+  },
+  {
+    "code": "U030",
+    "name": "Biopsychology Science Building",
+    "name_zh": "生物心理学研究楼",
+    "short_zh": "生物心理学研究楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U031",
+    "name": "Rohr Chabad Jewish Center",
+    "name_zh": "罗尔·哈巴德犹太中心",
+    "short_zh": "罗尔·哈巴德犹太中心",
+    "aliases_zh": [
+      "罗尔查巴德犹太中心"
+    ]
+  },
+  {
+    "code": "U032",
+    "name": "Mitchell Tower",
+    "name_zh": "米切尔钟塔",
+    "short_zh": "米切尔钟塔",
+    "aliases_zh": []
+  },
+  {
+    "code": "U033",
+    "name": "Neubauer Collegium",
+    "name_zh": "纽鲍尔人文与社会研究中心",
+    "short_zh": "纽鲍尔人文与社会研究中心",
+    "aliases_zh": []
+  },
+  {
+    "code": "U034",
+    "name": "Zoology",
+    "name_zh": "动物学楼",
+    "short_zh": "动物学楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U035",
+    "name": "Cobb Gate",
+    "name_zh": "科布门楼",
+    "short_zh": "科布门楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U036",
+    "name": "Anatomy",
+    "name_zh": "解剖学楼",
+    "short_zh": "解剖学楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U037",
+    "name": "Quadrangle Club",
+    "name_zh": "庭院俱乐部",
+    "short_zh": "庭院俱乐部",
+    "aliases_zh": [
+      "四合院俱乐部"
+    ]
+  },
+  {
+    "code": "U038",
+    "name": "Hutchinson Commons",
+    "name_zh": "哈钦森公共厅",
+    "short_zh": "哈钦森公共厅",
+    "aliases_zh": []
+  },
+  {
+    "code": "U039",
+    "name": "Snell-Hitchcock Halls",
+    "name_zh": "斯奈尔-希区柯克宿舍",
+    "short_zh": "斯奈尔-希区柯克宿舍",
+    "aliases_zh": []
+  },
+  {
+    "code": "U040",
+    "name": "5706 South Woodlawn Avenue",
+    "name_zh": "南伍德劳恩大道5706号",
+    "short_zh": "南伍德劳恩大道5706号",
+    "aliases_zh": []
+  },
+  {
+    "code": "U041",
+    "name": "Hunnewell House",
+    "name_zh": "亨纽威尔住宅",
+    "short_zh": "亨纽威尔住宅",
+    "aliases_zh": []
+  },
+  {
+    "code": "U042",
+    "name": "Reynolds Club",
+    "name_zh": "雷诺兹学生中心",
+    "short_zh": "雷诺兹学生中心",
+    "aliases_zh": []
+  },
+  {
+    "code": "U043",
+    "name": "Kersten Physics Teaching Center",
+    "name_zh": "克斯滕物理教学中心",
+    "short_zh": "克斯滕物理教学中心",
+    "aliases_zh": []
+  },
+  {
+    "code": "U044",
+    "name": "Center for Care and Discovery",
+    "name_zh": "诊疗与研究中心",
+    "short_zh": "诊疗与研究中心",
+    "aliases_zh": []
+  },
+  {
+    "code": "U045",
+    "name": "Gordon Center for Integrative Science",
+    "name_zh": "戈登综合科学中心",
+    "short_zh": "戈登科学中心",
+    "aliases_zh": []
+  },
+  {
+    "code": "U046",
+    "name": "Office of Multicultural Student Affairs",
+    "name_zh": "多元文化学生事务办公室",
+    "short_zh": "多元文化学生事务办公室",
+    "aliases_zh": [
+      "多元文化学生事务中心"
+    ]
+  },
+  {
+    "code": "U047",
+    "name": "Ryder House",
+    "name_zh": "赖德住宅",
+    "short_zh": "赖德住宅",
+    "aliases_zh": []
+  },
+  {
+    "code": "U048",
+    "name": "Delta Upsilon House",
+    "name_zh": "Delta Upsilon 兄弟会会馆",
+    "short_zh": "Delta Upsilon 兄弟会会馆",
+    "aliases_zh": []
+  },
+  {
+    "code": "U049",
+    "name": "Newberger Hillel Center",
+    "name_zh": "纽伯格·希勒尔中心",
+    "short_zh": "纽伯格·希勒尔中心",
+    "aliases_zh": [
+      "纽伯格希勒尔中心"
+    ]
+  },
+  {
+    "code": "U050",
+    "name": "Erman Biology Center",
+    "name_zh": "厄尔曼生物学中心",
+    "short_zh": "厄尔曼生物学中心",
+    "aliases_zh": [
+      "厄尔曼生物研究楼"
+    ]
+  },
+  {
+    "code": "U051",
+    "name": "Culver",
+    "name_zh": "卡尔弗楼",
+    "short_zh": "卡尔弗楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U052",
+    "name": "Concert Office",
+    "name_zh": "音乐会事务办公室",
+    "short_zh": "音乐会事务办公室",
+    "aliases_zh": [
+      "音乐办公室"
+    ]
+  },
+  {
+    "code": "U053",
+    "name": "Institute of Politics",
+    "name_zh": "政治研究所",
+    "short_zh": "政治研究所",
+    "aliases_zh": []
+  },
+  {
+    "code": "U054",
+    "name": "Mandel Hall",
+    "name_zh": "曼德尔音乐厅",
+    "short_zh": "曼德尔音乐厅",
+    "aliases_zh": []
+  },
+  {
+    "code": "U055",
+    "name": "5728 S. Woodlawn",
+    "name_zh": "南伍德劳恩大道5728号",
+    "short_zh": "南伍德劳恩大道5728号",
+    "aliases_zh": []
+  },
+  {
+    "code": "U056",
+    "name": "Stevanovich Center for Financial Mathematics",
+    "name_zh": "斯特瓦诺维奇金融数学中心",
+    "short_zh": "斯特瓦诺维奇金融数学中心",
+    "aliases_zh": []
+  },
+  {
+    "code": "U057",
+    "name": "Searle Chemical Laboratory",
+    "name_zh": "瑟尔化学实验楼",
+    "short_zh": "瑟尔化学实验楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U058",
+    "name": "John Crerar Library",
+    "name_zh": "约翰·克雷拉尔图书馆",
+    "short_zh": "克雷拉尔图书馆",
+    "aliases_zh": [
+      "约翰·克雷拉图书馆",
+      "克雷拉图书馆"
+    ]
+  },
+  {
+    "code": "U059",
+    "name": "5729 South Woodlawn Avenue",
+    "name_zh": "南伍德劳恩大道5729号",
+    "short_zh": "南伍德劳恩大道5729号",
+    "aliases_zh": []
+  },
+  {
+    "code": "U060",
+    "name": "Comparative Human Development Building",
+    "name_zh": "比较人类发展研究楼",
+    "short_zh": "比较人类发展研究楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U061",
+    "name": "Gender/Race Studies Building",
+    "name_zh": "性别与种族研究楼",
+    "short_zh": "性别与种族研究楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U062",
+    "name": "Calvert House",
+    "name_zh": "卡尔弗特楼",
+    "short_zh": "卡尔弗特楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U063",
+    "name": "NSIT Office",
+    "name_zh": "NSIT 办公室",
+    "short_zh": "NSIT 办公室",
+    "aliases_zh": [
+      "信息技术办公室"
+    ]
+  },
+  {
+    "code": "U064",
+    "name": "Henry Hinds Laboratory for Geophysical Sciences",
+    "name_zh": "亨利·欣兹地球物理科学实验楼",
+    "short_zh": "欣兹地球物理科学实验楼",
+    "aliases_zh": [
+      "欣兹地球物理实验楼"
+    ]
+  },
+  {
+    "code": "U065",
+    "name": "Comer Hospital East Wing",
+    "name_zh": "科默医院东翼",
+    "short_zh": "科默医院东翼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U066",
+    "name": "Duchossois Center for Advanced Medicine",
+    "name_zh": "杜乔索伊斯先进医学中心",
+    "short_zh": "杜乔索伊斯先进医学中心",
+    "aliases_zh": [
+      "杜乔索伊斯高级医学中心"
+    ]
+  },
+  {
+    "code": "U067",
+    "name": "Ryerson Laboratory",
+    "name_zh": "赖尔森实验楼",
+    "short_zh": "赖尔森实验楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U068",
+    "name": "Eckhart Hall",
+    "name_zh": "埃克哈特数学楼",
+    "short_zh": "埃克哈特数学楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U069",
+    "name": "Kent Chemical Laboratory",
+    "name_zh": "肯特化学实验楼",
+    "short_zh": "肯特化学实验楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U070",
+    "name": "Comer Children's Hospital",
+    "name_zh": "科默儿童医院",
+    "short_zh": "科默儿童医院",
+    "aliases_zh": []
+  },
+  {
+    "code": "U071",
+    "name": "SCRS Building",
+    "name_zh": "SCRS 楼",
+    "short_zh": "SCRS 楼",
+    "aliases_zh": [
+      "SCRS研究楼"
+    ]
+  },
+  {
+    "code": "U072",
+    "name": "U of C Nursery School",
+    "name_zh": "大学幼儿园",
+    "short_zh": "大学幼儿园",
+    "aliases_zh": []
+  },
+  {
+    "code": "U073",
+    "name": "Saieh Hall Annex",
+    "name_zh": "赛义楼附楼",
+    "short_zh": "赛义楼附楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U074",
+    "name": "McGiffert House",
+    "name_zh": "麦吉弗特楼",
+    "short_zh": "麦吉弗特楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U075",
+    "name": "Jones Laboratory",
+    "name_zh": "琼斯实验楼",
+    "short_zh": "琼斯实验楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U076",
+    "name": "Alpha Delta Phi House",
+    "name_zh": "Alpha Delta Phi 兄弟会会馆",
+    "short_zh": "Alpha Delta Phi 兄弟会会馆",
+    "aliases_zh": []
+  },
+  {
+    "code": "U077",
+    "name": "U of C Nursery School",
+    "name_zh": "大学幼儿园",
+    "short_zh": "大学幼儿园",
+    "aliases_zh": []
+  },
+  {
+    "code": "U078",
+    "name": "Cummings Life Sciences Center",
+    "name_zh": "卡明斯生命科学中心",
+    "short_zh": "卡明斯生命科学中心",
+    "aliases_zh": []
+  },
+  {
+    "code": "U079",
+    "name": "Kovler",
+    "name_zh": "科夫勒楼",
+    "short_zh": "科夫勒楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U080",
+    "name": "Saieh Hall for Economics",
+    "name_zh": "赛义经济学楼",
+    "short_zh": "赛义经济学楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U081",
+    "name": "Frederick C. Robie House",
+    "name_zh": "弗雷德里克·C. 罗比住宅",
+    "short_zh": "罗比住宅",
+    "aliases_zh": []
+  },
+  {
+    "code": "U082",
+    "name": "American School",
+    "name_zh": "美国学校楼",
+    "short_zh": "美国学校楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U083",
+    "name": "University Bookstore",
+    "name_zh": "大学书店",
+    "short_zh": "大学书店",
+    "aliases_zh": []
+  },
+  {
+    "code": "U084",
+    "name": "Edward H. Levi Hall",
+    "name_zh": "爱德华·H. 利维楼",
+    "short_zh": "爱德华·H. 利维楼",
+    "aliases_zh": [
+      "利维行政楼"
+    ]
+  },
+  {
+    "code": "U085",
+    "name": "Frank R. Lillie House",
+    "name_zh": "弗兰克·R. 利利住宅",
+    "short_zh": "弗兰克·R. 利利住宅",
+    "aliases_zh": [
+      "莉莉住宅"
+    ]
+  },
+  {
+    "code": "U086",
+    "name": "Abbott Hall",
+    "name_zh": "阿博特楼",
+    "short_zh": "阿博特楼",
+    "aliases_zh": [
+      "阿博特纪念楼"
+    ]
+  },
+  {
+    "code": "U087",
+    "name": "Bernard A. Mitchell Hospital",
+    "name_zh": "伯纳德·A. 米切尔医院",
+    "short_zh": "伯纳德·A. 米切尔医院",
+    "aliases_zh": [
+      "米切尔医院"
+    ]
+  },
+  {
+    "code": "U088",
+    "name": "Institute for the Study of Ancient Cultures",
+    "name_zh": "古代文化研究所",
+    "short_zh": "古代文化研究所",
+    "aliases_zh": [
+      "古代文化研究所与博物馆"
+    ]
+  },
+  {
+    "code": "U089",
+    "name": "Wilder House",
+    "name_zh": "怀尔德住宅",
+    "short_zh": "怀尔德住宅",
+    "aliases_zh": []
+  },
+  {
+    "code": "U090",
+    "name": "Gordon Parks Arts Hall",
+    "name_zh": "戈登·帕克斯艺术楼",
+    "short_zh": "戈登·帕克斯艺术楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U091",
+    "name": "Surgery Brain",
+    "name_zh": "外科／脑科学楼（Surgery Brain）",
+    "short_zh": "外科／脑科学楼（Surgery Brain）",
+    "aliases_zh": [
+      "脑外科研究楼"
+    ]
+  },
+  {
+    "code": "U092",
+    "name": "Carlson",
+    "name_zh": "卡尔森楼",
+    "short_zh": "卡尔森楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U093",
+    "name": "Peck Pavilion",
+    "name_zh": "佩克楼",
+    "short_zh": "佩克楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U094",
+    "name": "Medical Campus Parking Garage A",
+    "name_zh": "医学区A停车楼",
+    "short_zh": "医学区A停车楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U095",
+    "name": "Charles M. Harper Center",
+    "name_zh": "查尔斯·M. 哈珀中心",
+    "short_zh": "哈珀中心",
+    "aliases_zh": [
+      "查尔斯·哈珀中心 / 商学院"
+    ]
+  },
+  {
+    "code": "U096",
+    "name": "MRI",
+    "name_zh": "磁共振设施（MRI）",
+    "short_zh": "磁共振设施（MRI）",
+    "aliases_zh": []
+  },
+  {
+    "code": "U097",
+    "name": "Walker Museum",
+    "name_zh": "沃克博物馆楼",
+    "short_zh": "沃克博物馆楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U098",
+    "name": "Cobb Hall",
+    "name_zh": "科布楼",
+    "short_zh": "科布楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U099",
+    "name": "Belfield Hall",
+    "name_zh": "贝尔菲尔德楼",
+    "short_zh": "贝尔菲尔德楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U100",
+    "name": "Pick Hall",
+    "name_zh": "皮克楼",
+    "short_zh": "皮克楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U101",
+    "name": "Swift Hall",
+    "name_zh": "斯威夫特楼",
+    "short_zh": "斯威夫特楼",
+    "aliases_zh": [
+      "斯威夫特楼 / 神学院"
+    ]
+  },
+  {
+    "code": "U102",
+    "name": "Rosenwald Hall",
+    "name_zh": "罗森瓦尔德楼",
+    "short_zh": "罗森瓦尔德楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U103",
+    "name": "Rubloff Intensive Care",
+    "name_zh": "鲁布洛夫重症监护楼",
+    "short_zh": "鲁布洛夫重症监护楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U104",
+    "name": "Sunny Gymnasium",
+    "name_zh": "桑尼体育馆",
+    "short_zh": "桑尼体育馆",
+    "aliases_zh": []
+  },
+  {
+    "code": "U105",
+    "name": "Armour",
+    "name_zh": "阿默楼",
+    "short_zh": "阿默楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U106",
+    "name": "Beecher Hall",
+    "name_zh": "比彻楼",
+    "short_zh": "比彻楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U107",
+    "name": "Bond Chapel",
+    "name_zh": "邦德礼拜堂",
+    "short_zh": "邦德礼拜堂",
+    "aliases_zh": []
+  },
+  {
+    "code": "U108",
+    "name": "Wyler Children's Hospital",
+    "name_zh": "怀勒儿童医院",
+    "short_zh": "怀勒儿童医院",
+    "aliases_zh": []
+  },
+  {
+    "code": "U109",
+    "name": "Judd Hall",
+    "name_zh": "贾德楼",
+    "short_zh": "贾德楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U110",
+    "name": "University High School",
+    "name_zh": "大学附属高中",
+    "short_zh": "大学附属高中",
+    "aliases_zh": []
+  },
+  {
+    "code": "U111",
+    "name": "Laboratory Middle School",
+    "name_zh": "大学附属中学",
+    "short_zh": "大学附属中学",
+    "aliases_zh": []
+  },
+  {
+    "code": "U112",
+    "name": "Rockefeller Memorial Chapel",
+    "name_zh": "洛克菲勒纪念礼拜堂",
+    "short_zh": "洛克菲勒礼拜堂",
+    "aliases_zh": []
+  },
+  {
+    "code": "U113",
+    "name": "Franklin McLean Research Institute",
+    "name_zh": "富兰克林·麦克莱恩研究所",
+    "short_zh": "富兰克林·麦克莱恩研究所",
+    "aliases_zh": []
+  },
+  {
+    "code": "U114",
+    "name": "Gates-Blake Hall",
+    "name_zh": "盖茨-布莱克楼",
+    "short_zh": "盖茨-布莱克楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U115",
+    "name": "Green Hall",
+    "name_zh": "格林楼",
+    "short_zh": "格林楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U116",
+    "name": "Billings",
+    "name_zh": "比林斯楼",
+    "short_zh": "比林斯楼",
+    "aliases_zh": [
+      "比林斯医院组团"
+    ]
+  },
+  {
+    "code": "U117",
+    "name": "Stuart Hall",
+    "name_zh": "斯图尔特楼",
+    "short_zh": "斯图尔特楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U118",
+    "name": "Haskell Hall",
+    "name_zh": "哈斯克尔楼",
+    "short_zh": "哈斯克尔楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U119",
+    "name": "Kovler Gymnasium",
+    "name_zh": "科夫勒体育馆",
+    "short_zh": "科夫勒体育馆",
+    "aliases_zh": []
+  },
+  {
+    "code": "U120",
+    "name": "Gilman Smith",
+    "name_zh": "吉尔曼·史密斯楼",
+    "short_zh": "吉尔曼·史密斯楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U121",
+    "name": "Parking/Materials Management",
+    "name_zh": "停车与物资管理设施",
+    "short_zh": "停车与物资管理设施",
+    "aliases_zh": [
+      "物资管理停车楼"
+    ]
+  },
+  {
+    "code": "U122",
+    "name": "Goldblatt Pavilion",
+    "name_zh": "戈德布拉特楼",
+    "short_zh": "戈德布拉特楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U123",
+    "name": "Goldblatt",
+    "name_zh": "戈德布拉特楼",
+    "short_zh": "戈德布拉特楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U124",
+    "name": "International House",
+    "name_zh": "国际学舍",
+    "short_zh": "国际学舍",
+    "aliases_zh": [
+      "国际学生之家"
+    ]
+  },
+  {
+    "code": "U125",
+    "name": "Chicago Lying-In Hospital",
+    "name_zh": "芝加哥妇产医院",
+    "short_zh": "芝加哥妇产医院",
+    "aliases_zh": []
+  },
+  {
+    "code": "U126",
+    "name": "Ida Noyes Hall",
+    "name_zh": "艾达·诺伊斯楼",
+    "short_zh": "艾达·诺伊斯楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U127",
+    "name": "Kelly Hall",
+    "name_zh": "凯利楼",
+    "short_zh": "凯利楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U128",
+    "name": "Goodspeed Hall",
+    "name_zh": "古德斯皮德楼",
+    "short_zh": "古德斯皮德楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U129",
+    "name": "UChicago Student Wellness Center",
+    "name_zh": "芝加哥大学学生健康中心",
+    "short_zh": "芝加哥大学学生健康中心",
+    "aliases_zh": [
+      "学生健康中心"
+    ]
+  },
+  {
+    "code": "U130",
+    "name": "UChicago President's Mansion",
+    "name_zh": "芝加哥大学校长宅邸",
+    "short_zh": "芝加哥大学校长宅邸",
+    "aliases_zh": [
+      "大学校长住宅"
+    ]
+  },
+  {
+    "code": "U131",
+    "name": "Blaine Hall",
+    "name_zh": "布莱恩楼",
+    "short_zh": "布莱恩楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U132",
+    "name": "Breckinridge House",
+    "name_zh": "布雷肯里奇楼",
+    "short_zh": "布雷肯里奇楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U133",
+    "name": "Social Science Research Building",
+    "name_zh": "社会科学研究楼",
+    "short_zh": "社会科学研究楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U134",
+    "name": "Wieboldt Hall",
+    "name_zh": "韦博尔特楼",
+    "short_zh": "韦博尔特楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U135",
+    "name": "Bobs Roberts",
+    "name_zh": "鲍布斯·罗伯茨楼",
+    "short_zh": "鲍布斯·罗伯茨楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U136",
+    "name": "Harper Memorial Library",
+    "name_zh": "哈珀纪念图书馆",
+    "short_zh": "哈珀纪念图书馆",
+    "aliases_zh": []
+  },
+  {
+    "code": "U137",
+    "name": "Classics Building",
+    "name_zh": "古典学楼",
+    "short_zh": "古典学楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U138",
+    "name": "Hicks McElwee",
+    "name_zh": "希克斯·麦克埃尔维楼",
+    "short_zh": "希克斯·麦克埃尔维楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U139",
+    "name": "Foster Hall",
+    "name_zh": "福斯特楼",
+    "short_zh": "福斯特楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U140",
+    "name": "Chapin Hall",
+    "name_zh": "查平楼",
+    "short_zh": "查平楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U141",
+    "name": "Toyota Technological Institute",
+    "name_zh": "丰田技术研究所",
+    "short_zh": "丰田技术研究所",
+    "aliases_zh": []
+  },
+  {
+    "code": "U142",
+    "name": "University Press Building",
+    "name_zh": "芝加哥大学出版社大楼",
+    "short_zh": "芝加哥大学出版社大楼",
+    "aliases_zh": [
+      "芝加哥大学出版社"
+    ]
+  },
+  {
+    "code": "U143",
+    "name": "Rubenstein Forum",
+    "name_zh": "鲁宾斯坦论坛中心",
+    "short_zh": "鲁宾斯坦论坛中心",
+    "aliases_zh": [
+      "鲁宾斯坦论坛"
+    ]
+  },
+  {
+    "code": "U144",
+    "name": "Erna Heller Hall",
+    "name_zh": "埃尔娜·海勒楼",
+    "short_zh": "埃尔娜·海勒楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U145",
+    "name": "Chicago Theological Seminary",
+    "name_zh": "芝加哥神学院",
+    "short_zh": "芝加哥神学院",
+    "aliases_zh": []
+  },
+  {
+    "code": "U146",
+    "name": "Taft House",
+    "name_zh": "塔夫特住宅",
+    "short_zh": "塔夫特住宅",
+    "aliases_zh": []
+  },
+  {
+    "code": "U147",
+    "name": "Campus ancillary building 663674229",
+    "name_zh": "校园附属建筑（663674229）",
+    "short_zh": "校园附属建筑（663674229）",
+    "aliases_zh": [
+      "校园附属教学楼（663674229）"
+    ]
+  },
+  {
+    "code": "U148",
+    "name": "Harris School of Public Policy Keller Center",
+    "name_zh": "哈里斯公共政策学院凯勒中心",
+    "short_zh": "凯勒中心",
+    "aliases_zh": [
+      "凯勒中心 / 哈里斯公共政策学院"
+    ]
+  },
+  {
+    "code": "U149",
+    "name": "Edith Abbott Hall / Crown Family School",
+    "name_zh": "伊迪丝·阿博特楼／克朗家族社会工作、政策与实践学院",
+    "short_zh": "伊迪丝·阿博特楼",
+    "aliases_zh": [
+      "伊迪丝·阿博特楼 / 社会工作学院"
+    ]
+  },
+  {
+    "code": "U150",
+    "name": "The Study at the University of Chicago",
+    "name_zh": "芝加哥大学 The Study 酒店",
+    "short_zh": "芝加哥大学 The Study 酒店",
+    "aliases_zh": [
+      "The Study大学酒店"
+    ]
+  },
+  {
+    "code": "U151",
+    "name": "Faculty Apartments",
+    "name_zh": "教师公寓",
+    "short_zh": "教师公寓",
+    "aliases_zh": []
+  },
+  {
+    "code": "U152",
+    "name": "1155 East 60th Street",
+    "name_zh": "东60街1155号",
+    "short_zh": "东60街1155号",
+    "aliases_zh": []
+  },
+  {
+    "code": "U153",
+    "name": "Midway Studios",
+    "name_zh": "米德韦艺术工作室",
+    "short_zh": "米德韦艺术工作室",
+    "aliases_zh": [
+      "Midway艺术工作室"
+    ]
+  },
+  {
+    "code": "U154",
+    "name": "Burton-Judson Courts",
+    "name_zh": "伯顿—贾德森宿舍庭院",
+    "short_zh": "伯顿—贾德森宿舍庭院",
+    "aliases_zh": [
+      "伯顿-贾德森宿舍"
+    ]
+  },
+  {
+    "code": "U155",
+    "name": "Logan Center for the Arts",
+    "name_zh": "洛根艺术中心",
+    "short_zh": "洛根艺术中心",
+    "aliases_zh": []
+  },
+  {
+    "code": "U156",
+    "name": "Faculty Apartments",
+    "name_zh": "教师公寓",
+    "short_zh": "教师公寓",
+    "aliases_zh": []
+  },
+  {
+    "code": "U157",
+    "name": "Laird Bell Law Quadrangle",
+    "name_zh": "莱尔德·贝尔法学院庭院",
+    "short_zh": "法学院庭院",
+    "aliases_zh": [
+      "莱尔德·贝尔法学组团",
+      "法学院组团"
+    ]
+  },
+  {
+    "code": "U158",
+    "name": "Midway Residence Hall",
+    "name_zh": "米德韦宿舍楼",
+    "short_zh": "米德韦宿舍楼",
+    "aliases_zh": [
+      "Midway宿舍楼"
+    ]
+  },
+  {
+    "code": "U159",
+    "name": "Faculty Apartments",
+    "name_zh": "教师公寓",
+    "short_zh": "教师公寓",
+    "aliases_zh": []
+  },
+  {
+    "code": "U160",
+    "name": "South Campus Chiller Plant",
+    "name_zh": "校区南部冷冻站",
+    "short_zh": "校区南部冷冻站",
+    "aliases_zh": [
+      "南校区冷冻站"
+    ]
+  },
+  {
+    "code": "U161",
+    "name": "Edelstone Center",
+    "name_zh": "埃德尔斯通中心",
+    "short_zh": "埃德尔斯通中心",
+    "aliases_zh": []
+  },
+  {
+    "code": "U162",
+    "name": "6041 South Blackstone Avenue",
+    "name_zh": "南布莱克斯通大道6041号",
+    "short_zh": "南布莱克斯通大道6041号",
+    "aliases_zh": []
+  },
+  {
+    "code": "U163",
+    "name": "Kimbark South Parking Garage",
+    "name_zh": "金巴克南部停车楼",
+    "short_zh": "金巴克南部停车楼",
+    "aliases_zh": [
+      "Kimbark南停车楼"
+    ]
+  },
+  {
+    "code": "U164",
+    "name": "6045 Kenwood Building",
+    "name_zh": "肯伍德大道6045号楼",
+    "short_zh": "肯伍德大道6045号楼",
+    "aliases_zh": [
+      "6045 Kenwood研究楼"
+    ]
+  },
+  {
+    "code": "U165",
+    "name": "6054 S. Drexel / Campus South Parking",
+    "name_zh": "南德雷克塞尔大道6054号／校区南部停车楼",
+    "short_zh": "南德雷克塞尔大道6054号／校区南部停车楼",
+    "aliases_zh": [
+      "6054 Drexel办公楼 / 南校区停车库"
+    ]
+  },
+  {
+    "code": "U166",
+    "name": "Woodlawn Residential & Dining Commons",
+    "name_zh": "伍德劳恩住宿与餐饮社区",
+    "short_zh": "伍德劳恩住宿社区",
+    "aliases_zh": []
+  },
+  {
+    "code": "U167",
+    "name": "Center for Research Libraries",
+    "name_zh": "研究图书馆中心",
+    "short_zh": "研究图书馆中心",
+    "aliases_zh": []
+  },
+  {
+    "code": "U168",
+    "name": "Renee Granville-Grossman Residential Commons",
+    "name_zh": "蕾妮·格兰维尔—格罗斯曼住宿社区",
+    "short_zh": "格兰维尔—格罗斯曼住宿社区",
+    "aliases_zh": [
+      "格兰维尔-格罗斯曼住宿社区"
+    ]
+  },
+  {
+    "code": "U169",
+    "name": "University of Chicago Steam Plant",
+    "name_zh": "芝加哥大学蒸汽站",
+    "short_zh": "芝加哥大学蒸汽站",
+    "aliases_zh": [
+      "大学蒸汽站"
+    ]
+  },
+  {
+    "code": "U170",
+    "name": "6044-6052 South Ingleside Avenue",
+    "name_zh": "南英格尔赛德大道6044—6052号",
+    "short_zh": "南英格尔赛德大道6044—6052号",
+    "aliases_zh": []
+  },
+  {
+    "code": "U171",
+    "name": "Woodlawn Social Services Center",
+    "name_zh": "伍德劳恩社会服务中心",
+    "short_zh": "伍德劳恩社会服务中心",
+    "aliases_zh": []
+  },
+  {
+    "code": "U172",
+    "name": "Steam Plant Auxiliary Building",
+    "name_zh": "蒸汽站附属楼",
+    "short_zh": "蒸汽站附属楼",
+    "aliases_zh": []
+  },
+  {
+    "code": "U173",
+    "name": "6051-6057 South Drexel Avenue",
+    "name_zh": "南德雷克塞尔大道6051—6057号",
+    "short_zh": "南德雷克塞尔大道6051—6057号",
+    "aliases_zh": []
+  },
+  {
+    "code": "U174",
+    "name": "6054-6056 South Ingleside Avenue",
+    "name_zh": "南英格尔赛德大道6054—6056号",
+    "short_zh": "南英格尔赛德大道6054—6056号",
+    "aliases_zh": []
+  },
+  {
+    "code": "U175",
+    "name": "920-922 East 61st Street",
+    "name_zh": "东61街920—922号",
+    "short_zh": "东61街920—922号",
+    "aliases_zh": []
+  },
+  {
+    "code": "U176",
+    "name": "924-926 East 61st Street",
+    "name_zh": "东61街924—926号",
+    "short_zh": "东61街924—926号",
+    "aliases_zh": []
+  },
+  {
+    "code": "U177",
+    "name": "928 East 61st Street",
+    "name_zh": "东61街928号",
+    "short_zh": "东61街928号",
+    "aliases_zh": []
+  }
+]

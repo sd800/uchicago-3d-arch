@@ -11,7 +11,7 @@ Final build checked on 2026-10-12.
 - Rubenstein’s model peak verified at 52.00 m; Rockefeller at 63.09 m. Mansueto retains its glazed dome in the massing display when its steel grid and facade details are hidden.
 - The Rhino Python layer-restoration helper is provided but not executed in an installed Rhino application here. Native .3dm layers are already stored and read-back verified.
 
-## Offline viewer and interaction
+## Initial offline viewer and interaction
 
 - Served final HTML on loopback HTTP; response 200. Checked in the Codex in-app WebGL browser.
 - Desktop viewport 1440 × 920 and mobile viewport 390 × 844 checked. Mobile document scroll width equals viewport width; header, language button and layer panel remain usable.
@@ -21,3 +21,18 @@ Final build checked on 2026-10-12.
 - Final title and primary metric numerals use embedded Manrope. The title uses normal letter spacing in desktop and mobile rules.
 - Static inspection confirms embedded engine, model, preview and font, with no external script/style/font/image dependency. Source links are optional outbound reference links. The local file URL itself was not opened by the controlled browser; browser QA used loopback HTTP.
 - This verification checks file integrity and viewer behavior, not surveying accuracy. See the per-building status and source records for published versus estimated dimensions.
+
+
+## SEO and typography update — 2026-10-12
+
+- Root HTML remains below 0.4 MB after adding reviewed Chinese names and search aliases. All 177 building names are present before JavaScript runs; model bytes load separately. A generated single-file HTML remains available for portable offline viewing.
+- Canonical URL, Open Graph/Twitter metadata, JSON-LD, robots.txt, sitemap.xml and CNAME use `https://uchi.arch.songming.org/`.
+- Generated SEO metadata, static directory, local resource references, schema links, sitemap and offline edition passed `scripts/check_seo.py`.
+- HTTP loading, local classic-script loading and inline loading reproduce the original 3DS SHA-256; HTTP and local-script failures are handled. Eight device-language/remembered-choice cases passed.
+- In-app WebGL browser verified model rendering, 177 building rows, Mansueto search, both language switches and a stable canonical URL. No console errors or warnings were recorded.
+- English and Chinese headers are 20px at desktop width and 16px at 390px width, with normal/nonnegative letter spacing. Chinese body, titles, numbers, details and dialogs use the Innovation Harbour system font stack. Sidebar building text is 12px, metadata 10px, search 14px, and explanatory text 11–12px.
+- About section is absent. Desktop and 390px layouts show no horizontal document overflow.
+- CAD geometry and original model files are unchanged. Hosting and DNS setup are separate from repository metadata generation.
+
+- Reviewed all 177 Chinese building names and short labels; 82 entries revised. Full English names remain visible in Chinese building details. Coverage checks verify Chinese labels for every mapped building and the corrected Law Quadrangle name.
+- Reviewed Chinese UI, per-building descriptions and height-basis wording. Main Quads is「主庭院区」; Law Quadrangle is「法学院庭院」. Old labels remain searchable aliases. See `sources/TRANSLATION_NOTES.md` for naming decisions and references.

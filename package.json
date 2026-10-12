@@ -6,7 +6,9 @@
   "scripts": {
     "build:viewer": "esbuild scripts/viewer.js --bundle --minify --format=iife --target=es2020 --outfile=tmp/viewer.bundle.js",
     "build": "npm run build:viewer && python3 scripts/package_viewer.py",
-    "check:3ds": "node scripts/validate_3ds.mjs output/UChicago_HydePark.3ds"
+    "check:3ds": "node scripts/validate_3ds.mjs output/UChicago_HydePark.3ds",
+    "check:seo": "python3 scripts/check_seo.py && node scripts/check_model_data.mjs",
+    "check:locale": "node scripts/check_locale.mjs"
   },
   "dependencies": {
     "three": "0.186.1"

@@ -2,12 +2,16 @@ import * as THREE from 'three';
 import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
 import {TDSLoader} from 'three/addons/loaders/TDSLoader.js';
 import {initialLanguage} from './locale.js';
+import {loadModelBytes} from './model_data.js';
 
 const data=JSON.parse(document.getElementById('campus-data').textContent);
 const $=id=>document.getElementById(id), records=data.records;
 const en=Object.fromEntries([...document.querySelectorAll('[data-i18n]')].map(el=>[el.dataset.i18n,el.textContent]));
 Object.assign(en,{layers:'Building layers',mobileLayers:'Buildings',search:'Search building or ID',empty:'No matching buildings',exploreTitle:'Explore the campus',exploreSub:'Choose a building to see dimensions, geometry notes and sources.',intro:'Individual building layers, a separate landscape layer, and 19 architectural highlights. The model combines mapped footprints with published and estimated heights.',published:'Published height',planning:'Planning drawing',estimated:'Estimated height',highest:'Model peak',area:'Mapped footprint',width:'East–west extent',depth:'North–south extent',focus:'Locate',isolate:'Isolate',clear:'Deselect',sourceHeight:'Height source',sourceMap:'Footprint source',precision:'Public map extents are approximate. Roof and facade details are simplified; no survey accuracy is claimed.',basisLabel:'Height basis: ',error:'Interactive rendering is unavailable. A static preview is shown. Use a WebGL 2 browser with graphics acceleration enabled. Dimensions and the 3DS download are still available.',static:'Static preview · WebGL unavailable',lost:'Graphics context interrupted. Reopen the HTML to restore the model.',hide:'Hide ',show:'Show ',status:'visible · meters · public-source exterior model',languageLabel:'Switch to Chinese',prevLabel:'Previous landmark',nextLabel:'Next landmark',cutLabel:'Height of horizontal slice',modelLabel:'Interactive University of Chicago campus model',searchLabel:'Search buildings',sidebarLabel:'Building layers and dimensions',tourLabel:'Choose a landmark',snapshotTitle:'UChicago Campus in 3D'});
-const zh={title:'芝加哥大学 · 三维校园',subtitle:'海德公园校区模型',offline:'离线可用',download:'下载 3DS',save:'保存视图',eyebrow:'HYDE PARK · 校园空间图集',closeSidebar:'收起',visible:'显示建筑',unit:'模型单位',environment:'环境景观',details:'建筑外部细节',labels:'地标名称',shadows:'日照阴影',layers:'建筑图层',mobileLayers:'建筑',showAll:'全部显示',all:'全部',landmarks:'标志建筑',quads:'主四合院',north:'北校区',south:'南校区',east:'东校区',medical:'医学区',aerial:'全校鸟瞰',core:'主四合院',plan:'总平面',reset:'重置',help:'操作与来源',tourTitle:'建筑漫游 · 校园地标',explore:'查看',cut:'高度截面',stone:'石灰石',glass:'玻璃',roads:'道路',plazas:'广场',green:'绿地',loading:'正在打开校园模型…',mouseHelp:'拖动旋转 · 滚轮缩放 · 右键平移',helpHeading:'在三维空间中探索校园',helpOrbit:'鼠标左键拖动旋转，滚轮缩放，右键拖动平移。触屏设备使用单指旋转，双指缩放或平移。',helpSelect:'点击模型或列表中的建筑，查看尺寸、形态说明和资料来源。可以逐栋隐藏，也可以单独查看。',helpTour:'通过建筑漫游查看地标，切换外部细节，或用高度截面对比体块。截面仅裁切外部表面，不表示内部楼层或室内结构。',helpOffline:'模型、三维引擎和预览均内嵌在 HTML 中。无需网络或服务器，直接用浏览器打开即可。交互显示需要 WebGL 2。',helpAccuracy:'1 单位 = 1 米。平面采用带地理坐标的公开地图，部分地标高度来自学校或项目公开资料；其他高度、屋顶、立面开窗、树位和道路宽度为近似。地面按相对 Z=0 平整化。这是独立制作的室外空间研究模型，不是学校官方 BIM 或实测模型。',helpLanguages:'设备语言偏好中有中文时首次打开默认中文，其余设备默认英文。浏览器存储可用时会记住手动选择。中文建筑名为便于识别的译名。',sources:'资料来源',officialMap:'学校官方地图',architecture:'学校建筑介绍',cityData:'芝加哥市建筑数据',snapshot:'公开资料快照 · 2026年10月12日',close:'关闭',search:'搜索建筑名称或编号',empty:'没有匹配的建筑',exploreTitle:'探索校园空间',exploreSub:'选择建筑，查看尺寸、形态说明与来源。',intro:'建筑逐栋分层，室外环境单独一层，含19处建筑地标。模型结合公开地图轮廓、已发表高度及明确标注的估算尺寸。',published:'公开资料高度',planning:'规划图尺寸',estimated:'高度估算',highest:'模型最高点',area:'地图平面占地',width:'东西向范围',depth:'南北向范围',focus:'定位建筑',isolate:'单独查看',clear:'取消选择',sourceHeight:'高度来源',sourceMap:'平面来源',precision:'平面为公开地图近似轮廓，屋顶与立面细节简化，未取得实测精度证明。',basisLabel:'高度依据：',error:'当前浏览器无法启动交互显示，已显示静态预览。请使用支持 WebGL 2 的浏览器并启用图形加速。尺寸查询与 3DS 下载仍可使用。',static:'静态预览 · WebGL 未启用',lost:'三维显示暂时中断，重新打开 HTML 可恢复模型。',hide:'隐藏',show:'显示',status:'栋显示 · 米制 · 公开资料室外模型',languageLabel:'Switch to English',prevLabel:'上一个地标',nextLabel:'下一个地标',cutLabel:'水平截面高度',modelLabel:'可旋转与缩放的芝加哥大学校园模型',searchLabel:'搜索建筑',sidebarLabel:'建筑图层与尺寸信息',tourLabel:'选择校园地标',snapshotTitle:'芝加哥大学 · 海德公园三维校园'};
+const zh={title:'芝加哥大学 · 三维校区',subtitle:'海德公园校区模型',offline:'离线可用',download:'下载 3DS',save:'保存视图',eyebrow:'HYDE PARK · 校园空间图集',closeSidebar:'收起',visible:'显示建筑',unit:'模型单位',environment:'环境景观',details:'建筑外部细节',labels:'地标名称',shadows:'光照阴影',layers:'建筑图层',mobileLayers:'建筑',showAll:'全部显示',all:'全部',landmarks:'地标建筑',quads:'主庭院区',north:'北部片区',south:'南部片区',east:'东部片区',medical:'医学区',aerial:'校区鸟瞰',core:'主庭院区',plan:'总平面图',reset:'重置',help:'操作与来源',tourTitle:'建筑漫游 · 校园地标',explore:'查看',cut:'水平剖切',stone:'石灰岩',glass:'玻璃',roads:'道路',plazas:'广场',green:'绿地',loading:'正在打开校园模型…',mouseHelp:'拖动旋转 · 滚轮缩放 · 右键平移',helpHeading:'在三维空间中探索校园',helpOrbit:'鼠标左键拖动旋转，滚轮缩放，右键拖动平移。触屏设备使用单指旋转，双指缩放或平移。',helpSelect:'点击模型或列表中的建筑，查看尺寸、形态说明和资料来源。可以逐栋隐藏，也可以单独查看。',helpTour:'通过建筑漫游查看地标，切换外部细节，或用水平剖切对比体块。剖切仅表示外部表面，不表示内部楼层或室内结构。',helpOffline:'模型、三维引擎和预览均内嵌在 HTML 中。无需网络或服务器，直接用浏览器打开即可。交互显示需要 WebGL 2。',helpAccuracy:'1 单位 = 1 米。平面采用带地理坐标的公开地图，部分地标高度来自学校或项目公开资料；其他高度、屋顶、立面开窗、树位和道路宽度为近似。地面按相对 Z=0 平整化。这是独立制作的室外空间研究模型，不是学校官方 BIM 或实测模型。',helpLanguages:'设备语言偏好中有中文时首次打开默认中文，其余设备默认英文。浏览器存储可用时会记住手动选择。中文建筑名为便于识别的译名。',sources:'资料来源',officialMap:'学校官方地图',architecture:'学校建筑介绍',cityData:'芝加哥市建筑数据',snapshot:'公开资料快照 · 2026年10月12日',close:'关闭',search:'搜索建筑名称或编号',empty:'没有匹配的建筑',exploreTitle:'探索校园空间',exploreSub:'选择建筑，查看尺寸、形态说明与来源。',intro:'建筑逐栋分层，室外环境单独成层，包含19处校园地标。模型采用公开地图轮廓、公开资料所载高度及明确标注的估算尺寸。',published:'公开资料所载高度',planning:'规划图尺寸',estimated:'高度估算',highest:'建筑最高点',area:'平面占地面积',width:'东西向范围',depth:'南北向范围',focus:'定位建筑',isolate:'单独查看',clear:'取消选择',sourceHeight:'高度来源',sourceMap:'平面来源',precision:'平面轮廓取自公开地图，屋顶及立面细节为简化表达；尺寸未经过实测校核。',basisLabel:'高度依据：',error:'当前浏览器无法启动交互显示，已显示静态预览。请使用支持 WebGL 2 的浏览器并启用图形加速。尺寸查询与 3DS 下载仍可使用。',static:'静态预览 · WebGL 未启用',lost:'三维显示暂时中断，重新打开 HTML 可恢复模型。',hide:'隐藏 ',show:'显示 ',status:'栋可见 · 单位：米 · 公开资料室外模型',languageLabel:'Switch to English',prevLabel:'上一个地标',nextLabel:'下一个地标',cutLabel:'水平剖切高度',modelLabel:'可旋转与缩放的芝加哥大学校园模型',searchLabel:'搜索建筑',sidebarLabel:'建筑图层与尺寸信息',tourLabel:'选择校园地标',snapshotTitle:'芝加哥大学 · 三维校区'};
+
+if(!data.model){en.helpOffline='Double-click index.html with its assets and output folders beside it, or open the single-file offline HTML in the output folder. No server is needed for local viewing. WebGL 2 is required for interaction.';zh.helpOffline='保留 assets 和 output 文件夹，直接双击 index.html；也可打开 output 中的单文件离线 HTML。无需本地服务器，交互显示需要 WebGL 2。';}
+
 let stored=null;try{stored=localStorage.getItem('uchicago-model-language');}catch{}
 let lang=initialLanguage(navigator.languages?.length?navigator.languages:[navigator.language||'en'],stored);
 const t=key=>(lang==='zh'?zh[key]:en[key])||en[key]||key;
@@ -28,10 +32,10 @@ $('close-sidebar').onclick=()=>{sidebar.classList.add('closed');$('toggle-sideba
 $('open-help').onclick=()=>$('help-dialog').showModal();$('close-help').onclick=()=>$('help-dialog').close();
 $('help-dialog').addEventListener('click',e=>{if(e.target===e.currentTarget){const b=e.target.getBoundingClientRect();if(e.clientX<b.left||e.clientX>b.right||e.clientY<b.top||e.clientY>b.bottom)e.target.close();}});
 function download(blob,name){const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
-const bytes=Uint8Array.from(atob(data.model),c=>c.charCodeAt(0));
-$('download-3ds').onclick=()=>download(new Blob([bytes],{type:'application/octet-stream'}),'UChicago_HydePark.3ds');
+let bytes=null;
+$('download-3ds').onclick=()=>{if(bytes)download(new Blob([bytes],{type:'application/octet-stream'}),'UChicago_HydePark.3ds');else{const a=document.createElement('a');a.href=data.modelUrl;a.download='UChicago_HydePark.3ds';a.click();}};
 $('download-image').onclick=()=>{if(!renderer)return;render();renderer.domElement.toBlob(b=>{if(b)download(b,'UChicago_HydePark_view.png');});};
-function listRecords(){const q=$('search').value.trim().toLowerCase();return records.filter(r=>(category==='all'||(category==='landmark'?r.landmark:r.zone===category))&&(!q||[r.name,r.name_zh,r.code,r.short,r.short_zh].some(s=>s?.toLowerCase().includes(q))));}
+function listRecords(){const q=$('search').value.trim().toLowerCase();return records.filter(r=>(category==='all'||(category==='landmark'?r.landmark:r.zone===category))&&(!q||[r.name,r.name_zh,r.code,r.short,r.short_zh,...(r.aliases_zh||[])].some(s=>s?.toLowerCase().includes(q))));}
 function refreshList(){
  const list=$('building-list');list.replaceChildren();const shown=listRecords();
  if(!shown.length){const el=document.createElement('p');el.className='empty';el.textContent=t('empty');list.append(el);}
@@ -61,7 +65,7 @@ function emptyDetail(){const p=$('detail');p.replaceChildren();for(const [key,cl
 function refreshDetail(){
  if(!selected){emptyDetail();return;}const r=byCode.get(selected),p=$('detail');p.replaceChildren();
  const title=document.createElement('div');title.className='detail-title';title.textContent=nameOf(r);
- const sub=document.createElement('div');sub.className='detail-sub';const badge=document.createElement('span');badge.className='badge '+r.height_status;badge.textContent=t(r.height_status);sub.append(badge,document.createTextNode(r.code+' · '+t(r.zone)));
+ const sub=document.createElement('div');sub.className='detail-sub';const badge=document.createElement('span');badge.className='badge '+r.height_status;badge.textContent=t(r.height_status);sub.append(badge,document.createTextNode(r.code+' · '+t(r.zone)));if(lang==='zh'){const original=document.createElement('div');original.textContent=r.name;sub.append(original);}
  const dl=document.createElement('dl');dl.className='dimensions';
  for(const [key,value] of [['highest',r.height.toFixed(2)+' m'],['area',Math.round(r.area).toLocaleString(lang==='zh'?'zh-CN':'en-US')+' m²'],['width',r.width.toFixed(1)+' m'],['depth',r.depth.toFixed(1)+' m']]){const cell=document.createElement('div'),dt=document.createElement('dt'),dd=document.createElement('dd');dt.textContent=t(key);dd.textContent=value;cell.append(dt,dd);dl.append(cell);}
  const actions=document.createElement('div');actions.className='detail-actions';
@@ -82,7 +86,17 @@ function refreshTour(){const s=$('tour-select');s.replaceChildren();for(const r 
 function stepTour(delta){tourIndex=(tourIndex+delta+tour.length)%tour.length;refreshTour();selectBuilding(tour[tourIndex].code,true);}
 $('tour-prev').onclick=()=>stepTour(-1);$('tour-next').onclick=()=>stepTour(1);$('tour-go').onclick=()=>selectBuilding(tour[tourIndex].code,true);$('tour-select').onchange=e=>{tourIndex=tour.findIndex(r=>r.code===e.target.value);refreshTour();selectBuilding(tour[tourIndex].code,true);};
 function applyLanguage(){
- document.documentElement.lang=lang==='zh'?'zh-CN':'en';document.title=t('snapshotTitle');
+ document.documentElement.lang=lang==='zh'?'zh-CN':'en';
+ const seo=data.seo[lang];document.title=seo.title;
+ for(const selector of ['meta[name="description"]','meta[property="og:description"]','meta[name="twitter:description"]'])document.querySelector(selector).content=seo.description;
+ for(const selector of ['meta[property="og:title"]','meta[name="twitter:title"]'])document.querySelector(selector).content=seo.title;
+ document.querySelector('meta[property="og:locale"]').content=lang==='zh'?'zh_CN':'en_US';
+ document.querySelector('meta[property="og:locale:alternate"]').content=lang==='zh'?'en_US':'zh_CN';
+ for(const selector of ['meta[property="og:image:alt"]','meta[name="twitter:image:alt"]'])document.querySelector(selector).content=seo.imageAlt;
+ for(const el of document.querySelectorAll('[data-preview-alt]'))el.alt=seo.imageAlt;
+ const schema=JSON.parse($('campus-schema').textContent);
+ for(const node of schema['@graph']){if(node['@type']==='WebPage'){node.name=seo.title;node.description=seo.description;}}
+ $('campus-schema').textContent=JSON.stringify(schema);
  for(const el of document.querySelectorAll('[data-i18n]'))el.textContent=t(el.dataset.i18n);
  $('language').textContent=lang==='zh'?'English':'中文';$('language').setAttribute('aria-label',t('languageLabel'));
  $('search').placeholder=t('search');$('search').setAttribute('aria-label',t('searchLabel'));sidebar.setAttribute('aria-label',t('sidebarLabel'));
@@ -123,7 +137,9 @@ function render(){
  $('scale-line').style.width=(length/mpp)+'px';$('scale-text').textContent=length<1?Math.round(length*100)+' cm':length+' m';updateLabels();
 }
 applyLanguage();
+async function initializeModel(){
 try{
+ bytes=await loadModelBytes(data);
  THREE.Object3D.DEFAULT_UP.set(0,0,1);renderer=new THREE.WebGLRenderer({antialias:true,preserveDrawingBuffer:true});renderer.setPixelRatio(Math.min(devicePixelRatio||1,1.5));renderer.setClearColor(0xe9ece3);renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.toneMapping=THREE.NoToneMapping;renderer.shadowMap.enabled=true;renderer.shadowMap.type=THREE.PCFShadowMap;
  renderer.domElement.setAttribute('aria-label',t('modelLabel'));renderer.domElement.tabIndex=0;$('canvas-host').append(renderer.domElement);
  scene=new THREE.Scene();camera=new THREE.OrthographicCamera(-1000,1000,1000,-1000,.1,10000);camera.up.set(0,0,1);scene.add(new THREE.HemisphereLight(0xffffff,0x849177,2.0));
@@ -136,7 +152,7 @@ try{
   if(r){let g=buildings.get(r.code);if(!g){g=new THREE.Group();g.name=r.code;buildings.set(r.code,g);campus.add(g);}g.attach(m);m.castShadow=true;m.userData.code=r.code;pickMeshes.push(m);if(m.name.includes('D'))details.push(m);}
   else{envMeshes.push(m);m.castShadow=materials.some(mat=>['Leaves','Trunk','Furniture'].includes(mat.name));}
  }
- scene.add(campus);controls=new OrbitControls(camera,renderer.domElement);controls.enableDamping=true;controls.dampingFactor=.08;controls.minZoom=.25;controls.maxZoom=60;controls.maxPolarAngle=Math.PI*.485;controls.screenSpacePanning=true;controls.addEventListener('change',render);
+ scene.add(campus);envMeshes.forEach(m=>m.visible=$('environment').checked);details.forEach(m=>m.visible=$('details').checked);renderer.shadowMap.enabled=$('shadows').checked;sun.castShadow=$('shadows').checked;updateCut();controls=new OrbitControls(camera,renderer.domElement);controls.enableDamping=true;controls.dampingFactor=.08;controls.minZoom=.25;controls.maxZoom=60;controls.maxPolarAngle=Math.PI*.485;controls.screenSpacePanning=true;controls.addEventListener('change',render);
  let lastAspect=aspect();const observer=new ResizeObserver(()=>{const a=aspect();if(a<lastAspect)frameHeight*=lastAspect/a;lastAspect=a;renderer.setSize(host.clientWidth,host.clientHeight);updateFrustum();render();});observer.observe(host);
  renderer.setSize(host.clientWidth,host.clientHeight);fullView('aerial');refreshList();
  const ray=new THREE.Raycaster(),pointer=new THREE.Vector2();let down=null;
@@ -146,3 +162,6 @@ try{
  renderer.domElement.addEventListener('pointerleave',()=>$('hover-tip').style.display='none');renderer.domElement.addEventListener('webglcontextlost',e=>{e.preventDefault();$('status-text').textContent=t('lost');});
  function animate(){requestAnimationFrame(animate);controls.update();}animate();$('loading').remove();
 }catch(err){console.error(err);if(renderer)renderer.dispose();renderer=null;staticMode=true;$('canvas-host').replaceChildren();$('fallback').src=data.preview;$('fallback').style.display='block';$('loading').remove();const note=document.createElement('div');note.className='error-message';note.id='render-error';note.textContent=t('error');host.append(note);$('download-image').disabled=true;updateCount();}
+
+}
+initializeModel();
