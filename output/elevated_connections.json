@@ -1,0 +1,72 @@
+[
+  {
+    "osm_id": 154421808,
+    "parent_code": "U051",
+    "clearance_m": 4.8,
+    "depth_m": 3.8,
+    "basis": "Mapped footprint; vertical dimensions estimated"
+  },
+  {
+    "osm_id": 1152288187,
+    "parent_code": "U045",
+    "clearance_m": 4.8,
+    "depth_m": 3.8,
+    "basis": "Mapped footprint; vertical dimensions estimated"
+  },
+  {
+    "osm_id": 1152288188,
+    "parent_code": "U023",
+    "clearance_m": 4.8,
+    "depth_m": 3.8,
+    "basis": "Mapped footprint; vertical dimensions estimated"
+  },
+  {
+    "osm_id": 1152288189,
+    "parent_code": "U066",
+    "clearance_m": 4.8,
+    "depth_m": 3.8,
+    "basis": "Mapped footprint; vertical dimensions estimated"
+  },
+  {
+    "osm_id": 1152288190,
+    "parent_code": "U066",
+    "clearance_m": 4.8,
+    "depth_m": 3.8,
+    "basis": "Mapped footprint; vertical dimensions estimated"
+  },
+  {
+    "osm_id": 1152288193,
+    "parent_code": "U028",
+    "clearance_m": 4.8,
+    "depth_m": 3.8,
+    "basis": "Mapped footprint; vertical dimensions estimated"
+  },
+  {
+    "osm_id": 1223366332,
+    "parent_code": "U050",
+    "clearance_m": 4.8,
+    "depth_m": 3.8,
+    "basis": "Mapped footprint; vertical dimensions estimated"
+  },
+  {
+    "osm_id": 1434692386,
+    "parent_code": "U087",
+    "clearance_m": 4.8,
+    "depth_m": 3.8,
+    "basis": "Mapped footprint; vertical dimensions estimated"
+  },
+  {
+    "osm_id": 1434692387,
+    "parent_code": "U066",
+    "clearance_m": 4.8,
+    "depth_m": 3.8,
+    "basis": "Mapped footprint; vertical dimensions estimated"
+  },
+  {
+    "osm_id": 1434692388,
+    "parent_code": "U029",
+    "clearance_m": 4.8,
+    "depth_m": 3.8,
+    "basis": "Mapped footprint; vertical dimensions estimated"
+  }
+]

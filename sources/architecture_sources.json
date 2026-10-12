@@ -1,0 +1,680 @@
+{
+  "collected_date": "2026-10-12",
+  "scope": "UChicago Hyde Park core campus architecture references; public approximation, not an official released BIM",
+  "conversion": {
+    "feet_to_meters": 0.3048
+  },
+  "warnings": [
+    "verify current footprints from georeferenced map separately; these references calibrate heights and distinctive roofs",
+    "null/unknown fields must remain explicitly estimated when modeled; never label them surveyed",
+    "all visual URLs are reference links; licensed photography is not a blanket reusable texture license"
+  ],
+  "buildings": [
+    {
+      "name": "Rockefeller Memorial Chapel",
+      "address": "5850 S. Woodlawn Ave",
+      "verified": {
+        "tower_height_ft": 207,
+        "tower_height_m": 63.0936,
+        "length_ft": 265,
+        "length_m": 80.772,
+        "max_width_ft": 102,
+        "max_width_m": 31.0896,
+        "interior_nave_height_ft": 79.41666666666667,
+        "interior_nave_width_ft": 41
+      },
+      "geometry": "长轴南北；纵向哥特式礼拜堂，陡坡屋顶、扶壁、端部高尖窗，独立高矩形钟塔带角部扶壁及顶端女儿墙/小塔。内厅高度不是屋顶高度。",
+      "sources": [
+        {
+          "url": "https://www.rockefeller.uchicago.edu/the-spaces/rockefeller-architecture/",
+          "authority": "建筑业主/学校",
+          "supports": "207英尺塔高、265英尺长度、最宽102英尺"
+        },
+        {
+          "url": "https://www.rockefeller.uchicago.edu/the-spaces/rockefeller-interior/",
+          "authority": "建筑业主/学校",
+          "supports": "内厅79英尺5英寸；内厅宽41英尺"
+        }
+      ],
+      "visuals": [
+        "https://architecture.uchicago.edu/locations/rockefeller_memorial_chapel/",
+        "https://www.rockefeller.uchicago.edu/the-spaces/carillon-tower/"
+      ],
+      "unknown": [
+        "屋脊外部标高",
+        "塔的准确平面位置及宽度",
+        "各翼檐口高度"
+      ]
+    },
+    {
+      "name": "Mitchell Tower",
+      "address": "5706 S. University Ave",
+      "verified": {
+        "top_corner_turret_height_ft": 127.25,
+        "top_corner_turret_height_m": 38.7858,
+        "north_south_width_ft": 35,
+        "north_south_width_m": 10.668,
+        "east_west_width_ft": 31,
+        "east_west_width_m": 9.4488
+      },
+      "geometry": "近矩形方塔，仿Oxford Magdalen Tower，带角塔、扶壁、竖向大钟窗、城垛女儿墙；地面开放拱门。",
+      "sources": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/The_University_of_Chicago%3B_an_official_guide_%28IA_universityofchic00robe%29.pdf",
+          "authority": "学校历史官方指南的公开扫描本",
+          "supports": "grade至角塔顶部127 ft3 in，塔身NS35 ft/EW31 ft；搜索索引已读取原文"
+        },
+        {
+          "url": "https://campub.lib.uchicago.edu/pdf/?docId=mvol-0445-0005-0004",
+          "authority": "学校历史官方University Record",
+          "supports": "Mitchell Tower高127 ft3 in"
+        }
+      ],
+      "visuals": [
+        "https://architecture.uchicago.edu/locations/tower_group_mitchell_tower_hutchinson_commons_reynolds_club_mandel_hall/",
+        "https://photoarchive.lib.uchicago.edu/db.xqy?show=browse7.xml%7C3238"
+      ],
+      "unknown": [
+        "屋顶层标高分段",
+        "塔上开窗的精确尺寸"
+      ]
+    },
+    {
+      "name": "Hutchinson Commons / Reynolds Club / Mandel Hall",
+      "address": "5706 S. University Ave / 1131 E.57th St",
+      "verified": {
+        "completed": 1903
+      },
+      "geometry": "Tower Group低楼翼，哥特式陡坡屋顶、扶壁、凸窗、外墙女儿墙；Hutchinson仿Oxford Christ Church Hall，Reynolds仿St John's College；不要把钟塔高度赋给整个组团。",
+      "sources": [
+        {
+          "url": "https://architecture.uchicago.edu/locations/tower_group_mitchell_tower_hutchinson_commons_reynolds_club_mandel_hall/",
+          "authority": "学校",
+          "supports": "建筑组团组成、建筑参照及竣工年份"
+        },
+        {
+          "url": "https://campub.lib.uchicago.edu/pdf/?docId=mvol-0007-0008-0006",
+          "authority": "学校University Record，设计建筑师Shepley Rutan Coolidge署文",
+          "supports": "原始建筑描述及插图"
+        }
+      ],
+      "visuals": [
+        "https://photoarchive.lib.uchicago.edu/db.xqy?show=browse7.xml%7C3238"
+      ],
+      "unknown": [
+        "低楼翼外部高度",
+        "屋顶坡度",
+        "檐口和山墙轮廓准确尺寸"
+      ]
+    },
+    {
+      "name": "Joe and Rika Mansueto Library",
+      "address": "1100 E.57th St",
+      "verified": {
+        "dome_max_height_ft": 35,
+        "dome_max_height_m": 10.668,
+        "whole_building_length_ft": 240,
+        "whole_building_length_m": 73.152,
+        "whole_building_width_ft": 120,
+        "whole_building_width_m": 36.576,
+        "storage_floor_depth_ft": 55
+      },
+      "geometry": "低矮椭圆玻璃网壳穹顶，平面长轴东西；网格双向，691块平面玻璃，非球半球；注意240×120为Mansueto全馆长度/宽度，不能未经图纸核实等同每一轴的玻璃穹顶外缘。",
+      "sources": [
+        {
+          "url": "https://www.lib.uchicago.edu/mansueto/tech/numbers/",
+          "authority": "学校图书馆",
+          "supports": "35 ft穹顶峰高、240×120 ft全馆、691玻璃面板"
+        }
+      ],
+      "visuals": [
+        "https://www.lib.uchicago.edu/mansueto/tech/numbers/"
+      ],
+      "unknown": [
+        "玻璃穹顶平面边界精确尺寸",
+        "连接Regenstein入口廊道标高",
+        "穹顶采样曲线"
+      ]
+    },
+    {
+      "name": "Joseph Regenstein Library",
+      "address": "1100 E.57th St",
+      "verified": {
+        "max_east_west_dimension_ft": 344,
+        "max_east_west_dimension_m": 104.8512,
+        "max_north_south_dimension_ft": 411.5,
+        "max_north_south_dimension_m": 125.4252,
+        "structural_module_ft": 27,
+        "structural_module_m": 8.2296,
+        "floors_above_grade": 5,
+        "basements": 2,
+        "mechanical_penthouse": true,
+        "gross_area_ft2": 577085
+      },
+      "geometry": "深竖槽石灰石外墙，错位的三个slipped segments、规律凸出窗Bay，平屋顶带机房；地上5层+地下A/B层，原文7 floors plus mechanical penthouse不可当7层地上。",
+      "sources": [
+        {
+          "url": "https://www.lib.uchicago.edu/spaces/joseph-regenstein-library/",
+          "authority": "学校图书馆",
+          "supports": "完整建筑介绍、平面尺寸、结构模数、5个地上层楼层图"
+        }
+      ],
+      "visuals": [
+        "https://photoarchive.lib.uchicago.edu/db.xqy?one=apf2-06146.xml",
+        "https://www.lib.uchicago.edu/spaces/joseph-regenstein-library/"
+      ],
+      "unknown": [
+        "屋面外部高度",
+        "五层层高",
+        "各slipped segment精确退让范围"
+      ]
+    },
+    {
+      "name": "Frederick C. Robie House",
+      "address": "5757 S. Woodlawn Ave",
+      "verified": {
+        "completed": 1910
+      },
+      "geometry": "水平舒展砖墙，低坡红色瓦四坡屋顶、极深悬挑屋檐、长窗带、中心大烟囱、上层卧室体块、东端车库；长度宽度OCR不可靠暂不填数字。HABS有25张测绘图、20页文字，最适合精细建模。",
+      "sources": [
+        {
+          "url": "https://www.flwright.org/explore/frederick-c-robie-house",
+          "authority": "Frank Lloyd Wright Trust（运营/保护方）",
+          "supports": "外形与材料、竣工1910"
+        },
+        {
+          "url": "https://www.loc.gov/resource/hhh.il0039.sheet/?sp=17&st=image",
+          "authority": "美国国会图书馆Historic American Buildings Survey",
+          "supports": "测绘图及调查信息，共25图/20文字页"
+        },
+        {
+          "url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/il/il0000/il0039/data/il0039data.pdf",
+          "authority": "HABS/LOC",
+          "supports": "公开测绘调查正文及缩印图"
+        },
+        {
+          "url": "https://npgallery.nps.gov/GetAsset/7475e81f-3634-4a9e-87c7-e3c35f8556a0",
+          "authority": "美国国家公园管理局",
+          "supports": "NRHP提名资料，含HABS图；文本尺寸OCR有误，需图像确认"
+        }
+      ],
+      "visuals": [
+        "https://www.loc.gov/item/il0039/",
+        "https://flwright.org/sites/default/files/2023-06/RobieCMP_FLWT_web.pdf"
+      ],
+      "unknown": [
+        "外部总高",
+        "图纸核对后的准确长宽",
+        "屋顶坡度/悬挑标注"
+      ]
+    },
+    {
+      "name": "Reva and David Logan Center for the Arts",
+      "address": "915 E.60th St",
+      "verified": {
+        "tower_height_ft": 170,
+        "tower_height_m": 51.816,
+        "tower_floors": 11,
+        "gross_area_ft2": 184000
+      },
+      "geometry": "高石材与玻璃塔楼+长低矮工作室/剧场裙房，低楼为锯齿/天窗屋顶；塔顶有Performance Penthouse，局部窗盒悬挑、大玻璃窗和水平石材板带。",
+      "sources": [
+        {
+          "url": "https://news.uchicago.edu/story/reva-and-david-logan-center-arts-preview-period-begin-march-26",
+          "authority": "学校官方新闻",
+          "supports": "170 ft塔高、塔楼功能与裙房功能"
+        },
+        {
+          "url": "https://architecture.uchicago.edu/locations/reva_and_david_logan_center_for_the_arts/",
+          "authority": "学校",
+          "supports": "184000 ft²、11层、材料与塔楼特征"
+        }
+      ],
+      "visuals": [
+        "https://architecture.uchicago.edu/locations/reva_and_david_logan_center_for_the_arts/",
+        "https://www.logancenter.uchicago.edu/history"
+      ],
+      "unknown": [
+        "锯齿屋顶峰谷标高",
+        "11层塔身各部分的真实高度划分",
+        "塔身平面尺寸"
+      ]
+    },
+    {
+      "name": "David Rubenstein Forum",
+      "address": "1201 E.60th St",
+      "verified": {
+        "completed_height_m": 52,
+        "completed_height_ft": 171,
+        "floors": 10,
+        "base_floors": 2,
+        "north_cantilever_ft": 35,
+        "north_cantilever_m": 10.668
+      },
+      "geometry": "2层裙房与堆叠错位/旋转的狭长塔楼，各两层事件neighborhood形成5组；灰锌金属包覆侧墙，北南端通透玻璃，首塔段北端大悬挑；顶部倾斜折面。",
+      "sources": [
+        {
+          "url": "https://global.ctbuh.org/resources/papers/4631-Gallagher_DavidRubensteinForum.pdf",
+          "authority": "2023 CTBUH技术案例，参与项目的LERA/DS+R署名资料",
+          "supports": "竣工2020、52 m/171 ft、10层，结构及平面剖面示意"
+        },
+        {
+          "url": "https://architecture.uchicago.edu/locations/david_rubenstein_forum/",
+          "authority": "学校",
+          "supports": "2层base/10层tower（按最终全楼层号），35 ft入口悬挑、堆叠旋转"
+        }
+      ],
+      "visuals": [
+        "https://global.ctbuh.org/resources/papers/4631-Gallagher_DavidRubensteinForum.pdf",
+        "https://davidrubensteinforum.uchicago.edu/cityviewroom-360/"
+      ],
+      "unknown": [
+        "各楼层标高及塔身宽度精确数值"
+      ],
+      "cautions": [
+        "2016官方发布的165 ft是初步方案，应采用竣工52 m；2017学校描述2层base+8层tower与总10层同义，不要建12层。"
+      ]
+    },
+    {
+      "name": "Saieh Hall for Economics",
+      "address": "5757 S. University Ave",
+      "verified": {
+        "completed": 1928,
+        "renovated": 2014,
+        "complex_buildings": 4
+      },
+      "geometry": "砖与石材装饰的哥特式主体，坡屋顶、主入口高塔及角部塔、旧教堂改造，附两幢历史住宅及现代玻璃/石材连接亭；2014后形态不能只沿用旧CTS图。",
+      "sources": [
+        {
+          "url": "https://architecture.uchicago.edu/locations/department_of_economics_and_becker_friedman_institute/",
+          "authority": "学校",
+          "supports": "4建筑组成、1928主体、2014改造与现代连接"
+        },
+        {
+          "url": "https://www.annumarchitects.com/projects/university-of-chicago/",
+          "authority": "设计建筑师Ann Beha/Annum",
+          "supports": "四建筑改造、旧阁楼改研究室、连接亭及地下讲堂"
+        }
+      ],
+      "visuals": [
+        "https://www.annumarchitects.com/projects/university-of-chicago/",
+        "https://architecture.uchicago.edu/locations/department_of_economics_and_becker_friedman_institute/"
+      ],
+      "unknown": [
+        "塔高",
+        "本次未找到主体檐口高度",
+        "坡屋顶屋脊标高"
+      ]
+    },
+    {
+      "name": "William Rainey Harper Memorial Library",
+      "address": "1116 E.59th St",
+      "verified": {
+        "tower_highest_turrets_ft": 135,
+        "tower_highest_turrets_m": 41.148,
+        "completed": 1912
+      },
+      "geometry": "长条哥特式图书馆中央大厅体量，两端高塔；塔顶分别有城垛/小尖塔样式，中央大厅陡坡屋顶、大尖窗，北侧朝主四合院，南侧朝Midway；塔高不能施加给所有屋面。",
+      "sources": [
+        {
+          "url": "https://campub.lib.uchicago.edu/text/?docId=mvol-0001-0016-0000",
+          "authority": "学校1911官方校园刊物",
+          "supports": "两端塔最高turrets高135 ft（主体已完成施工阶段）"
+        },
+        {
+          "url": "https://campub.lib.uchicago.edu/pdf/?docId=mvol-0445-0005-0004",
+          "authority": "学校University Record",
+          "supports": "后续刊物再次确认Harper塔135 ft"
+        },
+        {
+          "url": "https://architecture.uchicago.edu/locations/william_rainey_harper_memorial_library/",
+          "authority": "学校",
+          "supports": "建筑形态、建筑师、竣工年份"
+        }
+      ],
+      "visuals": [
+        "https://architecture.uchicago.edu/locations/william_rainey_harper_memorial_library/",
+        "https://d3qi0qp55mx5f5.cloudfront.net/facilities/pdfs/fs2/FS2_4B2_Significant_Space_Sheet_Example_1.pdf"
+      ],
+      "unknown": [
+        "主体檐口和屋脊高度",
+        "两塔平面准确尺寸",
+        "实际转角小塔差异"
+      ]
+    },
+    {
+      "name": "Gerald Ratner Athletics Center",
+      "address": "5530 S. Ellis Ave / E.55th St",
+      "verified": {
+        "floors": 2,
+        "masts": 5,
+        "as_completed_mast_report_ft": 125,
+        "as_completed_mast_report_m": 38.1,
+        "current_athletics_mast_peak_report_ft": 100,
+        "current_athletics_mast_peak_report_m": 30.48,
+        "pool_length_m": 50,
+        "pool_width_yards": 25
+      },
+      "geometry": "北/南两大单层大跨体育屋面组（gym2根mast，泳池3根）；扁平S曲线金属屋顶、倾斜玻璃墙、外部桅杆和斜拉索。桅杆不是屋面高度，体育场馆体块不可整个38 m高。",
+      "sources": [
+        {
+          "url": "https://athletics.uchicago.edu/sports/2023/6/12/ratner.aspx",
+          "authority": "学校体育部",
+          "supports": "2层、5桅杆峰100 ft、50 m×25 yd泳池"
+        },
+        {
+          "url": "https://chronicle.uchicago.edu/031009/ratner-arch.shtml",
+          "authority": "学校2003竣工报道（含设计建筑师引语）",
+          "supports": "125 ft steel masts、外部拉索及曲线屋顶"
+        }
+      ],
+      "visuals": [
+        "https://chronicle.uchicago.edu/000302/pelli.shtml",
+        "https://chronicle.uchicago.edu/031009/ratner-arch.shtml"
+      ],
+      "unknown": [
+        "实际每根桅杆的最高离地标高",
+        "曲面屋顶峰谷高度",
+        "各桅杆倾角"
+      ],
+      "cautions": [
+        "100 ft与125 ft都见官方，可能峰顶/构件长度或方案变化，尚不能确定；应写明采用哪条依据并标注差异。"
+      ]
+    },
+    {
+      "name": "Campus North Residential Commons / Baker Dining Commons",
+      "address": "5500 S. University Ave",
+      "verified": {
+        "towers": 3,
+        "max_floors": 15,
+        "floor_range_min": 5,
+        "floor_range_max": 15,
+        "gross_area_ft2": 400000
+      },
+      "geometry": "三条狭长bar建筑围合院落；最高塔朝55th，最低朝University Ave住宅街，5/11/15层分阶轮廓，白色预制混凝土波形/折曲窗框，中央低矮曲面食堂，二层连接体、绿色屋顶和中央Garden Circle石材阶座。",
+      "sources": [
+        {
+          "url": "https://studiogang.com/projects/university-of-chicago-campus-north-residential-commons/",
+          "authority": "设计建筑师",
+          "supports": "3狭长bar、白预制板、庭院、绿色屋顶/雨水"
+        },
+        {
+          "url": "https://housing.uchicago.edu/residence-life/residential-commons/campus-north/",
+          "authority": "学校Housing",
+          "supports": "最大15层"
+        },
+        {
+          "url": "https://transsolar.com/projects/chicago-campus-north-residence-hall-dining-commons",
+          "authority": "参与项目环境设计顾问",
+          "supports": "3塔5-15层、头两层公共空间"
+        },
+        {
+          "url": "https://tgda.net/projects/university-of-chicago-campus-north-residence-commons/",
+          "authority": "参与项目景观设计师",
+          "supports": "Garden Circle、砂岩阶座、花园及透水铺地"
+        }
+      ],
+      "visuals": [
+        "https://studiogang.com/projects/university-of-chicago-campus-north-residential-commons/",
+        "https://tgda.net/projects/university-of-chicago-campus-north-residence-commons/"
+      ],
+      "unknown": [
+        "3塔真实高度米数",
+        "11层塔层数一手正文未独立核到（学校NewsOffice记者现场报道确认）",
+        "外墙板断面准确尺寸"
+      ],
+      "supplemental_primary_reporting": {
+        "url": "https://chicagomaroon.com/22436/news/campus-north-presented-days-residents-arrive/",
+        "supports": "University News Office原始现场报道3塔5/11/15层、二层连接"
+      }
+    },
+    {
+      "name": "Woodlawn Residential and Dining Commons",
+      "address": "1156 E.61st St",
+      "verified": {
+        "towers": 4,
+        "tower_floor_counts": [
+          7,
+          7,
+          7,
+          16
+        ],
+        "common_base_floors": 1,
+        "bed_capacity": 1309,
+        "gross_area_ft2": 385012
+      },
+      "geometry": "共同低矮底座上4个住宅塔，1个高矩形塔+3个较低7层长条，曲折围合院落与二层露台，浅色板墙/砖与玻璃、平屋顶；不是3个相等高塔。",
+      "sources": [
+        {
+          "url": "https://www.turnerconstruction.com/projects/woodlawn-residential-dining-commons",
+          "authority": "项目总承包商",
+          "supports": "4住宅塔3×7层+1×16层，共同single-story level，1309床"
+        },
+        {
+          "url": "https://www.pmainc.com/project/woodlawn-commons-at-university-of-chicago/",
+          "authority": "项目投资方顾问",
+          "supports": "3×7层+1×16层，385012 ft²、2楼6295 ft²露台"
+        },
+        {
+          "url": "https://www.elkus-manfredi.com/project/university-of-chicago-woodlawn-residential-and-dining-commons/",
+          "authority": "设计建筑师",
+          "supports": "最终建筑外观/鸟瞰与照片"
+        }
+      ],
+      "visuals": [
+        "https://www.elkus-manfredi.com/wp-content/uploads/2021/12/SPOT_UChicago_AerialViewFrmNorth_BF.jpg",
+        "https://www.elkus-manfredi.com/wp-content/uploads/2021/12/SPOT_UChicago_EntryCourtLkngSE_BF.jpg",
+        "https://www.elkus-manfredi.com/wp-content/uploads/2021/12/04_SMALL_UChicago_RoofGardenLkingNorth_%C2%A9BradFeinknopf.jpg",
+        "https://gisapps.chicago.gov/gisimages/zoning_pds/PD43.pdf"
+      ],
+      "unknown": [
+        "16层塔真实高度米数",
+        "住宅楼层计数是否包含首层具体层号",
+        "低楼塔米数标高"
+      ],
+      "cautions": [
+        "学校Housing页写MaximumFloorLevels11，与总承包商和投资方项目顾问的竣工描述不符，采用建设参与方实际项目数据；不要以维基的15层取代一手16层。"
+      ]
+    },
+    {
+      "name": "William Eckhardt Research Center",
+      "address": "5640 S. Ellis Ave",
+      "verified": {
+        "structure_height_ft": 117,
+        "structure_height_m": 35.6616,
+        "floors_above_grade": 5,
+        "partial_mechanical_floor": 6,
+        "below_grade_floors": 2
+      },
+      "geometry": "两片玻璃幕墙实验楼块体、中央透明连接体及玻璃立面竖向网格，平屋面+局部机房、实验露台；有二层跨57th至Kersten连桥及至Accelerator连桥。",
+      "sources": [
+        {
+          "url": "https://www.thorntontomasetti.com/project/eckhardt-research-center",
+          "authority": "项目结构工程师",
+          "supports": "117 ft高、地上5+局部6层机房、地下2层、连桥"
+        },
+        {
+          "url": "https://thornton.s3.amazonaws.com/content_files/969/TheUniversityofChicago_WERC_Project_Sheet.pdf",
+          "authority": "项目结构工程师",
+          "supports": "原始项目单页、建筑渲染"
+        }
+      ],
+      "visuals": [
+        "https://www.thorntontomasetti.com/project/eckhardt-research-center",
+        "https://architecture.uchicago.edu/locations/william_eckhardt_research_center/"
+      ],
+      "unknown": [
+        "屋顶机房分区高度",
+        "玻璃幕墙网格精确模数",
+        "连桥准确截面"
+      ]
+    },
+    {
+      "name": "Keller Center / Harris School of Public Policy",
+      "address": "1155 E.60th St",
+      "verified": {
+        "original_floors": 3,
+        "current_floors": 4,
+        "external_columns": 72,
+        "canopy_perforated_openings": 296
+      },
+      "geometry": "原Edward Durell Stone 3层石材New Formalism建筑，围绕外圈细柱/镂空横向檐棚，改造新增四层sky suite退台、绿色屋顶、太阳能板、玻璃天窗；不能仍按旧3层宿舍楼造。",
+      "sources": [
+        {
+          "url": "https://architecture.uchicago.edu/locations/keller_center/",
+          "authority": "学校",
+          "supports": "旧3层+改造4层中庭/4楼sky suite、绿屋顶和太阳能"
+        },
+        {
+          "url": "https://harris.uchicago.edu/about/who-we-are/keller-center",
+          "authority": "学校Harris",
+          "supports": "4层现有建筑、天窗及生态改造"
+        },
+        {
+          "url": "https://harris.uchicago.edu/files/inline-files/Welcome%20Guide_Student_FINAL_0.pdf",
+          "authority": "学校Harris/Stantec建筑团队导览",
+          "supports": "72周边柱、296檐棚孔、屋顶新增体块和PV"
+        }
+      ],
+      "visuals": [
+        "https://harris.uchicago.edu/about/who-we-are/keller-center",
+        "https://architecture.uchicago.edu/locations/keller_center/"
+      ],
+      "unknown": [
+        "外部总高",
+        "屋顶sky suite准确轮廓和标高",
+        "外柱和檐棚尺寸"
+      ]
+    },
+    {
+      "name": "Edith Abbott Hall / Crown Family School",
+      "address": "969 E.60th St",
+      "verified": {
+        "completed": 1965
+      },
+      "geometry": "Mies低矮钢/砖/玻璃水平矩形体块，巨大通透中央大堂、黑色钢框架、平屋顶、没有院落；UChicago此楼不是IIT的S.R.Crown Hall。",
+      "sources": [
+        {
+          "url": "https://architecture.uchicago.edu/locations/crownschool/",
+          "authority": "学校",
+          "supports": "建筑正式名称、Mies、1965、水平玻璃钢框架"
+        }
+      ],
+      "visuals": [
+        "https://architecture.uchicago.edu/locations/crownschool/",
+        "https://news.uchicago.edu/story/ssa-polishes-mies-van-der-rohe-building-help-launch-centennial"
+      ],
+      "unknown": [
+        "建筑高度",
+        "地上/夹层完整计数",
+        "精确平面尺寸"
+      ],
+      "cautions": [
+        "不得误引IIT S.R.Crown Hall的120×220 ft、18 ft室内高等数据。"
+      ]
+    },
+    {
+      "name": "Laird Bell Law Quadrangle / D'Angelo Law Library",
+      "address": "1121 E.60th St",
+      "verified": {
+        "completed": 1959,
+        "library_highest_numbered_floor": 6
+      },
+      "geometry": "Saarinen现代主义组团，低矮法学教室/办公室与较高图书馆；黑玻璃/石灰石，竖向有折面凹凸/锯齿玻璃幕墙；北侧反射水池与喷泉是重要室外构成。",
+      "sources": [
+        {
+          "url": "https://architecture.uchicago.edu/locations/laird_bell_law_quadrangle/",
+          "authority": "学校",
+          "supports": "建筑师、建筑组团与校园室外关系"
+        },
+        {
+          "url": "https://www.law.uchicago.edu/students/libraryservices",
+          "authority": "学校法学院",
+          "supports": "图书馆第2至第6楼使用，第3至第6楼carrels/4-6楼会议室"
+        }
+      ],
+      "visuals": [
+        "https://architecture.uchicago.edu/locations/laird_bell_law_quadrangle/",
+        "https://publicart.uchicago.edu/art/construction-in-space-and-in-the-third-and-fourth-dimensions/"
+      ],
+      "unknown": [
+        "图书馆屋面高度",
+        "图书馆层高",
+        "折面幕墙准确模数",
+        "相邻低楼各檐口标高"
+      ]
+    },
+    {
+      "name": "Ellen and Melvin Gordon Center for Integrative Sciences",
+      "address": "929 E.57th St",
+      "verified": {
+        "academic_floors_reported": 5,
+        "below_grade_floors": 2,
+        "colonnade_stories_reported": 6
+      },
+      "geometry": "围合Science Quad，石材与玻璃实验楼、平屋顶、开放breezeway、六层高钢柱柱廊、与Crerar/Kersten和北侧Knapp连接；中央大玻璃中庭。",
+      "sources": [
+        {
+          "url": "https://www.powerconstruction.net/projects/science-lab-construction/university-chicago-gordon-center-integrative-sciences",
+          "authority": "总承包商",
+          "supports": "六层高柱廊、两层地下、开放breezeway"
+        },
+        {
+          "url": "https://fliphtml5.com/cbqrb/tilx/Power_Construction_Higher_Education_Brochure_/25/",
+          "authority": "Power Construction官方市场部门2024发布项目册",
+          "supports": "430000 ft² five-story academic building +2地下层"
+        },
+        {
+          "url": "https://architecture.uchicago.edu/locations/gordon_center_for_integrative_science/",
+          "authority": "学校",
+          "supports": "六层钢柱、石灰石与玻璃外形"
+        }
+      ],
+      "visuals": [
+        "https://architecture.uchicago.edu/locations/gordon_center_for_integrative_science/",
+        "https://www.lampartners.com/projects/university-of-chicago-gordon-center-for-integrative-science/"
+      ],
+      "unknown": [
+        "外部总高",
+        "机械楼层是否计入不同来源楼层数",
+        "柱廊精确跨度"
+      ]
+    },
+    {
+      "name": "John Crerar Library",
+      "address": "5730 S. Ellis Ave",
+      "verified": {
+        "floors_including_lower_level": 4,
+        "approx_east_west_ft": 135,
+        "approx_east_west_m": 41.148,
+        "approx_north_south_ft": 294,
+        "approx_north_south_m": 89.6112,
+        "upper_floor_cantilever_ft": 11,
+        "upper_floor_cantilever_m": 3.3528,
+        "gross_area_ft2": 160836
+      },
+      "geometry": "长轴南北矩形石灰石粗野主义，顶层相对低层四边悬挑、竖向窄窗/窗柱、中央三层通高中庭天窗；2018改造顶部增加窗与屋顶天窗。4层含下层，不应直接建4层地上。",
+      "sources": [
+        {
+          "url": "https://www.lib.uchicago.edu/crerar/about-crerar-library/history/",
+          "authority": "学校图书馆",
+          "supports": "4层、135×294 ft、最高楼层11 ft悬挑、中央三层中庭"
+        },
+        {
+          "url": "https://architecture.uchicago.edu/locations/john_crerar_library/",
+          "authority": "学校",
+          "supports": "2018立面及天窗改造"
+        }
+      ],
+      "visuals": [
+        "https://www.lib.uchicago.edu/crerar/about-crerar-library/history/",
+        "https://architecture.uchicago.edu/locations/john_crerar_library/"
+      ],
+      "unknown": [
+        "屋面高",
+        "下层露出地面高度",
+        "立面11 ft悬挑准确方向"
+      ]
+    }
+  ]
+}

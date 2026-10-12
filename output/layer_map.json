@@ -1,0 +1,4537 @@
+{
+  "U001B00": {
+    "layer": "U001_Campus North Parking Garage",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U001D0100": {
+    "layer": "U001_Campus North Parking Garage",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U001D0700": {
+    "layer": "U001_Campus North Parking Garage",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U001D0800": {
+    "layer": "U001_Campus North Parking Garage",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U001D1000": {
+    "layer": "U001_Campus North Parking Garage",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U002B00": {
+    "layer": "U002_Campus North Residential Commons",
+    "category": "building",
+    "material": "WhitePanel"
+  },
+  "U002B01": {
+    "layer": "U002_Campus North Residential Commons",
+    "category": "building",
+    "material": "WhitePanel"
+  },
+  "U002B02": {
+    "layer": "U002_Campus North Residential Commons",
+    "category": "building",
+    "material": "WhitePanel"
+  },
+  "U002D0800": {
+    "layer": "U002_Campus North Residential Commons",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U002D1000": {
+    "layer": "U002_Campus North Residential Commons",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U002D1600": {
+    "layer": "U002_Campus North Residential Commons",
+    "category": "building",
+    "material": "Garden"
+  },
+  "U003B00": {
+    "layer": "U003_Gerald Ratner Athletics Center",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U003D0700": {
+    "layer": "U003_Gerald Ratner Athletics Center",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U003D0800": {
+    "layer": "U003_Gerald Ratner Athletics Center",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U003D1000": {
+    "layer": "U003_Gerald Ratner Athletics Center",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U004B00": {
+    "layer": "U004_Cochrane-Woods Art Center",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U004D0100": {
+    "layer": "U004_Cochrane-Woods Art Center",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U004D0700": {
+    "layer": "U004_Cochrane-Woods Art Center",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U004D0800": {
+    "layer": "U004_Cochrane-Woods Art Center",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U004D1000": {
+    "layer": "U004_Cochrane-Woods Art Center",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U005B00": {
+    "layer": "U005_Court Theatre",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U005D0100": {
+    "layer": "U005_Court Theatre",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U005D0700": {
+    "layer": "U005_Court Theatre",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U005D0800": {
+    "layer": "U005_Court Theatre",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U005D1000": {
+    "layer": "U005_Court Theatre",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U006B00": {
+    "layer": "U006_Henry Crown Field House",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U006D0100": {
+    "layer": "U006_Henry Crown Field House",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U006D0700": {
+    "layer": "U006_Henry Crown Field House",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U006D0800": {
+    "layer": "U006_Henry Crown Field House",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U006D1000": {
+    "layer": "U006_Henry Crown Field House",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U007B00": {
+    "layer": "U007_David and Alfred Smart Museum of Art",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U007D0100": {
+    "layer": "U007_David and Alfred Smart Museum of Art",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U007D0700": {
+    "layer": "U007_David and Alfred Smart Museum of Art",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U007D0800": {
+    "layer": "U007_David and Alfred Smart Museum of Art",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U007D1000": {
+    "layer": "U007_David and Alfred Smart Museum of Art",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U008B00": {
+    "layer": "U008_Young Memorial Building",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U008D0100": {
+    "layer": "U008_Young Memorial Building",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U008D0700": {
+    "layer": "U008_Young Memorial Building",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U008D0800": {
+    "layer": "U008_Young Memorial Building",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U008D1000": {
+    "layer": "U008_Young Memorial Building",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U009B00": {
+    "layer": "U009_Stagg Field",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U009D0100": {
+    "layer": "U009_Stagg Field",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U009D0700": {
+    "layer": "U009_Stagg Field",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U009D0800": {
+    "layer": "U009_Stagg Field",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U009D1000": {
+    "layer": "U009_Stagg Field",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U010B00": {
+    "layer": "U010_847 East 56th Street",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U010D0100": {
+    "layer": "U010_847 East 56th Street",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U010D0700": {
+    "layer": "U010_847 East 56th Street",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U010D0800": {
+    "layer": "U010_847 East 56th Street",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U010D1000": {
+    "layer": "U010_847 East 56th Street",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U011B00": {
+    "layer": "U011_Max Palevsky Commons Central",
+    "category": "building",
+    "material": "Brick"
+  },
+  "U011D0200": {
+    "layer": "U011_Max Palevsky Commons Central",
+    "category": "building",
+    "material": "Brick"
+  },
+  "U011D0700": {
+    "layer": "U011_Max Palevsky Commons Central",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U011D0800": {
+    "layer": "U011_Max Palevsky Commons Central",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U011D1000": {
+    "layer": "U011_Max Palevsky Commons Central",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U012B00": {
+    "layer": "U012_University of Chicago Auto Service Facility",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U012D0100": {
+    "layer": "U012_University of Chicago Auto Service Facility",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U012D0700": {
+    "layer": "U012_University of Chicago Auto Service Facility",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U012D0800": {
+    "layer": "U012_University of Chicago Auto Service Facility",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U012D1000": {
+    "layer": "U012_University of Chicago Auto Service Facility",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U013B00": {
+    "layer": "U013_West Campus Combined Utility Plant",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U013D0100": {
+    "layer": "U013_West Campus Combined Utility Plant",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U013D0700": {
+    "layer": "U013_West Campus Combined Utility Plant",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U013D0800": {
+    "layer": "U013_West Campus Combined Utility Plant",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U013D1000": {
+    "layer": "U013_West Campus Combined Utility Plant",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U014B00": {
+    "layer": "U014_Max Palevsky Commons West",
+    "category": "building",
+    "material": "Brick"
+  },
+  "U014D0200": {
+    "layer": "U014_Max Palevsky Commons West",
+    "category": "building",
+    "material": "Brick"
+  },
+  "U014D0700": {
+    "layer": "U014_Max Palevsky Commons West",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U014D0800": {
+    "layer": "U014_Max Palevsky Commons West",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U014D1000": {
+    "layer": "U014_Max Palevsky Commons West",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U015B00": {
+    "layer": "U015_High Bay Research Building",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U015D0100": {
+    "layer": "U015_High Bay Research Building",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U015D0700": {
+    "layer": "U015_High Bay Research Building",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U015D0800": {
+    "layer": "U015_High Bay Research Building",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U015D1000": {
+    "layer": "U015_High Bay Research Building",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U016B00": {
+    "layer": "U016_Michelson Center for Physics",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U016D0100": {
+    "layer": "U016_Michelson Center for Physics",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U016D0700": {
+    "layer": "U016_Michelson Center for Physics",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U016D0800": {
+    "layer": "U016_Michelson Center for Physics",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U016D1000": {
+    "layer": "U016_Michelson Center for Physics",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U017B00": {
+    "layer": "U017_Molecular Engineering Modular Offices",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U017D0100": {
+    "layer": "U017_Molecular Engineering Modular Offices",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U017D0700": {
+    "layer": "U017_Molecular Engineering Modular Offices",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U017D0800": {
+    "layer": "U017_Molecular Engineering Modular Offices",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U017D1000": {
+    "layer": "U017_Molecular Engineering Modular Offices",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U018B00": {
+    "layer": "U018_Max Palevsky Commons East",
+    "category": "building",
+    "material": "Brick"
+  },
+  "U018D0200": {
+    "layer": "U018_Max Palevsky Commons East",
+    "category": "building",
+    "material": "Brick"
+  },
+  "U018D0700": {
+    "layer": "U018_Max Palevsky Commons East",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U018D0800": {
+    "layer": "U018_Max Palevsky Commons East",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U018D1000": {
+    "layer": "U018_Max Palevsky Commons East",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U019B00": {
+    "layer": "U019_Accelerator Building",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U019D0100": {
+    "layer": "U019_Accelerator Building",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U019D0700": {
+    "layer": "U019_Accelerator Building",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U019D0800": {
+    "layer": "U019_Accelerator Building",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U019D1000": {
+    "layer": "U019_Accelerator Building",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U020B00": {
+    "layer": "U020_UChicago Child Development Center - Drexel",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U020D0100": {
+    "layer": "U020_UChicago Child Development Center - Drexel",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U020D0700": {
+    "layer": "U020_UChicago Child Development Center - Drexel",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U020D0800": {
+    "layer": "U020_UChicago Child Development Center - Drexel",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U020D1000": {
+    "layer": "U020_UChicago Child Development Center - Drexel",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U021B00": {
+    "layer": "U021_Knapp Research Center",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U021D0100": {
+    "layer": "U021_Knapp Research Center",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U021D0700": {
+    "layer": "U021_Knapp Research Center",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U021D0800": {
+    "layer": "U021_Knapp Research Center",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U021D1000": {
+    "layer": "U021_Knapp Research Center",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U022B00": {
+    "layer": "U022_Joseph Regenstein Library",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U022B01": {
+    "layer": "U022_Joseph Regenstein Library",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U022D0700": {
+    "layer": "U022_Joseph Regenstein Library",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U022D0800": {
+    "layer": "U022_Joseph Regenstein Library",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U022D1000": {
+    "layer": "U022_Joseph Regenstein Library",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U023B00": {
+    "layer": "U023_Medical Campus Parking Garage B",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U023D0100": {
+    "layer": "U023_Medical Campus Parking Garage B",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U023D0700": {
+    "layer": "U023_Medical Campus Parking Garage B",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U023D0800": {
+    "layer": "U023_Medical Campus Parking Garage B",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U023D1000": {
+    "layer": "U023_Medical Campus Parking Garage B",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U024B00": {
+    "layer": "U024_Joe and Rika Mansueto Library",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U024B01": {
+    "layer": "U024_Joe and Rika Mansueto Library",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U024B02": {
+    "layer": "U024_Joe and Rika Mansueto Library",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U024B99": {
+    "layer": "U024_Joe and Rika Mansueto Library",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U024D0700": {
+    "layer": "U024_Joe and Rika Mansueto Library",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U024D0800": {
+    "layer": "U024_Joe and Rika Mansueto Library",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U024D1000": {
+    "layer": "U024_Joe and Rika Mansueto Library",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U025B00": {
+    "layer": "U025_Knapp Center for Biomedical Discovery",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U025D0100": {
+    "layer": "U025_Knapp Center for Biomedical Discovery",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U025D0700": {
+    "layer": "U025_Knapp Center for Biomedical Discovery",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U025D0800": {
+    "layer": "U025_Knapp Center for Biomedical Discovery",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U025D1000": {
+    "layer": "U025_Knapp Center for Biomedical Discovery",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U026B00": {
+    "layer": "U026_Greenhouse",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U026D0100": {
+    "layer": "U026_Greenhouse",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U026D0700": {
+    "layer": "U026_Greenhouse",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U026D0800": {
+    "layer": "U026_Greenhouse",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U026D1000": {
+    "layer": "U026_Greenhouse",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U027B00": {
+    "layer": "U027_Bartlett Dining Commons",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U027D0100": {
+    "layer": "U027_Bartlett Dining Commons",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U027D0300": {
+    "layer": "U027_Bartlett Dining Commons",
+    "category": "building",
+    "material": "Slate"
+  },
+  "U027D0900": {
+    "layer": "U027_Bartlett Dining Commons",
+    "category": "building",
+    "material": "DarkGlass"
+  },
+  "U028B00": {
+    "layer": "U028_William Eckhardt Research Center",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U028B01": {
+    "layer": "U028_William Eckhardt Research Center",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U028D0700": {
+    "layer": "U028_William Eckhardt Research Center",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U028D0800": {
+    "layer": "U028_William Eckhardt Research Center",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U028D1000": {
+    "layer": "U028_William Eckhardt Research Center",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U029B00": {
+    "layer": "U029_Donnelley Biological Sciences Learning Center",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U029D0100": {
+    "layer": "U029_Donnelley Biological Sciences Learning Center",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U029D0700": {
+    "layer": "U029_Donnelley Biological Sciences Learning Center",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U029D0800": {
+    "layer": "U029_Donnelley Biological Sciences Learning Center",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U029D1000": {
+    "layer": "U029_Donnelley Biological Sciences Learning Center",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U030B00": {
+    "layer": "U030_Biopsychology Science Building",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U030D0100": {
+    "layer": "U030_Biopsychology Science Building",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U030D0700": {
+    "layer": "U030_Biopsychology Science Building",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U030D0800": {
+    "layer": "U030_Biopsychology Science Building",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U030D1000": {
+    "layer": "U030_Biopsychology Science Building",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U031B00": {
+    "layer": "U031_Rohr Chabad Jewish Center",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U031D0100": {
+    "layer": "U031_Rohr Chabad Jewish Center",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U031D0700": {
+    "layer": "U031_Rohr Chabad Jewish Center",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U031D0800": {
+    "layer": "U031_Rohr Chabad Jewish Center",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U031D1000": {
+    "layer": "U031_Rohr Chabad Jewish Center",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U032B00": {
+    "layer": "U032_Mitchell Tower",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U032D0000": {
+    "layer": "U032_Mitchell Tower",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U032D0100": {
+    "layer": "U032_Mitchell Tower",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U032D0900": {
+    "layer": "U032_Mitchell Tower",
+    "category": "building",
+    "material": "DarkGlass"
+  },
+  "U033B00": {
+    "layer": "U033_Neubauer Collegium",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U033D0100": {
+    "layer": "U033_Neubauer Collegium",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U033D0700": {
+    "layer": "U033_Neubauer Collegium",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U033D0800": {
+    "layer": "U033_Neubauer Collegium",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U033D1000": {
+    "layer": "U033_Neubauer Collegium",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U034B00": {
+    "layer": "U034_Zoology",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U034D0100": {
+    "layer": "U034_Zoology",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U034D0300": {
+    "layer": "U034_Zoology",
+    "category": "building",
+    "material": "Slate"
+  },
+  "U034D0900": {
+    "layer": "U034_Zoology",
+    "category": "building",
+    "material": "DarkGlass"
+  },
+  "U035B00": {
+    "layer": "U035_Cobb Gate",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U035D0100": {
+    "layer": "U035_Cobb Gate",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U035D0700": {
+    "layer": "U035_Cobb Gate",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U035D0800": {
+    "layer": "U035_Cobb Gate",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U035D1000": {
+    "layer": "U035_Cobb Gate",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U036B00": {
+    "layer": "U036_Anatomy",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U036D0100": {
+    "layer": "U036_Anatomy",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U036D0300": {
+    "layer": "U036_Anatomy",
+    "category": "building",
+    "material": "Slate"
+  },
+  "U036D0900": {
+    "layer": "U036_Anatomy",
+    "category": "building",
+    "material": "DarkGlass"
+  },
+  "U037B00": {
+    "layer": "U037_Quadrangle Club",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U037D0100": {
+    "layer": "U037_Quadrangle Club",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U037D0700": {
+    "layer": "U037_Quadrangle Club",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U037D0800": {
+    "layer": "U037_Quadrangle Club",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U037D1000": {
+    "layer": "U037_Quadrangle Club",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U038B00": {
+    "layer": "U038_Hutchinson Commons",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U038D0100": {
+    "layer": "U038_Hutchinson Commons",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U038D0300": {
+    "layer": "U038_Hutchinson Commons",
+    "category": "building",
+    "material": "Slate"
+  },
+  "U038D0900": {
+    "layer": "U038_Hutchinson Commons",
+    "category": "building",
+    "material": "DarkGlass"
+  },
+  "U039B00": {
+    "layer": "U039_Snell-Hitchcock Halls",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U039D0100": {
+    "layer": "U039_Snell-Hitchcock Halls",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U039D0300": {
+    "layer": "U039_Snell-Hitchcock Halls",
+    "category": "building",
+    "material": "Slate"
+  },
+  "U039D0900": {
+    "layer": "U039_Snell-Hitchcock Halls",
+    "category": "building",
+    "material": "DarkGlass"
+  },
+  "U040B00": {
+    "layer": "U040_5706 South Woodlawn Avenue",
+    "category": "building",
+    "material": "Brick"
+  },
+  "U040D0200": {
+    "layer": "U040_5706 South Woodlawn Avenue",
+    "category": "building",
+    "material": "Brick"
+  },
+  "U040D0700": {
+    "layer": "U040_5706 South Woodlawn Avenue",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U040D0800": {
+    "layer": "U040_5706 South Woodlawn Avenue",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U040D1000": {
+    "layer": "U040_5706 South Woodlawn Avenue",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U041B00": {
+    "layer": "U041_Hunnewell House",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U041D0100": {
+    "layer": "U041_Hunnewell House",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U041D0700": {
+    "layer": "U041_Hunnewell House",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U041D0800": {
+    "layer": "U041_Hunnewell House",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U041D1000": {
+    "layer": "U041_Hunnewell House",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U042B00": {
+    "layer": "U042_Reynolds Club",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U042D0100": {
+    "layer": "U042_Reynolds Club",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U042D0300": {
+    "layer": "U042_Reynolds Club",
+    "category": "building",
+    "material": "Slate"
+  },
+  "U042D0900": {
+    "layer": "U042_Reynolds Club",
+    "category": "building",
+    "material": "DarkGlass"
+  },
+  "U043B00": {
+    "layer": "U043_Kersten Physics Teaching Center",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U043D0100": {
+    "layer": "U043_Kersten Physics Teaching Center",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U043D0700": {
+    "layer": "U043_Kersten Physics Teaching Center",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U043D0800": {
+    "layer": "U043_Kersten Physics Teaching Center",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U043D1000": {
+    "layer": "U043_Kersten Physics Teaching Center",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U044B00": {
+    "layer": "U044_Center for Care and Discovery",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U044B01": {
+    "layer": "U044_Center for Care and Discovery",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U044D0700": {
+    "layer": "U044_Center for Care and Discovery",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U044D0800": {
+    "layer": "U044_Center for Care and Discovery",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U044D1000": {
+    "layer": "U044_Center for Care and Discovery",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U045B00": {
+    "layer": "U045_Gordon Center for Integrative Science",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U045D0100": {
+    "layer": "U045_Gordon Center for Integrative Science",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U045D0700": {
+    "layer": "U045_Gordon Center for Integrative Science",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U045D0800": {
+    "layer": "U045_Gordon Center for Integrative Science",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U045D1000": {
+    "layer": "U045_Gordon Center for Integrative Science",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U046B00": {
+    "layer": "U046_Office of Multicultural Student Affairs",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U046D0100": {
+    "layer": "U046_Office of Multicultural Student Affairs",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U046D0700": {
+    "layer": "U046_Office of Multicultural Student Affairs",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U046D0800": {
+    "layer": "U046_Office of Multicultural Student Affairs",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U046D1000": {
+    "layer": "U046_Office of Multicultural Student Affairs",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U047B00": {
+    "layer": "U047_Ryder House",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U047D0100": {
+    "layer": "U047_Ryder House",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U047D0700": {
+    "layer": "U047_Ryder House",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U047D0800": {
+    "layer": "U047_Ryder House",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U047D1000": {
+    "layer": "U047_Ryder House",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U048B00": {
+    "layer": "U048_Delta Upsilon House",
+    "category": "building",
+    "material": "Brick"
+  },
+  "U048D0200": {
+    "layer": "U048_Delta Upsilon House",
+    "category": "building",
+    "material": "Brick"
+  },
+  "U048D0700": {
+    "layer": "U048_Delta Upsilon House",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U048D0800": {
+    "layer": "U048_Delta Upsilon House",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U048D1000": {
+    "layer": "U048_Delta Upsilon House",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U049B00": {
+    "layer": "U049_Newberger Hillel Center",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U049D0100": {
+    "layer": "U049_Newberger Hillel Center",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U049D0700": {
+    "layer": "U049_Newberger Hillel Center",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U049D0800": {
+    "layer": "U049_Newberger Hillel Center",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U049D1000": {
+    "layer": "U049_Newberger Hillel Center",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U050B00": {
+    "layer": "U050_Erman Biology Center",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U050D0100": {
+    "layer": "U050_Erman Biology Center",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U050D0300": {
+    "layer": "U050_Erman Biology Center",
+    "category": "building",
+    "material": "Slate"
+  },
+  "U050D0900": {
+    "layer": "U050_Erman Biology Center",
+    "category": "building",
+    "material": "DarkGlass"
+  },
+  "U051B00": {
+    "layer": "U051_Culver",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U051D0100": {
+    "layer": "U051_Culver",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U051D0700": {
+    "layer": "U051_Culver",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U051D0800": {
+    "layer": "U051_Culver",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U051D1000": {
+    "layer": "U051_Culver",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U052B00": {
+    "layer": "U052_Concert Office",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U052D0100": {
+    "layer": "U052_Concert Office",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U052D0700": {
+    "layer": "U052_Concert Office",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U052D0800": {
+    "layer": "U052_Concert Office",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U052D1000": {
+    "layer": "U052_Concert Office",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U053B00": {
+    "layer": "U053_Institute of Politics",
+    "category": "building",
+    "material": "Brick"
+  },
+  "U053D0200": {
+    "layer": "U053_Institute of Politics",
+    "category": "building",
+    "material": "Brick"
+  },
+  "U053D0700": {
+    "layer": "U053_Institute of Politics",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U053D0800": {
+    "layer": "U053_Institute of Politics",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U053D1000": {
+    "layer": "U053_Institute of Politics",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U054B00": {
+    "layer": "U054_Mandel Hall",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U054D0100": {
+    "layer": "U054_Mandel Hall",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U054D0300": {
+    "layer": "U054_Mandel Hall",
+    "category": "building",
+    "material": "Slate"
+  },
+  "U054D0900": {
+    "layer": "U054_Mandel Hall",
+    "category": "building",
+    "material": "DarkGlass"
+  },
+  "U055B00": {
+    "layer": "U055_5728 S. Woodlawn",
+    "category": "building",
+    "material": "Brick"
+  },
+  "U055D0200": {
+    "layer": "U055_5728 S. Woodlawn",
+    "category": "building",
+    "material": "Brick"
+  },
+  "U055D0700": {
+    "layer": "U055_5728 S. Woodlawn",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U055D0800": {
+    "layer": "U055_5728 S. Woodlawn",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U055D1000": {
+    "layer": "U055_5728 S. Woodlawn",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U056B00": {
+    "layer": "U056_Stevanovich Center for Financial Mathematics",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U056D0100": {
+    "layer": "U056_Stevanovich Center for Financial Mathematics",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U056D0700": {
+    "layer": "U056_Stevanovich Center for Financial Mathematics",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U056D0800": {
+    "layer": "U056_Stevanovich Center for Financial Mathematics",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U056D1000": {
+    "layer": "U056_Stevanovich Center for Financial Mathematics",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U057B00": {
+    "layer": "U057_Searle Chemical Laboratory",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U057D0100": {
+    "layer": "U057_Searle Chemical Laboratory",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U057D0300": {
+    "layer": "U057_Searle Chemical Laboratory",
+    "category": "building",
+    "material": "Slate"
+  },
+  "U057D0900": {
+    "layer": "U057_Searle Chemical Laboratory",
+    "category": "building",
+    "material": "DarkGlass"
+  },
+  "U058B00": {
+    "layer": "U058_John Crerar Library",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U058B01": {
+    "layer": "U058_John Crerar Library",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U058D0700": {
+    "layer": "U058_John Crerar Library",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U058D0800": {
+    "layer": "U058_John Crerar Library",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U058D1000": {
+    "layer": "U058_John Crerar Library",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U059B00": {
+    "layer": "U059_5729 South Woodlawn Avenue",
+    "category": "building",
+    "material": "Brick"
+  },
+  "U059D0200": {
+    "layer": "U059_5729 South Woodlawn Avenue",
+    "category": "building",
+    "material": "Brick"
+  },
+  "U059D0700": {
+    "layer": "U059_5729 South Woodlawn Avenue",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U059D0800": {
+    "layer": "U059_5729 South Woodlawn Avenue",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U059D1000": {
+    "layer": "U059_5729 South Woodlawn Avenue",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U060B00": {
+    "layer": "U060_Comparative Human Development Building",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U060D0100": {
+    "layer": "U060_Comparative Human Development Building",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U060D0700": {
+    "layer": "U060_Comparative Human Development Building",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U060D0800": {
+    "layer": "U060_Comparative Human Development Building",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U060D1000": {
+    "layer": "U060_Comparative Human Development Building",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U061B00": {
+    "layer": "U061_Gender_Race Studies Building",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U061D0100": {
+    "layer": "U061_Gender_Race Studies Building",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U061D0700": {
+    "layer": "U061_Gender_Race Studies Building",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U061D0800": {
+    "layer": "U061_Gender_Race Studies Building",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U061D1000": {
+    "layer": "U061_Gender_Race Studies Building",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U062B00": {
+    "layer": "U062_Calvert House",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U062D0100": {
+    "layer": "U062_Calvert House",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U062D0700": {
+    "layer": "U062_Calvert House",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U062D0800": {
+    "layer": "U062_Calvert House",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U062D1000": {
+    "layer": "U062_Calvert House",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U063B00": {
+    "layer": "U063_NSIT Office",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U063D0100": {
+    "layer": "U063_NSIT Office",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U063D0700": {
+    "layer": "U063_NSIT Office",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U063D0800": {
+    "layer": "U063_NSIT Office",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U063D1000": {
+    "layer": "U063_NSIT Office",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U064B00": {
+    "layer": "U064_Henry Hinds Laboratory for Geophysical Sciences",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U064D0100": {
+    "layer": "U064_Henry Hinds Laboratory for Geophysical Sciences",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U064D0700": {
+    "layer": "U064_Henry Hinds Laboratory for Geophysical Sciences",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U064D0800": {
+    "layer": "U064_Henry Hinds Laboratory for Geophysical Sciences",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U064D1000": {
+    "layer": "U064_Henry Hinds Laboratory for Geophysical Sciences",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U065B00": {
+    "layer": "U065_Comer Hospital East Wing",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U065D0100": {
+    "layer": "U065_Comer Hospital East Wing",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U065D0700": {
+    "layer": "U065_Comer Hospital East Wing",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U065D0800": {
+    "layer": "U065_Comer Hospital East Wing",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U065D1000": {
+    "layer": "U065_Comer Hospital East Wing",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U066B00": {
+    "layer": "U066_Duchossois Center for Advanced Medicine",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U066D0100": {
+    "layer": "U066_Duchossois Center for Advanced Medicine",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U066D0700": {
+    "layer": "U066_Duchossois Center for Advanced Medicine",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U066D0800": {
+    "layer": "U066_Duchossois Center for Advanced Medicine",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U066D1000": {
+    "layer": "U066_Duchossois Center for Advanced Medicine",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U067B00": {
+    "layer": "U067_Ryerson Laboratory",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U067D0100": {
+    "layer": "U067_Ryerson Laboratory",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U067D0300": {
+    "layer": "U067_Ryerson Laboratory",
+    "category": "building",
+    "material": "Slate"
+  },
+  "U067D0900": {
+    "layer": "U067_Ryerson Laboratory",
+    "category": "building",
+    "material": "DarkGlass"
+  },
+  "U068B00": {
+    "layer": "U068_Eckhart Hall",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U068D0100": {
+    "layer": "U068_Eckhart Hall",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U068D0300": {
+    "layer": "U068_Eckhart Hall",
+    "category": "building",
+    "material": "Slate"
+  },
+  "U068D0900": {
+    "layer": "U068_Eckhart Hall",
+    "category": "building",
+    "material": "DarkGlass"
+  },
+  "U069B00": {
+    "layer": "U069_Kent Chemical Laboratory",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U069D0100": {
+    "layer": "U069_Kent Chemical Laboratory",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U069D0300": {
+    "layer": "U069_Kent Chemical Laboratory",
+    "category": "building",
+    "material": "Slate"
+  },
+  "U069D0900": {
+    "layer": "U069_Kent Chemical Laboratory",
+    "category": "building",
+    "material": "DarkGlass"
+  },
+  "U070B00": {
+    "layer": "U070_Comer Children's Hospital",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U070D0100": {
+    "layer": "U070_Comer Children's Hospital",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U070D0700": {
+    "layer": "U070_Comer Children's Hospital",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U070D0800": {
+    "layer": "U070_Comer Children's Hospital",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U070D1000": {
+    "layer": "U070_Comer Children's Hospital",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U071B00": {
+    "layer": "U071_SCRS Building",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U071D0100": {
+    "layer": "U071_SCRS Building",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U071D0700": {
+    "layer": "U071_SCRS Building",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U071D0800": {
+    "layer": "U071_SCRS Building",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U071D1000": {
+    "layer": "U071_SCRS Building",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U072B00": {
+    "layer": "U072_U of C Nursery School",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U072D0100": {
+    "layer": "U072_U of C Nursery School",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U072D0700": {
+    "layer": "U072_U of C Nursery School",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U072D0800": {
+    "layer": "U072_U of C Nursery School",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U072D1000": {
+    "layer": "U072_U of C Nursery School",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U073B00": {
+    "layer": "U073_Saieh Hall Annex",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U073D0100": {
+    "layer": "U073_Saieh Hall Annex",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U073D0700": {
+    "layer": "U073_Saieh Hall Annex",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U073D0800": {
+    "layer": "U073_Saieh Hall Annex",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U073D1000": {
+    "layer": "U073_Saieh Hall Annex",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U074B00": {
+    "layer": "U074_McGiffert House",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U074D0100": {
+    "layer": "U074_McGiffert House",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U074D0700": {
+    "layer": "U074_McGiffert House",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U074D0800": {
+    "layer": "U074_McGiffert House",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U074D1000": {
+    "layer": "U074_McGiffert House",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U075B00": {
+    "layer": "U075_Jones Laboratory",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U075D0100": {
+    "layer": "U075_Jones Laboratory",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U075D0700": {
+    "layer": "U075_Jones Laboratory",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U075D0800": {
+    "layer": "U075_Jones Laboratory",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U075D1000": {
+    "layer": "U075_Jones Laboratory",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U076B00": {
+    "layer": "U076_Alpha Delta Phi House",
+    "category": "building",
+    "material": "Brick"
+  },
+  "U076D0200": {
+    "layer": "U076_Alpha Delta Phi House",
+    "category": "building",
+    "material": "Brick"
+  },
+  "U076D0700": {
+    "layer": "U076_Alpha Delta Phi House",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U076D0800": {
+    "layer": "U076_Alpha Delta Phi House",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U076D1000": {
+    "layer": "U076_Alpha Delta Phi House",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U077B00": {
+    "layer": "U077_U of C Nursery School",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U077D0100": {
+    "layer": "U077_U of C Nursery School",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U077D0700": {
+    "layer": "U077_U of C Nursery School",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U077D0800": {
+    "layer": "U077_U of C Nursery School",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U077D1000": {
+    "layer": "U077_U of C Nursery School",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U078B00": {
+    "layer": "U078_Cummings Life Sciences Center",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U078D0100": {
+    "layer": "U078_Cummings Life Sciences Center",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U078D0700": {
+    "layer": "U078_Cummings Life Sciences Center",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U078D0800": {
+    "layer": "U078_Cummings Life Sciences Center",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U078D1000": {
+    "layer": "U078_Cummings Life Sciences Center",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U079B00": {
+    "layer": "U079_Kovler",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U079D0100": {
+    "layer": "U079_Kovler",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U079D0700": {
+    "layer": "U079_Kovler",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U079D0800": {
+    "layer": "U079_Kovler",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U079D1000": {
+    "layer": "U079_Kovler",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U080B00": {
+    "layer": "U080_Saieh Hall for Economics",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U080B01": {
+    "layer": "U080_Saieh Hall for Economics",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U080D0000": {
+    "layer": "U080_Saieh Hall for Economics",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U080D0100": {
+    "layer": "U080_Saieh Hall for Economics",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U080D0300": {
+    "layer": "U080_Saieh Hall for Economics",
+    "category": "building",
+    "material": "Slate"
+  },
+  "U080D0900": {
+    "layer": "U080_Saieh Hall for Economics",
+    "category": "building",
+    "material": "DarkGlass"
+  },
+  "U081B00": {
+    "layer": "U081_Frederick C. Robie House",
+    "category": "building",
+    "material": "Brick"
+  },
+  "U081B01": {
+    "layer": "U081_Frederick C. Robie House",
+    "category": "building",
+    "material": "Brick"
+  },
+  "U081D0200": {
+    "layer": "U081_Frederick C. Robie House",
+    "category": "building",
+    "material": "Brick"
+  },
+  "U081D0400": {
+    "layer": "U081_Frederick C. Robie House",
+    "category": "building",
+    "material": "Tile"
+  },
+  "U081D0800": {
+    "layer": "U081_Frederick C. Robie House",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U081D1000": {
+    "layer": "U081_Frederick C. Robie House",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U082B00": {
+    "layer": "U082_American School",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U082D0100": {
+    "layer": "U082_American School",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U082D0700": {
+    "layer": "U082_American School",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U082D0800": {
+    "layer": "U082_American School",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U082D1000": {
+    "layer": "U082_American School",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U083B00": {
+    "layer": "U083_University Bookstore",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U083D0100": {
+    "layer": "U083_University Bookstore",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U083D0700": {
+    "layer": "U083_University Bookstore",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U083D0800": {
+    "layer": "U083_University Bookstore",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U083D1000": {
+    "layer": "U083_University Bookstore",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U084B00": {
+    "layer": "U084_Edward H. Levi Hall",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U084D0100": {
+    "layer": "U084_Edward H. Levi Hall",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U084D0700": {
+    "layer": "U084_Edward H. Levi Hall",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U084D0800": {
+    "layer": "U084_Edward H. Levi Hall",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U084D1000": {
+    "layer": "U084_Edward H. Levi Hall",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U085B00": {
+    "layer": "U085_Frank R. Lillie House",
+    "category": "building",
+    "material": "Brick"
+  },
+  "U085D0200": {
+    "layer": "U085_Frank R. Lillie House",
+    "category": "building",
+    "material": "Brick"
+  },
+  "U085D0700": {
+    "layer": "U085_Frank R. Lillie House",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U085D0800": {
+    "layer": "U085_Frank R. Lillie House",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U085D1000": {
+    "layer": "U085_Frank R. Lillie House",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U086B00": {
+    "layer": "U086_Abbott Hall",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U086D0100": {
+    "layer": "U086_Abbott Hall",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U086D0700": {
+    "layer": "U086_Abbott Hall",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U086D0800": {
+    "layer": "U086_Abbott Hall",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U086D1000": {
+    "layer": "U086_Abbott Hall",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U087B00": {
+    "layer": "U087_Bernard A. Mitchell Hospital",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U087D0100": {
+    "layer": "U087_Bernard A. Mitchell Hospital",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U087D0700": {
+    "layer": "U087_Bernard A. Mitchell Hospital",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U087D0800": {
+    "layer": "U087_Bernard A. Mitchell Hospital",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U087D1000": {
+    "layer": "U087_Bernard A. Mitchell Hospital",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U088B00": {
+    "layer": "U088_Institute for the Study of Ancient Cultures",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U088D0100": {
+    "layer": "U088_Institute for the Study of Ancient Cultures",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U088D0700": {
+    "layer": "U088_Institute for the Study of Ancient Cultures",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U088D0800": {
+    "layer": "U088_Institute for the Study of Ancient Cultures",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U088D1000": {
+    "layer": "U088_Institute for the Study of Ancient Cultures",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U089B00": {
+    "layer": "U089_Wilder House",
+    "category": "building",
+    "material": "Brick"
+  },
+  "U089D0200": {
+    "layer": "U089_Wilder House",
+    "category": "building",
+    "material": "Brick"
+  },
+  "U089D0700": {
+    "layer": "U089_Wilder House",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U089D0800": {
+    "layer": "U089_Wilder House",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U089D1000": {
+    "layer": "U089_Wilder House",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U090B00": {
+    "layer": "U090_Gordon Parks Arts Hall",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U090D0100": {
+    "layer": "U090_Gordon Parks Arts Hall",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U090D0700": {
+    "layer": "U090_Gordon Parks Arts Hall",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U090D0800": {
+    "layer": "U090_Gordon Parks Arts Hall",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U090D1000": {
+    "layer": "U090_Gordon Parks Arts Hall",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U091B00": {
+    "layer": "U091_Surgery Brain",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U091D0100": {
+    "layer": "U091_Surgery Brain",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U091D0700": {
+    "layer": "U091_Surgery Brain",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U091D0800": {
+    "layer": "U091_Surgery Brain",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U091D1000": {
+    "layer": "U091_Surgery Brain",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U092B00": {
+    "layer": "U092_Carlson",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U092D0100": {
+    "layer": "U092_Carlson",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U092D0700": {
+    "layer": "U092_Carlson",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U092D0800": {
+    "layer": "U092_Carlson",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U092D1000": {
+    "layer": "U092_Carlson",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U093B00": {
+    "layer": "U093_Peck Pavilion",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U093D0100": {
+    "layer": "U093_Peck Pavilion",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U093D0700": {
+    "layer": "U093_Peck Pavilion",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U093D0800": {
+    "layer": "U093_Peck Pavilion",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U093D1000": {
+    "layer": "U093_Peck Pavilion",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U094B00": {
+    "layer": "U094_Medical Campus Parking Garage A",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U094D0100": {
+    "layer": "U094_Medical Campus Parking Garage A",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U094D0700": {
+    "layer": "U094_Medical Campus Parking Garage A",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U094D0800": {
+    "layer": "U094_Medical Campus Parking Garage A",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U094D1000": {
+    "layer": "U094_Medical Campus Parking Garage A",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U095B00": {
+    "layer": "U095_Charles M. Harper Center",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U095D0100": {
+    "layer": "U095_Charles M. Harper Center",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U095D0700": {
+    "layer": "U095_Charles M. Harper Center",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U095D0800": {
+    "layer": "U095_Charles M. Harper Center",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U095D1000": {
+    "layer": "U095_Charles M. Harper Center",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U096B00": {
+    "layer": "U096_MRI",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U096D0100": {
+    "layer": "U096_MRI",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U096D0700": {
+    "layer": "U096_MRI",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U096D0800": {
+    "layer": "U096_MRI",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U096D1000": {
+    "layer": "U096_MRI",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U097B00": {
+    "layer": "U097_Walker Museum",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U097D0100": {
+    "layer": "U097_Walker Museum",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U097D0300": {
+    "layer": "U097_Walker Museum",
+    "category": "building",
+    "material": "Slate"
+  },
+  "U097D0900": {
+    "layer": "U097_Walker Museum",
+    "category": "building",
+    "material": "DarkGlass"
+  },
+  "U098B00": {
+    "layer": "U098_Cobb Hall",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U098D0100": {
+    "layer": "U098_Cobb Hall",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U098D0300": {
+    "layer": "U098_Cobb Hall",
+    "category": "building",
+    "material": "Slate"
+  },
+  "U098D0900": {
+    "layer": "U098_Cobb Hall",
+    "category": "building",
+    "material": "DarkGlass"
+  },
+  "U099B00": {
+    "layer": "U099_Belfield Hall",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U099D0100": {
+    "layer": "U099_Belfield Hall",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U099D0300": {
+    "layer": "U099_Belfield Hall",
+    "category": "building",
+    "material": "Slate"
+  },
+  "U099D0900": {
+    "layer": "U099_Belfield Hall",
+    "category": "building",
+    "material": "DarkGlass"
+  },
+  "U100B00": {
+    "layer": "U100_Pick Hall",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U100D0100": {
+    "layer": "U100_Pick Hall",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U100D0300": {
+    "layer": "U100_Pick Hall",
+    "category": "building",
+    "material": "Slate"
+  },
+  "U100D0900": {
+    "layer": "U100_Pick Hall",
+    "category": "building",
+    "material": "DarkGlass"
+  },
+  "U101B00": {
+    "layer": "U101_Swift Hall",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U101D0100": {
+    "layer": "U101_Swift Hall",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U101D0300": {
+    "layer": "U101_Swift Hall",
+    "category": "building",
+    "material": "Slate"
+  },
+  "U101D0900": {
+    "layer": "U101_Swift Hall",
+    "category": "building",
+    "material": "DarkGlass"
+  },
+  "U102B00": {
+    "layer": "U102_Rosenwald Hall",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U102D0100": {
+    "layer": "U102_Rosenwald Hall",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U102D0300": {
+    "layer": "U102_Rosenwald Hall",
+    "category": "building",
+    "material": "Slate"
+  },
+  "U102D0900": {
+    "layer": "U102_Rosenwald Hall",
+    "category": "building",
+    "material": "DarkGlass"
+  },
+  "U103B00": {
+    "layer": "U103_Rubloff Intensive Care",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U103D0100": {
+    "layer": "U103_Rubloff Intensive Care",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U103D0700": {
+    "layer": "U103_Rubloff Intensive Care",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U103D0800": {
+    "layer": "U103_Rubloff Intensive Care",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U103D1000": {
+    "layer": "U103_Rubloff Intensive Care",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U104B00": {
+    "layer": "U104_Sunny Gymnasium",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U104D0100": {
+    "layer": "U104_Sunny Gymnasium",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U104D0700": {
+    "layer": "U104_Sunny Gymnasium",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U104D0800": {
+    "layer": "U104_Sunny Gymnasium",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U104D1000": {
+    "layer": "U104_Sunny Gymnasium",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U105B00": {
+    "layer": "U105_Armour",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U105D0100": {
+    "layer": "U105_Armour",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U105D0700": {
+    "layer": "U105_Armour",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U105D0800": {
+    "layer": "U105_Armour",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U105D1000": {
+    "layer": "U105_Armour",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U106B00": {
+    "layer": "U106_Beecher Hall",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U106D0100": {
+    "layer": "U106_Beecher Hall",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U106D0300": {
+    "layer": "U106_Beecher Hall",
+    "category": "building",
+    "material": "Slate"
+  },
+  "U106D0900": {
+    "layer": "U106_Beecher Hall",
+    "category": "building",
+    "material": "DarkGlass"
+  },
+  "U107B00": {
+    "layer": "U107_Bond Chapel",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U107D0100": {
+    "layer": "U107_Bond Chapel",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U107D0300": {
+    "layer": "U107_Bond Chapel",
+    "category": "building",
+    "material": "Slate"
+  },
+  "U107D0900": {
+    "layer": "U107_Bond Chapel",
+    "category": "building",
+    "material": "DarkGlass"
+  },
+  "U108B00": {
+    "layer": "U108_Wyler Children's Hospital",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U108D0100": {
+    "layer": "U108_Wyler Children's Hospital",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U108D0700": {
+    "layer": "U108_Wyler Children's Hospital",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U108D0800": {
+    "layer": "U108_Wyler Children's Hospital",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U108D1000": {
+    "layer": "U108_Wyler Children's Hospital",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U109B00": {
+    "layer": "U109_Judd Hall",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U109D0100": {
+    "layer": "U109_Judd Hall",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U109D0300": {
+    "layer": "U109_Judd Hall",
+    "category": "building",
+    "material": "Slate"
+  },
+  "U109D0900": {
+    "layer": "U109_Judd Hall",
+    "category": "building",
+    "material": "DarkGlass"
+  },
+  "U110B00": {
+    "layer": "U110_University High School",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U110D0100": {
+    "layer": "U110_University High School",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U110D0300": {
+    "layer": "U110_University High School",
+    "category": "building",
+    "material": "Slate"
+  },
+  "U110D0900": {
+    "layer": "U110_University High School",
+    "category": "building",
+    "material": "DarkGlass"
+  },
+  "U111B00": {
+    "layer": "U111_Laboratory Middle School",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U111D0100": {
+    "layer": "U111_Laboratory Middle School",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U111D0300": {
+    "layer": "U111_Laboratory Middle School",
+    "category": "building",
+    "material": "Slate"
+  },
+  "U111D0900": {
+    "layer": "U111_Laboratory Middle School",
+    "category": "building",
+    "material": "DarkGlass"
+  },
+  "U112B00": {
+    "layer": "U112_Rockefeller Memorial Chapel",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U112B01": {
+    "layer": "U112_Rockefeller Memorial Chapel",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U112B02": {
+    "layer": "U112_Rockefeller Memorial Chapel",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U112B03": {
+    "layer": "U112_Rockefeller Memorial Chapel",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U112D0000": {
+    "layer": "U112_Rockefeller Memorial Chapel",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U112D0100": {
+    "layer": "U112_Rockefeller Memorial Chapel",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U112D0300": {
+    "layer": "U112_Rockefeller Memorial Chapel",
+    "category": "building",
+    "material": "Slate"
+  },
+  "U112D0900": {
+    "layer": "U112_Rockefeller Memorial Chapel",
+    "category": "building",
+    "material": "DarkGlass"
+  },
+  "U113B00": {
+    "layer": "U113_Franklin McLean Research Institute",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U113D0100": {
+    "layer": "U113_Franklin McLean Research Institute",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U113D0700": {
+    "layer": "U113_Franklin McLean Research Institute",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U113D0800": {
+    "layer": "U113_Franklin McLean Research Institute",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U113D1000": {
+    "layer": "U113_Franklin McLean Research Institute",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U114B00": {
+    "layer": "U114_Gates-Blake Hall",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U114D0100": {
+    "layer": "U114_Gates-Blake Hall",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U114D0300": {
+    "layer": "U114_Gates-Blake Hall",
+    "category": "building",
+    "material": "Slate"
+  },
+  "U114D0900": {
+    "layer": "U114_Gates-Blake Hall",
+    "category": "building",
+    "material": "DarkGlass"
+  },
+  "U115B00": {
+    "layer": "U115_Green Hall",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U115D0100": {
+    "layer": "U115_Green Hall",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U115D0300": {
+    "layer": "U115_Green Hall",
+    "category": "building",
+    "material": "Slate"
+  },
+  "U115D0900": {
+    "layer": "U115_Green Hall",
+    "category": "building",
+    "material": "DarkGlass"
+  },
+  "U116B00": {
+    "layer": "U116_Billings",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U116D0100": {
+    "layer": "U116_Billings",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U116D0700": {
+    "layer": "U116_Billings",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U116D0800": {
+    "layer": "U116_Billings",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U116D1000": {
+    "layer": "U116_Billings",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U117B00": {
+    "layer": "U117_Stuart Hall",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U117D0100": {
+    "layer": "U117_Stuart Hall",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U117D0300": {
+    "layer": "U117_Stuart Hall",
+    "category": "building",
+    "material": "Slate"
+  },
+  "U117D0900": {
+    "layer": "U117_Stuart Hall",
+    "category": "building",
+    "material": "DarkGlass"
+  },
+  "U118B00": {
+    "layer": "U118_Haskell Hall",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U118D0100": {
+    "layer": "U118_Haskell Hall",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U118D0300": {
+    "layer": "U118_Haskell Hall",
+    "category": "building",
+    "material": "Slate"
+  },
+  "U118D0900": {
+    "layer": "U118_Haskell Hall",
+    "category": "building",
+    "material": "DarkGlass"
+  },
+  "U119B00": {
+    "layer": "U119_Kovler Gymnasium",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U119D0100": {
+    "layer": "U119_Kovler Gymnasium",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U119D0700": {
+    "layer": "U119_Kovler Gymnasium",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U119D0800": {
+    "layer": "U119_Kovler Gymnasium",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U119D1000": {
+    "layer": "U119_Kovler Gymnasium",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U120B00": {
+    "layer": "U120_Gilman Smith",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U120D0100": {
+    "layer": "U120_Gilman Smith",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U120D0700": {
+    "layer": "U120_Gilman Smith",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U120D0800": {
+    "layer": "U120_Gilman Smith",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U120D1000": {
+    "layer": "U120_Gilman Smith",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U121B00": {
+    "layer": "U121_Parking_Materials Management",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U121D0100": {
+    "layer": "U121_Parking_Materials Management",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U121D0700": {
+    "layer": "U121_Parking_Materials Management",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U121D0800": {
+    "layer": "U121_Parking_Materials Management",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U121D1000": {
+    "layer": "U121_Parking_Materials Management",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U122B00": {
+    "layer": "U122_Goldblatt Pavilion",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U122D0100": {
+    "layer": "U122_Goldblatt Pavilion",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U122D0700": {
+    "layer": "U122_Goldblatt Pavilion",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U122D0800": {
+    "layer": "U122_Goldblatt Pavilion",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U122D1000": {
+    "layer": "U122_Goldblatt Pavilion",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U123B00": {
+    "layer": "U123_Goldblatt",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U123D0100": {
+    "layer": "U123_Goldblatt",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U123D0700": {
+    "layer": "U123_Goldblatt",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U123D0800": {
+    "layer": "U123_Goldblatt",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U123D1000": {
+    "layer": "U123_Goldblatt",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U124B00": {
+    "layer": "U124_International House",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U124D0100": {
+    "layer": "U124_International House",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U124D0300": {
+    "layer": "U124_International House",
+    "category": "building",
+    "material": "Slate"
+  },
+  "U124D0900": {
+    "layer": "U124_International House",
+    "category": "building",
+    "material": "DarkGlass"
+  },
+  "U125B00": {
+    "layer": "U125_Chicago Lying-In Hospital",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U125D0100": {
+    "layer": "U125_Chicago Lying-In Hospital",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U125D0700": {
+    "layer": "U125_Chicago Lying-In Hospital",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U125D0800": {
+    "layer": "U125_Chicago Lying-In Hospital",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U125D1000": {
+    "layer": "U125_Chicago Lying-In Hospital",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U126B00": {
+    "layer": "U126_Ida Noyes Hall",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U126D0100": {
+    "layer": "U126_Ida Noyes Hall",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U126D0300": {
+    "layer": "U126_Ida Noyes Hall",
+    "category": "building",
+    "material": "Slate"
+  },
+  "U126D0900": {
+    "layer": "U126_Ida Noyes Hall",
+    "category": "building",
+    "material": "DarkGlass"
+  },
+  "U127B00": {
+    "layer": "U127_Kelly Hall",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U127D0100": {
+    "layer": "U127_Kelly Hall",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U127D0300": {
+    "layer": "U127_Kelly Hall",
+    "category": "building",
+    "material": "Slate"
+  },
+  "U127D0900": {
+    "layer": "U127_Kelly Hall",
+    "category": "building",
+    "material": "DarkGlass"
+  },
+  "U128B00": {
+    "layer": "U128_Goodspeed Hall",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U128D0100": {
+    "layer": "U128_Goodspeed Hall",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U128D0300": {
+    "layer": "U128_Goodspeed Hall",
+    "category": "building",
+    "material": "Slate"
+  },
+  "U128D0900": {
+    "layer": "U128_Goodspeed Hall",
+    "category": "building",
+    "material": "DarkGlass"
+  },
+  "U129B00": {
+    "layer": "U129_UChicago Student Wellness Center",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U129D0100": {
+    "layer": "U129_UChicago Student Wellness Center",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U129D0700": {
+    "layer": "U129_UChicago Student Wellness Center",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U129D0800": {
+    "layer": "U129_UChicago Student Wellness Center",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U129D1000": {
+    "layer": "U129_UChicago Student Wellness Center",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U130B00": {
+    "layer": "U130_UChicago President's Mansion",
+    "category": "building",
+    "material": "Brick"
+  },
+  "U130D0200": {
+    "layer": "U130_UChicago President's Mansion",
+    "category": "building",
+    "material": "Brick"
+  },
+  "U130D0700": {
+    "layer": "U130_UChicago President's Mansion",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U130D0800": {
+    "layer": "U130_UChicago President's Mansion",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U130D1000": {
+    "layer": "U130_UChicago President's Mansion",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U131B00": {
+    "layer": "U131_Blaine Hall",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U131D0100": {
+    "layer": "U131_Blaine Hall",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U131D0300": {
+    "layer": "U131_Blaine Hall",
+    "category": "building",
+    "material": "Slate"
+  },
+  "U131D0900": {
+    "layer": "U131_Blaine Hall",
+    "category": "building",
+    "material": "DarkGlass"
+  },
+  "U132B00": {
+    "layer": "U132_Breckinridge House",
+    "category": "building",
+    "material": "Brick"
+  },
+  "U132D0200": {
+    "layer": "U132_Breckinridge House",
+    "category": "building",
+    "material": "Brick"
+  },
+  "U132D0700": {
+    "layer": "U132_Breckinridge House",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U132D0800": {
+    "layer": "U132_Breckinridge House",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U132D1000": {
+    "layer": "U132_Breckinridge House",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U133B00": {
+    "layer": "U133_Social Science Research Building",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U133D0100": {
+    "layer": "U133_Social Science Research Building",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U133D0300": {
+    "layer": "U133_Social Science Research Building",
+    "category": "building",
+    "material": "Slate"
+  },
+  "U133D0900": {
+    "layer": "U133_Social Science Research Building",
+    "category": "building",
+    "material": "DarkGlass"
+  },
+  "U134B00": {
+    "layer": "U134_Wieboldt Hall",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U134D0100": {
+    "layer": "U134_Wieboldt Hall",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U134D0300": {
+    "layer": "U134_Wieboldt Hall",
+    "category": "building",
+    "material": "Slate"
+  },
+  "U134D0900": {
+    "layer": "U134_Wieboldt Hall",
+    "category": "building",
+    "material": "DarkGlass"
+  },
+  "U135B00": {
+    "layer": "U135_Bobs Roberts",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U135D0100": {
+    "layer": "U135_Bobs Roberts",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U135D0700": {
+    "layer": "U135_Bobs Roberts",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U135D0800": {
+    "layer": "U135_Bobs Roberts",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U135D1000": {
+    "layer": "U135_Bobs Roberts",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U136B00": {
+    "layer": "U136_Harper Memorial Library",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U136B01": {
+    "layer": "U136_Harper Memorial Library",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U136B02": {
+    "layer": "U136_Harper Memorial Library",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U136D0000": {
+    "layer": "U136_Harper Memorial Library",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U136D0100": {
+    "layer": "U136_Harper Memorial Library",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U136D0300": {
+    "layer": "U136_Harper Memorial Library",
+    "category": "building",
+    "material": "Slate"
+  },
+  "U136D0900": {
+    "layer": "U136_Harper Memorial Library",
+    "category": "building",
+    "material": "DarkGlass"
+  },
+  "U137B00": {
+    "layer": "U137_Classics Building",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U137D0100": {
+    "layer": "U137_Classics Building",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U137D0300": {
+    "layer": "U137_Classics Building",
+    "category": "building",
+    "material": "Slate"
+  },
+  "U137D0900": {
+    "layer": "U137_Classics Building",
+    "category": "building",
+    "material": "DarkGlass"
+  },
+  "U138B00": {
+    "layer": "U138_Hicks McElwee",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U138D0100": {
+    "layer": "U138_Hicks McElwee",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U138D0700": {
+    "layer": "U138_Hicks McElwee",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U138D0800": {
+    "layer": "U138_Hicks McElwee",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U138D1000": {
+    "layer": "U138_Hicks McElwee",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U139B00": {
+    "layer": "U139_Foster Hall",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U139D0100": {
+    "layer": "U139_Foster Hall",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U139D0300": {
+    "layer": "U139_Foster Hall",
+    "category": "building",
+    "material": "Slate"
+  },
+  "U139D0900": {
+    "layer": "U139_Foster Hall",
+    "category": "building",
+    "material": "DarkGlass"
+  },
+  "U140B00": {
+    "layer": "U140_Chapin Hall",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U140D0100": {
+    "layer": "U140_Chapin Hall",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U140D0700": {
+    "layer": "U140_Chapin Hall",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U140D0800": {
+    "layer": "U140_Chapin Hall",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U140D1000": {
+    "layer": "U140_Chapin Hall",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U141B00": {
+    "layer": "U141_Toyota Technological Institute",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U141D0100": {
+    "layer": "U141_Toyota Technological Institute",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U141D0700": {
+    "layer": "U141_Toyota Technological Institute",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U141D0800": {
+    "layer": "U141_Toyota Technological Institute",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U141D1000": {
+    "layer": "U141_Toyota Technological Institute",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U142B00": {
+    "layer": "U142_University Press Building",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U142D0100": {
+    "layer": "U142_University Press Building",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U142D0700": {
+    "layer": "U142_University Press Building",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U142D0800": {
+    "layer": "U142_University Press Building",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U142D1000": {
+    "layer": "U142_University Press Building",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U143B00": {
+    "layer": "U143_Rubenstein Forum",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U143B01": {
+    "layer": "U143_Rubenstein Forum",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U143B02": {
+    "layer": "U143_Rubenstein Forum",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U143B03": {
+    "layer": "U143_Rubenstein Forum",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U143B04": {
+    "layer": "U143_Rubenstein Forum",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U143D0700": {
+    "layer": "U143_Rubenstein Forum",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U143D0800": {
+    "layer": "U143_Rubenstein Forum",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U143D1000": {
+    "layer": "U143_Rubenstein Forum",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U144B00": {
+    "layer": "U144_Erna Heller Hall",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U144D0100": {
+    "layer": "U144_Erna Heller Hall",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U144D0700": {
+    "layer": "U144_Erna Heller Hall",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U144D0800": {
+    "layer": "U144_Erna Heller Hall",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U144D1000": {
+    "layer": "U144_Erna Heller Hall",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U145B00": {
+    "layer": "U145_Chicago Theological Seminary",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U145D0100": {
+    "layer": "U145_Chicago Theological Seminary",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U145D0700": {
+    "layer": "U145_Chicago Theological Seminary",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U145D0800": {
+    "layer": "U145_Chicago Theological Seminary",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U145D1000": {
+    "layer": "U145_Chicago Theological Seminary",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U146B00": {
+    "layer": "U146_Taft House",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U146D0100": {
+    "layer": "U146_Taft House",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U146D0700": {
+    "layer": "U146_Taft House",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U146D0800": {
+    "layer": "U146_Taft House",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U146D1000": {
+    "layer": "U146_Taft House",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U147B00": {
+    "layer": "U147_Campus ancillary building 663674229",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U147D0100": {
+    "layer": "U147_Campus ancillary building 663674229",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U147D0700": {
+    "layer": "U147_Campus ancillary building 663674229",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U147D0800": {
+    "layer": "U147_Campus ancillary building 663674229",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U147D1000": {
+    "layer": "U147_Campus ancillary building 663674229",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U148B00": {
+    "layer": "U148_Harris School of Public Policy Keller Center",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U148B01": {
+    "layer": "U148_Harris School of Public Policy Keller Center",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U148D0100": {
+    "layer": "U148_Harris School of Public Policy Keller Center",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U148D0700": {
+    "layer": "U148_Harris School of Public Policy Keller Center",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U148D0800": {
+    "layer": "U148_Harris School of Public Policy Keller Center",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U148D1000": {
+    "layer": "U148_Harris School of Public Policy Keller Center",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U148D1600": {
+    "layer": "U148_Harris School of Public Policy Keller Center",
+    "category": "building",
+    "material": "Garden"
+  },
+  "U148D2400": {
+    "layer": "U148_Harris School of Public Policy Keller Center",
+    "category": "building",
+    "material": "Solar"
+  },
+  "U149B00": {
+    "layer": "U149_Edith Abbott Hall _ Crown Family School",
+    "category": "building",
+    "material": "Brick"
+  },
+  "U149D0800": {
+    "layer": "U149_Edith Abbott Hall _ Crown Family School",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U149D1000": {
+    "layer": "U149_Edith Abbott Hall _ Crown Family School",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U150B00": {
+    "layer": "U150_The Study at the University of Chicago",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U150D0100": {
+    "layer": "U150_The Study at the University of Chicago",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U150D0700": {
+    "layer": "U150_The Study at the University of Chicago",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U150D0800": {
+    "layer": "U150_The Study at the University of Chicago",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U150D1000": {
+    "layer": "U150_The Study at the University of Chicago",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U151B00": {
+    "layer": "U151_Faculty Apartments",
+    "category": "building",
+    "material": "Brick"
+  },
+  "U151D0200": {
+    "layer": "U151_Faculty Apartments",
+    "category": "building",
+    "material": "Brick"
+  },
+  "U151D0700": {
+    "layer": "U151_Faculty Apartments",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U151D0800": {
+    "layer": "U151_Faculty Apartments",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U151D1000": {
+    "layer": "U151_Faculty Apartments",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U152B00": {
+    "layer": "U152_1155 East 60th Street",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U152D0100": {
+    "layer": "U152_1155 East 60th Street",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U152D0700": {
+    "layer": "U152_1155 East 60th Street",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U152D0800": {
+    "layer": "U152_1155 East 60th Street",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U152D1000": {
+    "layer": "U152_1155 East 60th Street",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U153B00": {
+    "layer": "U153_Midway Studios",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U153D0100": {
+    "layer": "U153_Midway Studios",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U153D0700": {
+    "layer": "U153_Midway Studios",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U153D0800": {
+    "layer": "U153_Midway Studios",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U153D1000": {
+    "layer": "U153_Midway Studios",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U154B00": {
+    "layer": "U154_Burton-Judson Courts",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U154D0100": {
+    "layer": "U154_Burton-Judson Courts",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U154D0300": {
+    "layer": "U154_Burton-Judson Courts",
+    "category": "building",
+    "material": "Slate"
+  },
+  "U154D0900": {
+    "layer": "U154_Burton-Judson Courts",
+    "category": "building",
+    "material": "DarkGlass"
+  },
+  "U155B00": {
+    "layer": "U155_Logan Center for the Arts",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U155B01": {
+    "layer": "U155_Logan Center for the Arts",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U155D0700": {
+    "layer": "U155_Logan Center for the Arts",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U155D0800": {
+    "layer": "U155_Logan Center for the Arts",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U155D1000": {
+    "layer": "U155_Logan Center for the Arts",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U156B00": {
+    "layer": "U156_Faculty Apartments",
+    "category": "building",
+    "material": "Brick"
+  },
+  "U156D0200": {
+    "layer": "U156_Faculty Apartments",
+    "category": "building",
+    "material": "Brick"
+  },
+  "U156D0700": {
+    "layer": "U156_Faculty Apartments",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U156D0800": {
+    "layer": "U156_Faculty Apartments",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U156D1000": {
+    "layer": "U156_Faculty Apartments",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U157B00": {
+    "layer": "U157_Laird Bell Law Quadrangle",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U157B01": {
+    "layer": "U157_Laird Bell Law Quadrangle",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U157B02": {
+    "layer": "U157_Laird Bell Law Quadrangle",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U157D0700": {
+    "layer": "U157_Laird Bell Law Quadrangle",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U157D0800": {
+    "layer": "U157_Laird Bell Law Quadrangle",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U157D1000": {
+    "layer": "U157_Laird Bell Law Quadrangle",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U158B00": {
+    "layer": "U158_Midway Residence Hall",
+    "category": "building",
+    "material": "Brick"
+  },
+  "U158D0200": {
+    "layer": "U158_Midway Residence Hall",
+    "category": "building",
+    "material": "Brick"
+  },
+  "U158D0700": {
+    "layer": "U158_Midway Residence Hall",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U158D0800": {
+    "layer": "U158_Midway Residence Hall",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U158D1000": {
+    "layer": "U158_Midway Residence Hall",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U159B00": {
+    "layer": "U159_Faculty Apartments",
+    "category": "building",
+    "material": "Brick"
+  },
+  "U159D0200": {
+    "layer": "U159_Faculty Apartments",
+    "category": "building",
+    "material": "Brick"
+  },
+  "U159D0700": {
+    "layer": "U159_Faculty Apartments",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U159D0800": {
+    "layer": "U159_Faculty Apartments",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U159D1000": {
+    "layer": "U159_Faculty Apartments",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U160B00": {
+    "layer": "U160_South Campus Chiller Plant",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U160D0100": {
+    "layer": "U160_South Campus Chiller Plant",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U160D0700": {
+    "layer": "U160_South Campus Chiller Plant",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U160D0800": {
+    "layer": "U160_South Campus Chiller Plant",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U160D1000": {
+    "layer": "U160_South Campus Chiller Plant",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U161B00": {
+    "layer": "U161_Edelstone Center",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U161D0100": {
+    "layer": "U161_Edelstone Center",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U161D0700": {
+    "layer": "U161_Edelstone Center",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U161D0800": {
+    "layer": "U161_Edelstone Center",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U161D1000": {
+    "layer": "U161_Edelstone Center",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U162B00": {
+    "layer": "U162_6041 South Blackstone Avenue",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U162D0100": {
+    "layer": "U162_6041 South Blackstone Avenue",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U162D0700": {
+    "layer": "U162_6041 South Blackstone Avenue",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U162D0800": {
+    "layer": "U162_6041 South Blackstone Avenue",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U162D1000": {
+    "layer": "U162_6041 South Blackstone Avenue",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U163B00": {
+    "layer": "U163_Kimbark South Parking Garage",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U163D0100": {
+    "layer": "U163_Kimbark South Parking Garage",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U163D0700": {
+    "layer": "U163_Kimbark South Parking Garage",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U163D0800": {
+    "layer": "U163_Kimbark South Parking Garage",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U163D1000": {
+    "layer": "U163_Kimbark South Parking Garage",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U164B00": {
+    "layer": "U164_6045 Kenwood Building",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U164D0100": {
+    "layer": "U164_6045 Kenwood Building",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U164D0700": {
+    "layer": "U164_6045 Kenwood Building",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U164D0800": {
+    "layer": "U164_6045 Kenwood Building",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U164D1000": {
+    "layer": "U164_6045 Kenwood Building",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U165B00": {
+    "layer": "U165_6054 S. Drexel _ Campus South Parking",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U165B01": {
+    "layer": "U165_6054 S. Drexel _ Campus South Parking",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U165B02": {
+    "layer": "U165_6054 S. Drexel _ Campus South Parking",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U165B03": {
+    "layer": "U165_6054 S. Drexel _ Campus South Parking",
+    "category": "building",
+    "material": "Concrete"
+  },
+  "U165D0700": {
+    "layer": "U165_6054 S. Drexel _ Campus South Parking",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U165D0800": {
+    "layer": "U165_6054 S. Drexel _ Campus South Parking",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U165D1000": {
+    "layer": "U165_6054 S. Drexel _ Campus South Parking",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U166B00": {
+    "layer": "U166_Woodlawn Residential & Dining Commons",
+    "category": "building",
+    "material": "WhitePanel"
+  },
+  "U166B01": {
+    "layer": "U166_Woodlawn Residential & Dining Commons",
+    "category": "building",
+    "material": "WhitePanel"
+  },
+  "U166D0700": {
+    "layer": "U166_Woodlawn Residential & Dining Commons",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U166D0800": {
+    "layer": "U166_Woodlawn Residential & Dining Commons",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U166D1000": {
+    "layer": "U166_Woodlawn Residential & Dining Commons",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U167B00": {
+    "layer": "U167_Center for Research Libraries",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U167D0100": {
+    "layer": "U167_Center for Research Libraries",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U167D0700": {
+    "layer": "U167_Center for Research Libraries",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U167D0800": {
+    "layer": "U167_Center for Research Libraries",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U167D1000": {
+    "layer": "U167_Center for Research Libraries",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U168B00": {
+    "layer": "U168_Renee Granville-Grossman Residential Commons",
+    "category": "building",
+    "material": "Brick"
+  },
+  "U168D0200": {
+    "layer": "U168_Renee Granville-Grossman Residential Commons",
+    "category": "building",
+    "material": "Brick"
+  },
+  "U168D0700": {
+    "layer": "U168_Renee Granville-Grossman Residential Commons",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U168D0800": {
+    "layer": "U168_Renee Granville-Grossman Residential Commons",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U168D1000": {
+    "layer": "U168_Renee Granville-Grossman Residential Commons",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U169B00": {
+    "layer": "U169_University of Chicago Steam Plant",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U169D0100": {
+    "layer": "U169_University of Chicago Steam Plant",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U169D0700": {
+    "layer": "U169_University of Chicago Steam Plant",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U169D0800": {
+    "layer": "U169_University of Chicago Steam Plant",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U169D1000": {
+    "layer": "U169_University of Chicago Steam Plant",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U170B00": {
+    "layer": "U170_6044-6052 South Ingleside Avenue",
+    "category": "building",
+    "material": "Brick"
+  },
+  "U170D0200": {
+    "layer": "U170_6044-6052 South Ingleside Avenue",
+    "category": "building",
+    "material": "Brick"
+  },
+  "U170D0700": {
+    "layer": "U170_6044-6052 South Ingleside Avenue",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U170D0800": {
+    "layer": "U170_6044-6052 South Ingleside Avenue",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U170D1000": {
+    "layer": "U170_6044-6052 South Ingleside Avenue",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U171B00": {
+    "layer": "U171_Woodlawn Social Services Center",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U171D0100": {
+    "layer": "U171_Woodlawn Social Services Center",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U171D0700": {
+    "layer": "U171_Woodlawn Social Services Center",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U171D0800": {
+    "layer": "U171_Woodlawn Social Services Center",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U171D1000": {
+    "layer": "U171_Woodlawn Social Services Center",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U172B00": {
+    "layer": "U172_Steam Plant Auxiliary Building",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U172D0100": {
+    "layer": "U172_Steam Plant Auxiliary Building",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U172D0700": {
+    "layer": "U172_Steam Plant Auxiliary Building",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U172D0800": {
+    "layer": "U172_Steam Plant Auxiliary Building",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U172D1000": {
+    "layer": "U172_Steam Plant Auxiliary Building",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U173B00": {
+    "layer": "U173_6051-6057 South Drexel Avenue",
+    "category": "building",
+    "material": "Brick"
+  },
+  "U173D0200": {
+    "layer": "U173_6051-6057 South Drexel Avenue",
+    "category": "building",
+    "material": "Brick"
+  },
+  "U173D0700": {
+    "layer": "U173_6051-6057 South Drexel Avenue",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U173D0800": {
+    "layer": "U173_6051-6057 South Drexel Avenue",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U173D1000": {
+    "layer": "U173_6051-6057 South Drexel Avenue",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U174B00": {
+    "layer": "U174_6054-6056 South Ingleside Avenue",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U174D0100": {
+    "layer": "U174_6054-6056 South Ingleside Avenue",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U174D0700": {
+    "layer": "U174_6054-6056 South Ingleside Avenue",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U174D0800": {
+    "layer": "U174_6054-6056 South Ingleside Avenue",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U174D1000": {
+    "layer": "U174_6054-6056 South Ingleside Avenue",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U175B00": {
+    "layer": "U175_920-922 East 61st Street",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U175D0100": {
+    "layer": "U175_920-922 East 61st Street",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U175D0700": {
+    "layer": "U175_920-922 East 61st Street",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U175D0800": {
+    "layer": "U175_920-922 East 61st Street",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U175D1000": {
+    "layer": "U175_920-922 East 61st Street",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U176B00": {
+    "layer": "U176_924-926 East 61st Street",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U176D0100": {
+    "layer": "U176_924-926 East 61st Street",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U176D0700": {
+    "layer": "U176_924-926 East 61st Street",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U176D0800": {
+    "layer": "U176_924-926 East 61st Street",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U176D1000": {
+    "layer": "U176_924-926 East 61st Street",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U177B00": {
+    "layer": "U177_928 East 61st Street",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U177D0100": {
+    "layer": "U177_928 East 61st Street",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U177D0700": {
+    "layer": "U177_928 East 61st Street",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U177D0800": {
+    "layer": "U177_928 East 61st Street",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U177D1000": {
+    "layer": "U177_928 East 61st Street",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U051C000": {
+    "layer": "U051_Culver",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U051K0800": {
+    "layer": "U051_Culver",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U051K0A00": {
+    "layer": "U051_Culver",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U045C010": {
+    "layer": "U045_Gordon Center for Integrative Science",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U045K1800": {
+    "layer": "U045_Gordon Center for Integrative Science",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U045K1A00": {
+    "layer": "U045_Gordon Center for Integrative Science",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U023C020": {
+    "layer": "U023_Medical Campus Parking Garage B",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U023K2800": {
+    "layer": "U023_Medical Campus Parking Garage B",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U023K2A00": {
+    "layer": "U023_Medical Campus Parking Garage B",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U066C030": {
+    "layer": "U066_Duchossois Center for Advanced Medicine",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U066K3800": {
+    "layer": "U066_Duchossois Center for Advanced Medicine",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U066K3A00": {
+    "layer": "U066_Duchossois Center for Advanced Medicine",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U066C040": {
+    "layer": "U066_Duchossois Center for Advanced Medicine",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U066K4800": {
+    "layer": "U066_Duchossois Center for Advanced Medicine",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U066K4A00": {
+    "layer": "U066_Duchossois Center for Advanced Medicine",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U028C050": {
+    "layer": "U028_William Eckhardt Research Center",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U028K5800": {
+    "layer": "U028_William Eckhardt Research Center",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U028K5A00": {
+    "layer": "U028_William Eckhardt Research Center",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U050C060": {
+    "layer": "U050_Erman Biology Center",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U050K6800": {
+    "layer": "U050_Erman Biology Center",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U050K6A00": {
+    "layer": "U050_Erman Biology Center",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U087C070": {
+    "layer": "U087_Bernard A. Mitchell Hospital",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U087K7800": {
+    "layer": "U087_Bernard A. Mitchell Hospital",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U087K7A00": {
+    "layer": "U087_Bernard A. Mitchell Hospital",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U066C080": {
+    "layer": "U066_Duchossois Center for Advanced Medicine",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U066K8800": {
+    "layer": "U066_Duchossois Center for Advanced Medicine",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U066K8A00": {
+    "layer": "U066_Duchossois Center for Advanced Medicine",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U029C090": {
+    "layer": "U029_Donnelley Biological Sciences Learning Center",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U029K9800": {
+    "layer": "U029_Donnelley Biological Sciences Learning Center",
+    "category": "building",
+    "material": "Glass"
+  },
+  "U029K9A00": {
+    "layer": "U029_Donnelley Biological Sciences Learning Center",
+    "category": "building",
+    "material": "Frame"
+  },
+  "E0100": {
+    "layer": "环境_Environment",
+    "category": "environment",
+    "material": "LightStone"
+  },
+  "E1100": {
+    "layer": "环境_Environment",
+    "category": "environment",
+    "material": "Ground"
+  },
+  "E1200": {
+    "layer": "环境_Environment",
+    "category": "environment",
+    "material": "Road"
+  },
+  "E1300": {
+    "layer": "环境_Environment",
+    "category": "environment",
+    "material": "Paving"
+  },
+  "E1400": {
+    "layer": "环境_Environment",
+    "category": "environment",
+    "material": "Walk"
+  },
+  "E1500": {
+    "layer": "环境_Environment",
+    "category": "environment",
+    "material": "Grass"
+  },
+  "E1600": {
+    "layer": "环境_Environment",
+    "category": "environment",
+    "material": "Garden"
+  },
+  "E1700": {
+    "layer": "环境_Environment",
+    "category": "environment",
+    "material": "Water"
+  },
+  "E1800": {
+    "layer": "环境_Environment",
+    "category": "environment",
+    "material": "Track"
+  },
+  "E1900": {
+    "layer": "环境_Environment",
+    "category": "environment",
+    "material": "Court"
+  },
+  "E2000": {
+    "layer": "环境_Environment",
+    "category": "environment",
+    "material": "Marking"
+  },
+  "E2100": {
+    "layer": "环境_Environment",
+    "category": "environment",
+    "material": "Leaves"
+  },
+  "E2200": {
+    "layer": "环境_Environment",
+    "category": "environment",
+    "material": "Trunk"
+  },
+  "E2300": {
+    "layer": "环境_Environment",
+    "category": "environment",
+    "material": "Furniture"
+  }
+}

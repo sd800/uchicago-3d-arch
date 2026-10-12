@@ -1,0 +1,16 @@
+{
+  "format": "Rhino 3DM v7",
+  "units": "meters",
+  "layers": 178,
+  "nonempty_layers": 178,
+  "objects": 1084,
+  "closed_native_solids": 214,
+  "closed_mesh_objects": 693,
+  "plan_curves": 177,
+  "all_geometry_valid": true,
+  "named_views": [
+    "校园鸟瞰",
+    "主四合院",
+    "总平面"
+  ]
+}

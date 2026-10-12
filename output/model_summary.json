@@ -1,0 +1,33 @@
+{
+  "buildings": 177,
+  "layers": 178,
+  "environment_layer": "环境_Environment",
+  "native_closed_solids": 214,
+  "objects_3ds": 907,
+  "vertices": 912482,
+  "triangles": 1489328,
+  "trees": 636,
+  "mapped_tree_points": 0,
+  "landmarks": 19,
+  "published_height_buildings": 8,
+  "planning_height_buildings": 1,
+  "estimated_height_buildings": 168,
+  "unit": "meters",
+  "crs": "EPSG:32616 local offsets",
+  "origin_wgs84": [
+    -87.607,
+    41.782
+  ],
+  "origin_utm": [
+    449558.3813164998,
+    4625750.429447507
+  ],
+  "bounds": [
+    67.80553698561343,
+    133.64234009670483,
+    1494.9175988026545,
+    1447.4352909744798
+  ],
+  "terrain": "Flattened relative Z=0; no surveyed terrain",
+  "accuracy": "Public footprints, selective published heights, approximate exterior details. Not survey-certified."
+}
