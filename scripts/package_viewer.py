@@ -35,7 +35,7 @@ base64model=base64.b64encode(model).decode()
 preview='data:image/png;base64,'+base64.b64encode((out/'campus_aerial.png').read_bytes()).decode()
 data={'layers':json.loads((out/'layer_map.json').read_text()),'palette':json.loads((out/'palette.json').read_text()),'records':records,'preview':'output/campus_aerial.png','modelUrl':'output/UChicago_HydePark.3ds','offlineModelScript':'assets/model-local.js','seo':seo}
 schema={'@context':'https://schema.org','@graph':[
- {'@type':'WebSite','@id':site+'#website','url':site,'name':'UChicago Campus in 3D','inLanguage':['en','zh-CN'],'sameAs':'https://github.com/sd800/uchicago-3d-arch'},
+ {'@type':'WebSite','@id':site+'#website','url':site,'name':'UChicago Campus in 3D','inLanguage':['en','zh-CN'],'sameAs':'https://github.com/sd800/uchicago-3d-arch','image':site+'assets/brand/phoenix-map.png'},
  {'@type':'WebPage','@id':site+'#webpage','url':site,'name':config['title'],'description':config['description'],'inLanguage':['en','zh-CN'],'isPartOf':{'@id':site+'#website'},'mainEntity':{'@id':site+'#model'},'primaryImageOfPage':{'@type':'ImageObject','url':site+'output/campus_aerial.png','width':2400,'height':1850}},
  {'@type':'3DModel','@id':site+'#model','name':'University of Chicago Hyde Park exterior campus model','description':'Independent public-source exterior model with 177 mapped buildings, individual building layers and a separate landscape layer. Model units are meters; unpublished heights and exterior details are estimates.','contentUrl':site+'output/UChicago_HydePark.3ds','encodingFormat':'application/x-3ds','contentSize':str(len(model))+' bytes','sha256':hashlib.sha256(model).hexdigest(),'thumbnailUrl':site+'output/campus_aerial.png','contentLocation':{'@type':'Place','name':'University of Chicago Hyde Park campus','address':{'@type':'PostalAddress','addressLocality':'Chicago','addressRegion':'IL','addressCountry':'US'}},'isBasedOn':['https://maps.uchicago.edu/','https://architecture.uchicago.edu/','https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg','https://www.openstreetmap.org/copyright']}
 ]}
@@ -54,22 +54,23 @@ template=template.replace('</head>','<!--\n'+license+'\n-->\n</head>')
 for token,value in {'__SITE_URL__':site,'__SEO_TITLE__':escape(config['title'],quote=True),'__SEO_DESCRIPTION__':escape(config['description'],quote=True),'__IMAGE_ALT__':escape(config['imageAlt'],quote=True),'__STRUCTURED_DATA__':script_json(schema),'__INITIAL_BUILDINGS__':''.join(initial),'__INITIAL_COUNT__':str(len(records))}.items():
  template=template.replace(token,value)
 
-def edition(payload,font_url,image_url,favicon,script,robots):
+def edition(payload,font_url,image_url,icons,logo,script,robots):
  text=template
- for token,value in {'__CAMPUS_DATA__':script_json(payload),'__TITLE_FONT_URL__':font_url,'__PREVIEW_IMAGE__':image_url,'__FAVICON__':favicon,'__VIEWER_SCRIPT__':script,'__ROBOTS__':robots}.items():
+ for token,value in {'__CAMPUS_DATA__':script_json(payload),'__TITLE_FONT_URL__':font_url,'__PREVIEW_IMAGE__':image_url,'__FAVICON__':icons['32'],'__FAVICON_16__':icons['16'],'__APPLE_ICON__':icons['apple'],'__LOGO__':logo,'__VIEWER_SCRIPT__':script,'__ROBOTS__':robots}.items():
   text=text.replace(token,value)
- assert not any(token in text for token in ('__CAMPUS_DATA__','__TITLE_FONT_URL__','__PREVIEW_IMAGE__','__FAVICON__','__VIEWER_SCRIPT__','__ROBOTS__')), 'Unfilled template placeholder'
+ assert not any(token in text for token in ('__CAMPUS_DATA__','__TITLE_FONT_URL__','__PREVIEW_IMAGE__','__FAVICON__','__FAVICON_16__','__APPLE_ICON__','__LOGO__','__VIEWER_SCRIPT__','__ROBOTS__')), 'Unfilled template placeholder'
  return text
 
 assets=root/'assets'
 (assets/'viewer.bundle.js').write_text(bundle)
 # Classic scripts work beside index.html under file:// without fetching or CORS.
 (assets/'model-local.js').write_text('window.__UCHICAGO_MODEL_BASE64__='+json.dumps(base64model)+';\n')
-html=edition(data,'assets/fonts/Manrope.ttf','output/campus_aerial.png','assets/favicon.svg','<script defer src="assets/viewer.bundle.js"></script>','index, follow, max-image-preview:large')
+html=edition(data,'assets/fonts/Manrope.ttf','output/campus_aerial.png',{'32':'assets/favicon-32.png','16':'assets/favicon-16.png','apple':'assets/apple-touch-icon.png'},'assets/brand/phoenix-map-192.png','<script defer src="assets/viewer.bundle.js"></script>','index, follow, max-image-preview:large')
 (root/'index.html').write_text(html,encoding='utf-8')
 standalone={**data,'model':base64model,'preview':preview}
-svg=(assets/'favicon.svg').read_bytes()
-offline=edition(standalone,'data:font/ttf;base64,'+base64.b64encode((assets/'fonts/Manrope.ttf').read_bytes()).decode(),preview,'data:image/svg+xml;base64,'+base64.b64encode(svg).decode(),'<script>'+bundle.replace('</script',r'<\/script')+'</script>','noindex, follow')
+def png_data(path):return 'data:image/png;base64,'+base64.b64encode(path.read_bytes()).decode()
+icons={'32':png_data(assets/'favicon-32.png'),'16':png_data(assets/'favicon-16.png'),'apple':png_data(assets/'apple-touch-icon.png')}
+offline=edition(standalone,'data:font/ttf;base64,'+base64.b64encode((assets/'fonts/Manrope.ttf').read_bytes()).decode(),preview,icons,png_data(assets/'brand/phoenix-map-192.png'),'<script>'+bundle.replace('</script',r'<\/script')+'</script>','noindex, follow')
 assert not re.search(r'<script[^>]+src=',offline)
 (out/'UChicago_Campus_Offline.html').write_text(offline,encoding='utf-8')
 (root/'CNAME').write_text(config['domain']+'\n')

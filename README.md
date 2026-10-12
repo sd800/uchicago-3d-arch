@@ -71,3 +71,5 @@ Run `npm run build`, `npm run check:seo` and `npm run check:locale` after editin
 The lightweight entry follows [Google's JavaScript SEO guidance](https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics) and avoids placing embedded model data in the crawlable HTML. [Schema.org 3DModel](https://schema.org/3DModel) describes the downloadable model; it does not promise a Google rich-result feature.
 
 Chinese building names, short labels and source-backed terminology decisions are maintained in `sources/building_names_zh.json`, `sources/model_notes_zh.json` and `sources/TRANSLATION_NOTES.md`. Chinese building details display the English name for cross-reference; old translations remain searchable aliases.
+
+The phoenix-and-rolled-map logo and imagegen design brief are in `assets/brand/`. The header uses the small PNG; favicons and the Apple touch icon are provided, with embedded equivalents in the single-file offline edition.

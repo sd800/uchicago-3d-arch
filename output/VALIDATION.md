@@ -36,3 +36,11 @@ Final build checked on 2026-10-12.
 
 - Reviewed all 177 Chinese building names and short labels; 82 entries revised. Full English names remain visible in Chinese building details. Coverage checks verify Chinese labels for every mapped building and the corrected Law Quadrangle name.
 - Reviewed Chinese UI, per-building descriptions and height-basis wording. Main Quads is「主庭院区」; Law Quadrangle is「法学院庭院」. Old labels remain searchable aliases. See `sources/TRANSLATION_NOTES.md` for naming decisions and references.
+
+
+## Phoenix map-scroll logo — 2026-10-12
+
+- Adapted the owner's original phoenix-key emblem by replacing the key with a closed rolled map scroll. Original reference file is unchanged.
+- Preserved a full-resolution PNG with transparent corners and exported 192px header, 180px Apple touch icon, and 16px/32px favicons. ICO contains the 16px/32px PNG exports.
+- Browser verified the 192px asset loads and displays at 36px in the existing 70px header. Campus canvas still renders; no console errors or warnings. SEO/resource-reference checks pass.
+- Single-file offline edition embeds the same header and favicon PNGs without runtime external image dependencies.
