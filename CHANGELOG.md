@@ -2,6 +2,13 @@
 
 All notable changes to UChicago Campus 3D Model are recorded here. Versions use `YY.M.D.NUM`, with a separate release sequence for each day in America/Chicago.
 
+## 26.10.13.3 — 2026-10-13
+
+- Restore the full viewing range from overhead to an exactly horizontal elevation. Add a bilingual Level control that retains the current bearing, local pivot and zoom.
+- Replace low-angle ground-ray intersections with bounded orthographic panning and continuous vertical framing. Keep ground pivots stable and prevent abrupt travel, reversed directions, camera roll or tilt during pan and cursor zoom.
+- Preserve pointer zoom at every elevation; carry inspection framing through resize and clear it when returning to campus, building or plan presets. Retain explicit rotation, immediate stopping, touch safeguards and selected-building highlights.
+- Add 144 low-angle regression cases across six elevations, eight bearings and three viewport shapes, covering exact level views, pan, pointer zoom, ground pivots, resize, reset and absence of drift.
+
 ## 26.10.13.2 — 2026-10-13
 
 - Remove flickering roof shadow bands with a fixed sampling kernel and receiver-plane depth correction. Fit a fixed sunlight volume to the campus and use a small physical shadow bias without screen-dependent sampling noise.
