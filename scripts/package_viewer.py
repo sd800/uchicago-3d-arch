@@ -33,7 +33,7 @@ seo={'en':{k:config[k] for k in ('title','description','imageAlt')},'zh':config[
 model=(out/'UChicago_HydePark.3ds').read_bytes()
 base64model=base64.b64encode(model).decode()
 preview='data:image/png;base64,'+base64.b64encode((out/'campus_aerial.png').read_bytes()).decode()
-data={'layers':json.loads((out/'layer_map.json').read_text()),'palette':json.loads((out/'palette.json').read_text()),'records':records,'preview':'output/campus_aerial.png','modelUrl':'output/UChicago_HydePark.3ds','offlineModelScript':'assets/model-local.js','seo':seo}
+data={'modelByteLength':len(model),'modelTransferBytes':len(model),'layers':json.loads((out/'layer_map.json').read_text()),'palette':json.loads((out/'palette.json').read_text()),'records':records,'preview':'output/campus_aerial.png','modelUrl':'output/UChicago_HydePark.3ds','offlineModelScript':'assets/model-local.js','seo':seo}
 schema={'@context':'https://schema.org','@graph':[
  {'@type':'WebSite','@id':site+'#website','url':site,'name':'UChicago Campus 3D Model','inLanguage':['en','zh-CN'],'sameAs':'https://github.com/sd800/uchicago-3d-arch','image':site+'assets/brand/phoenix-map.png'},
  {'@type':'WebPage','@id':site+'#webpage','url':site,'name':config['title'],'description':config['description'],'inLanguage':['en','zh-CN'],'isPartOf':{'@id':site+'#website'},'mainEntity':{'@id':site+'#model'},'primaryImageOfPage':{'@type':'ImageObject','url':site+'output/campus_aerial.png','width':2400,'height':1850}},

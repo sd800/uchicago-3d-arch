@@ -76,3 +76,7 @@ Chinese building names, short labels and source-backed terminology decisions are
 The phoenix-and-rolled-map logo and imagegen design brief are in `assets/brand/`. The header uses the small PNG; favicons and the Apple touch icon are provided, with embedded equivalents in the single-file offline edition.
 
 The zoom-out limit uses the full campus diagonal, so selecting a small landmark does not restrict navigation to its immediate surroundings. `npm run check:camera` reproduces the former fixed-zoom failure and checks all 177 building targets at desktop, square and portrait viewport ratios, including a subsequent refit/resize.
+
+## Releases
+
+The current calendar version is recorded in `VERSION`; release notes are in the English `CHANGELOG.md`. Commit messages use `Release YY.M.D.NUM`.
