@@ -1,3 +1,4 @@
+from urllib.parse import urlsplit
 """Validate generated search metadata, static content and referenced local assets."""
 from pathlib import Path
 from html.parser import HTMLParser
@@ -53,7 +54,7 @@ for tag,a in page.tags:
  for attr in ('src','href'):
   path=a.get(attr,'')
   if path and not path.startswith(('https:','http:','data:','#')):
-   assert (root/path).is_file(), f'Missing local resource: {path}'
+   assert (root/urlsplit(path).path).is_file(), f'Missing local resource: {path}'
 assert (root/'assets/fonts/Manrope.ttf').is_file()
 assert (root/payload['offlineModelScript']).is_file()
 graph=json.loads(page.scripts['campus-schema'])['@graph']
@@ -72,3 +73,5 @@ assert 'data:font/ttf;base64,' in offline and 'data:image/png;base64,' in offlin
 assert '<meta name="robots" content="noindex, follow">' in offline
 assert '芝加哥大学 · 三维校区' in (root/'scripts/viewer.js').read_text()
 print(f'SEO checks passed: {len(html.encode()):,} bytes; 177 buildings; metadata, schema, sitemap and offline edition.')
+
+assert "viewer.bundle.js?v=" in html, "Viewer updates must invalidate the browser cache"

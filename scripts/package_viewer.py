@@ -65,7 +65,7 @@ assets=root/'assets'
 (assets/'viewer.bundle.js').write_text(bundle)
 # Classic scripts work beside index.html under file:// without fetching or CORS.
 (assets/'model-local.js').write_text('window.__UCHICAGO_MODEL_BASE64__='+json.dumps(base64model)+';\n')
-html=edition(data,'assets/fonts/Manrope.ttf','output/campus_aerial.png',{'32':'assets/favicon-32.png','16':'assets/favicon-16.png','apple':'assets/apple-touch-icon.png'},'assets/brand/phoenix-map-192.png','<script defer src="assets/viewer.bundle.js"></script>','index, follow, max-image-preview:large')
+html=edition(data,'assets/fonts/Manrope.ttf','output/campus_aerial.png',{'32':'assets/favicon-32.png','16':'assets/favicon-16.png','apple':'assets/apple-touch-icon.png'},'assets/brand/phoenix-map-192.png','<script defer src="assets/viewer.bundle.js?v='+hashlib.sha256(bundle.encode()).hexdigest()[:12]+'"></script>','index, follow, max-image-preview:large')
 (root/'index.html').write_text(html,encoding='utf-8')
 standalone={**data,'model':base64model,'preview':preview}
 def png_data(path):return 'data:image/png;base64,'+base64.b64encode(path.read_bytes()).decode()

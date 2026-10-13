@@ -80,3 +80,9 @@ The zoom-out limit uses the full campus diagonal, so selecting a small landmark 
 ## Releases
 
 The current calendar version is recorded in `VERSION`; release notes are in the English `CHANGELOG.md`. Commit messages use `Release YY.M.D.NUM`.
+
+## Rendering checks
+
+Map skins use stable compositing while buildings and landscape structures retain depth occlusion. The interactive viewer preserves the delivered CAD coordinates and model bytes.
+
+Run `npm run check:rendering` for CAD surface and depth-frustum checks. Run `npm run build:rendering-check`, serve the repository root, and open `tmp/rendering-check.html` for GPU pixel, glass-occlusion and section-shadow regression checks.
