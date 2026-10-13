@@ -44,3 +44,12 @@ Final build checked on 2026-10-12.
 - Preserved a full-resolution PNG with transparent corners and exported 192px header, 180px Apple touch icon, and 16px/32px favicons. ICO contains the 16px/32px PNG exports.
 - Browser verified the 192px asset loads and displays at 36px in the existing 70px header. Campus canvas still renders; no console errors or warnings. SEO/resource-reference checks pass.
 - Single-file offline edition embeds the same header and favicon PNGs without runtime external image dependencies.
+
+
+## Landmark zoom-out fix — 2026-10-12
+
+- Reproduced the issue by selecting Mitchell Tower and scrolling outward twice. The scale stopped changing at 50m because the fixed minimum zoom of 0.25 allowed only a fourfold zoom-out from the small fitted frustum.
+- Minimum zoom now derives from the full model diagonal and current frustum's shorter side. It is recalculated on building/view fits and viewport resize; existing close-up maximum zoom is retained.
+- Regression checks with actual Three.js OrbitControls reproduce the old failure and verify all 177 building targets across three viewport shapes (531 zoom-out/refit cases), requiring every campus bounding-box corner to be visible at the farthest view.
+- Browser verified Mitchell Tower, Robie House in a 390px portrait viewport, and Mansueto Library after consecutive selection and zooming. Each can zoom outward well beyond the previous neighborhood limit. Campus, Plan and Reset remain usable; no browser errors or warnings.
+- Updated both the served viewer bundle and the generated single-file offline viewer. CAD files are unchanged.

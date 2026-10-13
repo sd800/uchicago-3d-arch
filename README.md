@@ -54,6 +54,7 @@ npm run build
 python3 scripts/validate_rhino.py
 npm run check:3ds
 node scripts/check_locale.mjs
+npm run check:camera
 ```
 
 Source snapshots are retained so the reconstruction can be repeated without refetching map data. The initial build uses source data collected on 2026-10-12. References and attribution are in `sources/SOURCES.md` and `THIRD_PARTY_NOTICES.md`. The viewer bundles Three.js 0.186.1 and the licensed Manrope display font.
@@ -73,3 +74,5 @@ The lightweight entry follows [Google's JavaScript SEO guidance](https://develop
 Chinese building names, short labels and source-backed terminology decisions are maintained in `sources/building_names_zh.json`, `sources/model_notes_zh.json` and `sources/TRANSLATION_NOTES.md`. Chinese building details display the English name for cross-reference; old translations remain searchable aliases.
 
 The phoenix-and-rolled-map logo and imagegen design brief are in `assets/brand/`. The header uses the small PNG; favicons and the Apple touch icon are provided, with embedded equivalents in the single-file offline edition.
+
+The zoom-out limit uses the full campus diagonal, so selecting a small landmark does not restrict navigation to its immediate surroundings. `npm run check:camera` reproduces the former fixed-zoom failure and checks all 177 building targets at desktop, square and portrait viewport ratios, including a subsequent refit/resize.

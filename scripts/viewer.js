@@ -3,6 +3,7 @@ import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
 import {TDSLoader} from 'three/addons/loaders/TDSLoader.js';
 import {initialLanguage} from './locale.js';
 import {loadModelBytes} from './model_data.js';
+import {updateCampusZoomLimit} from './camera_limits.js';
 
 const data=JSON.parse(document.getElementById('campus-data').textContent);
 const $=id=>document.getElementById(id), records=data.records;
@@ -19,7 +20,7 @@ const nameOf=r=>lang==='zh'?(r.name_zh||r.name):r.name;
 const brief=r=>lang==='zh'?(r.short_zh||r.name_zh||r.name):(r.short||r.name);
 const byLayer=new Map(records.map(r=>[r.layer,r]));const byCode=new Map(records.map(r=>[r.code,r]));
 const buildings=new Map(), envMeshes=[], pickMeshes=[], details=[];
-let selected=null,category='all',renderer=null,scene,camera,controls,campus,sun,frameHeight=1500,viewMode='aerial',staticMode=false;
+let selected=null,category='all',renderer=null,scene,camera,controls,campus,sun,campusDiagonal=1,frameHeight=1500,viewMode='aerial',staticMode=false;
 const sidebar=$('sidebar'),host=$('viewport'),compact=matchMedia('(max-width:760px)');
 const tourIds=[150457349,156128082,1228219576,157655069,159093828,194224828,125667497,152422729,441025431,10657061,11687839,152586235,387213841,143926554,143926548,152422458,152284260,143457513,142870150];
 const tour=tourIds.map(id=>records.find(r=>r.osm_id===id)).filter(Boolean);let tourIndex=0;
@@ -107,7 +108,7 @@ function applyLanguage(){
 }
 $('language').onclick=()=>{lang=lang==='en'?'zh':'en';try{localStorage.setItem('uchicago-model-language',lang);}catch{}applyLanguage();};
 function aspect(){return host.clientWidth/Math.max(host.clientHeight,1);}
-function updateFrustum(){if(!camera)return;const a=aspect();camera.left=-frameHeight*a/2;camera.right=frameHeight*a/2;camera.top=frameHeight/2;camera.bottom=-frameHeight/2;camera.updateProjectionMatrix();}
+function updateFrustum(){if(!camera)return;const a=aspect();camera.left=-frameHeight*a/2;camera.right=frameHeight*a/2;camera.top=frameHeight/2;camera.bottom=-frameHeight/2;camera.updateProjectionMatrix();if(controls)updateCampusZoomLimit(camera,controls,campusDiagonal);}
 function fitBox(b,mode='aerial',pad=1.16){
  if(!camera)return;const center=b.getCenter(new THREE.Vector3());const back=mode==='plan'?new THREE.Vector3(0,-.00001,1):new THREE.Vector3(1.15,-.95,1.2).normalize();
  camera.position.copy(center).addScaledVector(back,3000);camera.up.set(0,0,1);camera.lookAt(center);camera.updateMatrixWorld(true);controls.target.copy(center);camera.zoom=1;
@@ -152,7 +153,7 @@ try{
   if(r){let g=buildings.get(r.code);if(!g){g=new THREE.Group();g.name=r.code;buildings.set(r.code,g);campus.add(g);}g.attach(m);m.castShadow=true;m.userData.code=r.code;pickMeshes.push(m);if(m.name.includes('D'))details.push(m);}
   else{envMeshes.push(m);m.castShadow=materials.some(mat=>['Leaves','Trunk','Furniture'].includes(mat.name));}
  }
- scene.add(campus);envMeshes.forEach(m=>m.visible=$('environment').checked);details.forEach(m=>m.visible=$('details').checked);renderer.shadowMap.enabled=$('shadows').checked;sun.castShadow=$('shadows').checked;updateCut();controls=new OrbitControls(camera,renderer.domElement);controls.enableDamping=true;controls.dampingFactor=.08;controls.minZoom=.25;controls.maxZoom=60;controls.maxPolarAngle=Math.PI*.485;controls.screenSpacePanning=true;controls.addEventListener('change',render);
+ scene.add(campus);campusDiagonal=new THREE.Box3().setFromObject(campus).getSize(new THREE.Vector3()).length();envMeshes.forEach(m=>m.visible=$('environment').checked);details.forEach(m=>m.visible=$('details').checked);renderer.shadowMap.enabled=$('shadows').checked;sun.castShadow=$('shadows').checked;updateCut();controls=new OrbitControls(camera,renderer.domElement);controls.enableDamping=true;controls.dampingFactor=.08;controls.maxZoom=60;controls.maxPolarAngle=Math.PI*.485;controls.screenSpacePanning=true;controls.addEventListener('change',render);
  let lastAspect=aspect();const observer=new ResizeObserver(()=>{const a=aspect();if(a<lastAspect)frameHeight*=lastAspect/a;lastAspect=a;renderer.setSize(host.clientWidth,host.clientHeight);updateFrustum();render();});observer.observe(host);
  renderer.setSize(host.clientWidth,host.clientHeight);fullView('aerial');refreshList();
  const ray=new THREE.Raycaster(),pointer=new THREE.Vector2();let down=null;
