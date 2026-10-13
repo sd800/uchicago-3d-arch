@@ -1,4 +1,4 @@
-# UChicago Campus in 3D
+# UChicago Campus 3D Model
 
 A public-source exterior model of the University of Chicago’s Hyde Park campus, with an interactive viewer and a generated single-file offline edition, a layered Rhino model, and a 3DS mesh export.
 
