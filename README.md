@@ -15,11 +15,11 @@ The interface defaults to English. The first visit uses English regardless of de
 | `output/UChicago_HydePark.3ds` | Triangulated meshes with short object names and material assignments |
 | `output/layer_map.json` | Complete object-to-building/environment mapping for the 3DS export |
 | `scripts/apply_layers_rhino.py` | Restore building layers after importing 3DS into Rhino |
-| `output/建筑尺寸与来源.csv` | Per-building dimensions, height status, assumptions and source URLs |
-| `output/道路宽度与来源.csv` | Mapped road/walkway widths and estimation flags |
+| `output/building_dimensions_and_sources.csv` | Per-building dimensions, height status, assumptions and source URLs |
+| `output/road_widths_and_sources.csv` | Mapped road/walkway widths and estimation flags |
 | `output/campus_aerial.png` | Bird’s-eye preview rendered from the exported meshes |
 | `output/campus_plan.png` | North-up footprint atlas with landmark codes and scale |
-| `output/使用说明.md` | Chinese import, viewing and accuracy guide |
+| `output/usage_guide.md` | Chinese import, viewing and accuracy guide |
 | `sources/SOURCES.md` | Source register and modeling decisions |
 | `output/VALIDATION.md` | CAD and browser verification record |
 

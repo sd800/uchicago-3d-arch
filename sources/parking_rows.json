@@ -1,0 +1,1135 @@
+{
+  "reference_date": "2026-10-14",
+  "imagery_attribution": "Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "overlay_review_complete": true,
+  "method": "Each listed row was manually interpreted from a dedicated satellite crop. No row arrays derived from lot envelopes. Listed geometric dimensions approximate; missing rows, occluded strips, construction, buildings and carports must stay unpainted.",
+  "local_crs": 32616,
+  "local_origin_wgs84": [
+    -87.607,
+    41.782
+  ],
+  "rows": [
+    {
+      "group_id": "uchi-004",
+      "group_index": 4,
+      "source_ids": [
+        "152132162"
+      ],
+      "lot_name": "Lexington Parking Lot",
+      "path": [
+        [
+          776.626,
+          736.396
+        ],
+        [
+          776.507,
+          719.267
+        ]
+      ],
+      "sides": [
+        -1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.65,
+      "depth_m": 5.2,
+      "reference_image_id": "uchi-004",
+      "reference_url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=json&bbox=-87.59912810230118%2C41.78748837310237%2C-87.59614043482019%2C41.78975565175076&bboxSR=4326&imageSR=4326&size=640%2C640&format=png",
+      "observed_original_image_pixels": [
+        [
+          302.41,
+          307.29
+        ],
+        [
+          302.41,
+          340.34
+        ]
+      ],
+      "crop_normalized_pixels": [
+        [
+          395,
+          400
+        ],
+        [
+          395,
+          660
+        ]
+      ],
+      "basis": "Manually interpreted row back-edge or shared head-to-head edge from visible repeated paint/cars and clear drive aisles. Bay spacing, depth and member width approximate. Grass islands and current building clearance must override row geometry."
+    },
+    {
+      "group_id": "uchi-004",
+      "group_index": 4,
+      "source_ids": [
+        "152132162"
+      ],
+      "lot_name": "Lexington Parking Lot",
+      "path": [
+        [
+          784.093,
+          735.686
+        ],
+        [
+          783.97,
+          717.898
+        ]
+      ],
+      "sides": [
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.65,
+      "depth_m": 5.2,
+      "reference_image_id": "uchi-004",
+      "reference_url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=json&bbox=-87.59912810230118%2C41.78748837310237%2C-87.59614043482019%2C41.78975565175076&bboxSR=4326&imageSR=4326&size=640%2C640&format=png",
+      "observed_original_image_pixels": [
+        [
+          321.67,
+          308.56
+        ],
+        [
+          321.67,
+          342.88
+        ]
+      ],
+      "crop_normalized_pixels": [
+        [
+          510,
+          410
+        ],
+        [
+          510,
+          680
+        ]
+      ],
+      "basis": "Manually interpreted row back-edge or shared head-to-head edge from visible repeated paint/cars and clear drive aisles. Bay spacing, depth and member width approximate. Grass islands and current building clearance must override row geometry."
+    },
+    {
+      "group_id": "uchi-004",
+      "group_index": 4,
+      "source_ids": [
+        "152132162"
+      ],
+      "lot_name": "Lexington Parking Lot",
+      "path": [
+        [
+          766.249,
+          739.104
+        ],
+        [
+          766.121,
+          720.657
+        ]
+      ],
+      "sides": [
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.65,
+      "depth_m": 5.2,
+      "reference_image_id": "uchi-004",
+      "reference_url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=json&bbox=-87.59912810230118%2C41.78748837310237%2C-87.59614043482019%2C41.78975565175076&bboxSR=4326&imageSR=4326&size=640%2C640&format=png",
+      "observed_original_image_pixels": [
+        [
+          275.61,
+          302.2
+        ],
+        [
+          275.61,
+          337.79
+        ]
+      ],
+      "crop_normalized_pixels": [
+        [
+          235,
+          360
+        ],
+        [
+          235,
+          640
+        ]
+      ],
+      "basis": "Manually interpreted row back-edge or shared head-to-head edge from visible repeated paint/cars and clear drive aisles. Bay spacing, depth and member width approximate. Grass islands and current building clearance must override row geometry."
+    },
+    {
+      "group_id": "uchi-004",
+      "group_index": 4,
+      "source_ids": [
+        "152132162"
+      ],
+      "lot_name": "Lexington Parking Lot",
+      "path": [
+        [
+          797.815,
+          746.79
+        ],
+        [
+          797.563,
+          710.556
+        ]
+      ],
+      "sides": [
+        -1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.65,
+      "depth_m": 5.2,
+      "reference_image_id": "uchi-004",
+      "reference_url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=json&bbox=-87.59912810230118%2C41.78748837310237%2C-87.59614043482019%2C41.78975565175076&bboxSR=4326&imageSR=4326&size=640%2C640&format=png",
+      "observed_original_image_pixels": [
+        [
+          356.84,
+          286.95
+        ],
+        [
+          356.84,
+          356.86
+        ]
+      ],
+      "crop_normalized_pixels": [
+        [
+          720,
+          240
+        ],
+        [
+          720,
+          790
+        ]
+      ],
+      "basis": "Manually interpreted row back-edge or shared head-to-head edge from visible repeated paint/cars and clear drive aisles. Bay spacing, depth and member width approximate. Grass islands and current building clearance must override row geometry."
+    },
+    {
+      "group_id": "uchi-006",
+      "group_index": 6,
+      "source_ids": [
+        "155418364"
+      ],
+      "lot_name": "unnamed",
+      "path": [
+        [
+          401.901,
+          332.576
+        ],
+        [
+          423.693,
+          332.423
+        ]
+      ],
+      "sides": [
+        -1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.65,
+      "depth_m": 5.2,
+      "reference_image_id": "uchi-006",
+      "reference_url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=json&bbox=-87.60369936330737%2C41.78375439565982%2C-87.6007120301106%2C41.78602179246754&bboxSR=4326&imageSR=4326&size=640%2C640&format=png",
+      "observed_original_image_pixels": [
+        [
+          322.95,
+          291.57
+        ],
+        [
+          379.13,
+          291.57
+        ]
+      ],
+      "crop_normalized_pixels": [
+        [
+          515,
+          310
+        ],
+        [
+          800,
+          310
+        ]
+      ],
+      "basis": "Manually interpreted row back-edge or shared head-to-head edge from visible repeated paint/cars and clear drive aisles. Bay spacing, depth and member width approximate. Grass islands and current building clearance must override row geometry."
+    },
+    {
+      "group_id": "uchi-006",
+      "group_index": 6,
+      "source_ids": [
+        "155418364"
+      ],
+      "lot_name": "unnamed",
+      "path": [
+        [
+          402.197,
+          320.167
+        ],
+        [
+          421.695,
+          320.03
+        ]
+      ],
+      "sides": [
+        -1,
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.65,
+      "depth_m": 5.2,
+      "reference_image_id": "uchi-006",
+      "reference_url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=json&bbox=-87.60369936330737%2C41.78375439565982%2C-87.6007120301106%2C41.78602179246754&bboxSR=4326&imageSR=4326&size=640%2C640&format=png",
+      "observed_original_image_pixels": [
+        [
+          323.94,
+          315.51
+        ],
+        [
+          374.21,
+          315.51
+        ]
+      ],
+      "crop_normalized_pixels": [
+        [
+          520,
+          470
+        ],
+        [
+          775,
+          470
+        ]
+      ],
+      "basis": "Manually interpreted row back-edge or shared head-to-head edge from visible repeated paint/cars and clear drive aisles. Bay spacing, depth and member width approximate. Grass islands and current building clearance must override row geometry."
+    },
+    {
+      "group_id": "uchi-009",
+      "group_index": 9,
+      "source_ids": [
+        "228607600"
+      ],
+      "lot_name": "unnamed",
+      "path": [
+        [
+          1182.545,
+          256.31
+        ],
+        [
+          1210.426,
+          256.118
+        ]
+      ],
+      "sides": [
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.65,
+      "depth_m": 5.2,
+      "reference_image_id": "uchi-009",
+      "reference_url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=json&bbox=-87.59407570027227%2C41.78329161631363%2C-87.59108804638878%2C41.78555876510754&bboxSR=4326&imageSR=4326&size=640%2C640&format=png",
+      "observed_original_image_pixels": [
+        [
+          275.07,
+          329.09
+        ],
+        [
+          346.95,
+          329.09
+        ]
+      ],
+      "crop_normalized_pixels": [
+        [
+          200,
+          580
+        ],
+        [
+          680,
+          580
+        ]
+      ],
+      "basis": "Manually interpreted row back-edge or shared head-to-head edge from visible repeated paint/cars and clear drive aisles. Bay spacing, depth and member width approximate. Grass islands and current building clearance must override row geometry."
+    },
+    {
+      "group_id": "uchi-011",
+      "group_index": 11,
+      "source_ids": [
+        "228607604"
+      ],
+      "lot_name": "unnamed",
+      "path": [
+        [
+          133.624,
+          415.148
+        ],
+        [
+          190.347,
+          414.749
+        ]
+      ],
+      "sides": [
+        -1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.65,
+      "depth_m": 5.2,
+      "reference_image_id": "uchi-011",
+      "reference_url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=json&bbox=-87.60651750318203%2C41.7843861062922%2C-87.60353024108373%2C41.786653575672375&bboxSR=4326&imageSR=4326&size=640%2C640&format=png",
+      "observed_original_image_pixels": [
+        [
+          233.58,
+          271.22
+        ],
+        [
+          379.82,
+          271.22
+        ]
+      ],
+      "crop_normalized_pixels": [
+        [
+          110,
+          210
+        ],
+        [
+          770,
+          210
+        ]
+      ],
+      "basis": "Manually interpreted row back-edge or shared head-to-head edge from visible repeated paint/cars and clear drive aisles. Bay spacing, depth and member width approximate. Grass islands and current building clearance must override row geometry."
+    },
+    {
+      "group_id": "uchi-011",
+      "group_index": 11,
+      "source_ids": [
+        "228607604"
+      ],
+      "lot_name": "unnamed",
+      "path": [
+        [
+          135.202,
+          395.089
+        ],
+        [
+          145.515,
+          395.016
+        ]
+      ],
+      "sides": [
+        -1,
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.65,
+      "depth_m": 5.2,
+      "reference_image_id": "uchi-011",
+      "reference_url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=json&bbox=-87.60651750318203%2C41.7843861062922%2C-87.60353024108373%2C41.786653575672375&bboxSR=4326&imageSR=4326&size=640%2C640&format=png",
+      "observed_original_image_pixels": [
+        [
+          238.01,
+          309.91
+        ],
+        [
+          264.6,
+          309.91
+        ]
+      ],
+      "crop_normalized_pixels": [
+        [
+          130,
+          440
+        ],
+        [
+          250,
+          440
+        ]
+      ],
+      "basis": "Manually interpreted row back-edge or shared head-to-head edge from visible repeated paint/cars and clear drive aisles. Bay spacing, depth and member width approximate. Grass islands and current building clearance must override row geometry."
+    },
+    {
+      "group_id": "uchi-011",
+      "group_index": 11,
+      "source_ids": [
+        "228607604"
+      ],
+      "lot_name": "unnamed",
+      "path": [
+        [
+          189.362,
+          396.887
+        ],
+        [
+          191.361,
+          375.517
+        ]
+      ],
+      "sides": [
+        -1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.65,
+      "depth_m": 5.2,
+      "reference_image_id": "uchi-011",
+      "reference_url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=json&bbox=-87.60651750318203%2C41.7843861062922%2C-87.60353024108373%2C41.786653575672375&bboxSR=4326&imageSR=4326&size=640%2C640&format=png",
+      "observed_original_image_pixels": [
+        [
+          377.61,
+          305.7
+        ],
+        [
+          383.15,
+          346.91
+        ]
+      ],
+      "crop_normalized_pixels": [
+        [
+          760,
+          415
+        ],
+        [
+          785,
+          660
+        ]
+      ],
+      "basis": "Manually interpreted row back-edge or shared head-to-head edge from visible repeated paint/cars and clear drive aisles. Bay spacing, depth and member width approximate. Grass islands and current building clearance must override row geometry."
+    },
+    {
+      "group_id": "uchi-011",
+      "group_index": 11,
+      "source_ids": [
+        "228607604"
+      ],
+      "lot_name": "unnamed",
+      "path": [
+        [
+          203.208,
+          410.3
+        ],
+        [
+          202.085,
+          372.826
+        ]
+      ],
+      "sides": [
+        -1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.65,
+      "depth_m": 5.2,
+      "reference_image_id": "uchi-011",
+      "reference_url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=json&bbox=-87.60651750318203%2C41.7843861062922%2C-87.60353024108373%2C41.786653575672375&bboxSR=4326&imageSR=4326&size=640%2C640&format=png",
+      "observed_original_image_pixels": [
+        [
+          413.06,
+          279.63
+        ],
+        [
+          410.85,
+          351.96
+        ]
+      ],
+      "crop_normalized_pixels": [
+        [
+          920,
+          260
+        ],
+        [
+          910,
+          690
+        ]
+      ],
+      "basis": "Manually interpreted row back-edge or shared head-to-head edge from visible repeated paint/cars and clear drive aisles. Bay spacing, depth and member width approximate. Grass islands and current building clearance must override row geometry."
+    },
+    {
+      "group_id": "uchi-011",
+      "group_index": 11,
+      "source_ids": [
+        "228607604"
+      ],
+      "lot_name": "unnamed",
+      "path": [
+        [
+          133.707,
+          365.898
+        ],
+        [
+          147.888,
+          365.799
+        ]
+      ],
+      "sides": [
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.65,
+      "depth_m": 5.2,
+      "reference_image_id": "uchi-011",
+      "reference_url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=json&bbox=-87.60651750318203%2C41.7843861062922%2C-87.60353024108373%2C41.786653575672375&bboxSR=4326&imageSR=4326&size=640%2C640&format=png",
+      "observed_original_image_pixels": [
+        [
+          234.68,
+          366.25
+        ],
+        [
+          271.25,
+          366.25
+        ]
+      ],
+      "crop_normalized_pixels": [
+        [
+          115,
+          775
+        ],
+        [
+          280,
+          775
+        ]
+      ],
+      "basis": "Manually interpreted row back-edge or shared head-to-head edge from visible repeated paint/cars and clear drive aisles. Bay spacing, depth and member width approximate. Grass islands and current building clearance must override row geometry."
+    },
+    {
+      "group_id": "uchi-012",
+      "group_index": 12,
+      "source_ids": [
+        "301007577"
+      ],
+      "lot_name": "unnamed",
+      "path": [
+        [
+          501.339,
+          1301.359
+        ],
+        [
+          528.524,
+          1301.689
+        ]
+      ],
+      "sides": [
+        -1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.65,
+      "depth_m": 5.2,
+      "reference_image_id": "uchi-012",
+      "reference_url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=json&bbox=-87.60235156626315%2C41.79254845997284%2C-87.59936378046253%2C41.794815821258226&bboxSR=4326&imageSR=4326&size=640%2C640&format=png",
+      "observed_original_image_pixels": [
+        [
+          273.06,
+          304.95
+        ],
+        [
+          343.13,
+          303.94
+        ]
+      ],
+      "crop_normalized_pixels": [
+        [
+          145,
+          350
+        ],
+        [
+          675,
+          340
+        ]
+      ],
+      "basis": "Manually interpreted row back-edge or shared head-to-head edge from visible repeated paint/cars and clear drive aisles. Bay spacing, depth and member width approximate. Grass islands and current building clearance must override row geometry."
+    },
+    {
+      "group_id": "uchi-012",
+      "group_index": 12,
+      "source_ids": [
+        "301007577"
+      ],
+      "lot_name": "unnamed",
+      "path": [
+        [
+          533.873,
+          1296.451
+        ],
+        [
+          538.939,
+          1287.574
+        ]
+      ],
+      "sides": [
+        -1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.65,
+      "depth_m": 5.2,
+      "reference_image_id": "uchi-012",
+      "reference_url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=json&bbox=-87.60235156626315%2C41.79254845997284%2C-87.59936378046253%2C41.794815821258226&bboxSR=4326&imageSR=4326&size=640%2C640&format=png",
+      "observed_original_image_pixels": [
+        [
+          357.02,
+          313.98
+        ],
+        [
+          370.24,
+          331.04
+        ]
+      ],
+      "crop_normalized_pixels": [
+        [
+          780,
+          440
+        ],
+        [
+          880,
+          610
+        ]
+      ],
+      "basis": "Manually interpreted row back-edge or shared head-to-head edge from visible repeated paint/cars and clear drive aisles. Bay spacing, depth and member width approximate. Grass islands and current building clearance must override row geometry."
+    },
+    {
+      "group_id": "uchi-013",
+      "group_index": 13,
+      "source_ids": [
+        "857364643"
+      ],
+      "lot_name": "unnamed",
+      "path": [
+        [
+          1098.124,
+          358.176
+        ],
+        [
+          1128.196,
+          357.968
+        ]
+      ],
+      "sides": [
+        -1,
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.65,
+      "depth_m": 5.2,
+      "reference_image_id": "uchi-013",
+      "reference_url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=json&bbox=-87.59506586475835%2C41.78410466578115%2C-87.59207820864114%2C41.78637184002438&bboxSR=4326&imageSR=4326&size=640%2C640&format=png",
+      "observed_original_image_pixels": [
+        [
+          267.75,
+          307.85
+        ],
+        [
+          345.27,
+          307.85
+        ]
+      ],
+      "crop_normalized_pixels": [
+        [
+          190,
+          405
+        ],
+        [
+          650,
+          405
+        ]
+      ],
+      "basis": "Manually interpreted row back-edge or shared head-to-head edge from visible repeated paint/cars and clear drive aisles. Bay spacing, depth and member width approximate. Grass islands and current building clearance must override row geometry."
+    },
+    {
+      "group_id": "uchi-013",
+      "group_index": 13,
+      "source_ids": [
+        "857364643"
+      ],
+      "lot_name": "unnamed",
+      "path": [
+        [
+          1095.043,
+          337.98
+        ],
+        [
+          1112.04,
+          337.863
+        ]
+      ],
+      "sides": [
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.65,
+      "depth_m": 5.2,
+      "reference_image_id": "uchi-013",
+      "reference_url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=json&bbox=-87.59506586475835%2C41.78410466578115%2C-87.59207820864114%2C41.78637184002438&bboxSR=4326&imageSR=4326&size=640%2C640&format=png",
+      "observed_original_image_pixels": [
+        [
+          260.17,
+          346.85
+        ],
+        [
+          303.98,
+          346.85
+        ]
+      ],
+      "crop_normalized_pixels": [
+        [
+          145,
+          710
+        ],
+        [
+          405,
+          710
+        ]
+      ],
+      "basis": "Manually interpreted row back-edge or shared head-to-head edge from visible repeated paint/cars and clear drive aisles. Bay spacing, depth and member width approximate. Grass islands and current building clearance must override row geometry."
+    },
+    {
+      "group_id": "uchi-014",
+      "group_index": 14,
+      "source_ids": [
+        "857364644"
+      ],
+      "lot_name": "unnamed",
+      "path": [
+        [
+          1092.18,
+          290.157
+        ],
+        [
+          1091.894,
+          248.853
+        ]
+      ],
+      "sides": [
+        -1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.65,
+      "depth_m": 5.2,
+      "reference_image_id": "uchi-014",
+      "reference_url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=json&bbox=-87.59546752802288%2C41.78339854780182%2C-87.59247991867223%2C41.78566573246483&bboxSR=4326&imageSR=4326&size=640%2C640&format=png",
+      "observed_original_image_pixels": [
+        [
+          339.69,
+          287.9
+        ],
+        [
+          339.69,
+          367.59
+        ]
+      ],
+      "crop_normalized_pixels": [
+        [
+          635,
+          210
+        ],
+        [
+          635,
+          930
+        ]
+      ],
+      "basis": "Manually interpreted row back-edge or shared head-to-head edge from visible repeated paint/cars and clear drive aisles. Bay spacing, depth and member width approximate. Grass islands and current building clearance must override row geometry."
+    },
+    {
+      "group_id": "uchi-014",
+      "group_index": 14,
+      "source_ids": [
+        "857364644"
+      ],
+      "lot_name": "unnamed",
+      "path": [
+        [
+          1076.044,
+          288.834
+        ],
+        [
+          1075.777,
+          250.111
+        ]
+      ],
+      "sides": [
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.65,
+      "depth_m": 5.2,
+      "reference_image_id": "uchi-014",
+      "reference_url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=json&bbox=-87.59546752802288%2C41.78339854780182%2C-87.59247991867223%2C41.78566573246483&bboxSR=4326&imageSR=4326&size=640%2C640&format=png",
+      "observed_original_image_pixels": [
+        [
+          298.12,
+          290.67
+        ],
+        [
+          298.12,
+          365.38
+        ]
+      ],
+      "crop_normalized_pixels": [
+        [
+          350,
+          235
+        ],
+        [
+          350,
+          910
+        ]
+      ],
+      "basis": "Manually interpreted row back-edge or shared head-to-head edge from visible repeated paint/cars and clear drive aisles. Bay spacing, depth and member width approximate. Grass islands and current building clearance must override row geometry."
+    },
+    {
+      "group_id": "uchi-015",
+      "group_index": 15,
+      "source_ids": [
+        "1223368486"
+      ],
+      "lot_name": "unnamed",
+      "path": [
+        [
+          231.017,
+          966.639
+        ],
+        [
+          249.282,
+          966.511
+        ]
+      ],
+      "sides": [
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.65,
+      "depth_m": 5.2,
+      "reference_image_id": "uchi-015",
+      "reference_url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=json&bbox=-87.60567994986619%2C41.78955973960129%2C-87.6026924199431%2C41.791827186943316&bboxSR=4326&imageSR=4326&size=640%2C640&format=png",
+      "observed_original_image_pixels": [
+        [
+          295.21,
+          314.17
+        ],
+        [
+          342.3,
+          314.17
+        ]
+      ],
+      "crop_normalized_pixels": [
+        [
+          300,
+          438
+        ],
+        [
+          680,
+          438
+        ]
+      ],
+      "basis": "Manually interpreted row back-edge or shared head-to-head edge from visible repeated paint/cars and clear drive aisles. Bay spacing, depth and member width approximate. Grass islands and current building clearance must override row geometry."
+    }
+  ],
+  "references": [
+    {
+      "id": "uchi-004",
+      "name": "Lexington Parking Lot",
+      "source_ids": [
+        "152132162"
+      ],
+      "export_url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=json&bbox=-87.59912810230118%2C41.78748837310237%2C-87.59614043482019%2C41.78975565175076&bboxSR=4326&imageSR=4326&size=640%2C640&format=png",
+      "imagery_extent": {
+        "xmin": -87.59912810230118,
+        "ymin": 41.78712817868607,
+        "xmax": -87.59614043482019,
+        "ymax": 41.79011584616706,
+        "spatialReference": {
+          "wkid": 4326,
+          "latestWkid": 4326
+        }
+      },
+      "crop_original_pixels": [
+        236.24515820682342,
+        256.44225322207063,
+        403.7443395827856,
+        383.55389473050775
+      ],
+      "image_size": [
+        640,
+        640
+      ]
+    },
+    {
+      "id": "uchi-006",
+      "name": "unnamed",
+      "source_ids": [
+        "155418364"
+      ],
+      "export_url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=json&bbox=-87.60369936330737%2C41.78375439565982%2C-87.6007120301106%2C41.78602179246754&bboxSR=4326&imageSR=4326&size=640%2C640&format=png",
+      "imagery_extent": {
+        "xmin": -87.60369936330737,
+        "ymin": 41.78339442746529,
+        "xmax": -87.6007120301106,
+        "ymax": 41.78638176066206,
+        "spatialReference": {
+          "wkid": 4326,
+          "latestWkid": 4326
+        }
+      },
+      "crop_original_pixels": [
+        221.42863578109595,
+        245.18597591365887,
+        418.5611602480724,
+        394.8102821111802
+      ],
+      "image_size": [
+        640,
+        640
+      ]
+    },
+    {
+      "id": "uchi-009",
+      "name": "unnamed",
+      "source_ids": [
+        "228607600"
+      ],
+      "export_url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=json&bbox=-87.59407570027227%2C41.78329161631363%2C-87.59108804638878%2C41.78555876510754&bboxSR=4326&imageSR=4326&size=640%2C640&format=png",
+      "imagery_extent": {
+        "xmin": -87.59407570027227,
+        "ymin": 41.782931363768846,
+        "xmax": -87.59108804638878,
+        "ymax": 41.78591901765234,
+        "spatialReference": {
+          "wkid": 4326,
+          "latestWkid": 4326
+        }
+      },
+      "crop_original_pixels": [
+        245.12790391108882,
+        263.18620874893736,
+        394.8614409278035,
+        376.8098818094627
+      ],
+      "image_size": [
+        640,
+        640
+      ]
+    },
+    {
+      "id": "uchi-011",
+      "name": "unnamed",
+      "source_ids": [
+        "228607604"
+      ],
+      "export_url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=json&bbox=-87.60651750318203%2C41.7843861062922%2C-87.60353024108373%2C41.786653575672375&bboxSR=4326&imageSR=4326&size=640%2C640&format=png",
+      "imagery_extent": {
+        "xmin": -87.60651750318202,
+        "ymin": 41.78402620993314,
+        "xmax": -87.60353024108372,
+        "ymax": 41.78701347203144,
+        "spatialReference": {
+          "wkid": 4326,
+          "latestWkid": 4326
+        }
+      },
+      "crop_original_pixels": [
+        209.20091486088768,
+        235.9003430915135,
+        430.78916247564706,
+        404.0960186734458
+      ],
+      "image_size": [
+        640,
+        640
+      ]
+    },
+    {
+      "id": "uchi-012",
+      "name": "unnamed",
+      "source_ids": [
+        "301007577"
+      ],
+      "export_url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=json&bbox=-87.60235156626315%2C41.79254845997284%2C-87.59936378046253%2C41.794815821258226&bboxSR=4326&imageSR=4326&size=640%2C640&format=png",
+      "imagery_extent": {
+        "xmin": -87.60235156626315,
+        "ymin": 41.79218824771521,
+        "xmax": -87.59936378046253,
+        "ymax": 41.79517603351584,
+        "spatialReference": {
+          "wkid": 4326,
+          "latestWkid": 4326
+        }
+      },
+      "crop_original_pixels": [
+        253.88355323098187,
+        269.827880263833,
+        386.105651218335,
+        370.16816107302134
+      ],
+      "image_size": [
+        640,
+        640
+      ]
+    },
+    {
+      "id": "uchi-013",
+      "name": "unnamed",
+      "source_ids": [
+        "857364643"
+      ],
+      "export_url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=json&bbox=-87.59506586475835%2C41.78410466578115%2C-87.59207820864114%2C41.78637184002438&bboxSR=4326&imageSR=4326&size=640%2C640&format=png",
+      "imagery_extent": {
+        "xmin": -87.59506586475835,
+        "ymin": 41.78374442484416,
+        "xmax": -87.59207820864114,
+        "ymax": 41.78673208096137,
+        "spatialReference": {
+          "wkid": 4326,
+          "latestWkid": 4326
+        }
+      },
+      "crop_original_pixels": [
+        235.7312505117617,
+        256.05495806124696,
+        404.25825851048,
+        383.94119298630426
+      ],
+      "image_size": [
+        640,
+        640
+      ]
+    },
+    {
+      "id": "uchi-014",
+      "name": "unnamed",
+      "source_ids": [
+        "857364644"
+      ],
+      "export_url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=json&bbox=-87.59546752802288%2C41.78339854780182%2C-87.59247991867223%2C41.78566573246483&bboxSR=4326&imageSR=4326&size=640%2C640&format=png",
+      "imagery_extent": {
+        "xmin": -87.59546752802288,
+        "ymin": 41.783038335457995,
+        "xmax": -87.59247991867223,
+        "ymax": 41.78602594480865,
+        "spatialReference": {
+          "wkid": 4326,
+          "latestWkid": 4326
+        }
+      },
+      "crop_original_pixels": [
+        247.06451634837566,
+        264.65409197008097,
+        392.92479677528405,
+        375.34198724967985
+      ],
+      "image_size": [
+        640,
+        640
+      ]
+    },
+    {
+      "id": "uchi-015",
+      "name": "unnamed",
+      "source_ids": [
+        "1223368486"
+      ],
+      "export_url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=json&bbox=-87.60567994986619%2C41.78955973960129%2C-87.6026924199431%2C41.791827186943316&bboxSR=4326&imageSR=4326&size=640%2C640&format=png",
+      "imagery_extent": {
+        "xmin": -87.6056799498662,
+        "ymin": 41.78919969831076,
+        "xmax": -87.60269241994311,
+        "ymax": 41.79218722823385,
+        "spatialReference": {
+          "wkid": 4326,
+          "latestWkid": 4326
+        }
+      },
+      "crop_original_pixels": [
+        258.0334148228902,
+        272.9713134063784,
+        381.95573183421914,
+        367.02470726004316
+      ],
+      "image_size": [
+        640,
+        640
+      ]
+    }
+  ]
+}

@@ -422,7 +422,10 @@ sports=unary_union([g for g,t in sport]);trackarea=unary_union(tracks).differenc
 greenarea=unary_union(green).difference(sports).difference(trackarea).difference(unary_union(parking))
 gardenarea=unary_union(gardens).difference(greenarea)
 env(greenarea,.10,.07,'Grass');env(gardenarea,.12,.08,'Garden');env(trackarea,.105,.045,'Track')
-env(unary_union(parking),.085,.035,'Paving');env(unary_union(water),.12,.02,'Water')
+env(unary_union(parking),.085,.035,'Road');env(unary_union(water),.12,.02,'Water')
+from parking_detail import parking_detail
+parking_paint=parking_detail(ROOT,scope,footprints,unary_union(green+gardens).difference(unary_union(parking)))
+env(parking_paint,.137,.014,'Marking')
 for g,t in sport:
     mat='Court' if t.get('sport')=='tennis' else 'Grass';env(g,.13,.035,mat)
     for q in polygons(g):
@@ -500,9 +503,9 @@ for o in objects:
 (OUT/'layer_map.json').write_text(json.dumps(layer_map,ensure_ascii=False,indent=2))
 (OUT/'palette.json').write_text(json.dumps(COLORS))
 (OUT/'buildings.json').write_text(json.dumps(records,ensure_ascii=False,indent=2))
-with (OUT/'建筑尺寸与来源.csv').open('w',encoding='utf-8-sig',newline='') as fd:
+with (OUT/'building_dimensions_and_sources.csv').open('w',encoding='utf-8-sig',newline='') as fd:
     keys=[k for k in records[0] if k!='architecture_reference'];wr=csv.DictWriter(fd,fieldnames=keys,extrasaction='ignore');wr.writeheader();wr.writerows(records)
-with (OUT/'道路宽度与来源.csv').open('w',encoding='utf-8-sig',newline='') as fd:
+with (OUT/'road_widths_and_sources.csv').open('w',encoding='utf-8-sig',newline='') as fd:
     wr=csv.DictWriter(fd,fieldnames=list(road_records[0]));wr.writeheader();wr.writerows(road_records)
 (OUT/'footprints_local_meters.geojson').write_text(json.dumps({'type':'FeatureCollection','coordinate_system':{'epsg':32616,'origin_easting':OX,'origin_northing':OY,'origin_wgs84':[LON,LAT],'unit':'m','note':'Local projected meters, not RFC7946 longitude/latitude'},'features':[{'type':'Feature','properties':f['record'],'geometry':mapping(f['poly'])} for f in buildings]},ensure_ascii=False))
 av=[];af=[];co=[];off=0

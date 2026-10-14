@@ -1,0 +1,314 @@
+{
+  "line_width_m": 0.09,
+  "native_cad_or_observed_paint_segments": 0,
+  "interpreted_row_paths": 19,
+  "outlined_bays": 175,
+  "row_results": [
+    {
+      "lot": "uchi-004",
+      "name": "Lexington Parking Lot",
+      "outlined_bays": 6,
+      "path": [
+        [
+          776.626,
+          736.396
+        ],
+        [
+          776.507,
+          719.267
+        ]
+      ],
+      "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=json&bbox=-87.59912810230118%2C41.78748837310237%2C-87.59614043482019%2C41.78975565175076&bboxSR=4326&imageSR=4326&size=640%2C640&format=png"
+    },
+    {
+      "lot": "uchi-004",
+      "name": "Lexington Parking Lot",
+      "outlined_bays": 6,
+      "path": [
+        [
+          784.093,
+          735.686
+        ],
+        [
+          783.97,
+          717.898
+        ]
+      ],
+      "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=json&bbox=-87.59912810230118%2C41.78748837310237%2C-87.59614043482019%2C41.78975565175076&bboxSR=4326&imageSR=4326&size=640%2C640&format=png"
+    },
+    {
+      "lot": "uchi-004",
+      "name": "Lexington Parking Lot",
+      "outlined_bays": 0,
+      "path": [
+        [
+          766.249,
+          739.104
+        ],
+        [
+          766.121,
+          720.657
+        ]
+      ],
+      "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=json&bbox=-87.59912810230118%2C41.78748837310237%2C-87.59614043482019%2C41.78975565175076&bboxSR=4326&imageSR=4326&size=640%2C640&format=png"
+    },
+    {
+      "lot": "uchi-004",
+      "name": "Lexington Parking Lot",
+      "outlined_bays": 13,
+      "path": [
+        [
+          797.815,
+          746.79
+        ],
+        [
+          797.563,
+          710.556
+        ]
+      ],
+      "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=json&bbox=-87.59912810230118%2C41.78748837310237%2C-87.59614043482019%2C41.78975565175076&bboxSR=4326&imageSR=4326&size=640%2C640&format=png"
+    },
+    {
+      "lot": "uchi-006",
+      "name": "unnamed",
+      "outlined_bays": 8,
+      "path": [
+        [
+          401.901,
+          332.576
+        ],
+        [
+          423.693,
+          332.423
+        ]
+      ],
+      "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=json&bbox=-87.60369936330737%2C41.78375439565982%2C-87.6007120301106%2C41.78602179246754&bboxSR=4326&imageSR=4326&size=640%2C640&format=png"
+    },
+    {
+      "lot": "uchi-006",
+      "name": "unnamed",
+      "outlined_bays": 14,
+      "path": [
+        [
+          402.197,
+          320.167
+        ],
+        [
+          421.695,
+          320.03
+        ]
+      ],
+      "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=json&bbox=-87.60369936330737%2C41.78375439565982%2C-87.6007120301106%2C41.78602179246754&bboxSR=4326&imageSR=4326&size=640%2C640&format=png"
+    },
+    {
+      "lot": "uchi-009",
+      "name": "unnamed",
+      "outlined_bays": 10,
+      "path": [
+        [
+          1182.545,
+          256.31
+        ],
+        [
+          1210.426,
+          256.118
+        ]
+      ],
+      "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=json&bbox=-87.59407570027227%2C41.78329161631363%2C-87.59108804638878%2C41.78555876510754&bboxSR=4326&imageSR=4326&size=640%2C640&format=png"
+    },
+    {
+      "lot": "uchi-011",
+      "name": "unnamed",
+      "outlined_bays": 10,
+      "path": [
+        [
+          133.624,
+          415.148
+        ],
+        [
+          190.347,
+          414.749
+        ]
+      ],
+      "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=json&bbox=-87.60651750318203%2C41.7843861062922%2C-87.60353024108373%2C41.786653575672375&bboxSR=4326&imageSR=4326&size=640%2C640&format=png"
+    },
+    {
+      "lot": "uchi-011",
+      "name": "unnamed",
+      "outlined_bays": 6,
+      "path": [
+        [
+          135.202,
+          395.089
+        ],
+        [
+          145.515,
+          395.016
+        ]
+      ],
+      "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=json&bbox=-87.60651750318203%2C41.7843861062922%2C-87.60353024108373%2C41.786653575672375&bboxSR=4326&imageSR=4326&size=640%2C640&format=png"
+    },
+    {
+      "lot": "uchi-011",
+      "name": "unnamed",
+      "outlined_bays": 8,
+      "path": [
+        [
+          189.362,
+          396.887
+        ],
+        [
+          191.361,
+          375.517
+        ]
+      ],
+      "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=json&bbox=-87.60651750318203%2C41.7843861062922%2C-87.60353024108373%2C41.786653575672375&bboxSR=4326&imageSR=4326&size=640%2C640&format=png"
+    },
+    {
+      "lot": "uchi-011",
+      "name": "unnamed",
+      "outlined_bays": 14,
+      "path": [
+        [
+          203.208,
+          410.3
+        ],
+        [
+          202.085,
+          372.826
+        ]
+      ],
+      "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=json&bbox=-87.60651750318203%2C41.7843861062922%2C-87.60353024108373%2C41.786653575672375&bboxSR=4326&imageSR=4326&size=640%2C640&format=png"
+    },
+    {
+      "lot": "uchi-011",
+      "name": "unnamed",
+      "outlined_bays": 5,
+      "path": [
+        [
+          133.707,
+          365.898
+        ],
+        [
+          147.888,
+          365.799
+        ]
+      ],
+      "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=json&bbox=-87.60651750318203%2C41.7843861062922%2C-87.60353024108373%2C41.786653575672375&bboxSR=4326&imageSR=4326&size=640%2C640&format=png"
+    },
+    {
+      "lot": "uchi-012",
+      "name": "unnamed",
+      "outlined_bays": 10,
+      "path": [
+        [
+          501.339,
+          1301.359
+        ],
+        [
+          528.524,
+          1301.689
+        ]
+      ],
+      "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=json&bbox=-87.60235156626315%2C41.79254845997284%2C-87.59936378046253%2C41.794815821258226&bboxSR=4326&imageSR=4326&size=640%2C640&format=png"
+    },
+    {
+      "lot": "uchi-012",
+      "name": "unnamed",
+      "outlined_bays": 3,
+      "path": [
+        [
+          533.873,
+          1296.451
+        ],
+        [
+          538.939,
+          1287.574
+        ]
+      ],
+      "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=json&bbox=-87.60235156626315%2C41.79254845997284%2C-87.59936378046253%2C41.794815821258226&bboxSR=4326&imageSR=4326&size=640%2C640&format=png"
+    },
+    {
+      "lot": "uchi-013",
+      "name": "unnamed",
+      "outlined_bays": 22,
+      "path": [
+        [
+          1098.124,
+          358.176
+        ],
+        [
+          1128.196,
+          357.968
+        ]
+      ],
+      "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=json&bbox=-87.59506586475835%2C41.78410466578115%2C-87.59207820864114%2C41.78637184002438&bboxSR=4326&imageSR=4326&size=640%2C640&format=png"
+    },
+    {
+      "lot": "uchi-013",
+      "name": "unnamed",
+      "outlined_bays": 6,
+      "path": [
+        [
+          1095.043,
+          337.98
+        ],
+        [
+          1112.04,
+          337.863
+        ]
+      ],
+      "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=json&bbox=-87.59506586475835%2C41.78410466578115%2C-87.59207820864114%2C41.78637184002438&bboxSR=4326&imageSR=4326&size=640%2C640&format=png"
+    },
+    {
+      "lot": "uchi-014",
+      "name": "unnamed",
+      "outlined_bays": 15,
+      "path": [
+        [
+          1092.18,
+          290.157
+        ],
+        [
+          1091.894,
+          248.853
+        ]
+      ],
+      "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=json&bbox=-87.59546752802288%2C41.78339854780182%2C-87.59247991867223%2C41.78566573246483&bboxSR=4326&imageSR=4326&size=640%2C640&format=png"
+    },
+    {
+      "lot": "uchi-014",
+      "name": "unnamed",
+      "outlined_bays": 13,
+      "path": [
+        [
+          1076.044,
+          288.834
+        ],
+        [
+          1075.777,
+          250.111
+        ]
+      ],
+      "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=json&bbox=-87.59546752802288%2C41.78339854780182%2C-87.59247991867223%2C41.78566573246483&bboxSR=4326&imageSR=4326&size=640%2C640&format=png"
+    },
+    {
+      "lot": "uchi-015",
+      "name": "unnamed",
+      "outlined_bays": 6,
+      "path": [
+        [
+          231.017,
+          966.639
+        ],
+        [
+          249.282,
+          966.511
+        ]
+      ],
+      "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=json&bbox=-87.60567994986619%2C41.78955973960129%2C-87.6026924199431%2C41.791827186943316&bboxSR=4326&imageSR=4326&size=640%2C640&format=png"
+    }
+  ],
+  "array_from_lot_envelope": false,
+  "planting_and_buildings_override_paint": true
+}

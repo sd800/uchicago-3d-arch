@@ -30,7 +30,7 @@ THE SOFTWARE.
 
 © OpenStreetMap contributors. OSM data and derived geographic databases are provided under the Open Database License (ODbL): https://www.openstreetmap.org/copyright
 
-Source and accuracy details are recorded in README.md and output/使用说明.md.
+Source and accuracy details are recorded in README.md and output/usage_guide.md.
 
 ## Manrope
 

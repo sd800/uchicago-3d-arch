@@ -1,5 +1,11 @@
 # Changelog
 
+## 26.10.14.1 — 2026-10-14
+
+- Add explicit satellite-referenced rows to visible outdoor parking areas and use an asphalt finish instead of plaza paving.
+- Use English filenames for the remaining dimension tables and usage/validation reports, updating generator and document references.
+- Retain per-area satellite source and review metadata, preserving aisles and building clearance and avoiding inferred stripes in obscured or unmarked areas.
+
 ## 26.10.13.6 — 2026-10-13
 
 - Stop reading device language; open in English unless the visitor has explicitly saved a language choice.
