@@ -17,7 +17,7 @@ class Page(HTMLParser):
   if self.current:self.scripts[self.current]+=text
 
 html=(root/'index.html').read_text();page=Page();page.feed(html)
-config=json.loads((root/'site.config.json').read_text());url=config['url']
+config=json.loads((root/'config/site.config.json').read_text());url=config['url']
 assert len(html.encode())<1_000_000, 'Keep model payloads out of crawlable HTML'
 assert not re.search(r'__[A-Z_]+__',html), 'Unfilled template placeholder'
 meta={a.get('name',a.get('property')):a.get('content') for t,a in page.tags if t=='meta'}

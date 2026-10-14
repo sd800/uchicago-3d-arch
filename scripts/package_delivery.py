@@ -7,6 +7,7 @@ for p in root.rglob('*'):
  if not p.is_file():continue
  parts=p.relative_to(root).parts
  if parts[0] in ['node_modules','tmp','.git'] or '__pycache__' in parts:continue
+ if p.name=='.DS_Store' or p.name.startswith('._'):continue
  if p.suffix in ['.zip','.npz','.pyc']:continue
  if parts[0]=='sources' and p.suffix.lower() in ['.pdf','.png','.jpg','.jpeg']:continue
  files.append(p)

@@ -4,7 +4,7 @@ A public-source exterior model of the University of Chicago’s Hyde Park campus
 
 **Keep the `assets/` and `output/` folders beside `index.html`, then open `index.html` directly in a modern browser.** Internet access, npm and a local server are unnecessary for local viewing. To move only one HTML file, use the generated `output/UChicago_Campus_Offline.html`. WebGL 2 and graphics acceleration are needed for the interactive canvas. An image preview and building information remain available when rendering is unavailable.
 
-The interface defaults to English. On first use, any Chinese language in the device’s preferred language list selects Chinese. The language button switches both ways; an available browser local storage remembers the manual choice.
+The interface defaults to English. The first visit uses English regardless of device language. The language button switches both ways; an available browser local storage remembers the manual choice.
 
 ## Deliverables
 
@@ -57,15 +57,15 @@ node scripts/check_locale.mjs
 npm run check:camera
 ```
 
-Source snapshots are retained so the reconstruction can be repeated without refetching map data. The initial build uses source data collected on 2026-10-12. References and attribution are in `sources/SOURCES.md` and `THIRD_PARTY_NOTICES.md`. The viewer bundles Three.js 0.186.1 and the licensed Manrope display font.
+Source snapshots are retained so the reconstruction can be repeated without refetching map data. The initial build uses source data collected on 2026-10-12. References and attribution are in `sources/SOURCES.md` and `docs/THIRD_PARTY_NOTICES.md`. The viewer bundles Three.js 0.186.1 and the licensed Manrope display font.
 
 ## Website and search metadata
 
-The configured public URL is **https://uchi.arch.songming.org/**. `site.config.json` is the source for the canonical URL, English/Chinese page titles and descriptions, Open Graph and Twitter cards, JSON-LD (`WebSite`, `WebPage`, `3DModel`), `robots.txt`, `sitemap.xml` and `CNAME`. The sitemap contains the one real page; the in-page language switch does not create separate language URLs or hreflang alternates.
+The configured public URL is **https://uchi.arch.songming.org/**. `config/site.config.json` is the source for the canonical URL, English/Chinese page titles and descriptions, Open Graph and Twitter cards, JSON-LD (`WebSite`, `WebPage`, `3DModel`), `robots.txt`, `sitemap.xml` and `CNAME`. The sitemap contains the one real page; the in-page language switch does not create separate language URLs or hreflang alternates.
 
 The root `index.html` is lightweight, with a static directory of all 177 buildings, a no-JavaScript preview and fallback model download links. Static text is available without running WebGL. For HTTP/HTTPS, the viewer loads the original binary 3DS separately. For local double-click viewing, a classic script supplies the same bytes without a local server. Keep all project folders together. `python3 scripts/package_viewer.py` also generates `output/UChicago_Campus_Offline.html`, containing the model, font, engine and preview in a single file. This generated duplicate is ignored by Git and included in the local delivery ZIP.
 
-English is the initial HTML language; the viewer retains device-language detection and remembered manual selection. Switching language updates the document language, title, descriptions, social metadata and visible text while keeping one stable canonical URL. Chinese UI typography uses the same system font stack as the Innovation Harbour viewer: `-apple-system`, `BlinkMacSystemFont`, `Segoe UI`, `PingFang SC`, `Microsoft YaHei`, `sans-serif`.
+English is the initial HTML language; the viewer uses English regardless of device language and remembers manual selection. Switching language updates the document language, title, descriptions, social metadata and visible text while keeping one stable canonical URL. Chinese UI typography uses the same system font stack as the Innovation Harbour viewer: `-apple-system`, `BlinkMacSystemFont`, `Segoe UI`, `PingFang SC`, `Microsoft YaHei`, `sans-serif`.
 
 Run `npm run build`, `npm run check:seo` and `npm run check:locale` after editing. Domain files prepare the repository for hosting; committing them does not configure DNS or enable GitHub Pages. When hosting is enabled, serve the repository root and point `uchi.arch.songming.org` to the chosen host. For GitHub Pages, configure the repository's custom domain and DNS per the [GitHub documentation](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site). Submit the sitemap to your search console after the HTTPS site is reachable.
 
@@ -89,4 +89,15 @@ Run `npm run check:rendering` for CAD surface and depth-frustum checks. Run `npm
 
 Roof shadow filtering uses a fixed PCF kernel with receiver-plane depth correction. The sun volume is fixed to campus bounds. Small orthographic depth priorities separate roof sheets and concrete accents while retaining ordinary building occlusion and original CAD coordinates. The GPU check also covers roof lighting and coplanar details during pan, rotation and zoom.
 
-The view can tilt continuously from overhead to exactly horizontal. The Level control keeps the current bearing and scale. Low-angle vertical panning adjusts orthographic framing instead of intersecting nearly parallel ground rays, and cursor zoom stays anchored without tilting the camera. Ground pivots, immediate stopping and explicit rotation are retained. `npm run check:interaction` includes 144 low-angle cases across elevations, bearings and viewport proportions.
+The view can tilt continuously from overhead to exactly horizontal. Low-angle vertical panning adjusts orthographic framing instead of intersecting nearly parallel ground rays, and cursor zoom stays anchored without tilting the camera. Ground pivots, immediate stopping and explicit rotation are retained. `npm run check:interaction` includes 144 low-angle cases across elevations, bearings and viewport proportions.
+
+## Project layout
+
+- `index.html`: website entry; root SEO files and `CNAME` support publishing.
+- `assets/`: browser engine, fonts, icons and local model payload.
+- `config/`: custom site configuration.
+- `docs/`: project decisions and third-party license notices.
+- `scripts/`: model generators, packaging and necessary checks.
+- `sources/`: source snapshots and provenance.
+- `output/`: CAD files, offline edition, reports and delivery archive.
+- Root `VERSION`, `CHANGELOG.md` and package manifests record releases and builds.

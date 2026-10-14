@@ -26,14 +26,28 @@ from html import escape
 from datetime import date
 import hashlib
 
-config=json.loads((root/'site.config.json').read_text())
+config=json.loads((root/'config/site.config.json').read_text())
 site=config['url']
 assert site == f"https://{config['domain']}/", 'Use one HTTPS root URL for every public reference.'
 seo={'en':{k:config[k] for k in ('title','description','imageAlt')},'zh':config['zh']}
 model=(out/'UChicago_HydePark.3ds').read_bytes()
 base64model=base64.b64encode(model).decode()
 preview='data:image/png;base64,'+base64.b64encode((out/'campus_aerial.png').read_bytes()).decode()
-data={'modelByteLength':len(model),'modelTransferBytes':len(model),'layers':json.loads((out/'layer_map.json').read_text()),'palette':json.loads((out/'palette.json').read_text()),'records':records,'preview':'output/campus_aerial.png','modelUrl':'output/UChicago_HydePark.3ds','offlineModelScript':'assets/model-local.js','seo':seo}
+from shapely.geometry import shape,mapping,box
+outdoor_names={
+ 'Main Quad':'主庭院','Botany Pond':'Botany Pond 池塘','Science Quadrangle':'理科庭院','North Sciences Quadrangle':'北理科庭院',
+ 'Midway Plaisance':'Midway Plaisance 林荫公园','Midway Plaisance Ice Rink':'Midway Plaisance 溜冰场',
+ 'Midway Plaisance Atletic Fields':'Midway Plaisance 运动场','Jackman Field':'杰克曼运动场','Campus South Athletic Field':'校园南部运动场',
+ "Amanda's Garden":'阿曼达花园','Bixler Park':'比克斯勒公园','Dr. Alison Davis Garden':'艾莉森·戴维斯博士花园',
+ 'Midway Plaisance Park South Winter Garden':'Midway Plaisance 南冬季花园',"Readers' Garden":'读者花园',
+ 'Midway Plaisance Park North Winter Garden':'Midway Plaisance 北冬季花园','Avant Garden':'Avant Garden 花园'}
+hover_places=[]
+for f in json.loads((root/'sources/features_local.json').read_text()):
+ name=f['tags'].get('name');g=shape(f['geometry'])
+ if name not in outdoor_names or g.geom_type not in ['Polygon','MultiPolygon']:continue
+ hover_places.append({'id':'O'+str(f['id']),'name':name,'name_zh':outdoor_names[name],'hitArea':mapping(g.simplify(.2,preserve_topology=True)),'source':'https://www.openstreetmap.org/'+f['type']+'/'+str(f['id'])})
+hover_places.append({'id':'LAWPOOL','name':'Law School Reflecting Pool','name_zh':'法学院倒影池','hitArea':mapping(box(624,375,680,397)),'source':'Modeled approximate pool outline; scripts/build_campus.py'})
+data={'modelByteLength':len(model),'modelTransferBytes':len(model),'layers':json.loads((out/'layer_map.json').read_text()),'palette':json.loads((out/'palette.json').read_text()),'records':records,'preview':'output/campus_aerial.png','modelUrl':'output/UChicago_HydePark.3ds','offlineModelScript':'assets/model-local.js','seo':seo,'hoverPlaces':hover_places}
 schema={'@context':'https://schema.org','@graph':[
  {'@type':'WebSite','@id':site+'#website','url':site,'name':'UChicago Campus 3D Model','inLanguage':['en','zh-CN'],'sameAs':'https://github.com/sd800/uchicago-3d-arch','image':site+'assets/brand/phoenix-map.png'},
  {'@type':'WebPage','@id':site+'#webpage','url':site,'name':config['title'],'description':config['description'],'inLanguage':['en','zh-CN'],'isPartOf':{'@id':site+'#website'},'mainEntity':{'@id':site+'#model'},'primaryImageOfPage':{'@type':'ImageObject','url':site+'output/campus_aerial.png','width':2400,'height':1850}},
@@ -49,7 +63,7 @@ for r in records:
  code=escape(r['code'],quote=True);name=escape(r['name'])
  initial.append(f'<div class="row"><span class="building-name" data-building-name="{code}">{name}</span><span class="building-meta">{code} · {r["height"]:.2f} m</span></div>')
 
-license=((root/'THIRD_PARTY_NOTICES.md').read_text()+'\n'+(root/'assets/fonts/OFL.txt').read_text()).replace('--','- -')
+license=((root/'docs/THIRD_PARTY_NOTICES.md').read_text()+'\n'+(root/'assets/fonts/OFL.txt').read_text()).replace('--','- -')
 template=template.replace('</head>','<!--\n'+license+'\n-->\n</head>')
 for token,value in {'__SITE_URL__':site,'__SEO_TITLE__':escape(config['title'],quote=True),'__SEO_DESCRIPTION__':escape(config['description'],quote=True),'__IMAGE_ALT__':escape(config['imageAlt'],quote=True),'__STRUCTURED_DATA__':script_json(schema),'__INITIAL_BUILDINGS__':''.join(initial),'__INITIAL_COUNT__':str(len(records))}.items():
  template=template.replace(token,value)

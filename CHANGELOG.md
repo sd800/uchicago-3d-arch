@@ -2,6 +2,20 @@
 
 All notable changes to UChicago Campus 3D Model are recorded here. Versions use `YY.M.D.NUM`, with a separate release sequence for each day in America/Chicago.
 
+## 26.10.13.4 — 2026-10-13
+
+- Default to English regardless of device locale while preserving manual language switching and remembered choices. Ignore Finder metadata in Git and delivery archives without deleting local files.
+
+- Resize and redraw the WebGL canvas in the same animation frame, combining repeated resize notifications and skipping unchanged or hidden dimensions. Preserve navigation scale and framing while avoiding blank flashes and unnecessary shadow redraws.
+
+- Enlarge the initial campus overview by about 16 percent, retaining its bearing and center; Campus and Reset use the same scale.
+
+- Remove the Level button from the toolbar and update the interaction guide.
+
+- Group custom configuration under config/ and project/license documentation under docs/; update generators and references while preserving root website, SEO, release and build entry files.
+
+- Add bilingual hover names for mapped outdoor places, with building-first picking, smaller-area priority and drag/touch safeguards. Coalesce pointer moves to one lookup per frame.
+
 ## 26.10.13.3 — 2026-10-13
 
 - Restore the full viewing range from overhead to an exactly horizontal elevation. Add a bilingual Level control that retains the current bearing, local pivot and zoom.
