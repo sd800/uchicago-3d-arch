@@ -1,0 +1,11 @@
+{
+  "source": "output/UChicago_HydePark.3ds",
+  "buildings": 177,
+  "samples": 1239,
+  "ground_top_triangles": 312,
+  "missing_ground_samples": 0,
+  "max_floating_gap_m": 0,
+  "max_intrusion_m": 0,
+  "passed": true,
+  "failures": []
+}

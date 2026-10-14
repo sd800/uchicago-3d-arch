@@ -1,5 +1,10 @@
 # Changelog
 
+## 26.10.13.6 — 2026-10-13
+
+- Stop reading device language; open in English unless the visitor has explicitly saved a language choice.
+- Verify every exported building footprint against the flat ground surface for low-angle viewing; all 1,239 contact samples meet the ground.
+
 All notable changes to UChicago Campus 3D Model are recorded here. Versions use `YY.M.D.NUM`, with a separate release sequence for each day in America/Chicago.
 
 ## 26.10.13.5 — 2026-10-13

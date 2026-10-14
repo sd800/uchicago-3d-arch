@@ -22,7 +22,7 @@ if(!data.model){en.helpOffline='Double-click index.html with its assets and outp
 Object.assign(en,{rotationMode:'Rotate',load_local:'Reading local model',load_read:'Downloading model',load_decode:'Decoding model data',load_unpack:'Unpacking model',load_parse:'Reading geometry',load_scene:'Preparing buildings and landscape',load_render:'Drawing first view',load_ready:'Ready',load_total:'Overall',helpOrbit:'Drag with the left mouse button to pan; right-drag to rotate. Scroll to zoom at the pointer. On touch screens, one finger pans and two fingers pan or pinch to zoom. Enable Rotate for one-finger rotation. Arrow keys pan and +/− zoom when the model is focused.',mouseHelp:'Drag to pan · Right-drag to rotate · Scroll to zoom'});
 Object.assign(zh,{rotationMode:'旋转',load_local:'读取本地模型',load_read:'下载模型数据',load_decode:'解码模型数据',load_unpack:'解压模型数据',load_parse:'解析建筑几何',load_scene:'准备建筑与景观',load_render:'绘制首个视图',load_ready:'加载完成',load_total:'总体',helpOrbit:'鼠标左键拖动平移，右键拖动旋转，滚轮以指针所在位置缩放。触屏单指平移，双指平移或捏合缩放；开启“旋转”后可单指旋转。模型获得焦点时，方向键平移，＋／－缩放。',mouseHelp:'拖动平移 · 右键旋转 · 滚轮缩放'});
 let stored=null;try{stored=localStorage.getItem('uchicago-model-language');}catch{}
-let lang=initialLanguage(navigator.languages?.length?navigator.languages:[navigator.language||'en'],stored);
+let lang=initialLanguage([],stored);
 const t=key=>(lang==='zh'?zh[key]:en[key])||en[key]||key;
 const loadingView=loadingIndicator($('load-progress'),$('load-status'),t);
 const reportLoad=event=>loadingView.update(event);
