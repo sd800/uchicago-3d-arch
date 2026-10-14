@@ -2,6 +2,13 @@
 
 All notable changes to UChicago Campus 3D Model are recorded here. Versions use `YY.M.D.NUM`, with a separate release sequence for each day in America/Chicago.
 
+## 26.10.13.5 — 2026-10-13
+
+- Compress the website model losslessly with vertex/index-stream coding and gzip: 31.86 MB → 4.18 MB (86.9% less model transfer). Keep the original 3DS and layered Rhino files unchanged.
+- Stream decompression and geometry restoration in one background worker; transfer the compressed input and decoded geometry buffers instead of copying expanded CAD onto the UI thread.
+- Bound temporary decode blocks, yield during scene preparation, and use cooperative object-by-object parsing when workers cannot start. Restore standalone CAD downloads only when requested.
+- Cache model payloads by content digest and verify exact source bytes, geometry attributes, material groups and HTTP/local/standalone editions.
+
 ## 26.10.13.4 — 2026-10-13
 
 - Default to English regardless of device locale while preserving manual language switching and remembered choices. Ignore Finder metadata in Git and delivery archives without deleting local files.

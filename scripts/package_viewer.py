@@ -31,7 +31,9 @@ site=config['url']
 assert site == f"https://{config['domain']}/", 'Use one HTTPS root URL for every public reference.'
 seo={'en':{k:config[k] for k in ('title','description','imageAlt')},'zh':config['zh']}
 model=(out/'UChicago_HydePark.3ds').read_bytes()
-base64model=base64.b64encode(model).decode()
+from web_model_package import web_payload
+web,compressed=web_payload(root,model)
+base64model=base64.b64encode(compressed).decode()
 preview='data:image/png;base64,'+base64.b64encode((out/'campus_aerial.png').read_bytes()).decode()
 from shapely.geometry import shape,mapping,box
 outdoor_names={
@@ -47,7 +49,7 @@ for f in json.loads((root/'sources/features_local.json').read_text()):
  if name not in outdoor_names or g.geom_type not in ['Polygon','MultiPolygon']:continue
  hover_places.append({'id':'O'+str(f['id']),'name':name,'name_zh':outdoor_names[name],'hitArea':mapping(g.simplify(.2,preserve_topology=True)),'source':'https://www.openstreetmap.org/'+f['type']+'/'+str(f['id'])})
 hover_places.append({'id':'LAWPOOL','name':'Law School Reflecting Pool','name_zh':'法学院倒影池','hitArea':mapping(box(624,375,680,397)),'source':'Modeled approximate pool outline; scripts/build_campus.py'})
-data={'modelByteLength':len(model),'modelTransferBytes':len(model),'layers':json.loads((out/'layer_map.json').read_text()),'palette':json.loads((out/'palette.json').read_text()),'records':records,'preview':'output/campus_aerial.png','modelUrl':'output/UChicago_HydePark.3ds','offlineModelScript':'assets/model-local.js','seo':seo,'hoverPlaces':hover_places}
+data={**web,'modelByteLength':len(model),'modelTransferBytes':len(compressed),'layers':json.loads((out/'layer_map.json').read_text()),'palette':json.loads((out/'palette.json').read_text()),'records':records,'preview':'output/campus_aerial.png','downloadUrl':'output/UChicago_HydePark.3ds','offlineModelScript':'assets/model-local.js','seo':seo,'hoverPlaces':hover_places}
 schema={'@context':'https://schema.org','@graph':[
  {'@type':'WebSite','@id':site+'#website','url':site,'name':'UChicago Campus 3D Model','inLanguage':['en','zh-CN'],'sameAs':'https://github.com/sd800/uchicago-3d-arch','image':site+'assets/brand/phoenix-map.png'},
  {'@type':'WebPage','@id':site+'#webpage','url':site,'name':config['title'],'description':config['description'],'inLanguage':['en','zh-CN'],'isPartOf':{'@id':site+'#website'},'mainEntity':{'@id':site+'#model'},'primaryImageOfPage':{'@type':'ImageObject','url':site+'output/campus_aerial.png','width':2400,'height':1850}},

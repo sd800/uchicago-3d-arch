@@ -33,7 +33,7 @@ assert not any('hreflang' in a for _,a in page.tags), 'One URL has no separate l
 assert len([a for t,a in page.tags if t=='h1'])==1
 assert '<title>'+config['title']+'</title>' in html
 payload=json.loads(page.scripts['campus-data'])
-assert 'model' not in payload and payload['modelUrl']=='output/UChicago_HydePark.3ds'
+assert 'model' not in payload and urlsplit(payload['modelUrl']).path=='assets/campus-model.bin' and payload['modelFormat']=='campus-3ds-v1'
 assert len(payload['records'])==177
 translations=json.loads((root/'sources/building_names_zh.json').read_text())
 assert {r['code'] for r in translations}=={r['code'] for r in payload['records']}
@@ -61,7 +61,7 @@ graph=json.loads(page.scripts['campus-schema'])['@graph']
 assert {node['@type'] for node in graph}=={'WebSite','WebPage','3DModel'}
 assert len({node['@id'] for node in graph})==len(graph)
 model=next(n for n in graph if n['@type']=='3DModel')
-assert model['contentUrl']==url+payload['modelUrl']
+assert model['contentUrl']==url+payload['downloadUrl']
 assert next(n for n in graph if n['@type']=='WebPage')['mainEntity']['@id']==model['@id']
 assert (root/'CNAME').read_text().strip()==config['domain']
 assert 'Sitemap: '+url+'sitemap.xml' in (root/'robots.txt').read_text()

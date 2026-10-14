@@ -101,3 +101,9 @@ The view can tilt continuously from overhead to exactly horizontal. Low-angle ve
 - `sources/`: source snapshots and provenance.
 - `output/`: CAD files, offline edition, reports and delivery archive.
 - Root `VERSION`, `CHANGELOG.md` and package manifests record releases and builds.
+
+## Website model compression
+
+The initial model transfer is **4.18 MB**, down from **31.86 MB** (86.9% smaller). The web stream uses meshoptimizer 1.3.0 lossless vertex/index-sequence coding followed by gzip. No quantization or simplification is applied; its decoded SHA-256 matches the original 3DS. Rhino and original 3DS downloads stay unchanged.
+
+A single browser worker streams gzip decompression, restores small geometry blocks and parses the CAD model. Its compressed input and resulting geometry buffers are transferred rather than copied. The full intermediate archive is never retained. Scene setup yields to rendering between time slices; browsers that block workers use cooperative per-object parsing. Standalone HTML restores the downloadable CAD on demand in a worker. Decoder JavaScript/WebAssembly is bundled locally and requires no CDN. See `output/web_model_report.json` for byte counts, source digest and maximum block size. `npm run build:model` rebuilds the stream; `npm run check:compression` checks lossless restoration and worker behavior.
