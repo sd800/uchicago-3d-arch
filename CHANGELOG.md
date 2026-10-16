@@ -1,5 +1,11 @@
 # Changelog
 
+## 26.10.16.3 — 2026-10-16
+
+- Refine all 19 architectural highlights with shaped Gothic reveals, framed modern glazing, transoms and supported roof coping.
+- Rebuild Hutchinson Commons as a single great-hall volume with tall pointed windows, buttresses and steep slate roofing.
+- Preserve distinctive existing landmark masses, courtyard voids and downloadable metric CAD.
+
 ## 26.10.16.2 — 2026-10-16
 
 - Rename the English Guide source heading to Reference and add arch.Songming.org after the model download links, linking to the campus model collection.

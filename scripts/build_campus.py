@@ -1,3 +1,5 @@
+from highlight_finish import detailed_joinery
+from types import SimpleNamespace
 """UChicago Hyde Park exterior model. Metric georeferenced public footprints.
 
 Native Rhino solids for massing, closed meshes for roofs/facades/landscape.
@@ -139,7 +141,7 @@ def facade(ms,p,z,h,levels,gothic=False,continuous=False,spacing=3.7):
             if length<3.7:continue
             u=v/length;n=np.array([u[1],-u[0]])
             for k in range(max(1,int(levels))):
-                zz=z+(k+.23)*h/max(1,levels);wh=min(h/max(1,levels)*.56,2.8)
+                zz=z+(k+.23)*h/max(1,levels);wh=min(h/max(1,levels)*.56,8.5 if gothic else 2.8)
                 if zz+wh>z+h-.25:continue
                 nwin=max(1,int(length/spacing));ww=min(spacing*.48,2.0)
                 if continuous:ww=length/nwin-.16
@@ -224,6 +226,18 @@ for j,f in enumerate(buildings,1):
             for yy in np.arange(687,754,7):
                 ms['LightStone'].append(boxmesh(xx,yy,0,1.5,1.6,22));ms['Slate'].extend(pitched(box(xx-.8,yy-.9,xx+.8,yy+.9),22,1,'y'))
         partition='分离钟塔、主中殿、低侧廊、陡坡屋顶和扶壁；钟塔最高63.0936m有来源，其他分区标高与装饰估算'
+    elif i==157655069:
+        # The great dining hall has tall Gothic windows and an open single
+        # hall volume, rather than four classroom-storey window rows.
+        h=19.8;levels=1;basis='Single great-hall storey and estimated Gothic roof elevations';info['HeightBasis']=basis;body(p,0,14.8,'Limestone',lev=1,arch=True);gable(p,14.8,5.0)
+        for q in polygons(p):
+            for aa,bb in zip(np.asarray(q.exterior.coords)[:-1],np.asarray(q.exterior.coords)[1:]):
+                vv=bb-aa;ln=np.linalg.norm(vv)
+                if ln<16:continue
+                u=vv/ln;n=np.array([u[1],-u[0]])
+                for dd in np.arange(2.2,ln-1.8,6.4):
+                    center=aa+u*dd+n*.28;foot=Polygon([center-u*.48-n*.6,center+u*.48-n*.6,center+u*.48+n*.6,center-u*.48+n*.6]);ms['LightStone'].append(extrusion(foot,0,12.8));ms['Slate'].extend(pitched(foot,12.8,.8))
+        partition='Single great-hall volume, tall pointed windows, stepped external buttresses and steep slate roof; official Tower Group references inform the form, while members and elevations remain approximate.'
     elif i==1228219576:
         # Use the historical published tower widths centered on the mapped position.
         p=box(x-9.4488/2,y-10.668/2,x+9.4488/2,y+10.668/2)
@@ -345,6 +359,11 @@ for j,f in enumerate(buildings,1):
         if i==143457513:
             q=p.intersection(box(a+4,b-1,a+17,d+1));body(q,0,h+7,lev=6);flat(q,h+7);crenellations(ms,q,h+7,1.5);h+=8.5
             partition='旧教堂主体、坡屋顶与西端入口塔、现代连接亭；高度与具体塔位为估算'
+    highlight_stats=None
+    if i in landmarks:
+        joinery,highlight_stats=detailed_joinery(ms,p,0,h,SimpleNamespace(**globals()),gothic=gothic)
+        for kk,(mm,parts)in enumerate(joinery.items()):
+            if parts:chunk_meshes(code+f'HD{kk:02d}',parts,mm,lay,info)
     # One mesh per material per building; Rhino layer contains native body solids plus editable detail meshes.
     for k,(mat,parts) in enumerate(ms.items()):
         if parts:chunk_meshes(code+f'D{k:02d}',parts,mat,lay,info)
@@ -352,7 +371,7 @@ for j,f in enumerate(buildings,1):
         crv=rh.PolylineCurve([rh.Point3d(float(xx),float(yy),0) for xx,yy in q.exterior.coords]);model.Objects.AddCurve(crv,attr(code+'_PLAN',lay,wall,info))
     bounds=np.vstack([o['mesh'].bounds for o in objects if layer_map[o['name']]['layer']==lay])
     actualh=float(bounds[:,2].max())
-    r={'code':code,'name':name,'layer':lay,'osm_id':i,'osm_type':f['type'],'zone':zone,'landmark':i in landmarks,'height':round(actualh,4),'height_status':'published' if verified else ('planning' if i==11687839 else 'estimated'),'levels':levels,'area':round(p.area,2),'width':round(p.bounds[2]-p.bounds[0],2),'depth':round(p.bounds[3]-p.bounds[1],2),'center':[round(x,3),round(y,3)],'basis':basis,'partition':partition,'source':src,'footprint_source':info['FootprintSource'],'architecture_reference':refs['buildings'][specialrefs[i]] if i in specialrefs else None}
+    r={'code':code,'name':name,'layer':lay,'osm_id':i,'osm_type':f['type'],'zone':zone,'landmark':i in landmarks,'height':round(actualh,4),'height_status':'published' if verified else ('planning' if i==11687839 else 'estimated'),'levels':levels,'area':round(p.area,2),'width':round(p.bounds[2]-p.bounds[0],2),'depth':round(p.bounds[3]-p.bounds[1],2),'center':[round(x,3),round(y,3)],'basis':basis,'partition':partition,'source':src,'footprint_source':info['FootprintSource'],'highlight_joinery':highlight_stats,'architecture_reference':refs['buildings'][specialrefs[i]] if i in specialrefs else None}
     records.append(r)
     f['record']=r
 print('Buildings',len(records),'native solids',native_count,flush=True)

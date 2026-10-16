@@ -39,6 +39,16 @@
     "category": "building",
     "material": "WhitePanel"
   },
+  "U002HD0000": {
+    "layer": "U002_Campus North Residential Commons",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U002HD0001": {
+    "layer": "U002_Campus North Residential Commons",
+    "category": "building",
+    "material": "Frame"
+  },
   "U002D0800": {
     "layer": "U002_Campus North Residential Commons",
     "category": "building",
@@ -58,6 +68,11 @@
     "layer": "U003_Gerald Ratner Athletics Center",
     "category": "building",
     "material": "LightStone"
+  },
+  "U003HD0000": {
+    "layer": "U003_Gerald Ratner Athletics Center",
+    "category": "building",
+    "material": "Frame"
   },
   "U003D0700": {
     "layer": "U003_Gerald Ratner Athletics Center",
@@ -534,6 +549,16 @@
     "category": "building",
     "material": "Metal"
   },
+  "U022HD0000": {
+    "layer": "U022_Joseph Regenstein Library",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U022HD0100": {
+    "layer": "U022_Joseph Regenstein Library",
+    "category": "building",
+    "material": "Metal"
+  },
   "U022D0700": {
     "layer": "U022_Joseph Regenstein Library",
     "category": "building",
@@ -593,6 +618,11 @@
     "layer": "U024_Joe and Rika Mansueto Library",
     "category": "building",
     "material": "Glass"
+  },
+  "U024HD0000": {
+    "layer": "U024_Joe and Rika Mansueto Library",
+    "category": "building",
+    "material": "Frame"
   },
   "U024D0700": {
     "layer": "U024_Joe and Rika Mansueto Library",
@@ -685,6 +715,16 @@
     "material": "LightStone"
   },
   "U028B01": {
+    "layer": "U028_William Eckhardt Research Center",
+    "category": "building",
+    "material": "Metal"
+  },
+  "U028HD0000": {
+    "layer": "U028_William Eckhardt Research Center",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U028HD0100": {
     "layer": "U028_William Eckhardt Research Center",
     "category": "building",
     "material": "Metal"
@@ -783,6 +823,11 @@
     "layer": "U032_Mitchell Tower",
     "category": "building",
     "material": "Limestone"
+  },
+  "U032HD0000": {
+    "layer": "U032_Mitchell Tower",
+    "category": "building",
+    "material": "LightStone"
   },
   "U032D0000": {
     "layer": "U032_Mitchell Tower",
@@ -918,6 +963,11 @@
     "layer": "U038_Hutchinson Commons",
     "category": "building",
     "material": "Limestone"
+  },
+  "U038HD0000": {
+    "layer": "U038_Hutchinson Commons",
+    "category": "building",
+    "material": "LightStone"
   },
   "U038D0100": {
     "layer": "U038_Hutchinson Commons",
@@ -1078,6 +1128,11 @@
     "layer": "U045_Gordon Center for Integrative Science",
     "category": "building",
     "material": "LightStone"
+  },
+  "U045HD0000": {
+    "layer": "U045_Gordon Center for Integrative Science",
+    "category": "building",
+    "material": "Frame"
   },
   "U045D0100": {
     "layer": "U045_Gordon Center for Integrative Science",
@@ -1393,6 +1448,11 @@
     "layer": "U058_John Crerar Library",
     "category": "building",
     "material": "Limestone"
+  },
+  "U058HD0000": {
+    "layer": "U058_John Crerar Library",
+    "category": "building",
+    "material": "Frame"
   },
   "U058D0700": {
     "layer": "U058_John Crerar Library",
@@ -1929,6 +1989,16 @@
     "category": "building",
     "material": "Limestone"
   },
+  "U080HD0000": {
+    "layer": "U080_Saieh Hall for Economics",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U080HD0100": {
+    "layer": "U080_Saieh Hall for Economics",
+    "category": "building",
+    "material": "Metal"
+  },
   "U080D0000": {
     "layer": "U080_Saieh Hall for Economics",
     "category": "building",
@@ -1958,6 +2028,11 @@
     "layer": "U081_Frederick C. Robie House",
     "category": "building",
     "material": "Brick"
+  },
+  "U081HD0000": {
+    "layer": "U081_Frederick C. Robie House",
+    "category": "building",
+    "material": "Frame"
   },
   "U081D0200": {
     "layer": "U081_Frederick C. Robie House",
@@ -2694,6 +2769,11 @@
     "category": "building",
     "material": "Limestone"
   },
+  "U112HD0000": {
+    "layer": "U112_Rockefeller Memorial Chapel",
+    "category": "building",
+    "material": "LightStone"
+  },
   "U112D0000": {
     "layer": "U112_Rockefeller Memorial Chapel",
     "category": "building",
@@ -3249,6 +3329,11 @@
     "category": "building",
     "material": "Limestone"
   },
+  "U136HD0000": {
+    "layer": "U136_Harper Memorial Library",
+    "category": "building",
+    "material": "LightStone"
+  },
   "U136D0000": {
     "layer": "U136_Harper Memorial Library",
     "category": "building",
@@ -3434,6 +3519,16 @@
     "category": "building",
     "material": "Metal"
   },
+  "U143HD0000": {
+    "layer": "U143_Rubenstein Forum",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U143HD0100": {
+    "layer": "U143_Rubenstein Forum",
+    "category": "building",
+    "material": "Metal"
+  },
   "U143D0700": {
     "layer": "U143_Rubenstein Forum",
     "category": "building",
@@ -3559,6 +3654,11 @@
     "category": "building",
     "material": "Glass"
   },
+  "U148HD0000": {
+    "layer": "U148_Harris School of Public Policy Keller Center",
+    "category": "building",
+    "material": "Frame"
+  },
   "U148D0100": {
     "layer": "U148_Harris School of Public Policy Keller Center",
     "category": "building",
@@ -3593,6 +3693,11 @@
     "layer": "U149_Edith Abbott Hall _ Crown Family School",
     "category": "building",
     "material": "Brick"
+  },
+  "U149HD0000": {
+    "layer": "U149_Edith Abbott Hall _ Crown Family School",
+    "category": "building",
+    "material": "Frame"
   },
   "U149D0800": {
     "layer": "U149_Edith Abbott Hall _ Crown Family School",
@@ -3734,6 +3839,11 @@
     "category": "building",
     "material": "LightStone"
   },
+  "U155HD0000": {
+    "layer": "U155_Logan Center for the Arts",
+    "category": "building",
+    "material": "Frame"
+  },
   "U155D0700": {
     "layer": "U155_Logan Center for the Arts",
     "category": "building",
@@ -3788,6 +3898,11 @@
     "layer": "U157_Laird Bell Law Quadrangle",
     "category": "building",
     "material": "LightStone"
+  },
+  "U157HD0000": {
+    "layer": "U157_Laird Bell Law Quadrangle",
+    "category": "building",
+    "material": "Frame"
   },
   "U157D0700": {
     "layer": "U157_Laird Bell Law Quadrangle",
@@ -4023,6 +4138,16 @@
     "layer": "U166_Woodlawn Residential & Dining Commons",
     "category": "building",
     "material": "WhitePanel"
+  },
+  "U166HD0000": {
+    "layer": "U166_Woodlawn Residential & Dining Commons",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U166HD0100": {
+    "layer": "U166_Woodlawn Residential & Dining Commons",
+    "category": "building",
+    "material": "Metal"
   },
   "U166D0700": {
     "layer": "U166_Woodlawn Residential & Dining Commons",
