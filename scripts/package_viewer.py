@@ -90,7 +90,7 @@ offline=edition(standalone,'data:font/ttf;base64,'+base64.b64encode((assets/'fon
 assert not re.search(r'<script[^>]+src=',offline)
 (out/'UChicago_Campus_Offline.html').write_text(offline,encoding='utf-8')
 (root/'CNAME').write_text(config['domain']+'\n')
-(root/'robots.txt').write_text('User-agent: *\nAllow: /\n\nSitemap: '+site+'sitemap.xml\n')
+(root/'robots.txt').write_text('User-agent: *\nAllow: /\n\nSitemap: '+site+'sitemap.xml\nSitemap: https://arch.songming.org/sitemaps/uchi.xml\n')
 (root/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  <url><loc>'+site+'</loc><lastmod>'+date.today().isoformat()+'</lastmod></url>\n</urlset>\n')
 print('SEO index.html:',len(html.encode()),'bytes;',len(records),'static building names;')
 print('Single-file offline HTML:',len(offline.encode()),'bytes')
