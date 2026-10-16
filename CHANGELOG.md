@@ -1,5 +1,11 @@
 # Changelog
 
+## 26.10.15.1 — 2026-10-15
+
+- Add two-finger twist rotation around the gesture midpoint while preserving touch pan, pinch zoom, single-finger rotation mode and desktop navigation.
+- Batch the two contacts once per frame, require a small intentional twist, and reset gesture baselines when fingers change or a gesture is canceled. Keep pitch, ground pivots and immediate stopping stable.
+- Correct pinch centers when page and viewport coordinates differ; update English and Chinese controls help and verify combined gestures at plan, oblique and horizontal angles.
+
 ## 26.10.14.2 — 2026-10-14
 
 - Extend shallow terrain-tile undersides to a shared display datum and softly fade their unlit earth sides downward, removing the exposed faceted wedges in downhill horizontal views. Preserve the original CAD elevations and files.
