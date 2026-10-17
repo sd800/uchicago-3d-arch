@@ -1,3 +1,5 @@
+import highlightViews from '../config/highlight-views.json';
+import {highlightCamera} from './highlight_camera.js';
 import {installHighlightsPanel} from './highlights_panel.js';
 import {createOutdoorPicker,groundPoint,installCampusHover} from './outdoor_hover.js';
 import {createViewportRenderLoop} from './viewport_rendering.js';
@@ -135,15 +137,15 @@ function applyLanguage(){
 $('language').onclick=()=>{$('hover-tip').style.display='none';lang=lang==='en'?'zh':'en';try{localStorage.setItem('uchicago-model-language',lang);}catch{}applyLanguage();};
 function aspect(){return Math.max(host.clientWidth,1)/Math.max(host.clientHeight,1);}
 function updateFrustum(){if(!camera)return;const a=aspect();camera.left=-frameHeight*a/2;camera.right=frameHeight*a/2;camera.top=frameHeight/2;camera.bottom=-frameHeight/2;camera.updateProjectionMatrix();if(controls){controls.syncViewOffset();updateCampusZoomLimit(camera,controls,campusDiagonal);}}
-function fitBox(b,mode='aerial',pad=1.16,focus=false){
- if(!camera)return;frameHeight=frameCampusBox(camera,controls,b,{aspect:aspect(),mode,pad,distance:3000,pivotHeight:focus?undefined:groundHeight(data,(b.min.x+b.max.x)/2,(b.min.y+b.max.y)/2)});updateFrustum();render();
+function fitBox(b,mode='aerial',pad=1.16,focus=false,direction){
+ if(!camera)return;frameHeight=frameCampusBox(camera,controls,b,{aspect:aspect(),mode,pad,direction,distance:3000,pivotHeight:focus?undefined:groundHeight(data,(b.min.x+b.max.x)/2,(b.min.y+b.max.y)/2)});updateFrustum();render();
 }
 function setViewButtons(){for(const key of ['aerial','core','plan']){$(key).classList.toggle('active',viewMode===key);$(key).setAttribute('aria-pressed',String(viewMode===key));}}
 function syncRotationButton(){const b=$('rotation-mode');b.classList.toggle('active',Boolean(controls?.rotationMode));b.setAttribute('aria-pressed',String(Boolean(controls?.rotationMode)));}
 function resetInteraction(){if(controls)setRotationMode(controls,false);syncRotationButton();}
 $('rotation-mode').onclick=()=>{if(controls)setRotationMode(controls,!controls.rotationMode);syncRotationButton();};
 function fullView(mode){if(mode==='plan')resetInteraction();viewMode=mode;setViewButtons();if(!campus)return;const b=mode==='core'?new THREE.Box3(new THREE.Vector3(475,630,0),new THREE.Vector3(890,1160,65)):new THREE.Box3().setFromObject(campus);fitBox(b,mode==='plan'?'plan':'aerial',mode==='aerial'?1:1.16);}
-function focusBuilding(code){if(!modelReady){pendingFocus=code;return;}const g=buildings.get(code);if(!g||!camera)return;g.visible=true;g.updateWorldMatrix(true,true);viewMode='focus';setViewButtons();fitBox(new THREE.Box3().setFromObject(g),'aerial',1.55,true);}
+function focusBuilding(code){if(!modelReady){pendingFocus=code;return;}const g=buildings.get(code);if(!g||!camera)return;g.visible=true;g.updateWorldMatrix(true,true);viewMode='focus';setViewButtons();const shot=highlightCamera(byCode.get(code),highlightViews);fitBox(new THREE.Box3().setFromObject(g),'aerial',shot.pad,true,shot.direction);}
 $('aerial').onclick=()=>fullView('aerial');$('plan').onclick=()=>fullView('plan');$('core').onclick=()=>fullView('core');$('reset-view').onclick=()=>{resetInteraction();selectBuilding(null);$('cut-enabled').checked=false;updateCut();fullView('aerial');};
 function updateLabels(){
  if(!camera)return;const boxes=[];const picked=[...labelNodes].sort(([aa],[bb])=>(aa===selected?-1:bb===selected?1:0));
