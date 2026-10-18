@@ -2,7 +2,7 @@ import {BufferGeometry,Float32BufferAttribute,MeshBasicMaterial,Color,DoubleSide
 
 // Map surfaces are a cartographic stack. Independently draped CAD triangles
 // can cross by meters; no depth bias can repair those crossings reliably.
-export const SURFACE_ORDER=Object.freeze({Ground:-100,Sand:-95,Grass:-94,Garden:-93,Road:-80,Walk:-75,Paving:-70,Court:-65,Track:-64,Water:-60,Marking:-50});
+export const SURFACE_ORDER=Object.freeze({Ground:-100,Sand:-95,Grass:-94,Garden:-93,Road:-80,Walk:-75,Paving:-70,FieldTurf:-68,FieldStripe:-67,CourtApron:-66,Court:-65,Track:-64,Infield:-63,Water:-60,Marking:-50});
 /** Shared top heights also join CAD chunks containing only sides/undersides. */
 export function createTerrainMass(meshes,base=-30){
   const heights=new Map(),a=new Vector3(),b=new Vector3(),c=new Vector3(),normal=new Vector3();

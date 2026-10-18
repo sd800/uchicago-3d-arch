@@ -1,5 +1,12 @@
 # Changelog
 
+## 26.10.18.11 — 2026-10-18
+
+- Refine the Stagg Field complex behind Ratner with continuous eight-lane track markings, striped football turf, goalposts, eight regulation tennis courts and two practice half courts.
+- Add opposed baseball/softball infields, simplified nets and perimeter fencing, east-grass soccer markings/goals and connected edge paving, using university aerial photographs and the saved mapped footprints.
+- Remove misplaced trees from active courts, playing fields and the track while retaining perimeter planting.
+- Keep small outdoor fittings simplified and preserve the existing campus buildings and camera views.
+
 ## 26.10.18.10 — 2026-10-18
 
 - Match the Guide copyright line to normal paragraph typography and spacing below it, and use standard paragraph spacing above and below the model download links.

@@ -1,4 +1,5 @@
 from campus_refinement import rebuild as rebuild_ordinary,finish as finish_ordinary,landscape as refine_landscape
+from athletic_fields import layout as athletic_layout, handles as athletic_handles, refine as refine_athletic_fields
 from highlight_finish import detailed_joinery
 from highlight_reconstruction import rebuild as rebuild_highlight, REFS as REBUILT_HIGHLIGHTS
 from types import SimpleNamespace
@@ -50,6 +51,7 @@ COLORS={
  'Court':(89,132,122),'Marking':(232,228,207),'Leaves':(67,116,75),'Trunk':(119,95,68),
  'RatnerTan':(180,139,93),'RatnerBrown':(100,88,76),'RatnerDrum':(124,68,56),'RatnerRoof':(112,137,141),'RatnerRoofSeam':(88,110,115),'RatnerFascia':(66,83,86),'RatnerSteel':(214,219,210),'RatnerCable':(118,126,121),'RatnerGlass':(111,154,161),'RatnerFrost':(172,184,175),
  'ChapelStone':(185,184,170),'ChapelTrim':(207,204,186),'ChapelRoof':(106,115,118),'ChapelRoofSeam':(119,127,128),'ChapelRecess':(122,124,113),'ChapelDoor':(91,68,48),'ChapelDoorTrim':(119,93,64),'ChapelLead':(83,92,87),'ChapelLouvre':(62,67,64),
+ 'FieldTurf':(62,103,71),'FieldStripe':(70,113,77),'CourtApron':(72,101,88),'Infield':(179,129,94),'GoalPost':(219,201,133),
  'Furniture':(72,78,72),'Solar':(50,73,88),'PalevskyBrick':(177,79,48),'PalevskyPurple':(102,88,125),'PalevskyRoof':(145,108,85),
 }
 model=rh.File3dm();model.ApplicationName='UChicago Hyde Park Public-source Exterior Model'
@@ -450,6 +452,8 @@ for f in buildings:
     for q in polygons(f['poly']):
         for ring in q.interiors:green.append(Polygon(ring).buffer(-2))
 sports=unary_union([g for g,t in sport]);trackarea=unary_union(tracks).difference(sports)
+athletic_plan=athletic_layout(SimpleNamespace(**globals()))
+trackarea=trackarea.difference(athletic_plan['original'].buffer(3)).union(athletic_plan['track'])
 greenarea=unary_union(green).difference(sports).difference(trackarea).difference(unary_union(parking))
 gardenarea=unary_union(gardens).difference(greenarea)
 env(greenarea,.10,.07,'Grass');env(gardenarea,.12,.08,'Garden');env(trackarea,.105,.045,'Track')
@@ -458,6 +462,7 @@ from parking_detail import parking_detail
 parking_paint=parking_detail(ROOT,scope,footprints,unary_union(green+gardens).difference(unary_union(parking)))
 env(parking_paint,.137,.014,'Marking')
 for g,t in sport:
+    if athletic_handles(g,t):continue
     mat='Court' if t.get('sport')=='tennis' else 'Grass';env(g,.13,.035,mat)
     for q in polygons(g):
         env(q.boundary.buffer(.065).intersection(q),.167,.012,'Marking')
@@ -480,6 +485,7 @@ for xx in np.arange(542,713,28):
 trees=[];mapped_trees=0
 safe_green=unary_union([greenarea,gardenarea]).difference(footprints.buffer(3)).buffer(-2)
 def tree_point(xx,yy):
+    if athletic_plan['tree_exclusion'].covers(Point(xx,yy)):return False
     if scope.contains(Point(xx,yy)) and not footprints.buffer(3).contains(Point(xx,yy)) and not roadarea.buffer(1).contains(Point(xx,yy)) and all((xx-a)**2+(yy-b)**2>45 for a,b in trees):trees.append((xx,yy));return True
 for ii,t in ntags.items():
     if t.get('natural')=='tree' and tree_point(*nodes[ii]):mapped_trees+=1
@@ -513,6 +519,8 @@ for w in ways:
     for ds in np.arange(2,line.length-3,12):
         seg=LineString([line.interpolate(ds),line.interpolate(ds+3)])
         env(seg.buffer(.06,cap_style=2).intersection(roadarea),.082,.012,'Marking')
+athletic_refinement=refine_athletic_fields(SimpleNamespace(**globals()),athletic_plan)
+(OUT/'athletic_fields_refinement.json').write_text(json.dumps(athletic_refinement,indent=2)+'\n')
 landscape_refinement=refine_landscape(SimpleNamespace(**globals()))
 (OUT/'campus_landscape_refinement.json').write_text(json.dumps(landscape_refinement,indent=2))
 for k,(mat,parts) in enumerate(eg.items()):

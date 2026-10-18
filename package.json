@@ -30,7 +30,8 @@
     "check:view-state": "node scripts/check_view_readout.mjs",
     "build:exchange": "python3 scripts/campus_exchange.py",
     "check:glb": "node scripts/check_glb.mjs",
-    "check:exchange": "node scripts/check_fbx.mjs"
+    "check:exchange": "node scripts/check_fbx.mjs",
+    "check:athletic-fields": "node scripts/check_athletic_fields.mjs"
   },
   "dependencies": {
     "three": "0.186.1"

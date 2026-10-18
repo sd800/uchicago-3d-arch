@@ -1,0 +1,42 @@
+{
+  "reference": "https://athletics.uchicago.edu/sports/2023/6/12/facilities-athletic-fields.aspx",
+  "track_lanes": 8,
+  "regulation_tennis_courts": 8,
+  "practice_half_courts": 2,
+  "ball_infields": [
+    {
+      "kind": "baseball",
+      "home": [
+        250.6,
+        1408.0
+      ],
+      "facing": [
+        0.7071067811865475,
+        -0.7071067811865475
+      ],
+      "base_spacing_m": 27.432
+    },
+    {
+      "kind": "softball",
+      "home": [
+        365.9,
+        1268.4
+      ],
+      "facing": [
+        -0.7071067811865475,
+        0.7071067811865475
+      ],
+      "base_spacing_m": 18.288
+    }
+  ],
+  "soccer_pitches": 1,
+  "geometry_level": "optimized outdoor facilities",
+  "paint_clearance_m": 0.018,
+  "football_field_m": [
+    48.768,
+    109.728
+  ],
+  "lane_one_length_m": 399.985,
+  "added_triangles": 21768,
+  "secondary_dimensions": "Mapped locations; regulation court and ball-base dimensions. Track geometry, soccer markings, goals, fences and small furniture are approximate photographic interpretations."
+}

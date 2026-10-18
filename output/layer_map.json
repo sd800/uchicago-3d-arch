@@ -459,12 +459,12 @@
     "category": "building",
     "material": "Frame"
   },
-  "U011D4500": {
+  "U011D5000": {
     "layer": "U011_Max Palevsky Commons Central",
     "category": "building",
     "material": "PalevskyPurple"
   },
-  "U011D4600": {
+  "U011D5100": {
     "layer": "U011_Max Palevsky Commons Central",
     "category": "building",
     "material": "PalevskyRoof"
@@ -569,12 +569,12 @@
     "category": "building",
     "material": "Frame"
   },
-  "U014D4500": {
+  "U014D5000": {
     "layer": "U014_Max Palevsky Commons West",
     "category": "building",
     "material": "PalevskyPurple"
   },
-  "U014D4600": {
+  "U014D5100": {
     "layer": "U014_Max Palevsky Commons West",
     "category": "building",
     "material": "PalevskyRoof"
@@ -714,12 +714,12 @@
     "category": "building",
     "material": "Frame"
   },
-  "U018D4500": {
+  "U018D5000": {
     "layer": "U018_Max Palevsky Commons East",
     "category": "building",
     "material": "PalevskyPurple"
   },
-  "U018D4600": {
+  "U018D5100": {
     "layer": "U018_Max Palevsky Commons East",
     "category": "building",
     "material": "PalevskyRoof"
@@ -5674,7 +5674,7 @@
     "category": "building",
     "material": "Garden"
   },
-  "U148D4300": {
+  "U148D4800": {
     "layer": "U148_Harris School of Public Policy Keller Center",
     "category": "building",
     "material": "Solar"
@@ -6910,6 +6910,31 @@
     "material": "Trunk"
   },
   "E4200": {
+    "layer": "环境_Environment",
+    "category": "environment",
+    "material": "FieldTurf"
+  },
+  "E4300": {
+    "layer": "环境_Environment",
+    "category": "environment",
+    "material": "FieldStripe"
+  },
+  "E4400": {
+    "layer": "环境_Environment",
+    "category": "environment",
+    "material": "CourtApron"
+  },
+  "E4500": {
+    "layer": "环境_Environment",
+    "category": "environment",
+    "material": "Infield"
+  },
+  "E4600": {
+    "layer": "环境_Environment",
+    "category": "environment",
+    "material": "GoalPost"
+  },
+  "E4700": {
     "layer": "环境_Environment",
     "category": "environment",
     "material": "Furniture"
