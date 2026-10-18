@@ -1,5 +1,10 @@
 # Changelog
 
+## 26.10.18.9 — 2026-10-18
+
+- Move Guide source links into a clickable Reference floating panel below the retained public-data snapshot date; support outside-click dismissal, Escape and touch interaction.
+- Replace the previous source-link row with © 2026 Songming.org and place the third-party license statement beside the new Reference control, matching the snapshot's metadata text size.
+
 ## 26.10.18.8 — 2026-10-18
 
 - Optimize Ratner Athletics Center against university built photographs and engineering references: separate the northeast pool hall from its low western service wing and rebuild continuous curved roof/envelope junctions.

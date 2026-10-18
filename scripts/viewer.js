@@ -1,3 +1,4 @@
+import {installGuideReferences} from './guide_references.js';
 import {updateViewReadout} from './view_readout.js';
 import highlightViews from '../config/highlight-views.json';
 import {highlightCamera} from './highlight_camera.js';
@@ -58,6 +59,7 @@ $('open-help').onclick=()=>{
  dialog.scrollTop=0;
 };
 $('close-help').onclick=()=>$('help-dialog').close();
+installGuideReferences({dialog:$('help-dialog'),trigger:$('open-reference'),panel:$('reference-popover')});
 $('help-dialog').addEventListener('click',e=>{if(e.target===e.currentTarget){const b=e.target.getBoundingClientRect();if(e.clientX<b.left||e.clientX>b.right||e.clientY<b.top||e.clientY>b.bottom)e.target.close();}});
 function download(blob,name){const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
 let bytes=null;
