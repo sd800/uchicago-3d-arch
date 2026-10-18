@@ -19,6 +19,15 @@ for r in records:
  if r['height_status']=='published':r['basis_en']='Published maximum height from university or project sources; local roof and facade dimensions remain approximate.'
  elif r['height_status']=='planning':r['basis_en']='2018 Chicago PD43 planning drawings, pages 211 and 223: Block W 184 ft; Blocks N/E/S 94 ft. Not an as-built survey.'
  else:r['basis_en']=f"Estimated exterior height. Floor count used: {r['levels']:g}. " + ('Municipal stories record; assumed floor heights.' if '芝加哥市' in r['basis'] else 'Published/OSM floor counts or a functional massing estimate; local floor heights are assumed.')
+# Updated ordinary-building metadata separates source-confirmed storeys from
+# estimated roof/eave sections, instead of repeating obsolete municipal counts.
+for r in records:
+ recipe=(r.get('campus_refinement')or{}).get('optimization_recipe')
+ if recipe:
+  if r['height_status']!='published':
+   status=recipe['dimension_status'].replace('estimated exterior dimensions; storeys documented only where identified below','Exterior dimensions and floor count are estimated from the mapped footprint and architectural family.')
+   r['basis_en']=status+' Modeled maximum includes the roof; local section dimensions are approximate.'
+  r['partition']='本轮按该楼的独立方案优化主要体量、屋顶、成组开窗与入口衔接，保留地图轮廓和庭院。未公开的构件尺寸及重复窗位为室外形态估算，并非实测或施工模型。'
 recordsfile=out/'viewer_records.json';recordsfile.write_text(json.dumps(records,ensure_ascii=False,indent=2))
 
 # Keep crawlable HTML small; the same renderer also powers a portable single-file edition.

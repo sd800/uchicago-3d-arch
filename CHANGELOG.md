@@ -1,5 +1,11 @@
 # Changelog
 
+## 26.10.18.12 — 2026-10-18
+
+- Optimize all 158 ordinary building exteriors with explicit building recipes, retaining the 19 existing individually modeled Highlights. Replace generic classroom blocks with differentiated Gothic, modern academic, medical, residential, industrial and parking forms.
+- Correct major silhouette errors including Snell–Hitchcock, International House, Renee Granville-Grossman, Duchossois, Comer, High Bay, the greenhouse, South Steam Plant and Pick Hall; restore distinctive roof and entrance character across the quadrangles and south campus.
+- Add courtyard-aware connected roofs, grouped facade openings, supported entrance steps and physically open garage decks and Cobb Gate passage. Preserve the newly refined Ratner athletic fields and existing presentation cameras.
+
 ## 26.10.18.11 — 2026-10-18
 
 - Refine the Stagg Field complex behind Ratner with continuous eight-lane track markings, striped football turf, goalposts, eight regulation tennis courts and two practice half courts.

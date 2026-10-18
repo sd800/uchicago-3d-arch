@@ -1,4 +1,5 @@
-from campus_refinement import rebuild as rebuild_ordinary,finish as finish_ordinary,landscape as refine_landscape
+from campus_refinement import landscape as refine_landscape
+from campus_optimization import rebuild as rebuild_ordinary, finish as finish_ordinary, facade as optimized_facade, specification
 from athletic_fields import layout as athletic_layout, handles as athletic_handles, refine as refine_athletic_fields
 from highlight_finish import detailed_joinery
 from highlight_reconstruction import rebuild as rebuild_highlight, REFS as REBUILT_HIGHLIGHTS
@@ -51,6 +52,7 @@ COLORS={
  'Court':(89,132,122),'Marking':(232,228,207),'Leaves':(67,116,75),'Trunk':(119,95,68),
  'RatnerTan':(180,139,93),'RatnerBrown':(100,88,76),'RatnerDrum':(124,68,56),'RatnerRoof':(112,137,141),'RatnerRoofSeam':(88,110,115),'RatnerFascia':(66,83,86),'RatnerSteel':(214,219,210),'RatnerCable':(118,126,121),'RatnerGlass':(111,154,161),'RatnerFrost':(172,184,175),
  'ChapelStone':(185,184,170),'ChapelTrim':(207,204,186),'ChapelRoof':(106,115,118),'ChapelRoofSeam':(119,127,128),'ChapelRecess':(122,124,113),'ChapelDoor':(91,68,48),'ChapelDoorTrim':(119,93,64),'ChapelLead':(83,92,87),'ChapelLouvre':(62,67,64),
+ 'QuadStone':(185,181,162),'QuadTrim':(214,207,184),'WarmBrick':(139,83,64),'BrownBrick':(115,82,64),'HospitalBrick':(167,117,90),'WindowGlass':(73,99,105),'DoorWood':(86,62,45),'RoofSlate':(85,94,96),'RoofClay':(130,73,55),'RoofMembrane':(151,154,146),'RoofPatina':(111,143,130),
  'FieldTurf':(62,103,71),'FieldStripe':(70,113,77),'CourtApron':(72,101,88),'Infield':(179,129,94),'GoalPost':(219,201,133),
  'Furniture':(72,78,72),'Solar':(50,73,88),'PalevskyBrick':(177,79,48),'PalevskyPurple':(102,88,125),'PalevskyRoof':(145,108,85),
 }
@@ -146,6 +148,7 @@ def pitched(p,z,rise,axis=None):
             top=m.vertices[:,2]>z+.06;m.vertices[top,2]+=h[top];ms.append(m)
     return ms
 def facade(ms,p,z,h,levels,gothic=False,continuous=False,spacing=3.7):
+    if current_design and optimized_facade(ms,p,z,h,levels,gothic,continuous,spacing,SimpleNamespace(**globals())):return
     # Windows are illustrative repeated bays, not measured facade openings.
     for ring in [p.exterior]+list(p.interiors):
         cc=np.asarray(ring.coords)
@@ -218,6 +221,10 @@ for j,f in enumerate(buildings,1):
     if i==152586235:h=30.48;basis='学校体育部桅杆峰值100 ft；另有125 ft构件报道；屋面高度估算';src=refs['buildings'][10]['sources'][0]['url']
     lay=code+'_'+name.replace('/','_').replace(':','_')[:85];layer(lay,wall)
     info={'Building':name,'Code':code,'Units':'meters','FootprintSource':f'https://www.openstreetmap.org/{f["type"]}/{i}','HeightBasis':basis,'GeometryDetail':'Exterior approximation; repeated facade bays are illustrative','GroundDatum':'relative Z=0, flattened terrain'}
+    current_design=specification(i);optimization_facades={'window_groups':0}
+    if i not in landmarks and not verified:
+        basis='Source-informed exterior interpretation; local eave and roof heights are estimates. '+current_design['dimension_status']
+        src=current_design['references'][0];info['HeightBasis']=basis;info['GeometryDetail']=current_design['evidence']
     ms={k:[] for k in COLORS};bodyidx=[0];construction_facades=[];detail_record=None;partition='公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意'
     def body(g,z,hh,mat=wall,windows=True,lev=None,arch=gothic,cont=False):
         for q in polygons(g):
@@ -385,13 +392,16 @@ for j,f in enumerate(buildings,1):
         crv=rh.PolylineCurve([rh.Point3d(float(xx),float(yy),0) for xx,yy in q.exterior.coords]);model.Objects.AddCurve(crv,attr(code+'_PLAN',lay,wall,info))
     bounds=np.vstack([o['mesh'].bounds for o in objects if layer_map[o['name']]['layer']==lay])
     actualh=float(bounds[:,2].max())
-    r={'code':code,'name':name,'layer':lay,'osm_id':i,'osm_type':f['type'],'zone':zone,'landmark':i in landmarks,'height':round(actualh,4),'height_status':'published' if verified else ('planning' if i==11687839 else 'estimated'),'levels':levels,'area':round(p.area,2),'width':round(p.bounds[2]-p.bounds[0],2),'depth':round(p.bounds[3]-p.bounds[1],2),'center':[round(x,3),round(y,3)],'basis':basis,'partition':partition,'source':src,'footprint_source':info['FootprintSource'],'campus_refinement':campus_refinement,'exterior_reconstruction':detail_record,'ordinary_joinery':ordinary_stats,'highlight_joinery':highlight_stats,'architecture_reference':refs['buildings'][specialrefs[i]] if i in specialrefs else None}
+    r={'code':code,'name':name,'layer':lay,'osm_id':i,'osm_type':f['type'],'zone':zone,'landmark':i in landmarks,'height':round(actualh,4),'height_status':'published' if verified else ('planning' if i==11687839 else 'estimated'),'levels':levels,'area':round(p.area,2),'width':round(p.bounds[2]-p.bounds[0],2),'depth':round(p.bounds[3]-p.bounds[1],2),'center':[round(x,3),round(y,3)],'basis':basis,'partition':partition,'source':src,'footprint_source':info['FootprintSource'],'campus_refinement':campus_refinement,'exterior_reconstruction':detail_record,'ordinary_joinery':ordinary_stats,'highlight_joinery':highlight_stats,'architecture_reference':refs['buildings'][specialrefs[i]] if i in specialrefs else None,'optimization_2026_10_18':current_design}
     records.append(r)
     f['record']=r
 print('Buildings',len(records),'native solids',native_count,flush=True)
 
 # Map elevated connections to the closest connected building rather than inventing extra buildings.
 bridge_records=[]
+# Connector windows keep their established shared design, independent of the
+# final ordinary building recipe (which otherwise leaks into this later pass).
+current_design=None
 for k,f in enumerate(connectors):
     p=f['poly'];t=f['tags'];parent=min(buildings,key=lambda b:(b['poly'].distance(p),-b['poly'].intersection(p.buffer(.4)).area))
     lay=parent['record']['layer'];code=parent['record']['code']

@@ -128,7 +128,7 @@ export function stabilizeBuildingMaterial(material,detail=false) {
 /** Color roof caps separately from walls, stone trim and ground-level concrete. */
 export function prepareBuildingRoofs(mesh,groundZ=0,detail=false) {
   const multi=Array.isArray(mesh.material),materials=multi?mesh.material:[mesh.material];
-  const eligible=material=>!material.transparent&&!['Metal','Slate','Glass'].includes(material.name)&&!material.name.endsWith('Roof')&&(!detail||material.name==='Concrete');
+  const eligible=material=>!material.transparent&&!['Metal','Slate','Glass'].includes(material.name)&&!material.name.endsWith('Roof')&&!material.name.startsWith('Roof')&&(!detail||material.name==='Concrete');
   if(!materials.some(eligible))return [mesh];
   mesh.updateWorldMatrix(true,false);
   const source=mesh.geometry,position=source.attributes.position,index=source.index;

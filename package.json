@@ -31,7 +31,8 @@
     "build:exchange": "python3 scripts/campus_exchange.py",
     "check:glb": "node scripts/check_glb.mjs",
     "check:exchange": "node scripts/check_fbx.mjs",
-    "check:athletic-fields": "node scripts/check_athletic_fields.mjs"
+    "check:athletic-fields": "node scripts/check_athletic_fields.mjs",
+    "check:campus-optimization": "python3 scripts/check_campus_optimization.py"
   },
   "dependencies": {
     "three": "0.186.1"
