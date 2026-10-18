@@ -1,5 +1,12 @@
 # Changelog
 
+## 26.10.18.7 — 2026-10-18
+
+- Reconstruct Rockefeller Chapel from university exterior photographs and the library's aerial and south-front archive: restore its full-width high nave, intersecting roofs, stepped buttresses, large traceried windows, south portal and connected entrance stairs.
+- Replace generic tower window rows and castle-like battlements with a supported carillon shaft, physically open bell stages, recessed louvers and corner crown turrets at the published maximum height.
+- Define ordinary, optimized and detailed exterior modeling by architectural resemblance and depth of reconstruction; require source-to-model evidence for detailed fidelity and distinguish it from technical geometry checks.
+- Record remaining source-comparison work honestly rather than certifying all Highlights through joinery counts.
+
 ## 26.10.18.6 — 2026-10-18
 
 - Label Guide downloads Download 3DM, Download FBX and Download GLB, preserving their order.

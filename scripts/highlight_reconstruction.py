@@ -4,21 +4,23 @@ Primary owner/architect references are recorded beside each reconstruction.
 Source plans remain authoritative; member sizes are photo interpretations.
 """
 import math
+from rockefeller_chapel import rebuild as rebuild_rockefeller, FEATURES as ROCKEFELLER_FEATURES, REFERENCE as ROCKEFELLER_REFERENCE
 import numpy as np
 import trimesh
 from shapely.geometry import box,Polygon,Point,LineString
 from shapely.ops import unary_union
 from shapely import segmentize
 
-REFS={125667497:'https://flwright.org/explore/frederick-c-robie-house',152586235:'https://architecture.uchicago.edu/locations/gerald_ratner_athletics_center/',142870150:'https://architecture.uchicago.edu/locations/gordon_center_for_integrative_science/',152284260:'https://www.lib.uchicago.edu/crerar/about-crerar-library/history/',1228219576:'https://architecture.uchicago.edu/locations/tower_group_mitchell_tower_hutchinson_commons_reynolds_club_mandel_hall/'}
+REFS={150457349:ROCKEFELLER_REFERENCE,125667497:'https://flwright.org/explore/frederick-c-robie-house',152586235:'https://architecture.uchicago.edu/locations/gerald_ratner_athletics_center/',142870150:'https://architecture.uchicago.edu/locations/gordon_center_for_integrative_science/',152284260:'https://www.lib.uchicago.edu/crerar/about-crerar-library/history/',1228219576:'https://architecture.uchicago.edu/locations/tower_group_mitchell_tower_hutchinson_commons_reynolds_club_mandel_hall/'}
 FEATURES={
-125667497:['long Roman-brick living/dining bar','deep low hipped clay eaves with limestone fascia','24 art-glass door bays along the south balcony','upper bedroom mass','central chimney','brick terraces, parapets and urns'],
+150457349:ROCKEFELLER_FEATURES,125667497:['long Roman-brick living/dining bar','deep low hipped clay eaves with limestone fascia','24 art-glass door bays along the south balcony','upper bedroom mass','central chimney','brick terraces, parapets and urns'],
 152586235:['two sports halls and lower round entrance lobby','continuous flattened S-curve metal roofs','inclined glazed end walls','five leaning mast pairs','120 roof-attached stay cables','clerestory bands and standing seams'],
 142870150:['separate limestone research wings','tall glazed eastern hinge atrium','open ground-level breezeway','six-storey-height steel colonnade','glazed upper bridge and limestone canopy'],
 152284260:['three above-ground library levels','11-foot upper-floor cantilever','vertical narrow concrete window bays','central atrium roof lantern','2018 roof skylights'],
 1228219576:['square limestone Gothic tower','true open ground-level cross passage','deep bell-stage arches','four corner turrets','crenellated parapet','paired narrow Gothic lights']}
 
 def rebuild(ms,p,ident,h,body,t):
+    if ident==150457349:return rebuild_rockefeller(ms,p,h,body,t)
     a,b,c,d=p.bounds;x,y=p.centroid.coords[0]
     def add(g,z,height,mat):
         for q in t.polygons(g):ms[mat].append(t.extrusion(q,z,height))

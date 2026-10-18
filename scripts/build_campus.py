@@ -48,6 +48,7 @@ COLORS={
  'Ground':(218,218,207),'Road':(81,86,89),'Paving':(195,186,164),'Walk':(215,210,191),
  'Grass':(116,149,96),'Garden':(93,127,83),'Water':(83,144,166),'Track':(159,83,62),
  'Court':(89,132,122),'Marking':(232,228,207),'Leaves':(67,116,75),'Trunk':(119,95,68),
+ 'ChapelStone':(185,184,170),'ChapelTrim':(207,204,186),'ChapelRoof':(106,115,118),'ChapelRoofSeam':(119,127,128),'ChapelRecess':(122,124,113),'ChapelDoor':(91,68,48),'ChapelDoorTrim':(119,93,64),'ChapelLead':(83,92,87),'ChapelLouvre':(62,67,64),
  'Furniture':(72,78,72),'Solar':(50,73,88),'PalevskyBrick':(177,79,48),'PalevskyPurple':(102,88,125),'PalevskyRoof':(145,108,85),
 }
 model=rh.File3dm();model.ApplicationName='UChicago Hyde Park Public-source Exterior Model'
@@ -177,7 +178,7 @@ def crenellations(ms,p,top,corner_height=2.0):
 gothic_ids={151173251,151173255,153539618,154421807,154421809,154656512,154859382,155201128,155201131,155873096,156044638,156044639,156044642,156044643,156044644,156128079,156128082,156128083,156343655,156343656,156343657,156343662,156343665,157655066,157655067,157655069,157655071,157655073,157655074,157655090,150457341,143457513,191827364,191827365,191827367,191827368,191827370}
 specialrefs={150457349:0,1228219576:1,157655069:2,159093828:3,194224828:4,125667497:5,152422729:6,441025431:7,143457513:8,156128082:9,152586235:10,10657061:11,11687839:12,387213841:13,143926554:14,143926548:15,152422458:16,142870150:17,152284260:18}
 height_public={150457349:63.0936,1228219576:38.7858,159093828:10.668,156128082:41.148,152422729:51.816,441025431:52.0,387213841:35.6616,142771603:74.676}
-level_overrides={194224828:5,152284260:3,142870150:5,143926548:2,152586235:2,10657061:15,11687839:16,143926554:4,152969810:4,153090078:4,153266965:4,152586232:4,442771900:7,1054042388:4,150456352:4,151173253:2,151173255:1,125667497:3}
+level_overrides={150457349:1,194224828:5,152284260:3,142870150:5,143926548:2,152586235:2,10657061:15,11687839:16,143926554:4,152969810:4,153090078:4,153266965:4,152586232:4,442771900:7,1054042388:4,150456352:4,151173253:2,151173255:1,125667497:3}
 shortnames={144636078:'Toyota Technological Institute',144063826:'Neubauer Collegium',144063830:'Institute of Politics',144062147:'5728 S. Woodlawn',477223630:'6054 S. Drexel / Campus South Parking',202690810:'Comer Hospital East Wing',143926548:'Edith Abbott Hall / Crown Family School',152586235:'Gerald Ratner Athletics Center',2054806:'Institute for the Study of Ancient Cultures',11687839:'Woodlawn Residential & Dining Commons'}
 landmarks=set(specialrefs)
 buildings.sort(key=lambda f:(-f['poly'].centroid.y,f['poly'].centroid.x))
@@ -214,7 +215,7 @@ for j,f in enumerate(buildings,1):
     if i==152586235:h=30.48;basis='学校体育部桅杆峰值100 ft；另有125 ft构件报道；屋面高度估算';src=refs['buildings'][10]['sources'][0]['url']
     lay=code+'_'+name.replace('/','_').replace(':','_')[:85];layer(lay,wall)
     info={'Building':name,'Code':code,'Units':'meters','FootprintSource':f'https://www.openstreetmap.org/{f["type"]}/{i}','HeightBasis':basis,'GeometryDetail':'Exterior approximation; repeated facade bays are illustrative','GroundDatum':'relative Z=0, flattened terrain'}
-    ms={k:[] for k in COLORS};bodyidx=[0];construction_facades=[];partition='公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意'
+    ms={k:[] for k in COLORS};bodyidx=[0];construction_facades=[];detail_record=None;partition='公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意'
     def body(g,z,hh,mat=wall,windows=True,lev=None,arch=gothic,cont=False):
         for q in polygons(g):
             if hh<=.01:continue
@@ -233,16 +234,6 @@ for j,f in enumerate(buildings,1):
         if i==1228219576:p=box(x-9.4488/2,y-10.668/2,x+9.4488/2,y+10.668/2)
         detail_record=rebuild_highlight(ms,p,i,h,body,SimpleNamespace(**globals()))
         partition='; '.join(detail_record['features'])+'. Public-source exterior reconstruction; member dimensions approximate.'
-    elif i==150457349:
-        tower=next(f0['poly'] for f0 in features if f0['id']==1449933351)
-        nave=p.intersection(box(822,679,835,761)).difference(tower);aisles=p.difference(nave).difference(tower)
-        body(aisles,0,15,lev=2);gable(aisles,15,4.0,'y')
-        body(nave,0,26.5,lev=2);gable(nave,26.5,6.5,'y')
-        body(tower,0,h-3.2,lev=7);flat(tower,h-3.2,'LightStone');crenellations(ms,tower,h-3.2,3.2)
-        for xx in [821.7,835.3]:
-            for yy in np.arange(687,754,7):
-                ms['LightStone'].append(boxmesh(xx,yy,0,1.5,1.6,22));ms['Slate'].extend(pitched(box(xx-.8,yy-.9,xx+.8,yy+.9),22,1,'y'))
-        partition='分离钟塔、主中殿、低侧廊、陡坡屋顶和扶壁；钟塔最高63.0936m有来源，其他分区标高与装饰估算'
     elif i==157655069:
         # The great dining hall has tall Gothic windows and an open single
         # hall volume, rather than four classroom-storey window rows.
@@ -391,7 +382,7 @@ for j,f in enumerate(buildings,1):
         crv=rh.PolylineCurve([rh.Point3d(float(xx),float(yy),0) for xx,yy in q.exterior.coords]);model.Objects.AddCurve(crv,attr(code+'_PLAN',lay,wall,info))
     bounds=np.vstack([o['mesh'].bounds for o in objects if layer_map[o['name']]['layer']==lay])
     actualh=float(bounds[:,2].max())
-    r={'code':code,'name':name,'layer':lay,'osm_id':i,'osm_type':f['type'],'zone':zone,'landmark':i in landmarks,'height':round(actualh,4),'height_status':'published' if verified else ('planning' if i==11687839 else 'estimated'),'levels':levels,'area':round(p.area,2),'width':round(p.bounds[2]-p.bounds[0],2),'depth':round(p.bounds[3]-p.bounds[1],2),'center':[round(x,3),round(y,3)],'basis':basis,'partition':partition,'source':src,'footprint_source':info['FootprintSource'],'campus_refinement':campus_refinement,'ordinary_joinery':ordinary_stats,'highlight_joinery':highlight_stats,'architecture_reference':refs['buildings'][specialrefs[i]] if i in specialrefs else None}
+    r={'code':code,'name':name,'layer':lay,'osm_id':i,'osm_type':f['type'],'zone':zone,'landmark':i in landmarks,'height':round(actualh,4),'height_status':'published' if verified else ('planning' if i==11687839 else 'estimated'),'levels':levels,'area':round(p.area,2),'width':round(p.bounds[2]-p.bounds[0],2),'depth':round(p.bounds[3]-p.bounds[1],2),'center':[round(x,3),round(y,3)],'basis':basis,'partition':partition,'source':src,'footprint_source':info['FootprintSource'],'campus_refinement':campus_refinement,'exterior_reconstruction':detail_record,'ordinary_joinery':ordinary_stats,'highlight_joinery':highlight_stats,'architecture_reference':refs['buildings'][specialrefs[i]] if i in specialrefs else None}
     records.append(r)
     f['record']=r
 print('Buildings',len(records),'native solids',native_count,flush=True)

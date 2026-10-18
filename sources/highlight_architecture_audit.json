@@ -1,8 +1,8 @@
 {
   "review_date": "2026-10-18",
-  "scope": "Every current architectural building Highlight; the individual exterior geometry is reviewed, not merely a shared joinery counter.",
+  "scope": "The current source-to-model fidelity revision concerns Rockefeller Chapel. Historical geometry/joinery reviews of the other Highlights are not certification under the current detailed modeling standard.",
   "building_highlight_count": 19,
-  "reconstructed_this_review": 5,
+  "reconstructed_this_review": 1,
   "joinery_count_is_not_fidelity_evidence": true,
   "audit": [
     {
@@ -17,7 +17,9 @@
         "Recessed glazing and planted roofs"
       ],
       "reference": "https://studiogang.com/projects/university-of-chicago-campus-north-residential-commons/",
-      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations.",
+      "previous_review_decision": "retained existing individual exterior after review",
+      "fidelity_status": "Not certified under the current standard; source-to-model architectural re-review remains required."
     },
     {
       "id": "152586235",
@@ -33,7 +35,9 @@
         "clerestory bands and standing seams"
       ],
       "reference": "https://architecture.uchicago.edu/locations/gerald_ratner_athletics_center/",
-      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations.",
+      "previous_review_decision": "reconstructed source-specific exterior",
+      "fidelity_status": "Not certified under the current standard; source-to-model architectural re-review remains required."
     },
     {
       "id": "194224828",
@@ -47,7 +51,9 @@
         "Separate set-back mechanical penthouse"
       ],
       "reference": "https://www.lib.uchicago.edu/spaces/joseph-regenstein-library/",
-      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations.",
+      "previous_review_decision": "retained existing individual exterior after review",
+      "fidelity_status": "Not certified under the current standard; source-to-model architectural re-review remains required."
     },
     {
       "id": "159093828",
@@ -61,7 +67,9 @@
         "Lower library connection; underground storage excluded from above-ground mass"
       ],
       "reference": "https://www.lib.uchicago.edu/mansueto/tech/numbers/",
-      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations.",
+      "previous_review_decision": "retained existing individual exterior after review",
+      "fidelity_status": "Not certified under the current standard; source-to-model architectural re-review remains required."
     },
     {
       "id": "387213841",
@@ -75,7 +83,9 @@
         "Lower mapped companion wings"
       ],
       "reference": "https://www.thorntontomasetti.com/project/eckhardt-research-center",
-      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations.",
+      "previous_review_decision": "retained existing individual exterior after review",
+      "fidelity_status": "Not certified under the current standard; source-to-model architectural re-review remains required."
     },
     {
       "id": "1228219576",
@@ -91,7 +101,9 @@
         "paired narrow Gothic lights"
       ],
       "reference": "https://architecture.uchicago.edu/locations/tower_group_mitchell_tower_hutchinson_commons_reynolds_club_mandel_hall/",
-      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations.",
+      "previous_review_decision": "reconstructed source-specific exterior",
+      "fidelity_status": "Not certified under the current standard; source-to-model architectural re-review remains required."
     },
     {
       "id": "157655069",
@@ -105,7 +117,9 @@
         "Steep slate hall roof with connected end enclosure"
       ],
       "reference": "https://architecture.uchicago.edu/locations/tower_group_mitchell_tower_hutchinson_commons_reynolds_club_mandel_hall/",
-      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations.",
+      "previous_review_decision": "retained existing individual exterior after review",
+      "fidelity_status": "Not certified under the current standard; source-to-model architectural re-review remains required."
     },
     {
       "id": "142870150",
@@ -120,7 +134,9 @@
         "glazed upper bridge and limestone canopy"
       ],
       "reference": "https://architecture.uchicago.edu/locations/gordon_center_for_integrative_science/",
-      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations.",
+      "previous_review_decision": "reconstructed source-specific exterior",
+      "fidelity_status": "Not certified under the current standard; source-to-model architectural re-review remains required."
     },
     {
       "id": "152284260",
@@ -135,7 +151,9 @@
         "2018 roof skylights"
       ],
       "reference": "https://www.lib.uchicago.edu/crerar/about-crerar-library/history/",
-      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations.",
+      "previous_review_decision": "reconstructed source-specific exterior",
+      "fidelity_status": "Not certified under the current standard; source-to-model architectural re-review remains required."
     },
     {
       "id": "143457513",
@@ -149,7 +167,9 @@
         "Crenellated masonry parapets and Gothic bays"
       ],
       "reference": "https://architecture.uchicago.edu/locations/department_of_economics_and_becker_friedman_institute/",
-      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations.",
+      "previous_review_decision": "retained existing individual exterior after review",
+      "fidelity_status": "Not certified under the current standard; source-to-model architectural re-review remains required."
     },
     {
       "id": "125667497",
@@ -165,21 +185,81 @@
         "brick terraces, parapets and urns"
       ],
       "reference": "https://flwright.org/explore/frederick-c-robie-house",
-      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations.",
+      "previous_review_decision": "reconstructed source-specific exterior",
+      "fidelity_status": "Not certified under the current standard; source-to-model architectural re-review remains required."
     },
     {
       "id": "150457349",
       "code": "U112",
       "name": "Rockefeller Memorial Chapel",
-      "decision": "retained existing individual exterior after review",
+      "decision": "reconstructed source-specific exterior",
       "features_reviewed": [
-        "Separate published-height bell tower",
-        "High central nave and lower aisles",
-        "Individual steep roof ranges",
-        "Repeated stepped buttresses and tall pointed lights"
+        "Single tall nave and continuous ridge",
+        "Eastern 207-foot carillon tower with physically open bell apertures and recessed louvers",
+        "Three monumental south-nave window bays per side and separate chancel lights",
+        "Connected cross-gabled west projection",
+        "South great window, double-door arch, supported corner lanterns and entrance stairs",
+        "Stepped wall buttresses and mapped southeast covered passage"
       ],
       "reference": "https://www.rockefeller.uchicago.edu/the-spaces/rockefeller-architecture/",
-      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations.",
+      "previous_review_decision": "retained existing individual exterior after review",
+      "fidelity_status": "Source-compared exterior revision: major nave, roof, entrance and tower forms corrected. Decorative reconstruction remains simplified/provisional; this is not an exhaustive detailed-fidelity certification.",
+      "references": [
+        {
+          "url": "https://architecture.uchicago.edu/locations/rockefeller_memorial_chapel/",
+          "view": "Contemporary east/tower photograph"
+        },
+        {
+          "url": "https://photoarchive.lib.uchicago.edu/db.xqy?one=apf2-06545.xml",
+          "view": "1928 southwest aerial; roof arrangement and buttress rhythm"
+        },
+        {
+          "url": "https://photoarchive.lib.uchicago.edu/db.xqy?one=apf2-06824.xml",
+          "view": "Built south entrance, great window and corner lanterns"
+        },
+        {
+          "url": "https://photoarchive.lib.uchicago.edu/db.xqy?one=apf2-06570.xml",
+          "view": "Historic front elevation drawing, checked against the built photograph"
+        },
+        {
+          "url": "https://www.rockefeller.uchicago.edu/the-spaces/rockefeller-architecture/",
+          "view": "Published tower height and overall dimensions"
+        }
+      ],
+      "remaining_simplifications": [
+        "Individual sculpted figures and heraldic details are abstracted rather than individually replicated.",
+        "Local window/member and section dimensions are photo estimates."
+      ],
+      "reviewed_model_sha256": "b07a32b7bfbfb84104457c75aefd6da92cca168e0912c6a7f19e6dcd40dc47bb",
+      "reviewed_views": [
+        {
+          "azimuth": 180,
+          "elevation": 2,
+          "comparison": "Built south-front archive: widened paired-door portal below the great window; corner lanterns, front gable and connected steps. Individual sculptures and exact stone profiles remain simplified."
+        },
+        {
+          "azimuth": 225,
+          "elevation": 30,
+          "comparison": "Southwest aerial archive: single high nave, west transverse projection, joined roof valleys, three principal south-nave bays and eastern tower placement."
+        },
+        {
+          "azimuth": 90,
+          "elevation": 7,
+          "comparison": "University east/tower photograph: continuous stepped buttress supports, solid lower shaft, paired open long belfry apertures, upper short register and solid crown parapet."
+        },
+        {
+          "azimuth": 0,
+          "elevation": 7,
+          "comparison": "Reverse-side technical inspection: roof returns and wall/support connections. This view was not used to claim measured northern-facade fidelity."
+        },
+        {
+          "azimuth": 205,
+          "elevation": 23,
+          "comparison": "Production GLB Explore view: correct source geometry/material loading, grounded entry, ordinary selection without tint and surrounding campus context; no browser console errors."
+        }
+      ]
     },
     {
       "id": "156128082",
@@ -193,7 +273,9 @@
         "Crenellated crowns and tall hall glazing"
       ],
       "reference": "https://campub.lib.uchicago.edu/text/?docId=mvol-0001-0016-0000",
-      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations.",
+      "previous_review_decision": "retained existing individual exterior after review",
+      "fidelity_status": "Not certified under the current standard; source-to-model architectural re-review remains required."
     },
     {
       "id": "441025431",
@@ -207,7 +289,9 @@
         "Published completed height retained"
       ],
       "reference": "https://global.ctbuh.org/resources/papers/4631-Gallagher_DavidRubensteinForum.pdf",
-      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations.",
+      "previous_review_decision": "retained existing individual exterior after review",
+      "fidelity_status": "Not certified under the current standard; source-to-model architectural re-review remains required."
     },
     {
       "id": "143926554",
@@ -221,7 +305,9 @@
         "Exterior colonnade rhythm"
       ],
       "reference": "https://architecture.uchicago.edu/locations/keller_center/",
-      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations.",
+      "previous_review_decision": "retained existing individual exterior after review",
+      "fidelity_status": "Not certified under the current standard; source-to-model architectural re-review remains required."
     },
     {
       "id": "143926548",
@@ -235,7 +321,9 @@
         "University-specific model; IIT Crown Hall dimensions not substituted"
       ],
       "reference": "https://architecture.uchicago.edu/locations/crownschool/",
-      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations.",
+      "previous_review_decision": "retained existing individual exterior after review",
+      "fidelity_status": "Not certified under the current standard; source-to-model architectural re-review remains required."
     },
     {
       "id": "152422729",
@@ -249,7 +337,9 @@
         "Large glazed performance-room and projecting window volumes"
       ],
       "reference": "https://news.uchicago.edu/story/reva-and-david-logan-center-arts-preview-period-begin-march-26",
-      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations.",
+      "previous_review_decision": "retained existing individual exterior after review",
+      "fidelity_status": "Not certified under the current standard; source-to-model architectural re-review remains required."
     },
     {
       "id": "152422458",
@@ -263,7 +353,9 @@
         "Mapped reflection pool and sculpture grounds"
       ],
       "reference": "https://architecture.uchicago.edu/locations/laird_bell_law_quadrangle/",
-      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations.",
+      "previous_review_decision": "retained existing individual exterior after review",
+      "fidelity_status": "Not certified under the current standard; source-to-model architectural re-review remains required."
     },
     {
       "id": "11687839",
@@ -277,13 +369,16 @@
         "Pale facade frames and separated roof plates"
       ],
       "reference": "https://www.turnerconstruction.com/projects/woodlawn-residential-dining-commons",
-      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations.",
+      "previous_review_decision": "retained existing individual exterior after review",
+      "fidelity_status": "Not certified under the current standard; source-to-model architectural re-review remains required."
     }
   ],
   "validation": {
-    "browser_geometry": "All individual exported building layers reviewed at the configured presentation view and opposite side; targeted low-angle checks for open structures. Full source geometry, without runtime regional simplification.",
+    "browser_geometry": "Historical isolated geometry inspection is technical evidence only. Current source-to-model comparisons are recorded per building; they are not inferred from joinery counts.",
     "form_regressions": "scripts/check_highlight_forms.mjs",
     "camera_regressions": "scripts/check_highlight_views.mjs",
     "native_cad": "scripts/validate_rhino.py"
-  }
+  },
+  "standard": "docs/DETAILED_MODELING_STANDARD.md"
 }

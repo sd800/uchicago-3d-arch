@@ -29,6 +29,10 @@ The machine-readable `architecture_sources.json` retains detailed values, units,
 
 ### Rockefeller Memorial Chapel
 
+- [University photographic archive: southwest aerial](https://photoarchive.lib.uchicago.edu/db.xqy?one=apf2-06545.xml)
+- [University photographic archive: built south entrance](https://photoarchive.lib.uchicago.edu/db.xqy?one=apf2-06824.xml)
+- [Historic front elevation drawing, checked against built photographs](https://photoarchive.lib.uchicago.edu/db.xqy?one=apf2-06570.xml)
+
 - [Primary reference](https://www.rockefeller.uchicago.edu/the-spaces/rockefeller-architecture/)
 - [Primary reference](https://www.rockefeller.uchicago.edu/the-spaces/rockefeller-interior/)
 

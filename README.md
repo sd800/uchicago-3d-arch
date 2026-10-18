@@ -65,7 +65,7 @@ Source snapshots are retained so the reconstruction can be repeated without refe
 
 The configured public URL is **https://uchi.arch.songming.org/**. `config/site.config.json` is the source for the canonical URL, English/Chinese page titles and descriptions, Open Graph and Twitter cards, JSON-LD (`WebSite`, `WebPage`, `3DModel`), `robots.txt`, `sitemap.xml` and `CNAME`. The sitemap contains the one real page; the in-page language switch does not create separate language URLs or hreflang alternates.
 
-The root `index.html` is lightweight, with a static directory of all 177 buildings, a no-JavaScript preview and fallback model download links. Static text is available without running WebGL. For HTTP/HTTPS, the viewer loads the original binary 3DS separately. For local double-click viewing, a classic script supplies the same bytes without a local server. Keep all project folders together. `python3 scripts/package_viewer.py` also generates `output/UChicago_Campus_Offline.html`, containing the model, font, engine and preview in a single file. This generated duplicate is ignored by Git and included in the local delivery ZIP.
+The root `index.html` is lightweight, with a static directory of all 177 buildings, a no-JavaScript preview and fallback model download links. Static text is available without running WebGL. For HTTP/HTTPS, the viewer loads the lossless compressed GLB derivative separately. For local double-click viewing, a classic script supplies the same bytes without a local server. Keep all project folders together. `python3 scripts/package_viewer.py` also generates `output/UChicago_Campus_Offline.html`, containing the model, font, engine and preview in a single file. This generated duplicate is ignored by Git and included in the local delivery ZIP.
 
 English is the initial HTML language; the viewer uses English regardless of device language and remembers manual selection. Switching language updates the document language, title, descriptions, social metadata and visible text while keeping one stable canonical URL. Chinese UI typography uses the same system font stack as the Innovation Harbour viewer: `-apple-system`, `BlinkMacSystemFont`, `Segoe UI`, `PingFang SC`, `Microsoft YaHei`, `sans-serif`.
 
@@ -106,7 +106,7 @@ The view can tilt continuously from overhead to exactly horizontal. Low-angle ve
 
 ## Website model delivery
 
-The viewer uses standard glTF 2.0 binary (GLB). The lossless complete-model derivative is **3.01 MiB** transferred, from a **45.71 MiB** extension-free download GLB. `EXT_meshopt_compression` and gzip reduce transfer; decompressed position/index accessors match the native GLB byte for byte. No quantization or simplification is introduced by this format conversion.
+The viewer uses standard glTF 2.0 binary (GLB). The lossless complete-model derivative is **3.16 MiB** transferred, from a **46.23 MiB** extension-free download GLB. `EXT_meshopt_compression` and gzip reduce transfer; decompressed position/index accessors match the native GLB byte for byte. No quantization or simplification is introduced by this format conversion.
 
 A worker inflates/decompresses the complete GLB and calculates normals; geometry buffers transfer once to the main thread. Scene creation and no-worker fallback yield between work slices. The meshoptimizer JavaScript/WebAssembly codec is bundled locally. HTTP loads binary assets; double-click `file://` loads classic scripts, and the standalone edition embeds browsing data. WebGL 2, WebAssembly and Compression Streams are required by current delivery.
 
@@ -116,6 +116,10 @@ Downloads are listed **3DM → FBX → GLB**. 3DM retains editable Rhino solids 
 
 ## Campus-wide architectural refinement
 
-All 158 non-highlight buildings receive footprint-aware facade surrounds, eave/base courses and grounded entrance details. Twenty-three ordinary buildings also have individual profiles, including the Max Palevsky wings, Smart/Cochrane-Woods, Cummings, Hinds, Knapp, Levi, International House, Ida Noyes and Bond Chapel. The 19 existing Highlights retain their detailed forms. Courtyard voids stay open; residual ground is resolved as planting or paving, with short connectors to mapped walks.
+All 158 non-highlight buildings receive footprint-aware facade surrounds, eave/base courses and grounded entrance details. Twenty-three ordinary buildings also have individual profiles, including the Max Palevsky wings, Smart/Cochrane-Woods, Cummings, Hinds, Knapp, Levi, International House, Ida Noyes and Bond Chapel. The 19 Highlights remain individual architectural studies. Their current source-comparison status is recorded in `sources/highlight_architecture_audit.json`; a joinery record alone does not certify detailed fidelity. Courtyard voids stay open; residual ground is resolved as planting or paving, with short connectors to mapped walks.
 
 References and scope are recorded in `sources/campus_refinement_references.json`; construction and landscape counts are in the model records and `output/campus_landscape_refinement.json`. These are public-source exterior interpretations, not measured facade surveys.
+
+## Architectural detail standard
+
+See [Detailed exterior modeling standard](docs/DETAILED_MODELING_STANDARD.md) for the distinction between optimization, source-checked detailed reconstruction and measured/BIM work. Existing joinery or triangle counts do not certify resemblance; building-specific references and multiple-view comparison are required.

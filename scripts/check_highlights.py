@@ -11,7 +11,7 @@ for b in highlights:
  s=b.get('highlight_joinery');assert s is not None,b['name']
  if s['added_triangles']:assert any(n.startswith(b['code']+'HD')for n in layers),b['name']
  else:assert s['hollow_bells']or b['code']in bells,b['name']
-result={'highlights':total,'framed_openings':sum(b['highlight_joinery']['framed_openings']for b in highlights),'all_highlights_covered':True,'carillons':{}}
+result={'highlights':total,'framed_openings':sum(b['highlight_joinery']['framed_openings']for b in highlights),'all_highlights_have_joinery_records':True,'carillons':{}}
 if bells:
  blob=(r/'output'/f'{name}.3ds').read_bytes();counts={k:0 for k in bells}
  def walk(a,z):

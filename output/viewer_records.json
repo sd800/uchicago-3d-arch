@@ -22,6 +22,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/152586232",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 332,
       "entrances": 1,
@@ -62,6 +63,7 @@
     "source": "https://www.openstreetmap.org/relation/10657061",
     "footprint_source": "https://www.openstreetmap.org/relation/10657061",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": null,
     "highlight_joinery": {
       "framed_openings": 2335,
@@ -149,6 +151,20 @@
     "source": "https://athletics.uchicago.edu/sports/2023/6/12/ratner.aspx",
     "footprint_source": "https://www.openstreetmap.org/way/152586235",
     "campus_refinement": null,
+    "exterior_reconstruction": {
+      "reference": "https://architecture.uchicago.edu/locations/gerald_ratner_athletics_center/",
+      "features": [
+        "two sports halls and lower round entrance lobby",
+        "continuous flattened S-curve metal roofs",
+        "inclined glazed end walls",
+        "five leaning mast pairs",
+        "120 roof-attached stay cables",
+        "clerestory bands and standing seams"
+      ],
+      "curve_roofs": 2,
+      "mast_frames": 5,
+      "roof_attached_stays": 120
+    },
     "ordinary_joinery": null,
     "highlight_joinery": {
       "framed_openings": 55,
@@ -238,6 +254,7 @@
       "reference": "https://architecture.uchicago.edu/locations/cochrane_woods_art_center/",
       "approximation": "Mapped footprint, documented architectural character; secondary dimensions and partition lines are exterior estimates."
     },
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 72,
       "entrances": 1,
@@ -287,6 +304,7 @@
       "reference": "https://maps.uchicago.edu/",
       "approximation": "Mapped footprint, documented architectural character; secondary dimensions and partition lines are exterior estimates."
     },
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 28,
       "entrances": 1,
@@ -339,6 +357,7 @@
       "reference": "https://maps.uchicago.edu/",
       "approximation": "Mapped footprint, documented architectural character; secondary dimensions and partition lines are exterior estimates."
     },
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 168,
       "entrances": 1,
@@ -389,6 +408,7 @@
       "reference": "https://architecture.uchicago.edu/locations/cochrane_woods_art_center/",
       "approximation": "Mapped footprint, documented architectural character; secondary dimensions and partition lines are exterior estimates."
     },
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 80,
       "entrances": 1,
@@ -429,6 +449,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/142420006",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 96,
       "entrances": 1,
@@ -467,6 +488,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/210911471",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 24,
       "entrances": 1,
@@ -507,6 +529,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/1413175952",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 51,
       "entrances": 1,
@@ -557,6 +580,7 @@
       "reference": "https://architecture.uchicago.edu/locations/max_palevsky_residential_commons/",
       "approximation": "Mapped footprint, documented architectural character; secondary dimensions and partition lines are exterior estimates."
     },
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 264,
       "entrances": 1,
@@ -595,6 +619,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/145401953",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 22,
       "entrances": 1,
@@ -646,6 +671,7 @@
       "reference": "https://architecture.uchicago.edu/locations/west_campus_combined_utility_plant/",
       "approximation": "Mapped footprint, documented architectural character; secondary dimensions and partition lines are exterior estimates."
     },
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 76,
       "entrances": 1,
@@ -698,6 +724,7 @@
       "reference": "https://architecture.uchicago.edu/locations/max_palevsky_residential_commons/",
       "approximation": "Mapped footprint, documented architectural character; secondary dimensions and partition lines are exterior estimates."
     },
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 200,
       "entrances": 1,
@@ -736,6 +763,7 @@
     "source": "https://www.openstreetmap.org/way/1004041470",
     "footprint_source": "https://www.openstreetmap.org/way/1004041470",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 176,
       "entrances": 1,
@@ -776,6 +804,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/143527367",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 144,
       "entrances": 1,
@@ -814,6 +843,7 @@
     "source": "https://www.openstreetmap.org/way/387213840",
     "footprint_source": "https://www.openstreetmap.org/way/387213840",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 160,
       "entrances": 1,
@@ -866,6 +896,7 @@
       "reference": "https://architecture.uchicago.edu/locations/max_palevsky_residential_commons/",
       "approximation": "Mapped footprint, documented architectural character; secondary dimensions and partition lines are exterior estimates."
     },
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 416,
       "entrances": 1,
@@ -904,6 +935,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/148014495",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 208,
       "entrances": 1,
@@ -942,6 +974,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/387213839",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 78,
       "entrances": 1,
@@ -982,6 +1015,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/1054042714",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 168,
       "entrances": 1,
@@ -1020,6 +1054,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/194224828",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": null,
     "highlight_joinery": {
       "framed_openings": 160,
@@ -1091,6 +1126,7 @@
     "source": "https://www.openstreetmap.org/way/442771900",
     "footprint_source": "https://www.openstreetmap.org/way/442771900",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 721,
       "entrances": 1,
@@ -1129,6 +1165,7 @@
     "source": "https://www.lib.uchicago.edu/mansueto/tech/numbers/",
     "footprint_source": "https://www.openstreetmap.org/way/159093828",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": null,
     "highlight_joinery": {
       "framed_openings": 17,
@@ -1208,6 +1245,7 @@
       "reference": "https://architecture.uchicago.edu/locations/knapp_center_for_biomedical_discovery/",
       "approximation": "Mapped footprint, documented architectural character; secondary dimensions and partition lines are exterior estimates."
     },
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 666,
       "entrances": 1,
@@ -1246,6 +1284,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/1112082353",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 66,
       "entrances": 1,
@@ -1296,6 +1335,7 @@
       "reference": "https://maps.uchicago.edu/",
       "approximation": "Mapped footprint, documented architectural character; secondary dimensions and partition lines are exterior estimates."
     },
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 111,
       "entrances": 1,
@@ -1334,6 +1374,7 @@
     "source": "https://www.thorntontomasetti.com/project/eckhardt-research-center",
     "footprint_source": "https://www.openstreetmap.org/way/387213841",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": null,
     "highlight_joinery": {
       "framed_openings": 320,
@@ -1405,6 +1446,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/142420007",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 160,
       "entrances": 1,
@@ -1443,6 +1485,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/148014497",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 136,
       "entrances": 1,
@@ -1481,6 +1524,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144062152",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 22,
       "entrances": 1,
@@ -1521,6 +1565,19 @@
     "source": "https://upload.wikimedia.org/wikipedia/commons/d/db/The_University_of_Chicago%3B_an_official_guide_%28IA_universityofchic00robe%29.pdf",
     "footprint_source": "https://www.openstreetmap.org/way/1228219576",
     "campus_refinement": null,
+    "exterior_reconstruction": {
+      "reference": "https://architecture.uchicago.edu/locations/tower_group_mitchell_tower_hutchinson_commons_reynolds_club_mandel_hall/",
+      "features": [
+        "square limestone Gothic tower",
+        "true open ground-level cross passage",
+        "deep bell-stage arches",
+        "four corner turrets",
+        "crenellated parapet",
+        "paired narrow Gothic lights"
+      ],
+      "open_cross_passage": true,
+      "corner_turrets": 4
+    },
     "ordinary_joinery": null,
     "highlight_joinery": {
       "framed_openings": 24,
@@ -1592,6 +1649,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144063826",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 63,
       "entrances": 1,
@@ -1630,6 +1688,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/157655090",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 96,
       "entrances": 1,
@@ -1668,6 +1727,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/285311999",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 30,
       "entrances": 1,
@@ -1706,6 +1766,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/154421809",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 92,
       "entrances": 1,
@@ -1744,6 +1805,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/143812430",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 90,
       "entrances": 1,
@@ -1784,6 +1846,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/157655069",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": null,
     "highlight_joinery": {
       "framed_openings": 36,
@@ -1850,6 +1913,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/154421807",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 210,
       "entrances": 1,
@@ -1888,6 +1952,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144062151",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 42,
       "entrances": 1,
@@ -1926,6 +1991,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144063829",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 51,
       "entrances": 1,
@@ -1964,6 +2030,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/157655073",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 164,
       "entrances": 1,
@@ -2002,6 +2069,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/142870317",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 236,
       "entrances": 1,
@@ -2040,6 +2108,7 @@
     "source": "https://mchughconcrete.com/projects/university-of-chicago-hospital-center-for-care-discovery/",
     "footprint_source": "https://www.openstreetmap.org/way/142771603",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 1140,
       "entrances": 1,
@@ -2078,6 +2147,19 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/142870150",
     "campus_refinement": null,
+    "exterior_reconstruction": {
+      "reference": "https://architecture.uchicago.edu/locations/gordon_center_for_integrative_science/",
+      "features": [
+        "separate limestone research wings",
+        "tall glazed eastern hinge atrium",
+        "open ground-level breezeway",
+        "six-storey-height steel colonnade",
+        "glazed upper bridge and limestone canopy"
+      ],
+      "open_breezeway_clearance_m": 5.4,
+      "high_steel_colonnade": true,
+      "glazed_hinge_atrium": true
+    },
     "ordinary_joinery": null,
     "highlight_joinery": {
       "framed_openings": 637,
@@ -2152,6 +2234,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144062146",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 30,
       "entrances": 1,
@@ -2192,6 +2275,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144063819",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 36,
       "entrances": 1,
@@ -2230,6 +2314,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144062150",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 45,
       "entrances": 1,
@@ -2268,6 +2353,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144063824",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 48,
       "entrances": 1,
@@ -2308,6 +2394,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/157655067",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 88,
       "entrances": 1,
@@ -2348,6 +2435,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/152422457",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 108,
       "entrances": 1,
@@ -2386,6 +2474,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144062149",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 54,
       "entrances": 1,
@@ -2426,6 +2515,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144063830",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 48,
       "entrances": 1,
@@ -2476,6 +2566,7 @@
       "reference": "https://maps.uchicago.edu/",
       "approximation": "Mapped footprint, documented architectural character; secondary dimensions and partition lines are exterior estimates."
     },
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 66,
       "entrances": 1,
@@ -2514,6 +2605,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144062147",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 45,
       "entrances": 1,
@@ -2552,6 +2644,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/143812442",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 51,
       "entrances": 1,
@@ -2590,6 +2683,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/154656512",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 204,
       "entrances": 1,
@@ -2628,6 +2722,18 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/152284260",
     "campus_refinement": null,
+    "exterior_reconstruction": {
+      "reference": "https://www.lib.uchicago.edu/crerar/about-crerar-library/history/",
+      "features": [
+        "three above-ground library levels",
+        "11-foot upper-floor cantilever",
+        "vertical narrow concrete window bays",
+        "central atrium roof lantern",
+        "2018 roof skylights"
+      ],
+      "cantilever_m": 3.3528,
+      "atrium_roof_lantern": true
+    },
     "ordinary_joinery": null,
     "highlight_joinery": {
       "framed_openings": 233,
@@ -2705,6 +2811,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144063821",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 20,
       "entrances": 1,
@@ -2743,6 +2850,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144061595",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 72,
       "entrances": 1,
@@ -2781,6 +2889,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/143812431",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 42,
       "entrances": 1,
@@ -2819,6 +2928,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/143812440",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 42,
       "entrances": 1,
@@ -2857,6 +2967,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144061597",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 27,
       "entrances": 1,
@@ -2909,6 +3020,7 @@
       "reference": "https://architecture.uchicago.edu/locations/henry_hinds_laboratory_for_geophysical_sciences/",
       "approximation": "Mapped footprint, documented architectural character; secondary dimensions and partition lines are exterior estimates."
     },
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 215,
       "entrances": 1,
@@ -2949,6 +3061,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/202690810",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 224,
       "entrances": 1,
@@ -2987,6 +3100,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/142771605",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 360,
       "entrances": 1,
@@ -3027,6 +3141,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/157655074",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 212,
       "entrances": 1,
@@ -3065,6 +3180,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/157655066",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 164,
       "entrances": 1,
@@ -3103,6 +3219,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/154859382",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 172,
       "entrances": 1,
@@ -3141,6 +3258,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/142771611",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 272,
       "entrances": 1,
@@ -3179,6 +3297,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/143812437",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 33,
       "entrances": 1,
@@ -3219,6 +3338,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144061596",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 39,
       "entrances": 1,
@@ -3257,6 +3377,7 @@
     "source": "https://www.openstreetmap.org/way/545084806",
     "footprint_source": "https://www.openstreetmap.org/way/545084806",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 148,
       "entrances": 1,
@@ -3295,6 +3416,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144062148",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 156,
       "entrances": 1,
@@ -3333,6 +3455,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/154859380",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 140,
       "entrances": 1,
@@ -3371,6 +3494,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/143812429",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 57,
       "entrances": 1,
@@ -3409,6 +3533,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144061598",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 32,
       "entrances": 1,
@@ -3459,6 +3584,7 @@
       "reference": "https://architecture.uchicago.edu/locations/cummings_life_science_center/",
       "approximation": "Mapped footprint, documented architectural character; secondary dimensions and partition lines are exterior estimates."
     },
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 473,
       "entrances": 1,
@@ -3497,6 +3623,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/142871281",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 94,
       "entrances": 1,
@@ -3535,6 +3662,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/143457513",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": null,
     "highlight_joinery": {
       "framed_openings": 424,
@@ -3604,6 +3732,19 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/125667497",
     "campus_refinement": null,
+    "exterior_reconstruction": {
+      "reference": "https://flwright.org/explore/frederick-c-robie-house",
+      "features": [
+        "long Roman-brick living/dining bar",
+        "deep low hipped clay eaves with limestone fascia",
+        "24 art-glass door bays along the south balcony",
+        "upper bedroom mass",
+        "central chimney",
+        "brick terraces, parapets and urns"
+      ],
+      "south_art_glass_bays": 24,
+      "deep_eaves_m": 1.65
+    },
     "ordinary_joinery": null,
     "highlight_joinery": {
       "framed_openings": 132,
@@ -3681,6 +3822,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144047119",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 156,
       "entrances": 1,
@@ -3719,6 +3861,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/226828483",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 108,
       "entrances": 1,
@@ -3769,6 +3912,7 @@
       "reference": "https://architecture.uchicago.edu/locations/levihall/",
       "approximation": "Mapped footprint, documented architectural character; secondary dimensions and partition lines are exterior estimates."
     },
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 246,
       "entrances": 1,
@@ -3809,6 +3953,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/142668545",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 36,
       "entrances": 1,
@@ -3849,6 +3994,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/145401959",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 336,
       "entrances": 1,
@@ -3889,6 +4035,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144132395",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 576,
       "entrances": 1,
@@ -3929,6 +4076,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/relation/2054806",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 308,
       "entrances": 1,
@@ -3969,6 +4117,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/142668544",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 30,
       "entrances": 1,
@@ -4018,6 +4167,7 @@
       "reference": "https://architecture.uchicago.edu/locations/gordon_parks_arts_hall/",
       "approximation": "Mapped footprint, documented architectural character; secondary dimensions and partition lines are exterior estimates."
     },
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 153,
       "entrances": 1,
@@ -4056,6 +4206,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/145400407",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 240,
       "entrances": 1,
@@ -4096,6 +4247,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/202690809",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 448,
       "entrances": 1,
@@ -4134,6 +4286,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/145476720",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 336,
       "entrances": 1,
@@ -4172,6 +4325,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/152284264",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 332,
       "entrances": 1,
@@ -4222,6 +4376,7 @@
       "reference": "https://maps.uchicago.edu/",
       "approximation": "Mapped footprint, documented architectural character; secondary dimensions and partition lines are exterior estimates."
     },
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 447,
       "entrances": 1,
@@ -4262,6 +4417,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/202690817",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 210,
       "entrances": 1,
@@ -4300,6 +4456,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/155201128",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 100,
       "entrances": 1,
@@ -4338,6 +4495,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/156343655",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 72,
       "entrances": 1,
@@ -4376,6 +4534,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/191827364",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 260,
       "entrances": 1,
@@ -4414,6 +4573,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/156044644",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 96,
       "entrances": 1,
@@ -4452,6 +4612,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/151173251",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 196,
       "entrances": 1,
@@ -4492,6 +4653,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/155201131",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 152,
       "entrances": 1,
@@ -4530,6 +4692,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/202690819",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 476,
       "entrances": 1,
@@ -4568,6 +4731,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/143323611",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 38,
       "entrances": 1,
@@ -4606,6 +4770,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/202690807",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 231,
       "entrances": 1,
@@ -4644,6 +4809,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/156044643",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 84,
       "entrances": 1,
@@ -4694,6 +4860,7 @@
       "reference": "https://architecture.uchicago.edu/locations/bond_chapel/",
       "approximation": "Mapped footprint, documented architectural character; secondary dimensions and partition lines are exterior estimates."
     },
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 17,
       "entrances": 1,
@@ -4732,6 +4899,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144132403",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 414,
       "entrances": 1,
@@ -4770,6 +4938,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/191827365",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 160,
       "entrances": 1,
@@ -4808,6 +4977,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/191827367",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 172,
       "entrances": 1,
@@ -4846,6 +5016,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/191827368",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 172,
       "entrances": 1,
@@ -4871,7 +5042,7 @@
     "landmark": true,
     "height": 63.0936,
     "height_status": "published",
-    "levels": 8.0,
+    "levels": 1,
     "area": 1949.42,
     "width": 38.41,
     "depth": 79.14,
@@ -4880,17 +5051,57 @@
       721.308
     ],
     "basis": "最高点依据公开资料，檐口、屋顶分区及立面细节为近似表达。",
-    "partition": "钟塔、主殿、较低的侧廊、陡坡屋顶与扶壁分别建模。钟塔最高点采用公开资料的207英尺（63.0936米）；侧廊高度、屋面坡度、开窗和装饰为近似表达。",
+    "partition": "依据学校建筑照片及图书馆航拍、正立面照片重建高耸单厅、中殿长坡屋顶、东侧钟塔、西横厅、长尖拱窗组、阶梯式扶壁、南侧拱门入口和台阶；钟楼上部为真实开口与内退百叶。塔顶63.0936米采用公开高度；其他局部标高、窗饰和雕塑为照片近似，雕像未逐件复刻。",
     "source": "https://www.rockefeller.uchicago.edu/the-spaces/rockefeller-architecture/",
     "footprint_source": "https://www.openstreetmap.org/way/150457349",
     "campus_refinement": null,
+    "exterior_reconstruction": {
+      "great_window_groups": 14,
+      "bell_wall_apertures": 16,
+      "stepped_buttresses": 11,
+      "principal_entrances": 3,
+      "nave_eave_m": 26.35,
+      "nave_ridge_m": 33.08,
+      "tower_peak_m": 63.0936,
+      "reference": "https://www.rockefeller.uchicago.edu/the-spaces/rockefeller-architecture/",
+      "features": [
+        "Single high nave with a continuous north-south slate ridge",
+        "Eastern carillon tower and west transverse projection in the mapped positions",
+        "Monumental traceried lancet groups instead of repeated classroom-storey windows",
+        "Hollow upper bell stage with paired long apertures, upper lights and recessed louvers",
+        "Stepped masonry buttresses and supported corner lanterns",
+        "South entrance with paired doors, deep arch, great window and gabled sculptural niches",
+        "Low southeast covered passage and connected entrance steps"
+      ],
+      "local_frame": {
+        "origin": [
+          832.3,
+          680.2
+        ],
+        "east": [
+          0.99991737101241,
+          0.012855004769760422
+        ],
+        "north": [
+          -0.012855004769760422,
+          0.99991737101241
+        ]
+      },
+      "tower_local_bounds": [
+        6.024292245403926,
+        41.86739235634971,
+        20.075596650459797,
+        56.90307053086994
+      ],
+      "dimension_status": "Published tower maximum; mapped footprint; photo-estimated section levels, bays, tracery and ornaments. Relief figures remain abstracted."
+    },
     "ordinary_joinery": null,
     "highlight_joinery": {
-      "framed_openings": 333,
+      "framed_openings": 6,
       "transoms": 0,
       "roof_coping_m": 0.0,
       "hollow_bells": 0,
-      "added_triangles": 19452
+      "added_triangles": 1200
     },
     "architecture_reference": {
       "name": "Rockefeller Memorial Chapel",
@@ -4932,7 +5143,7 @@
     "short_zh": "洛克菲勒礼拜堂",
     "aliases_zh": [],
     "short": "Rockefeller Chapel",
-    "partition_en": "Separate carillon tower, nave, lower aisles, steep roofs and buttresses. The tower peak is published at 207 ft / 63.0936 m. Aisle heights, roof slopes, openings and decoration are approximate.",
+    "partition_en": "Single high nave, east carillon tower, west transverse projection, large traceried window groups, stepped buttresses, a recessed south portal, an open southeast passage and connected stairs. Upper bell-stage apertures are physically open behind louvers. The tower peak is published at 207 ft / 63.0936 m; other section levels and ornament dimensions are photo interpretations. Sculptural figures remain abstracted.",
     "basis_en": "Published maximum height from university or project sources; local roof and facade dimensions remain approximate."
   },
   {
@@ -4958,6 +5169,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/202690811",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 224,
       "entrances": 1,
@@ -4996,6 +5208,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/156343657",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 120,
       "entrances": 1,
@@ -5034,6 +5247,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/156044639",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 138,
       "entrances": 1,
@@ -5072,6 +5286,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/relation/2961267",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 1211,
       "entrances": 1,
@@ -5112,6 +5327,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/156128083",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 128,
       "entrances": 1,
@@ -5150,6 +5366,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/155873096",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 112,
       "entrances": 1,
@@ -5188,6 +5405,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/143323612",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 172,
       "entrances": 1,
@@ -5226,6 +5444,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/202690812",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 343,
       "entrances": 1,
@@ -5264,6 +5483,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/1054042388",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 328,
       "entrances": 1,
@@ -5304,6 +5524,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/202679303",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 50,
       "entrances": 1,
@@ -5342,6 +5563,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/202690813",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 224,
       "entrances": 1,
@@ -5392,6 +5614,7 @@
       "reference": "https://architecture.uchicago.edu/locations/international_house/",
       "approximation": "Mapped footprint, documented architectural character; secondary dimensions and partition lines are exterior estimates."
     },
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 822,
       "entrances": 1,
@@ -5432,6 +5655,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144132398",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 606,
       "entrances": 1,
@@ -5482,6 +5706,7 @@
       "reference": "https://architecture.uchicago.edu/locations/ida_noyes_hall/",
       "approximation": "Mapped footprint, documented architectural character; secondary dimensions and partition lines are exterior estimates."
     },
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 195,
       "entrances": 1,
@@ -5520,6 +5745,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/156044638",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 108,
       "entrances": 1,
@@ -5558,6 +5784,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/156343665",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 48,
       "entrances": 1,
@@ -5596,6 +5823,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/1254935929",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 29,
       "entrances": 1,
@@ -5636,6 +5864,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/152132160",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 57,
       "entrances": 1,
@@ -5676,6 +5905,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/191827370",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 324,
       "entrances": 1,
@@ -5714,6 +5944,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144388055",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 120,
       "entrances": 1,
@@ -5752,6 +5983,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/156128079",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 165,
       "entrances": 1,
@@ -5790,6 +6022,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/156343662",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 132,
       "entrances": 1,
@@ -5828,6 +6061,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/202690808",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 225,
       "entrances": 1,
@@ -5866,6 +6100,7 @@
     "source": "https://campub.lib.uchicago.edu/text/?docId=mvol-0001-0016-0000",
     "footprint_source": "https://www.openstreetmap.org/way/156128082",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": null,
     "highlight_joinery": {
       "framed_openings": 285,
@@ -5940,6 +6175,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/156343656",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 108,
       "entrances": 1,
@@ -5978,6 +6214,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/202690815",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 287,
       "entrances": 1,
@@ -6016,6 +6253,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/156044642",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 102,
       "entrances": 1,
@@ -6054,6 +6292,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144636081",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 245,
       "entrances": 1,
@@ -6092,6 +6331,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144636078",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 184,
       "entrances": 1,
@@ -6130,6 +6370,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/143841712",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 208,
       "entrances": 1,
@@ -6170,6 +6411,7 @@
     "source": "https://global.ctbuh.org/resources/papers/4631-Gallagher_DavidRubensteinForum.pdf",
     "footprint_source": "https://www.openstreetmap.org/way/441025431",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": null,
     "highlight_joinery": {
       "framed_openings": 376,
@@ -6245,6 +6487,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144636089",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 136,
       "entrances": 1,
@@ -6294,6 +6537,7 @@
       "reference": "https://architecture.uchicago.edu/locations/the_chicago_theological_seminary/",
       "approximation": "Mapped footprint, documented architectural character; secondary dimensions and partition lines are exterior estimates."
     },
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 168,
       "entrances": 1,
@@ -6332,6 +6576,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/152422723",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 18,
       "entrances": 1,
@@ -6370,6 +6615,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/663674229",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 44,
       "entrances": 1,
@@ -6410,6 +6656,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/143926554",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": null,
     "highlight_joinery": {
       "framed_openings": 259,
@@ -6487,6 +6734,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/143926548",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": null,
     "highlight_joinery": {
       "framed_openings": 104,
@@ -6565,6 +6813,7 @@
       "reference": "https://maps.uchicago.edu/",
       "approximation": "Mapped footprint, documented architectural character; secondary dimensions and partition lines are exterior estimates."
     },
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 756,
       "entrances": 1,
@@ -6605,6 +6854,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/210904080",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 126,
       "entrances": 1,
@@ -6643,6 +6893,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/relation/1957138",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 488,
       "entrances": 1,
@@ -6681,6 +6932,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/152422722",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 152,
       "entrances": 1,
@@ -6733,6 +6985,7 @@
       "reference": "https://maps.uchicago.edu/",
       "approximation": "Mapped footprint, documented architectural character; secondary dimensions and partition lines are exterior estimates."
     },
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 930,
       "entrances": 1,
@@ -6773,6 +7026,7 @@
     "source": "https://news.uchicago.edu/story/reva-and-david-logan-center-arts-preview-period-begin-march-26",
     "footprint_source": "https://www.openstreetmap.org/way/152422729",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": null,
     "highlight_joinery": {
       "framed_openings": 463,
@@ -6843,6 +7097,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/210904082",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 18,
       "entrances": 1,
@@ -6881,6 +7136,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/152422458",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": null,
     "highlight_joinery": {
       "framed_openings": 234,
@@ -6953,6 +7209,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/145510725",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 216,
       "entrances": 1,
@@ -6993,6 +7250,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/210904081",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 42,
       "entrances": 1,
@@ -7042,6 +7300,7 @@
       "reference": "https://architecture.uchicago.edu/locations/south_campus_chiller_plant/",
       "approximation": "Mapped footprint, documented architectural character; secondary dimensions and partition lines are exterior estimates."
     },
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 48,
       "entrances": 1,
@@ -7082,6 +7341,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/relation/1957136",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 118,
       "entrances": 1,
@@ -7120,6 +7380,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/211212920",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 8,
       "entrances": 1,
@@ -7158,6 +7419,7 @@
     "source": "https://www.openstreetmap.org/way/1133910606",
     "footprint_source": "https://www.openstreetmap.org/way/1133910606",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 232,
       "entrances": 1,
@@ -7198,6 +7460,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144636082",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 225,
       "entrances": 1,
@@ -7238,6 +7501,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/477223630",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 801,
       "entrances": 1,
@@ -7278,6 +7542,7 @@
     "source": "https://gisapps.chicago.gov/gisimages/zoning_pds/PD43.pdf",
     "footprint_source": "https://www.openstreetmap.org/relation/11687839",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": null,
     "highlight_joinery": {
       "framed_openings": 1202,
@@ -7364,6 +7629,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/143926550",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 248,
       "entrances": 1,
@@ -7402,6 +7668,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/relation/2087203",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 815,
       "entrances": 1,
@@ -7442,6 +7709,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144636085",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 90,
       "entrances": 1,
@@ -7482,6 +7750,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/155418366",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 93,
       "entrances": 1,
@@ -7520,6 +7789,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/145510720",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 60,
       "entrances": 1,
@@ -7558,6 +7828,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144636088",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 16,
       "entrances": 1,
@@ -7596,6 +7867,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/155418363",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 140,
       "entrances": 1,
@@ -7634,6 +7906,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/210904471",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 24,
       "entrances": 1,
@@ -7672,6 +7945,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/210906294",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 36,
       "entrances": 1,
@@ -7710,6 +7984,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/210906295",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 33,
       "entrances": 1,
@@ -7748,6 +8023,7 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/210906296",
     "campus_refinement": null,
+    "exterior_reconstruction": null,
     "ordinary_joinery": {
       "window_surrounds": 6,
       "entrances": 1,

@@ -1,5 +1,14 @@
 # Validation record
 
+## 26.10.18.7 — Rockefeller Chapel exterior reconstruction
+
+- Architectural review is separate from technical acceptance. Compared the rebuilt south front with the university library's built entrance photograph, the southwest aerial with its roof/volume arrangement, and the east elevation with the university's tower photograph. Corrected the full-width high nave, cross-roof valleys, window groups, portal proportions, supported buttresses and solid chevron crown parapet. Sources and view-specific observations are in `sources/highlight_architecture_audit.json`.
+- Individual sculpture and small profiles remain abstracted; section/member dimensions are photo interpretations except for the published 207-foot tower peak. No claim is made that all 19 Highlights now meet the revised detailed-fidelity standard. Joinery coverage is recorded as a technical production check only.
+- Final exported GLB rendered in the production map with Explore selection and original material colors; no console errors. Isolated south, east, southwest aerial and north low views inspected for geometry/support continuity.
+- Native GLB and FBX: 1,377 mesh objects and 3,540,730 triangles. Every FBX position/index matches the corresponding GLB mesh; independent Three.js FBX and 3DS imports pass. Rhino read-back: 290 closed native solids, 1,087 closed meshes, 177 plan curves and 178 nonempty layers; all geometry valid.
+- Fifteen physical Highlight form checks pass, including the nave/cross-roof junction, genuinely open bell-stage apertures, published crown height, connected eight-riser entrance and open southeast passage. Ground contact passes for all 177 buildings; terrain occlusion passes in 24 horizontal/low directions.
+- SEO and lossless GLB HTTP/local-script/standalone byte integrity checks pass; 3DM/FBX/GLB download order is preserved. Complete model transfer is 3,317,355 bytes, from the 48,474,632-byte extension-free GLB. These delivery/geometry checks do not certify resemblance.
+
 ## 26.10.18.5 — GLB / FBX / 3DM delivery
 
 - Native GLB: 1368 mesh objects, 3495468 triangles. Khronos glTF Validator: no errors or warnings on the extension-free download.

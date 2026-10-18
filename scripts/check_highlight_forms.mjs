@@ -37,6 +37,24 @@ if(pkg==='ucsb-campus-model'){
  const hssb=r('282');check(ray('282',[-239,25,hssb.ground_m+1.7],[1,0,0],9).length===0,'HSSB ground arcade stays physically open');check(ray('282',[-239,25,hssb.ground_m+6],[1,0,0],9).length>0,'HSSB upper wing spans its ground arcade');
 }
 if(pkg==='uchicago-hydepark-model'){
+ // Georeferenced regression probes for the source-corrected Rockefeller form.
+ const origin=[832.30,680.20],north=[-.012855,.999917],length=Math.hypot(...north);north[0]/=length;north[1]/=length;const east=[north[1],-north[0]];
+ const world=(x,y,z)=>[origin[0]+x*east[0]+y*north[0],origin[1]+x*east[1]+y*north[1],z];
+ const roofAt=(x,y)=>ray(150457349,world(x,y,70),[0,0,-1])[0]?.point.z;
+ check(roofAt(8.0,20)>26,'Rockefeller full-width high nave replaces invented low aisles');
+ check(roofAt(-6,49.2)>31.3,'Rockefeller transept roof extends to its connected nave valley');
+ const chapel=r(150457349),detail=chapel.exterior_reconstruction;assert(detail,'Rockefeller needs its source-specific construction record');const [ta,tb,tc,td]=detail.tower_local_bounds,ty=(tb+td)/2;
+ const masonryProbe=(y,z)=>['ChapelStone','ChapelTrim'].flatMap(material=>ray(150457349,world(tc+.7,y,z),east.map(v=>-v).concat(0),2.0,material));
+ for(const offset of [-2.55,2.55]){
+  check(masonryProbe(ty+offset+.32,46.2).length===0,'Rockefeller long belfry aperture stays physically open '+offset);
+  check(masonryProbe(ty+offset+.32,55.0).length===0,'Rockefeller upper bell light stays physically open '+offset);
+ }
+ check(masonryProbe(ty+.32,35).length>0,'Rockefeller solid lower tower shaft supports belfry');
+ let peak=0;for(const mesh of group(150457349)){mesh.geometry.computeBoundingBox();peak=Math.max(peak,mesh.geometry.boundingBox.max.z);}
+ check(Math.abs(peak-63.0936)<.002,'Rockefeller crown retains the published 207-foot maximum');
+ const walk=[];for(const y of [-5.12,-4.67,-4.22,-3.77,-3.32,-2.87,-2.42,-1.97,-1.2])walk.push(roofAt(0,y));
+ check(walk.every(Number.isFinite)&&walk.every((z,i)=>i===0||z>=walk[i-1]-.01)&&Math.abs(walk.at(-1)-.70)<.015,'Rockefeller entry steps meet the landing continuously');
+ check(ray(150457349,world(13.3,0,2),[...north,0],11).length===0,'Rockefeller southeast covered passage remains open through its arches');
  const mit=r(1228219576),[cx,cy]=mit.center;
  for(const n of [[1,0],[0,1]])check(ray(1228219576,[cx-n[0]*12,cy-n[1]*12,2],[n[0],n[1],0],24).length===0,'Mitchell open cross passage '+n);
  check(ray(1228219576,[cx,cy,40],[0,0,-1])[0].point.z>35,'Mitchell upper tower spans open passage');

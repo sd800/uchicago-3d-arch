@@ -429,12 +429,12 @@
     "category": "building",
     "material": "Frame"
   },
-  "U011D2600": {
+  "U011D3500": {
     "layer": "U011_Max Palevsky Commons Central",
     "category": "building",
     "material": "PalevskyPurple"
   },
-  "U011D2700": {
+  "U011D3600": {
     "layer": "U011_Max Palevsky Commons Central",
     "category": "building",
     "material": "PalevskyRoof"
@@ -539,12 +539,12 @@
     "category": "building",
     "material": "Frame"
   },
-  "U014D2600": {
+  "U014D3500": {
     "layer": "U014_Max Palevsky Commons West",
     "category": "building",
     "material": "PalevskyPurple"
   },
-  "U014D2700": {
+  "U014D3600": {
     "layer": "U014_Max Palevsky Commons West",
     "category": "building",
     "material": "PalevskyRoof"
@@ -684,12 +684,12 @@
     "category": "building",
     "material": "Frame"
   },
-  "U018D2600": {
+  "U018D3500": {
     "layer": "U018_Max Palevsky Commons East",
     "category": "building",
     "material": "PalevskyPurple"
   },
-  "U018D2700": {
+  "U018D3600": {
     "layer": "U018_Max Palevsky Commons East",
     "category": "building",
     "material": "PalevskyRoof"
@@ -4262,47 +4262,92 @@
   "U112B00": {
     "layer": "U112_Rockefeller Memorial Chapel",
     "category": "building",
-    "material": "Limestone"
+    "material": "ChapelStone"
   },
   "U112B01": {
     "layer": "U112_Rockefeller Memorial Chapel",
     "category": "building",
-    "material": "Limestone"
+    "material": "ChapelStone"
   },
   "U112B02": {
     "layer": "U112_Rockefeller Memorial Chapel",
     "category": "building",
-    "material": "Limestone"
+    "material": "ChapelStone"
   },
   "U112B03": {
     "layer": "U112_Rockefeller Memorial Chapel",
     "category": "building",
-    "material": "Limestone"
+    "material": "ChapelStone"
+  },
+  "U112B04": {
+    "layer": "U112_Rockefeller Memorial Chapel",
+    "category": "building",
+    "material": "ChapelStone"
+  },
+  "U112B05": {
+    "layer": "U112_Rockefeller Memorial Chapel",
+    "category": "building",
+    "material": "ChapelStone"
   },
   "U112HD0000": {
     "layer": "U112_Rockefeller Memorial Chapel",
     "category": "building",
     "material": "LightStone"
   },
-  "U112D0000": {
-    "layer": "U112_Rockefeller Memorial Chapel",
-    "category": "building",
-    "material": "Limestone"
-  },
-  "U112D0100": {
-    "layer": "U112_Rockefeller Memorial Chapel",
-    "category": "building",
-    "material": "LightStone"
-  },
-  "U112D0300": {
-    "layer": "U112_Rockefeller Memorial Chapel",
-    "category": "building",
-    "material": "Slate"
-  },
   "U112D0900": {
     "layer": "U112_Rockefeller Memorial Chapel",
     "category": "building",
     "material": "DarkGlass"
+  },
+  "U112D1000": {
+    "layer": "U112_Rockefeller Memorial Chapel",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U112D2300": {
+    "layer": "U112_Rockefeller Memorial Chapel",
+    "category": "building",
+    "material": "ChapelStone"
+  },
+  "U112D2400": {
+    "layer": "U112_Rockefeller Memorial Chapel",
+    "category": "building",
+    "material": "ChapelTrim"
+  },
+  "U112D2500": {
+    "layer": "U112_Rockefeller Memorial Chapel",
+    "category": "building",
+    "material": "ChapelRoof"
+  },
+  "U112D2600": {
+    "layer": "U112_Rockefeller Memorial Chapel",
+    "category": "building",
+    "material": "ChapelRoofSeam"
+  },
+  "U112D2700": {
+    "layer": "U112_Rockefeller Memorial Chapel",
+    "category": "building",
+    "material": "ChapelRecess"
+  },
+  "U112D2800": {
+    "layer": "U112_Rockefeller Memorial Chapel",
+    "category": "building",
+    "material": "ChapelDoor"
+  },
+  "U112D2900": {
+    "layer": "U112_Rockefeller Memorial Chapel",
+    "category": "building",
+    "material": "ChapelDoorTrim"
+  },
+  "U112D3000": {
+    "layer": "U112_Rockefeller Memorial Chapel",
+    "category": "building",
+    "material": "ChapelLead"
+  },
+  "U112D3100": {
+    "layer": "U112_Rockefeller Memorial Chapel",
+    "category": "building",
+    "material": "ChapelLouvre"
   },
   "U113B00": {
     "layer": "U113_Franklin McLean Research Institute",
@@ -5599,7 +5644,7 @@
     "category": "building",
     "material": "Garden"
   },
-  "U148D2400": {
+  "U148D3300": {
     "layer": "U148_Harris School of Public Policy Keller Center",
     "category": "building",
     "material": "Solar"
@@ -6834,7 +6879,7 @@
     "category": "environment",
     "material": "Trunk"
   },
-  "E2300": {
+  "E3200": {
     "layer": "环境_Environment",
     "category": "environment",
     "material": "Furniture"
