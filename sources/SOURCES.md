@@ -84,6 +84,13 @@ The machine-readable `architecture_sources.json` retains detailed values, units,
 
 ### Gerald Ratner Athletics Center
 
+The 26.10.18.8 optimized exterior separates the narrower northeast pool hall from the low west service wing, following the saved mapped plan and the university’s built photographs. Roof/clerestory returns, east-facing glazing, the curved lobby and mast/cable organization were rebuilt. Local section dimensions and connection positions remain photographic estimates. The existing 100-foot model choice is retained; the opening report’s 125-foot statement remains an unresolved source discrepancy. The concept plan below is used for zoning only.
+
+- [University architecture page and built photographs](https://architecture.uchicago.edu/locations/gerald_ratner_athletics_center/)
+- [Concept plan and elevations](https://chronicle.uchicago.edu/000302/pelli.shtml)
+- [AISC engineering case: cable-stayed design](https://www.aisc.org/globalassets/modern-steel/archives/2004/03/2004v03_design_considerations.pdf) — publisher-indexed text reviewed; PDF fetch unavailable.
+- [AISC award case](https://www.aisc.org/media/mdtntq2a/2004-eae.pdf?epieditmode=False) — publisher-indexed text reviewed; PDF fetch unavailable.
+
 - [Primary reference](https://athletics.uchicago.edu/sports/2023/6/12/ratner.aspx)
 - [Primary reference](https://chronicle.uchicago.edu/031009/ratner-arch.shtml)
 

@@ -59,7 +59,22 @@ if(pkg==='uchicago-hydepark-model'){
  for(const n of [[1,0],[0,1]])check(ray(1228219576,[cx-n[0]*12,cy-n[1]*12,2],[n[0],n[1],0],24).length===0,'Mitchell open cross passage '+n);
  check(ray(1228219576,[cx,cy,40],[0,0,-1])[0].point.z>35,'Mitchell upper tower spans open passage');
  const robie=group(125667497,'Brick'),peaks=robie.flatMap(m=>{const a=m.geometry.attributes.position.array;return Array.from(a).filter((_,i)=>i%3===2)});check(Math.max(...peaks)>10.5&&Math.max(...peaks)<11,'Robie central chimney rises over low horizontal wings');
- const ratner=group(152586235,'WhitePanel');let top=0;for(const m of ratner){m.geometry.computeBoundingBox();top=Math.max(top,m.geometry.boundingBox.max.z);}check(Math.abs(top-30.48)<.1,'Ratner paired mast crowns reach the published 100-foot height');
+ const ratner=group(152586235,'RatnerSteel');let top=0;for(const m of ratner){m.geometry.computeBoundingBox();top=Math.max(top,m.geometry.boundingBox.max.z);}check(Math.abs(top-30.48)<.1,'Ratner three-member mast crowns retain the documented 100-foot height choice');
+ const rd=r(152586235).exterior_reconstruction;assert(rd?.modeling_level==='optimized exterior');
+ const rr=(x,y)=>ray(152586235,[x,y,50],[0,0,-1],60,'RatnerRoof')[0]?.point.z;
+ check(rr(409,1380)<8&&rr(448,1380)>12,'Ratner western low service wing is distinct from the northeast pool roof');
+ check(rd.primary_masts.length===5&&rd.primary_masts.every(m=>m.feet.length===3&&m.tips.length===3),'Ratner has five three-member primary mast records');
+ for(const [i,mast]of rd.primary_masts.entries())for(let j=0;j<3;j++){
+   const z=18,f=(z-mast.feet[j][2])/(mast.tips[j][2]-mast.feet[j][2]),v=mast.feet[j].map((a,k)=>a+(mast.tips[j][k]-a)*f);
+   check(ray(152586235,[v[0],v[1]+.45,z],[0,-1,0],.9,'RatnerSteel').length>0,`Ratner primary mast ${i+1} tube ${j+1} is physically present`);
+ }
+ check(rd.secondary_mast_records.length===15,'Ratner secondary masts follow fifteen girder lines');
+ check(rd.cable_connections.length===120&&rd.cable_connections.filter(c=>c.kind==='fore').length===45&&rd.cable_connections.filter(c=>c.kind==='back').length===30,'Ratner stay groups preserve three-level fore/back support instead of arbitrary perimeter fans');
+ for(const c of rd.cable_connections){const z=rr(c.end[0],c.end[1]);assert(Number.isFinite(z)&&Math.abs(z-c.end[2])<.36,'Ratner cable must attach to its actual roof surface');}
+ checks.push('Ratner all 120 cable endpoints meet exported roof geometry');
+ for(const p of rd.wall_probes){const [nx,ny]=p.normal;assert(ray(152586235,[p.xy[0]+nx,p.xy[1]+ny,p.z],[-nx,-ny,0],2.2,p.material).length>0,'Ratner clerestory wall return is physically closed '+JSON.stringify(p));}
+ checks.push('Ratner curve-following clerestory returns are physically present');
+ const landing=ray(152586235,[454.5,1343,3],[0,0,-1],4,'Paving')[0];check(landing&&Math.abs(landing.point.z-.35)<.015,'Ratner curved entry landing meets its door datum');
 }
 if(pkg==='uw-seattle-model'){
  const denny=r('DEN');const copper=group('DEN','RoofPatina');check(copper.length>0,'Denny uses a copper-patina cupola');let peak=0;for(const mesh of copper){mesh.geometry.computeBoundingBox();peak=Math.max(peak,mesh.geometry.boundingBox.max.z);}check(Math.abs(peak-denny.ground_m-26.18)<.05,'Denny lantern caps the supported copper dome');

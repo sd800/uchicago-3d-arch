@@ -106,7 +106,7 @@ The view can tilt continuously from overhead to exactly horizontal. Low-angle ve
 
 ## Website model delivery
 
-The viewer uses standard glTF 2.0 binary (GLB). The lossless complete-model derivative is **3.16 MiB** transferred, from a **46.23 MiB** extension-free download GLB. `EXT_meshopt_compression` and gzip reduce transfer; decompressed position/index accessors match the native GLB byte for byte. No quantization or simplification is introduced by this format conversion.
+The viewer uses standard glTF 2.0 binary (GLB). The lossless complete-model derivative is **3.26 MiB** transferred, from a **47.05 MiB** extension-free download GLB. `EXT_meshopt_compression` and gzip reduce transfer; decompressed position/index accessors match the native GLB byte for byte. No quantization or simplification is introduced by this format conversion.
 
 A worker inflates/decompresses the complete GLB and calculates normals; geometry buffers transfer once to the main thread. Scene creation and no-worker fallback yield between work slices. The meshoptimizer JavaScript/WebAssembly codec is bundled locally. HTTP loads binary assets; double-click `file://` loads classic scripts, and the standalone edition embeds browsing data. WebGL 2, WebAssembly and Compression Streams are required by current delivery.
 

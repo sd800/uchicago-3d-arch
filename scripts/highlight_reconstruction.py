@@ -4,6 +4,7 @@ Primary owner/architect references are recorded beside each reconstruction.
 Source plans remain authoritative; member sizes are photo interpretations.
 """
 import math
+from ratner_athletics import rebuild as rebuild_ratner, FEATURES as RATNER_FEATURES
 from rockefeller_chapel import rebuild as rebuild_rockefeller, FEATURES as ROCKEFELLER_FEATURES, REFERENCE as ROCKEFELLER_REFERENCE
 import numpy as np
 import trimesh
@@ -14,13 +15,14 @@ from shapely import segmentize
 REFS={150457349:ROCKEFELLER_REFERENCE,125667497:'https://flwright.org/explore/frederick-c-robie-house',152586235:'https://architecture.uchicago.edu/locations/gerald_ratner_athletics_center/',142870150:'https://architecture.uchicago.edu/locations/gordon_center_for_integrative_science/',152284260:'https://www.lib.uchicago.edu/crerar/about-crerar-library/history/',1228219576:'https://architecture.uchicago.edu/locations/tower_group_mitchell_tower_hutchinson_commons_reynolds_club_mandel_hall/'}
 FEATURES={
 150457349:ROCKEFELLER_FEATURES,125667497:['long Roman-brick living/dining bar','deep low hipped clay eaves with limestone fascia','24 art-glass door bays along the south balcony','upper bedroom mass','central chimney','brick terraces, parapets and urns'],
-152586235:['two sports halls and lower round entrance lobby','continuous flattened S-curve metal roofs','inclined glazed end walls','five leaning mast pairs','120 roof-attached stay cables','clerestory bands and standing seams'],
+152586235:RATNER_FEATURES,
 142870150:['separate limestone research wings','tall glazed eastern hinge atrium','open ground-level breezeway','six-storey-height steel colonnade','glazed upper bridge and limestone canopy'],
 152284260:['three above-ground library levels','11-foot upper-floor cantilever','vertical narrow concrete window bays','central atrium roof lantern','2018 roof skylights'],
 1228219576:['square limestone Gothic tower','true open ground-level cross passage','deep bell-stage arches','four corner turrets','crenellated parapet','paired narrow Gothic lights']}
 
 def rebuild(ms,p,ident,h,body,t):
     if ident==150457349:return rebuild_rockefeller(ms,p,h,body,t)
+    if ident==152586235:return rebuild_ratner(ms,p,h,body,t)
     a,b,c,d=p.bounds;x,y=p.centroid.coords[0]
     def add(g,z,height,mat):
         for q in t.polygons(g):ms[mat].append(t.extrusion(q,z,height))
@@ -87,45 +89,6 @@ def rebuild(ms,p,ident,h,body,t):
         for xx,yy0 in [(904,852),(933.2,851)]:
             ms['LightStone'].append(t.cylinder((xx,yy0,1.25),(xx,yy0,1.75),.62,16));ms['Limestone'].append(t.cylinder((xx,yy0,1.75),(xx,yy0,1.94),.85,16))
         stats={'south_art_glass_bays':24,'deep_eaves_m':1.65}
-    elif ident==152586235:
-        halls=[p.intersection(box(a-1,b-1,c+1,1302)),p.intersection(box(a-1,1353,c+1,d+1))];rotunda=p.intersection(Point(439.7,1343).buffer(15.2,quad_segs=40));commons=p.difference(unary_union(halls))
-        body(commons.difference(rotunda),0,6.5,'Brick',lev=1,arch=False);body(rotunda,0,8.7,'Brick',windows=False)
-        add(commons.difference(rotunda),6.5,.16,'Metal');add(rotunda,8.7,.16,'Metal');coping(rotunda,8.86)
-        roof_functions=[]
-        for hall in halls:
-            aa,bb,cc,dd=hall.bounds;mid=(aa+cc)/2;span=cc-aa
-            def rz(xx,yy,mid=mid,span=span):return 11.2+2.0*np.sin((np.asarray(xx)-mid)/span*math.pi*1.35)
-            roof_functions.append(rz);body(hall,0,8.8,'Brick',windows=False)
-            for xx in np.arange(aa,cc,4):
-                for yy in np.arange(bb,dd,5):
-                    for q in t.polygons(segmentize(hall.intersection(box(xx,yy,xx+4,yy+5)),2)):
-                        m=t.extrusion(q,0,.18);m.vertices[:,2]+=rz(m.vertices[:,0],m.vertices[:,1]);trimesh.repair.fix_normals(m);ms['Metal'].append(m)
-            # Sloped glass wall panels connect the low base to each curved eave.
-            for face_y,sign in [(bb,-1),(dd,1)]:
-                for xx in np.arange(aa+.4,cc-1,2.0):
-                    if not hall.buffer(.1).covers(Point(xx,face_y+sign*-.1)):continue
-                    top=float(rz(xx,face_y))-.10;profile=Polygon([(xx,0),(xx+1.8,0),(xx+1.8,top),(xx,top)])
-                    # Each closed glazing panel slopes outward 0.65 m at its head.
-                    q=box(xx,face_y-.045,xx+1.8,face_y+.045);m=t.extrusion(q,0,top);m.vertices[:,1]+=sign*.65*m.vertices[:,2]/top;ms['Glass'].append(m)
-                    for edge_x in [xx,xx+1.8]:ms['WhitePanel'].append(t.cylinder((edge_x,face_y,0),(edge_x,face_y+sign*.65,top),.065,6))
-                    for zz in np.arange(2,top,2):line((xx,face_y+sign*.65*zz/top),(xx+1.8,face_y+sign*.65*zz/top),zz,.07,.09,'WhitePanel')
-            for xx in np.arange(aa+1,cc,2.3):
-                points=[(xx,yy,float(rz(xx,yy))+.21)for yy in np.linspace(bb+.2,dd-.2,18)]
-                for pa,pb in zip(points[:-1],points[1:]):
-                    if hall.covers(Point(*pa[:2]))and hall.covers(Point(*pb[:2])):ms['Frame'].append(t.cylinder(pa,pb,.025,5))
-        # Five paired mast frames, 24 stays apiece. Every stay terminates on
-        # one of the actual hall roof surfaces instead of an arbitrary Z plane.
-        masts=[(444,1271,0),(444,1291,0),(468,1372,1),(468,1404,1),(384,1385,1)]
-        for mx,my,idx in masts:
-            hall=halls[idx];rz=roof_functions[idx];tip=(mx-3.8,my,30.48)
-            for dy in [-1.8,1.8]:ms['WhitePanel'].append(t.cylinder((mx,my+dy,0),tip,.27,10))
-            aa,bb,cc,dd=hall.bounds
-            for k in range(24):
-                fraction=(k%6+.5)/6;side=k//6
-                xy=(aa+(cc-aa)*fraction,bb+.4)if side==0 else(aa+(cc-aa)*fraction,dd-.4)if side==1 else(aa+.4,bb+(dd-bb)*fraction)if side==2 else(cc-.4,bb+(dd-bb)*fraction)
-                q=hall.exterior.interpolate(hall.exterior.project(Point(*xy)));end=(q.x,q.y,float(rz(q.x,q.y))+.20);ms['Frame'].append(t.cylinder(tip,end,.035,5))
-        for aa,bb,u,n in [((439,1329),(454,1338),np.array([1,0]),(1,0))]:pane(aa,bb,.15,3.7,n)
-        stats={'curve_roofs':2,'mast_frames':5,'roof_attached_stays':120}
     elif ident==142870150:
         west=p.intersection(box(a-1,b-1,322,d+1));east=p.intersection(box(393,b-1,c+1,d+1));north=p.difference(unary_union([west,east]));atrium=east.intersection(box(393,967,c+1,1000));labs=east.difference(atrium)
         body(west,0,25.6,'Limestone',lev=5,arch=False);body(labs,0,25.6,'Limestone',lev=5,arch=False)

@@ -77,62 +77,92 @@
   "U003B00": {
     "layer": "U003_Gerald Ratner Athletics Center",
     "category": "building",
-    "material": "Brick"
+    "material": "RatnerBrown"
   },
   "U003B01": {
     "layer": "U003_Gerald Ratner Athletics Center",
     "category": "building",
-    "material": "Brick"
+    "material": "RatnerBrown"
   },
   "U003B02": {
     "layer": "U003_Gerald Ratner Athletics Center",
     "category": "building",
-    "material": "Brick"
+    "material": "RatnerBrown"
   },
   "U003B03": {
     "layer": "U003_Gerald Ratner Athletics Center",
     "category": "building",
-    "material": "Brick"
+    "material": "Concrete"
   },
   "U003B04": {
     "layer": "U003_Gerald Ratner Athletics Center",
     "category": "building",
-    "material": "Brick"
+    "material": "Concrete"
   },
-  "U003HD0000": {
+  "U003B05": {
     "layer": "U003_Gerald Ratner Athletics Center",
     "category": "building",
-    "material": "Frame"
+    "material": "RatnerDrum"
   },
-  "U003D0100": {
+  "U003D0500": {
     "layer": "U003_Gerald Ratner Athletics Center",
     "category": "building",
-    "material": "LightStone"
+    "material": "Concrete"
   },
-  "U003D0600": {
+  "U003D1300": {
     "layer": "U003_Gerald Ratner Athletics Center",
     "category": "building",
-    "material": "WhitePanel"
+    "material": "Paving"
   },
-  "U003D0700": {
+  "U003D2300": {
     "layer": "U003_Gerald Ratner Athletics Center",
     "category": "building",
-    "material": "Metal"
+    "material": "RatnerTan"
   },
-  "U003D0800": {
+  "U003D2400": {
     "layer": "U003_Gerald Ratner Athletics Center",
     "category": "building",
-    "material": "Glass"
+    "material": "RatnerBrown"
   },
-  "U003D0900": {
+  "U003D2500": {
     "layer": "U003_Gerald Ratner Athletics Center",
     "category": "building",
-    "material": "DarkGlass"
+    "material": "RatnerDrum"
   },
-  "U003D1000": {
+  "U003D2600": {
     "layer": "U003_Gerald Ratner Athletics Center",
     "category": "building",
-    "material": "Frame"
+    "material": "RatnerRoof"
+  },
+  "U003D2700": {
+    "layer": "U003_Gerald Ratner Athletics Center",
+    "category": "building",
+    "material": "RatnerRoofSeam"
+  },
+  "U003D2800": {
+    "layer": "U003_Gerald Ratner Athletics Center",
+    "category": "building",
+    "material": "RatnerFascia"
+  },
+  "U003D2900": {
+    "layer": "U003_Gerald Ratner Athletics Center",
+    "category": "building",
+    "material": "RatnerSteel"
+  },
+  "U003D3000": {
+    "layer": "U003_Gerald Ratner Athletics Center",
+    "category": "building",
+    "material": "RatnerCable"
+  },
+  "U003D3100": {
+    "layer": "U003_Gerald Ratner Athletics Center",
+    "category": "building",
+    "material": "RatnerGlass"
+  },
+  "U003D3200": {
+    "layer": "U003_Gerald Ratner Athletics Center",
+    "category": "building",
+    "material": "RatnerFrost"
   },
   "U004B00": {
     "layer": "U004_Cochrane-Woods Art Center",
@@ -429,12 +459,12 @@
     "category": "building",
     "material": "Frame"
   },
-  "U011D3500": {
+  "U011D4500": {
     "layer": "U011_Max Palevsky Commons Central",
     "category": "building",
     "material": "PalevskyPurple"
   },
-  "U011D3600": {
+  "U011D4600": {
     "layer": "U011_Max Palevsky Commons Central",
     "category": "building",
     "material": "PalevskyRoof"
@@ -539,12 +569,12 @@
     "category": "building",
     "material": "Frame"
   },
-  "U014D3500": {
+  "U014D4500": {
     "layer": "U014_Max Palevsky Commons West",
     "category": "building",
     "material": "PalevskyPurple"
   },
-  "U014D3600": {
+  "U014D4600": {
     "layer": "U014_Max Palevsky Commons West",
     "category": "building",
     "material": "PalevskyRoof"
@@ -684,12 +714,12 @@
     "category": "building",
     "material": "Frame"
   },
-  "U018D3500": {
+  "U018D4500": {
     "layer": "U018_Max Palevsky Commons East",
     "category": "building",
     "material": "PalevskyPurple"
   },
-  "U018D3600": {
+  "U018D4600": {
     "layer": "U018_Max Palevsky Commons East",
     "category": "building",
     "material": "PalevskyRoof"
@@ -4304,47 +4334,47 @@
     "category": "building",
     "material": "Frame"
   },
-  "U112D2300": {
+  "U112D3300": {
     "layer": "U112_Rockefeller Memorial Chapel",
     "category": "building",
     "material": "ChapelStone"
   },
-  "U112D2400": {
+  "U112D3400": {
     "layer": "U112_Rockefeller Memorial Chapel",
     "category": "building",
     "material": "ChapelTrim"
   },
-  "U112D2500": {
+  "U112D3500": {
     "layer": "U112_Rockefeller Memorial Chapel",
     "category": "building",
     "material": "ChapelRoof"
   },
-  "U112D2600": {
+  "U112D3600": {
     "layer": "U112_Rockefeller Memorial Chapel",
     "category": "building",
     "material": "ChapelRoofSeam"
   },
-  "U112D2700": {
+  "U112D3700": {
     "layer": "U112_Rockefeller Memorial Chapel",
     "category": "building",
     "material": "ChapelRecess"
   },
-  "U112D2800": {
+  "U112D3800": {
     "layer": "U112_Rockefeller Memorial Chapel",
     "category": "building",
     "material": "ChapelDoor"
   },
-  "U112D2900": {
+  "U112D3900": {
     "layer": "U112_Rockefeller Memorial Chapel",
     "category": "building",
     "material": "ChapelDoorTrim"
   },
-  "U112D3000": {
+  "U112D4000": {
     "layer": "U112_Rockefeller Memorial Chapel",
     "category": "building",
     "material": "ChapelLead"
   },
-  "U112D3100": {
+  "U112D4100": {
     "layer": "U112_Rockefeller Memorial Chapel",
     "category": "building",
     "material": "ChapelLouvre"
@@ -5644,7 +5674,7 @@
     "category": "building",
     "material": "Garden"
   },
-  "U148D3300": {
+  "U148D4300": {
     "layer": "U148_Harris School of Public Policy Keller Center",
     "category": "building",
     "material": "Solar"
@@ -6879,7 +6909,7 @@
     "category": "environment",
     "material": "Trunk"
   },
-  "E3200": {
+  "E4200": {
     "layer": "环境_Environment",
     "category": "environment",
     "material": "Furniture"

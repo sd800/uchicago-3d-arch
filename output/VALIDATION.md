@@ -1,5 +1,12 @@
 # Validation record
 
+## 26.10.18.8 — Ratner Athletics Center optimization
+
+- Compared the exported exterior with the university's built east-arrival and western-aerial photographs. Separated the northeast pool hall from its low western service wing; rebuilt curve-following roof/envelope returns, warm masonry ends, sloping east glazing, three-member primary masts, smaller secondary masts and circular entrance drum. Reviewed east Explore, east low-angle and west aerial model views. Local dimensions remain photo estimates; the 100-foot/125-foot source discrepancy is explicitly retained. This is optimized exterior modeling, not measured structural or exhaustive detailed reconstruction.
+- The physical form suite passes 37 checks, including all 15 primary tubes, actual roof contact for 120 stay endpoints, closed curve-following clerestories and a connected entry landing. The suite also retains the preceding Rockefeller, Mitchell and Robie checks. Native CAD read-back: 291 closed native solids, 1,092 closed meshes, 177 plan curves and 178 nonempty layers; all geometry valid.
+- Independent FBX and 3DS imports pass; all FBX coordinates/indices match the corresponding GLB object. Lossless GLB HTTP/local-script/standalone bytes, SEO, ordered 3DM/FBX/GLB downloads and release policy pass. All 177 buildings pass ground contact; 24 low/horizontal terrain directions pass. Production browser Explore and Guide were inspected with no console errors; Explore preserves original building colors and the existing camera.
+- Byte-level mesh/material comparison against the preceding release confirms that only the U003 Ratner building layer changed. Final complete model: 3,609,086 triangles; web transfer 3,415,248 bytes versus 3,317,355 previously. Repeated seams/mullions and sampling were reduced during the revision. Data/geometry checks are separate from architectural resemblance.
+
 ## 26.10.18.7 — Rockefeller Chapel exterior reconstruction
 
 - Architectural review is separate from technical acceptance. Compared the rebuilt south front with the university library's built entrance photograph, the southwest aerial with its roof/volume arrangement, and the east elevation with the university's tower photograph. Corrected the full-width high nave, cross-roof valleys, window groups, portal proportions, supported buttresses and solid chevron crown parapet. Sources and view-specific observations are in `sources/highlight_architecture_audit.json`.

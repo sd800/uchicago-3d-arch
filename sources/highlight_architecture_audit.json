@@ -1,6 +1,6 @@
 {
   "review_date": "2026-10-18",
-  "scope": "The current source-to-model fidelity revision concerns Rockefeller Chapel. Historical geometry/joinery reviews of the other Highlights are not certification under the current detailed modeling standard.",
+  "scope": "The current source-to-model revision optimizes Ratner Athletics Center. The preceding Rockefeller review remains recorded; other historical geometry/joinery reviews are not certification under the current modeling standard.",
   "building_highlight_count": 19,
   "reconstructed_this_review": 1,
   "joinery_count_is_not_fidelity_evidence": true,
@@ -25,19 +25,65 @@
       "id": "152586235",
       "code": "U003",
       "name": "Gerald Ratner Athletics Center",
-      "decision": "reconstructed source-specific exterior",
+      "decision": "reconstructed source-specific optimized exterior",
       "features_reviewed": [
-        "two sports halls and lower round entrance lobby",
-        "continuous flattened S-curve metal roofs",
-        "inclined glazed end walls",
-        "five leaning mast pairs",
-        "120 roof-attached stay cables",
-        "clerestory bands and standing seams"
+        "Separate south gymnasium, narrower northeast pool hall and low west service/fitness wing",
+        "Flattened S-profile metal roofs with continuous masonry/clerestory envelope returns",
+        "East-facing sloping curtain walls, masonry end walls and sparse standing seams",
+        "Five primary masts built from three tapered tubes; 15 opposing secondary masts",
+        "Nine fore and six back stays per primary mast at three levels, with secondary bow stays",
+        "Curved brick arrival drum, rising parapet, recessed skylight, canopy and connected entry steps"
       ],
       "reference": "https://architecture.uchicago.edu/locations/gerald_ratner_athletics_center/",
       "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations.",
       "previous_review_decision": "reconstructed source-specific exterior",
-      "fidelity_status": "Not certified under the current standard; source-to-model architectural re-review remains required."
+      "fidelity_status": "Source-compared optimized exterior: principal hall/service massing, curved roof/eave relationships, east glazing, primary/secondary support hierarchy and circular entrance corrected. Secondary dimensions and fittings remain simplified; this is not a measured or exhaustive detailed reconstruction.",
+      "modeling_level": "optimized exterior",
+      "references": [
+        {
+          "url": "https://architecture.uchicago.edu/locations/gerald_ratner_athletics_center/",
+          "view": "As-built east arrival photograph and western aerial by Tom Rossiter; five masts and current 100-foot peak description."
+        },
+        {
+          "url": "https://chronicle.uchicago.edu/000302/pelli.shtml",
+          "view": "Concept floor plan and elevations, used for hall/service-area zoning; checked against built photographs, not treated as as-built drawings."
+        },
+        {
+          "url": "https://www.aisc.org/globalassets/modern-steel/archives/2004/03/2004v03_design_considerations.pdf",
+          "view": "Published engineering case text: three-member mast, 9 fore/6 back stays, three cable levels and opposite secondary masts. Text indexed by publisher; PDF fetch unavailable."
+        },
+        {
+          "url": "https://www.aisc.org/media/mdtntq2a/2004-eae.pdf?epieditmode=False",
+          "view": "Published AISC award case text: three 18-inch HSS members and splayed cable support. Text indexed by publisher; PDF fetch unavailable."
+        },
+        {
+          "url": "https://chronicle.uchicago.edu/031009/ratner-arch.shtml",
+          "view": "Opening report; 125-foot mast statement differs from current university description."
+        }
+      ],
+      "remaining_simplifications": [
+        "Local roof levels/curvature, mast locations and joints are photographic interpretations rather than construction measurements.",
+        "The existing 100-foot height choice is retained; the university opening report gives 125 feet and the source discrepancy remains unresolved.",
+        "Hidden foundations, internal sports fit-out, individual curtain-wall fittings and roof plant are omitted."
+      ],
+      "reviewed_model_sha256": "8b552e02addfbb4433edf72f8599d7a5f2dccd7af71d401765612f308672b474",
+      "reviewed_views": [
+        {
+          "azimuth": 60,
+          "elevation": 25,
+          "comparison": "Production GLB Explore view, unchanged camera; east-facing pool and gym glazing, separated low western service roof and circular arrival drum. Matched general arrangement against university built photographs."
+        },
+        {
+          "azimuth": 90,
+          "elevation": 8,
+          "comparison": "East low-angle inspection of three pool and two gym mast groups, visible secondary masts, glazed frontage and connected curved entry."
+        },
+        {
+          "azimuth": 240,
+          "elevation": 28,
+          "comparison": "West aerial comparison with the university western aerial: warm masonry hall ends, low west service/fitness wing, curved span profiles and western primary mast line."
+        }
+      ]
     },
     {
       "id": "194224828",

@@ -1,5 +1,11 @@
 # Changelog
 
+## 26.10.18.8 — 2026-10-18
+
+- Optimize Ratner Athletics Center against university built photographs and engineering references: separate the northeast pool hall from its low western service wing and rebuild continuous curved roof/envelope junctions.
+- Replace generic paired poles and crossing cable fans with five tapered three-member primary masts, secondary roof masts and connected layered fore/back stays.
+- Rework the east-facing glazing, warm masonry, curved entrance drum, rising parapet, skylight, canopy and grounded entrance steps while retaining the existing Explore camera and published-height source caveat.
+
 ## 26.10.18.7 — 2026-10-18
 
 - Reconstruct Rockefeller Chapel from university exterior photographs and the library's aerial and south-front archive: restore its full-width high nave, intersecting roofs, stepped buttresses, large traceried windows, south portal and connected entrance stairs.
