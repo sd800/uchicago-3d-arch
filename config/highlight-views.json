@@ -1,5 +1,5 @@
 {
-  "review_date": "2026-10-17",
+  "review_date": "2026-10-18",
   "coordinate_convention": "Camera-side azimuth clockwise from model north (+Y); elevation above ground. +X is east.",
   "basis": "Editorial presentation choices inferred from the retained mapped plans and university/architect exterior references; not surveyed entrance bearings or a reproduction of a particular photograph.",
   "views": {
@@ -29,11 +29,17 @@
     },
     "159093828": {
       "name": "Joe and Rika Mansueto Library",
-      "azimuth_deg": 235,
-      "elevation_deg": 28,
+      "azimuth_deg": 199.6,
+      "elevation_deg": 26.6,
       "padding": 1.6,
-      "composition": "Southwest glazed dome, with the taller library behind rather than in front",
-      "reference": "https://www.lib.uchicago.edu/mansueto/tech/numbers/"
+      "composition": "User-specified south-southwest composition and fixed metric framing",
+      "reference": "https://www.lib.uchicago.edu/mansueto/tech/numbers/",
+      "span_m": 165.2,
+      "center_m": [
+        525.0,
+        1106.6,
+        0.0
+      ]
     },
     "387213841": {
       "name": "William Eckhardt Research Center",
@@ -93,11 +99,17 @@
     },
     "150457349": {
       "name": "Rockefeller Memorial Chapel",
-      "azimuth_deg": 205,
-      "elevation_deg": 23,
+      "azimuth_deg": 145.2,
+      "elevation_deg": 18.0,
       "padding": 1.7,
-      "composition": "South portal and southwest oblique showing the nave and tower",
-      "reference": "https://architecture.uchicago.edu/locations/rockefeller_memorial_chapel/"
+      "composition": "User-specified southeast oblique, low elevation and fixed metric framing",
+      "reference": "https://architecture.uchicago.edu/locations/rockefeller_memorial_chapel/",
+      "span_m": 170.9,
+      "center_m": [
+        822.3,
+        756.1,
+        0.0
+      ]
     },
     "156128082": {
       "name": "Harper Memorial Library",

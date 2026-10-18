@@ -1,5 +1,10 @@
 # Changelog
 
+## 26.10.18.13 — 2026-10-18
+
+- Set Rockefeller Chapel and Mansueto Library Explore views to the exact user-specified bearing, elevation, vertical span and ground-level center.
+- Preserve fixed metric framing instead of recomputing these two views from building bounds; keep other Highlight views and model geometry intact.
+
 ## 26.10.18.12 — 2026-10-18
 
 - Optimize all 158 ordinary building exteriors with explicit building recipes, retaining the 19 existing individually modeled Highlights. Replace generic classroom blocks with differentiated Gothic, modern academic, medical, residential, industrial and parking forms.

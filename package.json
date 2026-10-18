@@ -32,7 +32,8 @@
     "check:glb": "node scripts/check_glb.mjs",
     "check:exchange": "node scripts/check_fbx.mjs",
     "check:athletic-fields": "node scripts/check_athletic_fields.mjs",
-    "check:campus-optimization": "python3 scripts/check_campus_optimization.py"
+    "check:campus-optimization": "python3 scripts/check_campus_optimization.py",
+    "check:highlight-views": "node scripts/check_highlight_views.mjs"
   },
   "dependencies": {
     "three": "0.186.1"

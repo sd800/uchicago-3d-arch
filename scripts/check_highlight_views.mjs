@@ -2,8 +2,9 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import crypto from 'node:crypto';
 import {Box3,Vector3,OrthographicCamera} from 'three';
-import {CampusMapControls,frameCampusBox} from './campus_controls.js';
-import {highlightCamera} from './highlight_camera.js';
+import {CampusMapControls} from './campus_controls.js';
+import {highlightCamera,frameHighlightCamera} from './highlight_camera.js';
+import {currentView} from './view_readout.js';
 const root=new URL('../',import.meta.url),read=p=>JSON.parse(fs.readFileSync(new URL(p,root),'utf8'));
 const catalogue=read('config/highlight-views.json'),records=read('output/viewer_records.json').filter(r=>r.landmark);
 const idOf=r=>String(r.facility_id??r.osm_id);
@@ -52,23 +53,27 @@ for(const r of records){
  for(const aspect of [.55,1,1.8]){
   const camera=new OrthographicCamera(-1000,1000,1000,-1000,.1,100000);camera.up.set(0,0,1);
   const controls=new CampusMapControls(camera);controls.domElement=element;
-  const height=frameCampusBox(camera,controls,b,{aspect,pad:shot.pad,direction:shot.direction,distance:15000});
+  const height=frameHighlightCamera(camera,controls,b,shot,{aspect,distance:15000});
   camera.left=-height*aspect/2;camera.right=height*aspect/2;camera.top=height/2;camera.bottom=-height/2;camera.updateProjectionMatrix();camera.updateMatrixWorld(true);
   assert(camera.position.clone().sub(controls.target).normalize().distanceTo(shot.direction.clone().normalize())<1e-7);
-  assert.equal(controls.enableDamping,false);assert.equal(controls.focusPivot,true);
-  for(const x of [b.min.x,b.max.x])for(const y of [b.min.y,b.max.y])for(const z of [b.min.z,b.max.z]){
+  assert.equal(controls.enableDamping,false);assert.equal(controls.focusPivot,!(shot.center&&shot.span));
+  if(shot.center&&shot.span){
+   const view=currentView(camera,controls),preset=catalogue.views[idOf(r)],near=(a,b)=>assert(Math.abs(a-b)<1e-6,`${r.name}: ${a} != ${b}`);
+   near(view.azimuth,preset.azimuth_deg);near(view.elevation,preset.elevation_deg);near(view.span,preset.span_m);view.center.forEach((value,i)=>near(value,preset.center_m[i]));
+  }
+  if(!(shot.center&&shot.span))for(const x of [b.min.x,b.max.x])for(const y of [b.min.y,b.max.y])for(const z of [b.min.z,b.max.z]){
    const p=new Vector3(x,y,z).project(camera);assert(Math.abs(p.x)<=1/shot.pad+1e-6&&Math.abs(p.y)<=1/shot.pad+1e-6,`${r.name} cropped at aspect ${aspect}`);
   }
  }
- results.push({code:r.code,id:idOf(r),name:r.name,elevation_deg:Number(elevation.toFixed(2)),direction:shot.direction.toArray(),padding:shot.pad,source_bounds:[...b.min.toArray(),...b.max.toArray()]});
+ results.push({code:r.code,id:idOf(r),name:r.name,elevation_deg:Number(elevation.toFixed(2)),direction:shot.direction.toArray(),padding:shot.pad,center_m:shot.center?.toArray(),span_m:shot.span,source_bounds:[...b.min.toArray(),...b.max.toArray()]});
 }
 // Manual record overrides remain authoritative, including future individually adjusted views.
 const first=records[0],custom=highlightCamera({...first,focus_direction:[1,2,3],focus_padding:1.83},catalogue);
 assert.deepEqual(custom.direction.toArray(),[1,2,3]);assert.equal(custom.pad,1.83);
 const ordinary=highlightCamera({facility_id:'not-a-highlight'},catalogue);assert.equal(ordinary.direction,undefined);assert.equal(ordinary.pad,1.55);
 const delivery=read('output/web_model_report.json');
-assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),delivery.sourceSha256,'Source CAD digest changed');
-assert.equal(crypto.createHash('sha256').update(fs.readFileSync(new URL('assets/campus-model.bin',root))).digest('hex'),delivery.transferSha256,'Model packet digest changed');
-const report={highlights:records.length,new_camera_presets:Object.keys(catalogue.views).length,preserved:catalogue.preserved,aspect_ratios:[.55,1,1.8],source_mesh_framing:'pass',geometry_unchanged:true,views:results};
+assert.equal(crypto.createHash('sha256').update(fs.readFileSync(new URL(delivery.source,root))).digest('hex'),delivery.sourceSha256,'Source CAD digest changed');
+assert.equal(crypto.createHash('sha256').update(fs.readFileSync(new URL('assets/campus-model.glb.gz',root))).digest('hex'),delivery.transferSha256,'Model packet digest changed');
+const report={highlights:records.length,new_camera_presets:Object.keys(catalogue.views).length,preserved:catalogue.preserved,aspect_ratios:[.55,1,1.8],source_mesh_framing:'pass for automatic views; exact authored metrics for fixed views',geometry_unchanged:true,views:results};
 fs.writeFileSync(new URL('output/highlight_view_validation.json',root),JSON.stringify(report,null,2)+'\n');
-console.log(`Highlights ${records.length}: complete coverage; actual mesh framing at 3 aspect ratios; custom cameras and CAD bytes preserved.`);
+console.log(`Highlights ${records.length}: complete coverage; automatic mesh framing and exact fixed-camera metrics at 3 aspect ratios; custom cameras and CAD bytes preserved.`);

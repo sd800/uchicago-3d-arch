@@ -1,7 +1,7 @@
 import {installGuideReferences} from './guide_references.js';
 import {updateViewReadout} from './view_readout.js';
 import highlightViews from '../config/highlight-views.json';
-import {highlightCamera} from './highlight_camera.js';
+import {highlightCamera,frameHighlightCamera} from './highlight_camera.js';
 import {installHighlightsPanel} from './highlights_panel.js';
 import {createOutdoorPicker,groundPoint,installCampusHover} from './outdoor_hover.js';
 import {createViewportRenderLoop} from './viewport_rendering.js';
@@ -148,7 +148,7 @@ function syncRotationButton(){const b=$('rotation-mode');b.classList.toggle('act
 function resetInteraction(){if(controls)setRotationMode(controls,false);syncRotationButton();}
 $('rotation-mode').onclick=()=>{if(controls)setRotationMode(controls,!controls.rotationMode);syncRotationButton();};
 function fullView(mode){if(mode==='plan')resetInteraction();viewMode=mode;setViewButtons();if(!campus)return;const b=mode==='core'?new THREE.Box3(new THREE.Vector3(475,630,0),new THREE.Vector3(890,1160,65)):new THREE.Box3().setFromObject(campus);fitBox(b,mode==='plan'?'plan':'aerial',mode==='aerial'?1:1.16);}
-function focusBuilding(code){if(!modelReady){pendingFocus=code;return;}const g=buildings.get(code);if(!g||!camera)return;g.visible=true;g.updateWorldMatrix(true,true);viewMode='focus';setViewButtons();const shot=highlightCamera(byCode.get(code),highlightViews);fitBox(new THREE.Box3().setFromObject(g),'aerial',shot.pad,true,shot.direction);}
+function focusBuilding(code){if(!modelReady){pendingFocus=code;return;}const g=buildings.get(code);if(!g||!camera)return;g.visible=true;g.updateWorldMatrix(true,true);viewMode='focus';setViewButtons();const shot=highlightCamera(byCode.get(code),highlightViews);frameHeight=frameHighlightCamera(camera,controls,new THREE.Box3().setFromObject(g),shot,{aspect:aspect()});updateFrustum();render();}
 $('aerial').onclick=()=>fullView('aerial');$('plan').onclick=()=>fullView('plan');$('core').onclick=()=>fullView('core');$('reset-view').onclick=()=>{resetInteraction();selectBuilding(null);$('cut-enabled').checked=false;updateCut();fullView('aerial');};
 function updateLabels(){
  if(!camera)return;const boxes=[];const picked=[...labelNodes].sort(([aa],[bb])=>(aa===selected?-1:bb===selected?1:0));
