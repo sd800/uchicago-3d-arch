@@ -1,5 +1,11 @@
 # Changelog
 
+## 26.10.18.1 — 2026-10-18
+
+- Individually audited all 19 building Highlights. Reconstructed Robie House, Ratner Athletics Center, Gordon Center, Crerar Library and Mitchell Tower with their characteristic exterior forms.
+- Added Robie's low brick ranges, deep eaves, 24 south art-glass bays and rear glazing; Ratner's two curved roofs, five paired masts and roof-connected stays; Gordon's open breezeway and tall colonnade; Crerar's upper cantilever and roof lantern; and Mitchell's open cross passage and bell stage.
+- Added a per-building source audit, lightweight actual-CAD review gallery and physical geometry regressions. Regenerated native CAD, exact compressed web delivery and offline edition without changing the existing presentation cameras.
+
 ## 26.10.17.1 — 2026-10-17
 
 - Give 19 architectural highlights individual architectural aerial-photography cameras, choosing principal entrances, courtyard-facing elevations or characteristic volumes instead of one shared viewing direction. Use lower facade views and higher courtyard/sports-bowl views with portrait/landscape-safe framing.

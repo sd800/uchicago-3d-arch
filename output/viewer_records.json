@@ -125,7 +125,7 @@
     "osm_type": "way",
     "zone": "north",
     "landmark": true,
-    "height": 30.538,
+    "height": 30.5158,
     "height_status": "estimated",
     "levels": 2,
     "area": 10301.78,
@@ -140,11 +140,11 @@
     "source": "https://athletics.uchicago.edu/sports/2023/6/12/ratner.aspx",
     "footprint_source": "https://www.openstreetmap.org/way/152586235",
     "highlight_joinery": {
-      "framed_openings": 256,
+      "framed_openings": 55,
       "transoms": 0,
       "roof_coping_m": 0.0,
       "hollow_bells": 0,
-      "added_triangles": 8192
+      "added_triangles": 1760
     },
     "architecture_reference": {
       "name": "Gerald Ratner Athletics Center",
@@ -1211,11 +1211,11 @@
     "source": "https://upload.wikimedia.org/wikipedia/commons/d/db/The_University_of_Chicago%3B_an_official_guide_%28IA_universityofchic00robe%29.pdf",
     "footprint_source": "https://www.openstreetmap.org/way/1228219576",
     "highlight_joinery": {
-      "framed_openings": 40,
+      "framed_openings": 24,
       "transoms": 0,
       "roof_coping_m": 0.0,
       "hollow_bells": 0,
-      "added_triangles": 2240
+      "added_triangles": 1344
     },
     "architecture_reference": {
       "name": "Mitchell Tower",
@@ -1672,7 +1672,7 @@
     "osm_type": "way",
     "zone": "medical",
     "landmark": true,
-    "height": 20.85,
+    "height": 26.58,
     "height_status": "estimated",
     "levels": 5,
     "area": 6080.41,
@@ -1687,11 +1687,11 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/142870150",
     "highlight_joinery": {
-      "framed_openings": 600,
+      "framed_openings": 637,
       "transoms": 0,
       "roof_coping_m": 0.0,
       "hollow_bells": 0,
-      "added_triangles": 19200
+      "added_triangles": 20384
     },
     "architecture_reference": {
       "name": "Ellen and Melvin Gordon Center for Integrative Sciences",
@@ -2124,7 +2124,7 @@
     "osm_type": "way",
     "zone": "quads",
     "landmark": true,
-    "height": 15.12,
+    "height": 16.6,
     "height_status": "estimated",
     "levels": 3,
     "area": 4256.8,
@@ -2139,11 +2139,11 @@
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/152284260",
     "highlight_joinery": {
-      "framed_openings": 197,
+      "framed_openings": 233,
       "transoms": 0,
       "roof_coping_m": 0.0,
       "hollow_bells": 0,
-      "added_triangles": 6304
+      "added_triangles": 7456
     },
     "architecture_reference": {
       "name": "John Crerar Library",
@@ -2925,7 +2925,7 @@
     "osm_type": "way",
     "zone": "east",
     "landmark": true,
-    "height": 10.5,
+    "height": 10.84,
     "height_status": "estimated",
     "levels": 3,
     "area": 450.17,
@@ -2935,16 +2935,16 @@
       924.55,
       860.829
     ],
-    "basis": "平面采用公开地图，外形参考弗兰克·劳埃德·赖特信托的资料；高度10.5米为估算。",
+    "basis": "层数依据学校或项目公开资料，层高及局部标高为估算。",
     "partition": "模型表示横向延展的砖墙、低坡悬挑屋顶、上层卧室体块和中央烟囱。高度与屋檐出挑为估算，未依据完整的HABS测绘资料复原。",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/125667497",
     "highlight_joinery": {
-      "framed_openings": 62,
+      "framed_openings": 132,
       "transoms": 0,
       "roof_coping_m": 0.0,
       "hollow_bells": 0,
-      "added_triangles": 1984
+      "added_triangles": 4224
     },
     "architecture_reference": {
       "name": "Frederick C. Robie House",

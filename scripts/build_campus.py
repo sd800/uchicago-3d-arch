@@ -1,4 +1,5 @@
 from highlight_finish import detailed_joinery
+from highlight_reconstruction import rebuild as rebuild_highlight, REFS as REBUILT_HIGHLIGHTS
 from types import SimpleNamespace
 """UChicago Hyde Park exterior model. Metric georeferenced public footprints.
 
@@ -216,7 +217,11 @@ for j,f in enumerate(buildings,1):
         for q in polygons(g):ms[mat].append(extrusion(q,z,.12))
     def gable(g,z,rise,axis=None,mat=roof):
         for q in polygons(g):ms[mat].extend(pitched(q,z,rise,axis))
-    if i==150457349:
+    if i in REBUILT_HIGHLIGHTS:
+        if i==1228219576:p=box(x-9.4488/2,y-10.668/2,x+9.4488/2,y+10.668/2)
+        detail_record=rebuild_highlight(ms,p,i,h,body,SimpleNamespace(**globals()))
+        partition='; '.join(detail_record['features'])+'. Public-source exterior reconstruction; member dimensions approximate.'
+    elif i==150457349:
         tower=next(f0['poly'] for f0 in features if f0['id']==1449933351)
         nave=p.intersection(box(822,679,835,761)).difference(tower);aisles=p.difference(nave).difference(tower)
         body(aisles,0,15,lev=2);gable(aisles,15,4.0,'y')

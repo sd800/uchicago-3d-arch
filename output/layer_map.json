@@ -67,12 +67,42 @@
   "U003B00": {
     "layer": "U003_Gerald Ratner Athletics Center",
     "category": "building",
-    "material": "LightStone"
+    "material": "Brick"
+  },
+  "U003B01": {
+    "layer": "U003_Gerald Ratner Athletics Center",
+    "category": "building",
+    "material": "Brick"
+  },
+  "U003B02": {
+    "layer": "U003_Gerald Ratner Athletics Center",
+    "category": "building",
+    "material": "Brick"
+  },
+  "U003B03": {
+    "layer": "U003_Gerald Ratner Athletics Center",
+    "category": "building",
+    "material": "Brick"
+  },
+  "U003B04": {
+    "layer": "U003_Gerald Ratner Athletics Center",
+    "category": "building",
+    "material": "Brick"
   },
   "U003HD0000": {
     "layer": "U003_Gerald Ratner Athletics Center",
     "category": "building",
     "material": "Frame"
+  },
+  "U003D0100": {
+    "layer": "U003_Gerald Ratner Athletics Center",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U003D0600": {
+    "layer": "U003_Gerald Ratner Athletics Center",
+    "category": "building",
+    "material": "WhitePanel"
   },
   "U003D0700": {
     "layer": "U003_Gerald Ratner Athletics Center",
@@ -83,6 +113,11 @@
     "layer": "U003_Gerald Ratner Athletics Center",
     "category": "building",
     "material": "Glass"
+  },
+  "U003D0900": {
+    "layer": "U003_Gerald Ratner Athletics Center",
+    "category": "building",
+    "material": "DarkGlass"
   },
   "U003D1000": {
     "layer": "U003_Gerald Ratner Athletics Center",
@@ -824,6 +859,26 @@
     "category": "building",
     "material": "Limestone"
   },
+  "U032B01": {
+    "layer": "U032_Mitchell Tower",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U032B02": {
+    "layer": "U032_Mitchell Tower",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U032B03": {
+    "layer": "U032_Mitchell Tower",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U032B04": {
+    "layer": "U032_Mitchell Tower",
+    "category": "building",
+    "material": "Limestone"
+  },
   "U032HD0000": {
     "layer": "U032_Mitchell Tower",
     "category": "building",
@@ -1127,7 +1182,22 @@
   "U045B00": {
     "layer": "U045_Gordon Center for Integrative Science",
     "category": "building",
-    "material": "LightStone"
+    "material": "Limestone"
+  },
+  "U045B01": {
+    "layer": "U045_Gordon Center for Integrative Science",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U045B02": {
+    "layer": "U045_Gordon Center for Integrative Science",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U045B03": {
+    "layer": "U045_Gordon Center for Integrative Science",
+    "category": "building",
+    "material": "DarkGlass"
   },
   "U045HD0000": {
     "layer": "U045_Gordon Center for Integrative Science",
@@ -1149,10 +1219,20 @@
     "category": "building",
     "material": "Glass"
   },
+  "U045D0900": {
+    "layer": "U045_Gordon Center for Integrative Science",
+    "category": "building",
+    "material": "DarkGlass"
+  },
   "U045D1000": {
     "layer": "U045_Gordon Center for Integrative Science",
     "category": "building",
     "material": "Frame"
+  },
+  "U045D1300": {
+    "layer": "U045_Gordon Center for Integrative Science",
+    "category": "building",
+    "material": "Paving"
   },
   "U046B00": {
     "layer": "U046_Office of Multicultural Student Affairs",
@@ -1449,10 +1529,25 @@
     "category": "building",
     "material": "Limestone"
   },
+  "U058B02": {
+    "layer": "U058_John Crerar Library",
+    "category": "building",
+    "material": "Glass"
+  },
   "U058HD0000": {
     "layer": "U058_John Crerar Library",
     "category": "building",
     "material": "Frame"
+  },
+  "U058D0100": {
+    "layer": "U058_John Crerar Library",
+    "category": "building",
+    "material": "LightStone"
+  },
+  "U058D0500": {
+    "layer": "U058_John Crerar Library",
+    "category": "building",
+    "material": "Concrete"
   },
   "U058D0700": {
     "layer": "U058_John Crerar Library",
@@ -1463,6 +1558,11 @@
     "layer": "U058_John Crerar Library",
     "category": "building",
     "material": "Glass"
+  },
+  "U058D0900": {
+    "layer": "U058_John Crerar Library",
+    "category": "building",
+    "material": "DarkGlass"
   },
   "U058D1000": {
     "layer": "U058_John Crerar Library",
@@ -2029,10 +2129,25 @@
     "category": "building",
     "material": "Brick"
   },
+  "U081B02": {
+    "layer": "U081_Frederick C. Robie House",
+    "category": "building",
+    "material": "Brick"
+  },
   "U081HD0000": {
     "layer": "U081_Frederick C. Robie House",
     "category": "building",
     "material": "Frame"
+  },
+  "U081D0000": {
+    "layer": "U081_Frederick C. Robie House",
+    "category": "building",
+    "material": "Limestone"
+  },
+  "U081D0100": {
+    "layer": "U081_Frederick C. Robie House",
+    "category": "building",
+    "material": "LightStone"
   },
   "U081D0200": {
     "layer": "U081_Frederick C. Robie House",
@@ -2044,15 +2159,20 @@
     "category": "building",
     "material": "Tile"
   },
-  "U081D0800": {
+  "U081D0900": {
     "layer": "U081_Frederick C. Robie House",
     "category": "building",
-    "material": "Glass"
+    "material": "DarkGlass"
   },
   "U081D1000": {
     "layer": "U081_Frederick C. Robie House",
     "category": "building",
     "material": "Frame"
+  },
+  "U081D1300": {
+    "layer": "U081_Frederick C. Robie House",
+    "category": "building",
+    "material": "Paving"
   },
   "U082B00": {
     "layer": "U082_American School",

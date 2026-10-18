@@ -1,15 +1,15 @@
 {
-  "buildSignature": "41ca6a27ea32d0d47dc67b19139f157f50cbf4cf86abe4a5a5bf9225510b3333",
+  "buildSignature": "ebde6422013e5a20ff554c65238340304fdb84db3a3cc71d1908b9fdd6dad0d2",
   "format": "campus-3ds-v1",
   "codec": "meshoptimizer 1.3.0 lossless vertex/index-sequence codecs + gzip",
   "source": "output/UChicago_HydePark.3ds",
-  "sourceBytes": 37730410,
-  "sourceSha256": "62ec875d34539d43582d226dc6540ca95cec2fa3488c7ff66b4ec9bafa418650",
-  "ordinaryGzipBytes": 13170583,
-  "previousTransferBytes": 37730410,
-  "packedBytes": 25786838,
-  "transferBytes": 4852819,
-  "transferSha256": "53a508180a1384b82831d5eb50566532142e972d6d4fe50aa7c8dcaa35188f52",
+  "sourceBytes": 38661323,
+  "sourceSha256": "d92c55c816c48f9484b678891dc2a81ac66a0adbcfb2857c555c8ed5a85ea552",
+  "ordinaryGzipBytes": 13458061,
+  "previousTransferBytes": 38661323,
+  "packedBytes": 26392618,
+  "transferBytes": 4976497,
+  "transferSha256": "9138884093db8bf2409215128d100235446646c1309064bab2f72ea29622658a",
   "maxEncodedBlockBytes": 347955,
   "decodedGeometryChanged": false
 }

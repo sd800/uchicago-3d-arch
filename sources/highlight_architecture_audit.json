@@ -1,0 +1,289 @@
+{
+  "review_date": "2026-10-18",
+  "scope": "Every current architectural building Highlight; the individual exterior geometry is reviewed, not merely a shared joinery counter.",
+  "building_highlight_count": 19,
+  "reconstructed_this_review": 5,
+  "joinery_count_is_not_fidelity_evidence": true,
+  "audit": [
+    {
+      "id": "10657061",
+      "code": "U002",
+      "name": "Campus North Residential Commons",
+      "decision": "retained existing individual exterior after review",
+      "features_reviewed": [
+        "Three towers at different five/eleven/fifteen-storey heights",
+        "Interlocking open courtyards",
+        "Separate low commons wings",
+        "Recessed glazing and planted roofs"
+      ],
+      "reference": "https://studiogang.com/projects/university-of-chicago-campus-north-residential-commons/",
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+    },
+    {
+      "id": "152586235",
+      "code": "U003",
+      "name": "Gerald Ratner Athletics Center",
+      "decision": "reconstructed source-specific exterior",
+      "features_reviewed": [
+        "two sports halls and lower round entrance lobby",
+        "continuous flattened S-curve metal roofs",
+        "inclined glazed end walls",
+        "five leaning mast pairs",
+        "120 roof-attached stay cables",
+        "clerestory bands and standing seams"
+      ],
+      "reference": "https://architecture.uchicago.edu/locations/gerald_ratner_athletics_center/",
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+    },
+    {
+      "id": "194224828",
+      "code": "U022",
+      "name": "Joseph Regenstein Library",
+      "decision": "retained existing individual exterior after review",
+      "features_reviewed": [
+        "Slipped limestone research-library segments",
+        "Mapped deep facade grooves and projecting bays",
+        "Five above-ground levels",
+        "Separate set-back mechanical penthouse"
+      ],
+      "reference": "https://www.lib.uchicago.edu/spaces/joseph-regenstein-library/",
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+    },
+    {
+      "id": "159093828",
+      "code": "U024",
+      "name": "Joe and Rika Mansueto Library",
+      "decision": "retained existing individual exterior after review",
+      "features_reviewed": [
+        "Elliptical glass shell",
+        "Bidirectional steel lattice at roughly six-foot spacing",
+        "Published 35-foot dome peak",
+        "Lower library connection; underground storage excluded from above-ground mass"
+      ],
+      "reference": "https://www.lib.uchicago.edu/mansueto/tech/numbers/",
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+    },
+    {
+      "id": "387213841",
+      "code": "U028",
+      "name": "William Eckhardt Research Center",
+      "decision": "retained existing individual exterior after review",
+      "features_reviewed": [
+        "Glazed research building at published overall height",
+        "Set-back rooftop service enclosure",
+        "Horizontal glazing bands and metal floor edges",
+        "Lower mapped companion wings"
+      ],
+      "reference": "https://www.thorntontomasetti.com/project/eckhardt-research-center",
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+    },
+    {
+      "id": "1228219576",
+      "code": "U032",
+      "name": "Mitchell Tower",
+      "decision": "reconstructed source-specific exterior",
+      "features_reviewed": [
+        "square limestone Gothic tower",
+        "true open ground-level cross passage",
+        "deep bell-stage arches",
+        "four corner turrets",
+        "crenellated parapet",
+        "paired narrow Gothic lights"
+      ],
+      "reference": "https://architecture.uchicago.edu/locations/tower_group_mitchell_tower_hutchinson_commons_reynolds_club_mandel_hall/",
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+    },
+    {
+      "id": "157655069",
+      "code": "U038",
+      "name": "Hutchinson Commons",
+      "decision": "retained existing individual exterior after review",
+      "features_reviewed": [
+        "Single-storey Gothic great hall",
+        "Tall pointed traceried lights",
+        "Wall-attached external buttresses",
+        "Steep slate hall roof with connected end enclosure"
+      ],
+      "reference": "https://architecture.uchicago.edu/locations/tower_group_mitchell_tower_hutchinson_commons_reynolds_club_mandel_hall/",
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+    },
+    {
+      "id": "142870150",
+      "code": "U045",
+      "name": "Gordon Center for Integrative Science",
+      "decision": "reconstructed source-specific exterior",
+      "features_reviewed": [
+        "separate limestone research wings",
+        "tall glazed eastern hinge atrium",
+        "open ground-level breezeway",
+        "six-storey-height steel colonnade",
+        "glazed upper bridge and limestone canopy"
+      ],
+      "reference": "https://architecture.uchicago.edu/locations/gordon_center_for_integrative_science/",
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+    },
+    {
+      "id": "152284260",
+      "code": "U058",
+      "name": "John Crerar Library",
+      "decision": "reconstructed source-specific exterior",
+      "features_reviewed": [
+        "three above-ground library levels",
+        "11-foot upper-floor cantilever",
+        "vertical narrow concrete window bays",
+        "central atrium roof lantern",
+        "2018 roof skylights"
+      ],
+      "reference": "https://www.lib.uchicago.edu/crerar/about-crerar-library/history/",
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+    },
+    {
+      "id": "143457513",
+      "code": "U080",
+      "name": "Saieh Hall for Economics",
+      "decision": "retained existing individual exterior after review",
+      "features_reviewed": [
+        "Former seminary/church mass",
+        "Distinct west entrance tower",
+        "Individual pitched slate wings",
+        "Crenellated masonry parapets and Gothic bays"
+      ],
+      "reference": "https://architecture.uchicago.edu/locations/department_of_economics_and_becker_friedman_institute/",
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+    },
+    {
+      "id": "125667497",
+      "code": "U081",
+      "name": "Frederick C. Robie House",
+      "decision": "reconstructed source-specific exterior",
+      "features_reviewed": [
+        "long Roman-brick living/dining bar",
+        "deep low hipped clay eaves with limestone fascia",
+        "24 art-glass door bays along the south balcony",
+        "upper bedroom mass",
+        "central chimney",
+        "brick terraces, parapets and urns"
+      ],
+      "reference": "https://flwright.org/explore/frederick-c-robie-house",
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+    },
+    {
+      "id": "150457349",
+      "code": "U112",
+      "name": "Rockefeller Memorial Chapel",
+      "decision": "retained existing individual exterior after review",
+      "features_reviewed": [
+        "Separate published-height bell tower",
+        "High central nave and lower aisles",
+        "Individual steep roof ranges",
+        "Repeated stepped buttresses and tall pointed lights"
+      ],
+      "reference": "https://www.rockefeller.uchicago.edu/the-spaces/rockefeller-architecture/",
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+    },
+    {
+      "id": "156128082",
+      "code": "U136",
+      "name": "Harper Memorial Library",
+      "decision": "retained existing individual exterior after review",
+      "features_reviewed": [
+        "Two Gothic library end towers",
+        "Lower central reading hall",
+        "Independent steep slate roofs",
+        "Crenellated crowns and tall hall glazing"
+      ],
+      "reference": "https://campub.lib.uchicago.edu/text/?docId=mvol-0001-0016-0000",
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+    },
+    {
+      "id": "441025431",
+      "code": "U143",
+      "name": "Rubenstein Forum",
+      "decision": "retained existing individual exterior after review",
+      "features_reviewed": [
+        "Two-storey forum base",
+        "Four shifted and rotated two-floor tower neighborhoods",
+        "Zinc sidewalls and glazed ends",
+        "Published completed height retained"
+      ],
+      "reference": "https://global.ctbuh.org/resources/papers/4631-Gallagher_DavidRubensteinForum.pdf",
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+    },
+    {
+      "id": "143926554",
+      "code": "U148",
+      "name": "Harris School of Public Policy Keller Center",
+      "decision": "retained existing individual exterior after review",
+      "features_reviewed": [
+        "Three-storey limestone academic block",
+        "Set-back glazed fourth floor",
+        "Planted roof and bounded PV patches",
+        "Exterior colonnade rhythm"
+      ],
+      "reference": "https://architecture.uchicago.edu/locations/keller_center/",
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+    },
+    {
+      "id": "143926548",
+      "code": "U149",
+      "name": "Edith Abbott Hall / Crown Family School",
+      "decision": "retained existing individual exterior after review",
+      "features_reviewed": [
+        "Low horizontal Mies brick enclosure",
+        "Continuous two-level steel/glass frontage",
+        "Exposed dark frame and thin flat roof",
+        "University-specific model; IIT Crown Hall dimensions not substituted"
+      ],
+      "reference": "https://architecture.uchicago.edu/locations/crownschool/",
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+    },
+    {
+      "id": "152422729",
+      "code": "U155",
+      "name": "Logan Center for the Arts",
+      "decision": "retained existing individual exterior after review",
+      "features_reviewed": [
+        "Published-height stone arts tower",
+        "Long low studio and theater wings",
+        "Sawtooth studio roof lights",
+        "Large glazed performance-room and projecting window volumes"
+      ],
+      "reference": "https://news.uchicago.edu/story/reva-and-david-logan-center-arts-preview-period-begin-march-26",
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+    },
+    {
+      "id": "152422458",
+      "code": "U157",
+      "name": "Laird Bell Law Quadrangle",
+      "decision": "retained existing individual exterior after review",
+      "features_reviewed": [
+        "Six-level law library block",
+        "Lower teaching and administration wings",
+        "Glazed concave/convex facade rhythm",
+        "Mapped reflection pool and sculpture grounds"
+      ],
+      "reference": "https://architecture.uchicago.edu/locations/laird_bell_law_quadrangle/",
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+    },
+    {
+      "id": "11687839",
+      "code": "U166",
+      "name": "Woodlawn Residential & Dining Commons",
+      "decision": "retained existing individual exterior after review",
+      "features_reviewed": [
+        "Distinct high and lower residence towers",
+        "Mapped irregular commons plan",
+        "Published planning height datums retained as planning data",
+        "Pale facade frames and separated roof plates"
+      ],
+      "reference": "https://www.turnerconstruction.com/projects/woodlawn-residential-dining-commons",
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+    }
+  ],
+  "validation": {
+    "browser_geometry": "All individual exported building layers reviewed at the configured presentation view and opposite side; targeted low-angle checks for open structures. Full source geometry, without runtime regional simplification.",
+    "form_regressions": "scripts/check_highlight_forms.mjs",
+    "camera_regressions": "scripts/check_highlight_views.mjs",
+    "native_cad": "scripts/validate_rhino.py"
+  }
+}

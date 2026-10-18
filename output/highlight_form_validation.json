@@ -1,0 +1,14 @@
+{
+  "building_highlights": 19,
+  "reconstructed_buildings": 5,
+  "all_individual_layers_present": true,
+  "physical_checks": 5,
+  "checks": [
+    "Mitchell open cross passage 1,0",
+    "Mitchell open cross passage 0,1",
+    "Mitchell upper tower spans open passage",
+    "Robie central chimney rises over low horizontal wings",
+    "Ratner paired mast crowns reach the published 100-foot height"
+  ],
+  "passed": true
+}
