@@ -1,0 +1,144 @@
+{
+  "review_date": "2026-10-18",
+  "scope": "23 individual ordinary-building profiles; the other non-highlight buildings receive footprint-aware joinery rather than a claimed measured reconstruction.",
+  "buildings": [
+    {
+      "osm_id": 153266965,
+      "profile": "palevsky",
+      "reference": "https://architecture.uchicago.edu/locations/max_palevsky_residential_commons/",
+      "scope": "Architectural character and publicly described exterior; footprint from OSM/Chicago open data. Unpublished local dimensions estimated."
+    },
+    {
+      "osm_id": 153090078,
+      "profile": "palevsky",
+      "reference": "https://architecture.uchicago.edu/locations/max_palevsky_residential_commons/",
+      "scope": "Architectural character and publicly described exterior; footprint from OSM/Chicago open data. Unpublished local dimensions estimated."
+    },
+    {
+      "osm_id": 152969810,
+      "profile": "palevsky",
+      "reference": "https://architecture.uchicago.edu/locations/max_palevsky_residential_commons/",
+      "scope": "Architectural character and publicly described exterior; footprint from OSM/Chicago open data. Unpublished local dimensions estimated."
+    },
+    {
+      "osm_id": 143525608,
+      "profile": "museum",
+      "reference": "https://architecture.uchicago.edu/locations/cochrane_woods_art_center/",
+      "scope": "Architectural character and publicly described exterior; footprint from OSM/Chicago open data. Unpublished local dimensions estimated."
+    },
+    {
+      "osm_id": 152586233,
+      "profile": "museum",
+      "reference": "https://architecture.uchicago.edu/locations/cochrane_woods_art_center/",
+      "scope": "Architectural character and publicly described exterior; footprint from OSM/Chicago open data. Unpublished local dimensions estimated."
+    },
+    {
+      "osm_id": 151173253,
+      "profile": "fieldhouse",
+      "reference": "https://maps.uchicago.edu/",
+      "scope": "Architectural character and publicly described exterior; footprint from OSM/Chicago open data. Unpublished local dimensions estimated."
+    },
+    {
+      "osm_id": 152586234,
+      "profile": "theatre",
+      "reference": "https://maps.uchicago.edu/",
+      "scope": "Architectural character and publicly described exterior; footprint from OSM/Chicago open data. Unpublished local dimensions estimated."
+    },
+    {
+      "osm_id": 152284265,
+      "profile": "levi",
+      "reference": "https://architecture.uchicago.edu/locations/levihall/",
+      "scope": "Architectural character and publicly described exterior; footprint from OSM/Chicago open data. Unpublished local dimensions estimated."
+    },
+    {
+      "osm_id": 143527369,
+      "profile": "laboratory",
+      "reference": "https://architecture.uchicago.edu/locations/knapp_center_for_biomedical_discovery/",
+      "scope": "Architectural character and publicly described exterior; footprint from OSM/Chicago open data. Unpublished local dimensions estimated."
+    },
+    {
+      "osm_id": 89537392,
+      "profile": "cummings",
+      "reference": "https://architecture.uchicago.edu/locations/cummings_life_science_center/",
+      "scope": "Architectural character and publicly described exterior; footprint from OSM/Chicago open data. Unpublished local dimensions estimated."
+    },
+    {
+      "osm_id": 88865426,
+      "profile": "hinds",
+      "reference": "https://architecture.uchicago.edu/locations/henry_hinds_laboratory_for_geophysical_sciences/",
+      "scope": "Architectural character and publicly described exterior; footprint from OSM/Chicago open data. Unpublished local dimensions estimated."
+    },
+    {
+      "osm_id": 150456352,
+      "profile": "booth",
+      "reference": "https://maps.uchicago.edu/",
+      "scope": "Architectural character and publicly described exterior; footprint from OSM/Chicago open data. Unpublished local dimensions estimated."
+    },
+    {
+      "osm_id": 1953426,
+      "profile": "international",
+      "reference": "https://architecture.uchicago.edu/locations/international_house/",
+      "scope": "Architectural character and publicly described exterior; footprint from OSM/Chicago open data. Unpublished local dimensions estimated."
+    },
+    {
+      "osm_id": 151173255,
+      "profile": "chapel",
+      "reference": "https://architecture.uchicago.edu/locations/bond_chapel/",
+      "scope": "Architectural character and publicly described exterior; footprint from OSM/Chicago open data. Unpublished local dimensions estimated."
+    },
+    {
+      "osm_id": 150457341,
+      "profile": "historic_hall",
+      "reference": "https://architecture.uchicago.edu/locations/ida_noyes_hall/",
+      "scope": "Architectural character and publicly described exterior; footprint from OSM/Chicago open data. Unpublished local dimensions estimated."
+    },
+    {
+      "osm_id": 1968186,
+      "profile": "courts",
+      "reference": "https://maps.uchicago.edu/",
+      "scope": "Architectural character and publicly described exterior; footprint from OSM/Chicago open data. Unpublished local dimensions estimated."
+    },
+    {
+      "osm_id": 153539618,
+      "profile": "historic_hall",
+      "reference": "https://maps.uchicago.edu/",
+      "scope": "Architectural character and publicly described exterior; footprint from OSM/Chicago open data. Unpublished local dimensions estimated."
+    },
+    {
+      "osm_id": 157655071,
+      "profile": "great_hall",
+      "reference": "https://maps.uchicago.edu/",
+      "scope": "Architectural character and publicly described exterior; footprint from OSM/Chicago open data. Unpublished local dimensions estimated."
+    },
+    {
+      "osm_id": 145400410,
+      "profile": "plant",
+      "reference": "https://architecture.uchicago.edu/locations/west_campus_combined_utility_plant/",
+      "scope": "Architectural character and publicly described exterior; footprint from OSM/Chicago open data. Unpublished local dimensions estimated."
+    },
+    {
+      "osm_id": 533422554,
+      "profile": "plant",
+      "reference": "https://architecture.uchicago.edu/locations/south_campus_chiller_plant/",
+      "scope": "Architectural character and publicly described exterior; footprint from OSM/Chicago open data. Unpublished local dimensions estimated."
+    },
+    {
+      "osm_id": 860807638,
+      "profile": "hotel",
+      "reference": "https://maps.uchicago.edu/",
+      "scope": "Architectural character and publicly described exterior; footprint from OSM/Chicago open data. Unpublished local dimensions estimated."
+    },
+    {
+      "osm_id": 545084805,
+      "profile": "arts",
+      "reference": "https://architecture.uchicago.edu/locations/gordon_parks_arts_hall/",
+      "scope": "Architectural character and publicly described exterior; footprint from OSM/Chicago open data. Unpublished local dimensions estimated."
+    },
+    {
+      "osm_id": 144636084,
+      "profile": "seminary",
+      "reference": "https://architecture.uchicago.edu/locations/the_chicago_theological_seminary/",
+      "scope": "Architectural character and publicly described exterior; footprint from OSM/Chicago open data. Unpublished local dimensions estimated."
+    }
+  ]
+}

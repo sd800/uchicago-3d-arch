@@ -2,10 +2,10 @@
   "buildings": 177,
   "layers": 178,
   "environment_layer": "环境_Environment",
-  "native_closed_solids": 227,
-  "objects_3ds": 956,
-  "vertices": 1087518,
-  "triangles": 1825188,
+  "native_closed_solids": 288,
+  "objects_3ds": 1368,
+  "vertices": 2167826,
+  "triangles": 3495468,
   "trees": 636,
   "mapped_tree_points": 0,
   "landmarks": 19,
@@ -29,5 +29,7 @@
     1447.4352909744798
   ],
   "terrain": "Flattened relative Z=0; no surveyed terrain",
+  "campus_ordinary_buildings_refined": 158,
+  "individual_campus_profiles": 23,
   "accuracy": "Public footprints, selective published heights, approximate exterior details. Not survey-certified."
 }

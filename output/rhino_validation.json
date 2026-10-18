@@ -3,9 +3,9 @@
   "units": "meters",
   "layers": 178,
   "nonempty_layers": 178,
-  "objects": 1133,
-  "closed_native_solids": 227,
-  "closed_mesh_objects": 729,
+  "objects": 1545,
+  "closed_native_solids": 288,
+  "closed_mesh_objects": 1080,
   "plan_curves": 177,
   "all_geometry_valid": true,
   "named_views": [

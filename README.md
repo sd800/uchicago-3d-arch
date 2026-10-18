@@ -1,6 +1,6 @@
 # UChicago Campus 3D Model
 
-A public-source exterior model of the University of Chicago’s Hyde Park campus, with an interactive viewer and a generated single-file offline edition, a layered Rhino model, and a 3DS mesh export.
+A public-source exterior model of the University of Chicago’s Hyde Park campus, with an interactive viewer and a generated single-file offline edition, a layered Rhino model, and FBX / GLB mesh exports.
 
 **Keep the `assets/` and `output/` folders beside `index.html`, then open `index.html` directly in a modern browser.** Internet access, npm and a local server are unnecessary for local viewing. To move only one HTML file, use the generated `output/UChicago_Campus_Offline.html`. WebGL 2 and graphics acceleration are needed for the interactive canvas. An image preview and building information remain available when rendering is unavailable.
 
@@ -13,7 +13,9 @@ The interface defaults to English. The first visit uses English regardless of de
 | `index.html` | Offline English / Chinese 3D viewer |
 | `output/UChicago_HydePark_Layered.3dm` | Rhino v7 model in meters, with 177 individual building layers and one outdoor environment layer |
 | `output/UChicago_HydePark.3ds` | Triangulated meshes with short object names and material assignments |
-| `output/layer_map.json` | Complete object-to-building/environment mapping for the 3DS export |
+| `output/UChicago_HydePark.fbx` | Binary FBX 7.4 mesh model, grouped by building/layer |
+| `output/UChicago_HydePark.glb` | Standard extension-free glTF 2.0 binary model |
+| `output/layer_map.json` | Object-to-building/environment mapping shared by mesh exports |
 | `scripts/apply_layers_rhino.py` | Restore building layers after importing 3DS into Rhino |
 | `output/building_dimensions_and_sources.csv` | Per-building dimensions, height status, assumptions and source URLs |
 | `output/road_widths_and_sources.csv` | Mapped road/walkway widths and estimation flags |
@@ -102,8 +104,18 @@ The view can tilt continuously from overhead to exactly horizontal. Low-angle ve
 - `output/`: CAD files, offline edition, reports and delivery archive.
 - Root `VERSION`, `CHANGELOG.md` and package manifests record releases and builds.
 
-## Website model compression
+## Website model delivery
 
-The complete web model transfer is **4.85 MB**, compared with the current **37.73 MB** native 3DS. The locally bundled meshoptimizer 1.3.0 codec and gzip restore the exact CAD SHA-256 without quantization or simplification. Compression reduces transfer and duplicate input storage; rendering still uses the full model.
+The viewer uses standard glTF 2.0 binary (GLB). The lossless complete-model derivative is **3.01 MiB** transferred, from a **45.71 MiB** extension-free download GLB. `EXT_meshopt_compression` and gzip reduce transfer; decompressed position/index accessors match the native GLB byte for byte. No quantization or simplification is introduced by this format conversion.
 
-A single worker restores geometry blocks and parses the 3DS; scene creation yields between time slices. The no-worker fallback yields between source objects. Decoder JavaScript/WebAssembly is bundled locally. The root and standalone editions preserve native CAD downloads. See `output/web_model_report.json` for exact byte counts and hashes.
+A worker inflates/decompresses the complete GLB and calculates normals; geometry buffers transfer once to the main thread. Scene creation and no-worker fallback yield between work slices. The meshoptimizer JavaScript/WebAssembly codec is bundled locally. HTTP loads binary assets; double-click `file://` loads classic scripts, and the standalone edition embeds browsing data. WebGL 2, WebAssembly and Compression Streams are required by current delivery.
+
+Downloads are listed **3DM → FBX → GLB**. 3DM retains editable Rhino solids and individual layers. FBX and GLB retain mesh geometry and material assignments, grouped by building/layer. FBX uses meter units and Z up; GLB uses a standard Y-up root transform with the metric source vertices retained below it. The public download GLB requires no optional extensions. Files exceeding the hosting per-file limit are delivered losslessly as `.xz`; extract before importing.
+
+`output/exchange_model_report.json` records native mesh counts/hashes; `output/web_model_report.json` records complete GLB transfer counts/hashes. `npm run check:glb` verifies lossless accessor equality, HTTP/local/offline byte integrity and ordered downloads; `npm run check:exchange` compares every FBX vertex/index against GLB and checks units/normals. Rendering still needs memory for decoded geometry and framebuffers.
+
+## Campus-wide architectural refinement
+
+All 158 non-highlight buildings receive footprint-aware facade surrounds, eave/base courses and grounded entrance details. Twenty-three ordinary buildings also have individual profiles, including the Max Palevsky wings, Smart/Cochrane-Woods, Cummings, Hinds, Knapp, Levi, International House, Ida Noyes and Bond Chapel. The 19 existing Highlights retain their detailed forms. Courtyard voids stay open; residual ground is resolved as planting or paving, with short connectors to mapped walks.
+
+References and scope are recorded in `sources/campus_refinement_references.json`; construction and landscape counts are in the model records and `output/campus_landscape_refinement.json`. These are public-source exterior interpretations, not measured facade surveys.

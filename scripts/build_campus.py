@@ -1,3 +1,4 @@
+from campus_refinement import rebuild as rebuild_ordinary,finish as finish_ordinary,landscape as refine_landscape
 from highlight_finish import detailed_joinery
 from highlight_reconstruction import rebuild as rebuild_highlight, REFS as REBUILT_HIGHLIGHTS
 from types import SimpleNamespace
@@ -47,7 +48,7 @@ COLORS={
  'Ground':(218,218,207),'Road':(81,86,89),'Paving':(195,186,164),'Walk':(215,210,191),
  'Grass':(116,149,96),'Garden':(93,127,83),'Water':(83,144,166),'Track':(159,83,62),
  'Court':(89,132,122),'Marking':(232,228,207),'Leaves':(67,116,75),'Trunk':(119,95,68),
- 'Furniture':(72,78,72),'Solar':(50,73,88),
+ 'Furniture':(72,78,72),'Solar':(50,73,88),'PalevskyBrick':(177,79,48),'PalevskyPurple':(102,88,125),'PalevskyRoof':(145,108,85),
 }
 model=rh.File3dm();model.ApplicationName='UChicago Hyde Park Public-source Exterior Model'
 model.Settings.ModelUnitSystem=rh.UnitSystem.Meters;model.Settings.ModelAbsoluteTolerance=.01
@@ -95,6 +96,13 @@ def extrusion(p,z,h):
     m=trimesh.creation.extrude_triangulation(np.asarray(vertices),np.asarray(faces),float(h));m.apply_translation([0,0,z])
     m.merge_vertices(digits_vertex=7);m.remove_unreferenced_vertices()
     trimesh.repair.fix_normals(m,multibody=True)
+    if not(m.is_watertight and m.is_winding_consistent):
+        m=trimesh.creation.extrude_polygon(p,float(h),engine='earcut');m.apply_translation([0,0,z]);trimesh.repair.fix_normals(m,multibody=True)
+    if not(m.is_watertight and m.is_winding_consistent):
+        cells=[]
+        for triangle in constrained_delaunay_triangles(p).geoms:
+            coords=np.asarray(triangle.exterior.coords)[:3];cell=trimesh.creation.extrude_triangulation(coords,np.array([[0,1,2]]),float(h));cell.apply_translation([0,0,z]);cells.append(cell)
+        m=trimesh.util.concatenate(cells);trimesh.repair.fix_normals(m,multibody=True)
     assert m.is_watertight and m.is_winding_consistent,(p.bounds,h)
     return m
 def boxmesh(x,y,z,sx,sy,sz):
@@ -206,18 +214,22 @@ for j,f in enumerate(buildings,1):
     if i==152586235:h=30.48;basis='学校体育部桅杆峰值100 ft；另有125 ft构件报道；屋面高度估算';src=refs['buildings'][10]['sources'][0]['url']
     lay=code+'_'+name.replace('/','_').replace(':','_')[:85];layer(lay,wall)
     info={'Building':name,'Code':code,'Units':'meters','FootprintSource':f'https://www.openstreetmap.org/{f["type"]}/{i}','HeightBasis':basis,'GeometryDetail':'Exterior approximation; repeated facade bays are illustrative','GroundDatum':'relative Z=0, flattened terrain'}
-    ms={k:[] for k in COLORS};bodyidx=[0];partition='公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意'
+    ms={k:[] for k in COLORS};bodyidx=[0];construction_facades=[];partition='公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意'
     def body(g,z,hh,mat=wall,windows=True,lev=None,arch=gothic,cont=False):
         for q in polygons(g):
             if hh<=.01:continue
             nm=code+f'B{bodyidx[0]:02d}';bodyidx[0]+=1
             native_extrude(q,z,hh,nm,lay,mat,info);push(nm,extrusion(q,z,hh),mat,lay,native=False)
-            if windows:facade(ms,q,z,hh,lev if lev is not None else max(1,round(hh/fh)),arch,cont)
+            if windows:
+                count=lev if lev is not None else max(1,round(hh/fh));construction_facades.append((q,z,hh,count,arch,cont));facade(ms,q,z,hh,count,arch,cont)
     def flat(g,z,mat=roof):
         for q in polygons(g):ms[mat].append(extrusion(q,z,.12))
     def gable(g,z,rise,axis=None,mat=roof):
         for q in polygons(g):ms[mat].extend(pitched(q,z,rise,axis))
-    if i in REBUILT_HIGHLIGHTS:
+    campus_refinement=rebuild_ordinary(i,p,h,levels,SimpleNamespace(**globals()))
+    if campus_refinement:
+        h=campus_refinement['height'];levels=campus_refinement['levels'];partition='; '.join(campus_refinement['features'])+'. Public-source exterior interpretation; local dimensions approximate.'
+    elif i in REBUILT_HIGHLIGHTS:
         if i==1228219576:p=box(x-9.4488/2,y-10.668/2,x+9.4488/2,y+10.668/2)
         detail_record=rebuild_highlight(ms,p,i,h,body,SimpleNamespace(**globals()))
         partition='; '.join(detail_record['features'])+'. Public-source exterior reconstruction; member dimensions approximate.'
@@ -364,6 +376,9 @@ for j,f in enumerate(buildings,1):
         if i==143457513:
             q=p.intersection(box(a+4,b-1,a+17,d+1));body(q,0,h+7,lev=6);flat(q,h+7);crenellations(ms,q,h+7,1.5);h+=8.5
             partition='旧教堂主体、坡屋顶与西端入口塔、现代连接亭；高度与具体塔位为估算'
+    ordinary_stats=None
+    if i not in landmarks:
+        ordinary_stats=finish_ordinary(p,h,levels,gothic,SimpleNamespace(**globals()),campus_refinement['profile']if campus_refinement else None)
     highlight_stats=None
     if i in landmarks:
         joinery,highlight_stats=detailed_joinery(ms,p,0,h,SimpleNamespace(**globals()),gothic=gothic)
@@ -376,7 +391,7 @@ for j,f in enumerate(buildings,1):
         crv=rh.PolylineCurve([rh.Point3d(float(xx),float(yy),0) for xx,yy in q.exterior.coords]);model.Objects.AddCurve(crv,attr(code+'_PLAN',lay,wall,info))
     bounds=np.vstack([o['mesh'].bounds for o in objects if layer_map[o['name']]['layer']==lay])
     actualh=float(bounds[:,2].max())
-    r={'code':code,'name':name,'layer':lay,'osm_id':i,'osm_type':f['type'],'zone':zone,'landmark':i in landmarks,'height':round(actualh,4),'height_status':'published' if verified else ('planning' if i==11687839 else 'estimated'),'levels':levels,'area':round(p.area,2),'width':round(p.bounds[2]-p.bounds[0],2),'depth':round(p.bounds[3]-p.bounds[1],2),'center':[round(x,3),round(y,3)],'basis':basis,'partition':partition,'source':src,'footprint_source':info['FootprintSource'],'highlight_joinery':highlight_stats,'architecture_reference':refs['buildings'][specialrefs[i]] if i in specialrefs else None}
+    r={'code':code,'name':name,'layer':lay,'osm_id':i,'osm_type':f['type'],'zone':zone,'landmark':i in landmarks,'height':round(actualh,4),'height_status':'published' if verified else ('planning' if i==11687839 else 'estimated'),'levels':levels,'area':round(p.area,2),'width':round(p.bounds[2]-p.bounds[0],2),'depth':round(p.bounds[3]-p.bounds[1],2),'center':[round(x,3),round(y,3)],'basis':basis,'partition':partition,'source':src,'footprint_source':info['FootprintSource'],'campus_refinement':campus_refinement,'ordinary_joinery':ordinary_stats,'highlight_joinery':highlight_stats,'architecture_reference':refs['buildings'][specialrefs[i]] if i in specialrefs else None}
     records.append(r)
     f['record']=r
 print('Buildings',len(records),'native solids',native_count,flush=True)
@@ -506,6 +521,8 @@ for w in ways:
     for ds in np.arange(2,line.length-3,12):
         seg=LineString([line.interpolate(ds),line.interpolate(ds+3)])
         env(seg.buffer(.06,cap_style=2).intersection(roadarea),.082,.012,'Marking')
+landscape_refinement=refine_landscape(SimpleNamespace(**globals()))
+(OUT/'campus_landscape_refinement.json').write_text(json.dumps(landscape_refinement,indent=2))
 for k,(mat,parts) in enumerate(eg.items()):
     if parts:chunk_meshes(f'E{k:02d}',parts,mat,'环境_Environment',{'Landscape':'Mapped boundaries and centerlines; approximate tree planting, surface levels, road widths','Units':'meters'})
 
@@ -513,6 +530,8 @@ for name,location,direction in [('校园鸟瞰',(1700,-600,1400),(-950,1450,-138
     vv=rh.ViewInfo();vv.Name=name;vv.Viewport.SetCameraLocation(rh.Point3d(*location));vv.Viewport.SetCameraDirection(rh.Vector3d(*direction));vv.Viewport.SetCameraUp(rh.Vector3d(0,1,0) if name=='总平面' else rh.Vector3d(0,0,1));vv.Viewport.TargetPoint=rh.Point3d(730,800,15);vv.Viewport.ChangeToParallelProjection(True);vv.Viewport.SetFrustum(-800,800,-700,700,1,6000);model.NamedViews.Add(vv)
 model.Strings['ModelNotes']='Hyde Park exterior approximation. Unit meters. Each mapped building is a separate layer; all outdoor geometry is on 环境_Environment. Heights: published / planning / estimated. Repeated windows, roofs, landscaping and flattened ground are illustrative. Not an official university BIM or survey.'
 assert model.Write(str(OUT/'UChicago_HydePark_Layered.3dm'),7)
+from campus_exchange import export_scene
+export_scene(ROOT,objects,COLORS,layer_map,records)
 def chunk(tag,data=b''):return struct.pack('<HI',tag,len(data)+6)+data
 def zs(s):return s.encode('ascii')+b'\0'
 def rgb(c):return chunk(0x0011,bytes(c))
@@ -535,5 +554,5 @@ with (OUT/'road_widths_and_sources.csv').open('w',encoding='utf-8-sig',newline='
 av=[];af=[];co=[];off=0
 for m,mat in meshdata:av.append(m.vertices);af.append(m.faces+off);co.extend([COLORS[mat]]*len(m.faces));off+=len(m.vertices)
 np.savez_compressed(OUT/'preview_mesh_data.npz',vertices=np.vstack(av),faces=np.vstack(af),colors=np.asarray(co,dtype=np.uint8))
-summary={'buildings':len(records),'layers':len(model.Layers),'environment_layer':'环境_Environment','native_closed_solids':native_count,'objects_3ds':len(objects),'vertices':off,'triangles':sum(len(m.faces) for m,_ in meshdata),'trees':len(trees),'mapped_tree_points':mapped_trees,'landmarks':sum(r['landmark'] for r in records),'published_height_buildings':sum(r['height_status']=='published' for r in records),'planning_height_buildings':sum(r['height_status']=='planning' for r in records),'estimated_height_buildings':sum(r['height_status']=='estimated' for r in records),'unit':'meters','crs':'EPSG:32616 local offsets','origin_wgs84':[LON,LAT],'origin_utm':[OX,OY],'bounds':scope.bounds,'terrain':'Flattened relative Z=0; no surveyed terrain','accuracy':'Public footprints, selective published heights, approximate exterior details. Not survey-certified.'}
+summary={'buildings':len(records),'layers':len(model.Layers),'environment_layer':'环境_Environment','native_closed_solids':native_count,'objects_3ds':len(objects),'vertices':off,'triangles':sum(len(m.faces) for m,_ in meshdata),'trees':len(trees),'mapped_tree_points':mapped_trees,'landmarks':sum(r['landmark'] for r in records),'published_height_buildings':sum(r['height_status']=='published' for r in records),'planning_height_buildings':sum(r['height_status']=='planning' for r in records),'estimated_height_buildings':sum(r['height_status']=='estimated' for r in records),'unit':'meters','crs':'EPSG:32616 local offsets','origin_wgs84':[LON,LAT],'origin_utm':[OX,OY],'bounds':scope.bounds,'terrain':'Flattened relative Z=0; no surveyed terrain','campus_ordinary_buildings_refined':sum(bool(r.get('ordinary_joinery'))for r in records),'individual_campus_profiles':sum(bool(r.get('campus_refinement'))for r in records),'accuracy':'Public footprints, selective published heights, approximate exterior details. Not survey-certified.'}
 (OUT/'model_summary.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2));print(json.dumps(summary,ensure_ascii=False,indent=2))

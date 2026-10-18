@@ -21,6 +21,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/152586232",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 332,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -46,6 +53,8 @@
     "partition": "三组白色住宅塔及庭院；5/11/15层有资料，50.3/37.5/18.5m及分界位置估算；窗框重复表达",
     "source": "https://www.openstreetmap.org/relation/10657061",
     "footprint_source": "https://www.openstreetmap.org/relation/10657061",
+    "campus_refinement": null,
+    "ordinary_joinery": null,
     "highlight_joinery": {
       "framed_openings": 2335,
       "transoms": 0,
@@ -123,6 +132,8 @@
     "partition": "two sports halls and lower round entrance lobby; continuous flattened S-curve metal roofs; inclined glazed end walls; five leaning mast pairs; 120 roof-attached stay cables; clerestory bands and standing seams. Public-source exterior reconstruction; member dimensions approximate.",
     "source": "https://athletics.uchicago.edu/sports/2023/6/12/ratner.aspx",
     "footprint_source": "https://www.openstreetmap.org/way/152586235",
+    "campus_refinement": null,
+    "ordinary_joinery": null,
     "highlight_joinery": {
       "framed_openings": 55,
       "transoms": 0,
@@ -178,9 +189,9 @@
     "osm_type": "way",
     "zone": "north",
     "landmark": false,
-    "height": 16.85,
+    "height": 9.88,
     "height_status": "estimated",
-    "levels": 4,
+    "levels": 2,
     "area": 766.33,
     "width": 43.18,
     "depth": 19.53,
@@ -189,9 +200,28 @@
       1329.186
     ],
     "basis": "未取得可靠层数/高度；按建筑功能与外形估算",
-    "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
+    "partition": "Separate low gallery/teaching ranges; Limestone panel walls; Glazed garden-facing entrance range; Flat inset roofs around the mapped garden. Public-source exterior interpretation; local dimensions approximate.",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/143525608",
+    "campus_refinement": {
+      "profile": "museum",
+      "height": 9.8,
+      "levels": 2,
+      "features": [
+        "Separate low gallery/teaching ranges",
+        "Limestone panel walls",
+        "Glazed garden-facing entrance range",
+        "Flat inset roofs around the mapped garden"
+      ],
+      "reference": "https://architecture.uchicago.edu/locations/cochrane_woods_art_center/",
+      "approximation": "Mapped footprint, documented architectural character; secondary dimensions and partition lines are exterior estimates."
+    },
+    "ordinary_joinery": {
+      "window_surrounds": 72,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 4
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -203,9 +233,9 @@
     "osm_type": "way",
     "zone": "north",
     "landmark": false,
-    "height": 16.85,
+    "height": 9.68,
     "height_status": "estimated",
-    "levels": 4,
+    "levels": 1,
     "area": 906.89,
     "width": 41.56,
     "depth": 24.51,
@@ -214,9 +244,27 @@
       1327.901
     ],
     "basis": "未取得可靠层数/高度；按建筑功能与外形估算",
-    "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
+    "partition": "Low brick theatre body; Separate auditorium roof volume; Recessed glazed lobby entrance. Public-source exterior interpretation; local dimensions approximate.",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/152586234",
+    "campus_refinement": {
+      "profile": "theatre",
+      "height": 9.6,
+      "levels": 1,
+      "features": [
+        "Low brick theatre body",
+        "Separate auditorium roof volume",
+        "Recessed glazed lobby entrance"
+      ],
+      "reference": "https://maps.uchicago.edu/",
+      "approximation": "Mapped footprint, documented architectural character; secondary dimensions and partition lines are exterior estimates."
+    },
+    "ordinary_joinery": {
+      "window_surrounds": 28,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -228,7 +276,7 @@
     "osm_type": "way",
     "zone": "north",
     "landmark": false,
-    "height": 8.85,
+    "height": 16.6199,
     "height_status": "estimated",
     "levels": 2,
     "area": 5588.23,
@@ -239,9 +287,28 @@
       1279.097
     ],
     "basis": "学校/项目资料层数；层高与局部标高估算",
-    "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
+    "partition": "Long brick sports hall; Continuous pitched metal roof; Tall upper sports-hall bays; Grounded entrance apron. Public-source exterior interpretation; local dimensions approximate.",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/151173253",
+    "campus_refinement": {
+      "profile": "fieldhouse",
+      "height": 16.5,
+      "levels": 2,
+      "features": [
+        "Long brick sports hall",
+        "Continuous pitched metal roof",
+        "Tall upper sports-hall bays",
+        "Grounded entrance apron"
+      ],
+      "reference": "https://maps.uchicago.edu/",
+      "approximation": "Mapped footprint, documented architectural character; secondary dimensions and partition lines are exterior estimates."
+    },
+    "ordinary_joinery": {
+      "window_surrounds": 168,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -253,9 +320,9 @@
     "osm_type": "way",
     "zone": "north",
     "landmark": false,
-    "height": 16.85,
+    "height": 9.88,
     "height_status": "estimated",
-    "levels": 4,
+    "levels": 2,
     "area": 1649.84,
     "width": 42.44,
     "depth": 39.61,
@@ -264,9 +331,28 @@
       1274.173
     ],
     "basis": "未取得可靠层数/高度；按建筑功能与外形估算",
-    "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
+    "partition": "Separate low gallery/teaching ranges; Limestone panel walls; Glazed garden-facing entrance range; Flat inset roofs around the mapped garden. Public-source exterior interpretation; local dimensions approximate.",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/152586233",
+    "campus_refinement": {
+      "profile": "museum",
+      "height": 9.8,
+      "levels": 2,
+      "features": [
+        "Separate low gallery/teaching ranges",
+        "Limestone panel walls",
+        "Glazed garden-facing entrance range",
+        "Flat inset roofs around the mapped garden"
+      ],
+      "reference": "https://architecture.uchicago.edu/locations/cochrane_woods_art_center/",
+      "approximation": "Mapped footprint, documented architectural character; secondary dimensions and partition lines are exterior estimates."
+    },
+    "ordinary_joinery": {
+      "window_surrounds": 80,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 4
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -292,6 +378,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/142420006",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 96,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -317,6 +410,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/210911471",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 24,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -342,6 +442,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/1413175952",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 51,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -353,7 +460,7 @@
     "osm_type": "way",
     "zone": "north",
     "landmark": false,
-    "height": 13.65,
+    "height": 13.4,
     "height_status": "estimated",
     "levels": 4,
     "area": 2128.31,
@@ -364,9 +471,28 @@
       1216.053
     ],
     "basis": "学校/项目资料层数；层高与局部标高估算",
-    "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
+    "partition": "Bright red-orange brick residence wings; Four-storey mapped courtyard massing; Purple parapet edges and deep rectangular entrance accents; Courtyard voids retained. Public-source exterior interpretation; local dimensions approximate.",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/153266965",
+    "campus_refinement": {
+      "profile": "palevsky",
+      "height": 13.4,
+      "levels": 4,
+      "features": [
+        "Bright red-orange brick residence wings",
+        "Four-storey mapped courtyard massing",
+        "Purple parapet edges and deep rectangular entrance accents",
+        "Courtyard voids retained"
+      ],
+      "reference": "https://architecture.uchicago.edu/locations/max_palevsky_residential_commons/",
+      "approximation": "Mapped footprint, documented architectural character; secondary dimensions and partition lines are exterior estimates."
+    },
+    "ordinary_joinery": {
+      "window_surrounds": 264,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -392,6 +518,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/145401953",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 22,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -403,9 +536,9 @@
     "osm_type": "way",
     "zone": "north",
     "landmark": false,
-    "height": 8.85,
+    "height": 13.68,
     "height_status": "estimated",
-    "levels": 2.0,
+    "levels": 2,
     "area": 1246.83,
     "width": 30.92,
     "depth": 41.77,
@@ -414,9 +547,27 @@
       1208.474
     ],
     "basis": "OSM building:levels；层高估算",
-    "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
+    "partition": "Metal and glazed utility envelope; Continuous screened plant range; Low integrated service roof. Public-source exterior interpretation; local dimensions approximate.",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/145400410",
+    "campus_refinement": {
+      "profile": "plant",
+      "height": 13.5,
+      "levels": 2,
+      "features": [
+        "Metal and glazed utility envelope",
+        "Continuous screened plant range",
+        "Low integrated service roof"
+      ],
+      "reference": "https://architecture.uchicago.edu/locations/west_campus_combined_utility_plant/",
+      "approximation": "Mapped footprint, documented architectural character; secondary dimensions and partition lines are exterior estimates."
+    },
+    "ordinary_joinery": {
+      "window_surrounds": 76,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -428,7 +579,7 @@
     "osm_type": "way",
     "zone": "north",
     "landmark": false,
-    "height": 13.65,
+    "height": 13.4,
     "height_status": "estimated",
     "levels": 4,
     "area": 1234.6,
@@ -439,9 +590,28 @@
       1207.559
     ],
     "basis": "学校/项目资料层数；层高与局部标高估算",
-    "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
+    "partition": "Bright red-orange brick residence wings; Four-storey mapped courtyard massing; Purple parapet edges and deep rectangular entrance accents; Courtyard voids retained. Public-source exterior interpretation; local dimensions approximate.",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/153090078",
+    "campus_refinement": {
+      "profile": "palevsky",
+      "height": 13.4,
+      "levels": 4,
+      "features": [
+        "Bright red-orange brick residence wings",
+        "Four-storey mapped courtyard massing",
+        "Purple parapet edges and deep rectangular entrance accents",
+        "Courtyard voids retained"
+      ],
+      "reference": "https://architecture.uchicago.edu/locations/max_palevsky_residential_commons/",
+      "approximation": "Mapped footprint, documented architectural character; secondary dimensions and partition lines are exterior estimates."
+    },
+    "ordinary_joinery": {
+      "window_surrounds": 200,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -467,6 +637,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://www.openstreetmap.org/way/1004041470",
     "footprint_source": "https://www.openstreetmap.org/way/1004041470",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 176,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -492,6 +669,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/143527367",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 144,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -517,6 +701,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://www.openstreetmap.org/way/387213840",
     "footprint_source": "https://www.openstreetmap.org/way/387213840",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 160,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -528,7 +719,7 @@
     "osm_type": "way",
     "zone": "north",
     "landmark": false,
-    "height": 13.65,
+    "height": 13.4,
     "height_status": "estimated",
     "levels": 4,
     "area": 2627.59,
@@ -539,9 +730,28 @@
       1191.287
     ],
     "basis": "学校/项目资料层数；层高与局部标高估算",
-    "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
+    "partition": "Bright red-orange brick residence wings; Four-storey mapped courtyard massing; Purple parapet edges and deep rectangular entrance accents; Courtyard voids retained. Public-source exterior interpretation; local dimensions approximate.",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/152969810",
+    "campus_refinement": {
+      "profile": "palevsky",
+      "height": 13.4,
+      "levels": 4,
+      "features": [
+        "Bright red-orange brick residence wings",
+        "Four-storey mapped courtyard massing",
+        "Purple parapet edges and deep rectangular entrance accents",
+        "Courtyard voids retained"
+      ],
+      "reference": "https://architecture.uchicago.edu/locations/max_palevsky_residential_commons/",
+      "approximation": "Mapped footprint, documented architectural character; secondary dimensions and partition lines are exterior estimates."
+    },
+    "ordinary_joinery": {
+      "window_surrounds": 416,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -567,6 +777,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/148014495",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 208,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -592,6 +809,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/387213839",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 78,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -617,6 +841,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/1054042714",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 168,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -642,6 +873,8 @@
     "partition": "保留错位、竖槽与凸窗平面，5个地上层+屋顶机房；全高26.7m及机房范围估算",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/194224828",
+    "campus_refinement": null,
+    "ordinary_joinery": null,
     "highlight_joinery": {
       "framed_openings": 160,
       "transoms": 0,
@@ -705,6 +938,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://www.openstreetmap.org/way/442771900",
     "footprint_source": "https://www.openstreetmap.org/way/442771900",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 721,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -730,6 +970,8 @@
     "partition": "椭圆玻璃网壳与入口连接体；最高10.668m有官方来源；网格约1.8288m采用官方6ft说明，轴长按地图近似，未将全馆73.152×36.576m直接套用穹顶",
     "source": "https://www.lib.uchicago.edu/mansueto/tech/numbers/",
     "footprint_source": "https://www.openstreetmap.org/way/159093828",
+    "campus_refinement": null,
+    "ordinary_joinery": null,
     "highlight_joinery": {
       "framed_openings": 17,
       "transoms": 0,
@@ -775,9 +1017,9 @@
     "osm_type": "way",
     "zone": "medical",
     "landmark": false,
-    "height": 40.85,
+    "height": 40.76,
     "height_status": "estimated",
-    "levels": 10.0,
+    "levels": 10,
     "area": 3594.88,
     "width": 37.13,
     "depth": 103.19,
@@ -786,9 +1028,28 @@
       1101.684
     ],
     "basis": "OSM building:levels；层高估算",
-    "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
+    "partition": "Part-limestone two-storey base; Eight upper glass laboratory storeys; Continuous glazing and horizontal slab edges; Ten-storey documented building rhythm. Public-source exterior interpretation; local dimensions approximate.",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/143527369",
+    "campus_refinement": {
+      "profile": "laboratory",
+      "height": 40.7,
+      "levels": 10,
+      "features": [
+        "Part-limestone two-storey base",
+        "Eight upper glass laboratory storeys",
+        "Continuous glazing and horizontal slab edges",
+        "Ten-storey documented building rhythm"
+      ],
+      "reference": "https://architecture.uchicago.edu/locations/knapp_center_for_biomedical_discovery/",
+      "approximation": "Mapped footprint, documented architectural character; secondary dimensions and partition lines are exterior estimates."
+    },
+    "ordinary_joinery": {
+      "window_surrounds": 666,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 4
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -814,6 +1075,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/1112082353",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 66,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -825,9 +1093,9 @@
     "osm_type": "way",
     "zone": "north",
     "landmark": false,
-    "height": 21.3193,
+    "height": 15.7196,
     "height_status": "estimated",
-    "levels": 4,
+    "levels": 3,
     "area": 1843.44,
     "width": 34.84,
     "depth": 73.49,
@@ -836,9 +1104,28 @@
       1099.329
     ],
     "basis": "未取得可靠层数/高度；按建筑功能与外形估算",
-    "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
+    "partition": "Separate Gothic wall/eaves/roof heights; Lancet/tall hall window rhythm; Stone window surrounds and entry portal; Mapped courtyards and setbacks retained. Public-source exterior interpretation; local dimensions approximate.",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/153539618",
+    "campus_refinement": {
+      "profile": "historic_hall",
+      "height": 15.600000000000001,
+      "levels": 3,
+      "features": [
+        "Separate Gothic wall/eaves/roof heights",
+        "Lancet/tall hall window rhythm",
+        "Stone window surrounds and entry portal",
+        "Mapped courtyards and setbacks retained"
+      ],
+      "reference": "https://maps.uchicago.edu/",
+      "approximation": "Mapped footprint, documented architectural character; secondary dimensions and partition lines are exterior estimates."
+    },
+    "ordinary_joinery": {
+      "window_surrounds": 111,
+      "entrances": 1,
+      "buttresses": 15,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -864,6 +1151,8 @@
     "partition": "玻璃科研楼、局部屋顶机房；整体35.6616m有结构工程师来源；机房范围与幕墙模数近似",
     "source": "https://www.thorntontomasetti.com/project/eckhardt-research-center",
     "footprint_source": "https://www.openstreetmap.org/way/387213841",
+    "campus_refinement": null,
+    "ordinary_joinery": null,
     "highlight_joinery": {
       "framed_openings": 320,
       "transoms": 320,
@@ -927,6 +1216,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/142420007",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 160,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -952,6 +1248,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/148014497",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 136,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -977,6 +1280,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144062152",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 22,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -1002,6 +1312,8 @@
     "partition": "square limestone Gothic tower; true open ground-level cross passage; deep bell-stage arches; four corner turrets; crenellated parapet; paired narrow Gothic lights. Public-source exterior reconstruction; member dimensions approximate.",
     "source": "https://upload.wikimedia.org/wikipedia/commons/d/db/The_University_of_Chicago%3B_an_official_guide_%28IA_universityofchic00robe%29.pdf",
     "footprint_source": "https://www.openstreetmap.org/way/1228219576",
+    "campus_refinement": null,
+    "ordinary_joinery": null,
     "highlight_joinery": {
       "framed_openings": 24,
       "transoms": 0,
@@ -1065,6 +1377,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144063826",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 63,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -1090,6 +1409,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/157655090",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 96,
+      "entrances": 1,
+      "buttresses": 11,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -1115,6 +1441,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/285311999",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 30,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -1140,6 +1473,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/154421809",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 92,
+      "entrances": 1,
+      "buttresses": 4,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -1165,6 +1505,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/143812430",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 90,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -1190,6 +1537,8 @@
     "partition": "Single great-hall volume, tall pointed windows, stepped external buttresses and steep slate roof; official Tower Group references inform the form, while members and elevations remain approximate.",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/157655069",
+    "campus_refinement": null,
+    "ordinary_joinery": null,
     "highlight_joinery": {
       "framed_openings": 36,
       "transoms": 0,
@@ -1248,6 +1597,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/154421807",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 210,
+      "entrances": 1,
+      "buttresses": 8,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -1273,6 +1629,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144062151",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 42,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -1298,6 +1661,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144063829",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 51,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -1323,6 +1693,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/157655073",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 164,
+      "entrances": 1,
+      "buttresses": 15,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -1348,6 +1725,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/142870317",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 236,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -1373,6 +1757,13 @@
     "partition": "施工方公开最高245 ft（74.676m）；设计方5.5m层高×10层形成55m主体，退台机房达最高点。机房边界及立面划分近似",
     "source": "https://mchughconcrete.com/projects/university-of-chicago-hospital-center-for-care-discovery/",
     "footprint_source": "https://www.openstreetmap.org/way/142771603",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 1140,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -1398,6 +1789,8 @@
     "partition": "separate limestone research wings; tall glazed eastern hinge atrium; open ground-level breezeway; six-storey-height steel colonnade; glazed upper bridge and limestone canopy. Public-source exterior reconstruction; member dimensions approximate.",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/142870150",
+    "campus_refinement": null,
+    "ordinary_joinery": null,
     "highlight_joinery": {
       "framed_openings": 637,
       "transoms": 0,
@@ -1464,6 +1857,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144062146",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 30,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -1489,6 +1889,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144063819",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 36,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -1514,6 +1921,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144062150",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 45,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -1539,6 +1953,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144063824",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 48,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -1564,6 +1985,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/157655067",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 88,
+      "entrances": 1,
+      "buttresses": 10,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -1589,6 +2017,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/152422457",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 108,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -1614,6 +2049,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144062149",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 54,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -1639,6 +2081,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144063830",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 48,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -1650,9 +2099,9 @@
     "osm_type": "way",
     "zone": "quads",
     "landmark": false,
-    "height": 21.3189,
+    "height": 12.9189,
     "height_status": "estimated",
-    "levels": 4,
+    "levels": 2,
     "area": 917.66,
     "width": 21.16,
     "depth": 48.67,
@@ -1661,9 +2110,28 @@
       955.129
     ],
     "basis": "未取得可靠层数/高度；按建筑功能与外形估算",
-    "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
+    "partition": "Separate Gothic wall/eaves/roof heights; Lancet/tall hall window rhythm; Stone window surrounds and entry portal; Mapped courtyards and setbacks retained. Public-source exterior interpretation; local dimensions approximate.",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/157655071",
+    "campus_refinement": {
+      "profile": "great_hall",
+      "height": 12.8,
+      "levels": 2,
+      "features": [
+        "Separate Gothic wall/eaves/roof heights",
+        "Lancet/tall hall window rhythm",
+        "Stone window surrounds and entry portal",
+        "Mapped courtyards and setbacks retained"
+      ],
+      "reference": "https://maps.uchicago.edu/",
+      "approximation": "Mapped footprint, documented architectural character; secondary dimensions and partition lines are exterior estimates."
+    },
+    "ordinary_joinery": {
+      "window_surrounds": 66,
+      "entrances": 1,
+      "buttresses": 14,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -1689,6 +2157,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144062147",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 45,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -1714,6 +2189,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/143812442",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 51,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -1739,6 +2221,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/154656512",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 204,
+      "entrances": 1,
+      "buttresses": 19,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -1764,6 +2253,8 @@
     "partition": "three above-ground library levels; 11-foot upper-floor cantilever; vertical narrow concrete window bays; central atrium roof lantern; 2018 roof skylights. Public-source exterior reconstruction; member dimensions approximate.",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/152284260",
+    "campus_refinement": null,
+    "ordinary_joinery": null,
     "highlight_joinery": {
       "framed_openings": 233,
       "transoms": 0,
@@ -1830,6 +2321,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144063821",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 20,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -1855,6 +2353,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144061595",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 72,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -1880,6 +2385,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/143812431",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 42,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -1905,6 +2417,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/143812440",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 42,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -1930,6 +2449,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144061597",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 27,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -1941,9 +2467,9 @@
     "osm_type": "way",
     "zone": "quads",
     "landmark": false,
-    "height": 20.85,
+    "height": 20.7,
     "height_status": "estimated",
-    "levels": 5.0,
+    "levels": 5,
     "area": 1798.15,
     "width": 39.03,
     "depth": 55.53,
@@ -1952,9 +2478,28 @@
       914.772
     ],
     "basis": "OSM building:levels；层高估算",
-    "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
+    "partition": "Flat grey concrete laboratory slabs; Eight attached red-brick vertical service accents following the mapped side bays; Inset roof edges and separate slab courses; Tower widths and local slab levels are exterior estimates. Public-source exterior interpretation; local dimensions approximate.",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/88865426",
+    "campus_refinement": {
+      "profile": "hinds",
+      "height": 20.7,
+      "levels": 5,
+      "features": [
+        "Flat grey concrete laboratory slabs",
+        "Eight attached red-brick vertical service accents following the mapped side bays",
+        "Inset roof edges and separate slab courses",
+        "Tower widths and local slab levels are exterior estimates"
+      ],
+      "reference": "https://architecture.uchicago.edu/locations/henry_hinds_laboratory_for_geophysical_sciences/",
+      "approximation": "Mapped footprint, documented architectural character; secondary dimensions and partition lines are exterior estimates."
+    },
+    "ordinary_joinery": {
+      "window_surrounds": 215,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -1980,6 +2525,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/202690810",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 224,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -2005,6 +2557,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/142771605",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 360,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -2030,6 +2589,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/157655074",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 212,
+      "entrances": 1,
+      "buttresses": 20,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -2055,6 +2621,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/157655066",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 164,
+      "entrances": 1,
+      "buttresses": 15,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -2080,6 +2653,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/154859382",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 172,
+      "entrances": 1,
+      "buttresses": 7,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -2105,6 +2685,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/142771611",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 272,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -2130,6 +2717,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/143812437",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 33,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -2155,6 +2749,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144061596",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 39,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -2180,6 +2781,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://www.openstreetmap.org/way/545084806",
     "footprint_source": "https://www.openstreetmap.org/way/545084806",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 148,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -2205,6 +2813,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144062148",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 156,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -2230,6 +2845,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/154859380",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 140,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -2255,6 +2877,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/143812429",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 57,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -2280,6 +2909,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144061598",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 32,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -2291,9 +2927,9 @@
     "osm_type": "way",
     "zone": "medical",
     "landmark": false,
-    "height": 44.85,
+    "height": 44.7,
     "height_status": "estimated",
-    "levels": 11.0,
+    "levels": 11,
     "area": 1790.04,
     "width": 50.48,
     "depth": 38.68,
@@ -2302,9 +2938,28 @@
       875.306
     ],
     "basis": "OSM building:levels；层高估算",
-    "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
+    "partition": "Eleven-storey concrete laboratory body; Forty attached, ground-to-roof brick-covered exhaust towers; Raised vent heads and inset flat roof; Secondary shaft widths and spacing are approximate. Public-source exterior interpretation; local dimensions approximate.",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/89537392",
+    "campus_refinement": {
+      "profile": "cummings",
+      "height": 44.7,
+      "levels": 11,
+      "features": [
+        "Eleven-storey concrete laboratory body",
+        "Forty attached, ground-to-roof brick-covered exhaust towers",
+        "Raised vent heads and inset flat roof",
+        "Secondary shaft widths and spacing are approximate"
+      ],
+      "reference": "https://architecture.uchicago.edu/locations/cummings_life_science_center/",
+      "approximation": "Mapped footprint, documented architectural character; secondary dimensions and partition lines are exterior estimates."
+    },
+    "ordinary_joinery": {
+      "window_surrounds": 473,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -2330,6 +2985,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/142871281",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 94,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -2355,6 +3017,8 @@
     "partition": "旧教堂主体、坡屋顶与西端入口塔、现代连接亭；高度与具体塔位为估算",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/143457513",
+    "campus_refinement": null,
+    "ordinary_joinery": null,
     "highlight_joinery": {
       "framed_openings": 424,
       "transoms": 0,
@@ -2416,6 +3080,8 @@
     "partition": "long Roman-brick living/dining bar; deep low hipped clay eaves with limestone fascia; 24 art-glass door bays along the south balcony; upper bedroom mass; central chimney; brick terraces, parapets and urns. Public-source exterior reconstruction; member dimensions approximate.",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/125667497",
+    "campus_refinement": null,
+    "ordinary_joinery": null,
     "highlight_joinery": {
       "framed_openings": 132,
       "transoms": 0,
@@ -2485,6 +3151,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144047119",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 156,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -2510,6 +3183,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/226828483",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 108,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -2521,9 +3201,9 @@
     "osm_type": "way",
     "zone": "quads",
     "landmark": false,
-    "height": 24.85,
+    "height": 25.08,
     "height_status": "estimated",
-    "levels": 6.0,
+    "levels": 6,
     "area": 1070.39,
     "width": 16.8,
     "depth": 66.34,
@@ -2532,9 +3212,28 @@
       837.082
     ],
     "basis": "OSM building:levels；层高估算",
-    "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
+    "partition": "Restrained modern limestone office block; Six regular window storeys; Subtle floor courses and recessed flat roof; No invented Gothic roof or pinnacles. Public-source exterior interpretation; local dimensions approximate.",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/152284265",
+    "campus_refinement": {
+      "profile": "levi",
+      "height": 25.0,
+      "levels": 6,
+      "features": [
+        "Restrained modern limestone office block",
+        "Six regular window storeys",
+        "Subtle floor courses and recessed flat roof",
+        "No invented Gothic roof or pinnacles"
+      ],
+      "reference": "https://architecture.uchicago.edu/locations/levihall/",
+      "approximation": "Mapped footprint, documented architectural character; secondary dimensions and partition lines are exterior estimates."
+    },
+    "ordinary_joinery": {
+      "window_surrounds": 246,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -2560,6 +3259,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/142668545",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 36,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -2585,6 +3291,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/145401959",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 336,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -2610,6 +3323,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144132395",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 576,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -2635,6 +3355,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/relation/2054806",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 308,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 4
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -2660,6 +3387,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/142668544",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 30,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -2671,9 +3405,9 @@
     "osm_type": "way",
     "zone": "east",
     "landmark": false,
-    "height": 12.85,
+    "height": 13.86,
     "height_status": "estimated",
-    "levels": 3.0,
+    "levels": 4,
     "area": 1423.21,
     "width": 70.51,
     "depth": 22.65,
@@ -2682,9 +3416,27 @@
       792.803
     ],
     "basis": "OSM building:levels；层高估算",
-    "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
+    "partition": "Separate glazed ground-floor frontage; Regular upper teaching/residential bays; Thin roof edge and recessed entrances. Public-source exterior interpretation; local dimensions approximate.",
     "source": "https://www.openstreetmap.org/way/545084805",
     "footprint_source": "https://www.openstreetmap.org/way/545084805",
+    "campus_refinement": {
+      "profile": "arts",
+      "height": 13.8,
+      "levels": 4,
+      "features": [
+        "Separate glazed ground-floor frontage",
+        "Regular upper teaching/residential bays",
+        "Thin roof edge and recessed entrances"
+      ],
+      "reference": "https://architecture.uchicago.edu/locations/gordon_parks_arts_hall/",
+      "approximation": "Mapped footprint, documented architectural character; secondary dimensions and partition lines are exterior estimates."
+    },
+    "ordinary_joinery": {
+      "window_surrounds": 153,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 4
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -2710,6 +3462,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/145400407",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 240,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -2735,6 +3494,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/202690809",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 448,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -2760,6 +3526,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/145476720",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 336,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -2785,6 +3558,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/152284264",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 332,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -2796,7 +3576,7 @@
     "osm_type": "way",
     "zone": "east",
     "landmark": false,
-    "height": 16.85,
+    "height": 18.26,
     "height_status": "estimated",
     "levels": 4,
     "area": 8206.95,
@@ -2807,9 +3587,28 @@
       774.827
     ],
     "basis": "学校/项目资料层数；层高与局部标高估算",
-    "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
+    "partition": "Low limestone teaching wings and mapped courtyards; Set-back glazed upper range; Flat roofs and exposed stone bay rhythm; Grounded entrances rather than a solid roof lid. Public-source exterior interpretation; local dimensions approximate.",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/150456352",
+    "campus_refinement": {
+      "profile": "booth",
+      "height": 18.2,
+      "levels": 4,
+      "features": [
+        "Low limestone teaching wings and mapped courtyards",
+        "Set-back glazed upper range",
+        "Flat roofs and exposed stone bay rhythm",
+        "Grounded entrances rather than a solid roof lid"
+      ],
+      "reference": "https://maps.uchicago.edu/",
+      "approximation": "Mapped footprint, documented architectural character; secondary dimensions and partition lines are exterior estimates."
+    },
+    "ordinary_joinery": {
+      "window_surrounds": 447,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 4
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -2835,6 +3634,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/202690817",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 210,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -2860,6 +3666,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/155201128",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 100,
+      "entrances": 1,
+      "buttresses": 10,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -2885,6 +3698,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/156343655",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 72,
+      "entrances": 1,
+      "buttresses": 5,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -2910,6 +3730,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/191827364",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 260,
+      "entrances": 1,
+      "buttresses": 25,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -2935,6 +3762,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/156044644",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 96,
+      "entrances": 1,
+      "buttresses": 9,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -2960,6 +3794,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/151173251",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 196,
+      "entrances": 1,
+      "buttresses": 22,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -2985,6 +3826,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/155201131",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 152,
+      "entrances": 1,
+      "buttresses": 10,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -3010,6 +3858,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/202690819",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 476,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -3035,6 +3890,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/143323611",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 38,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -3060,6 +3922,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/202690807",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 231,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -3085,6 +3954,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/156044643",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 84,
+      "entrances": 1,
+      "buttresses": 8,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -3096,7 +3972,7 @@
     "osm_type": "way",
     "zone": "quads",
     "landmark": false,
-    "height": 9.32,
+    "height": 13.2195,
     "height_status": "estimated",
     "levels": 1,
     "area": 296.97,
@@ -3107,9 +3983,28 @@
       737.315
     ],
     "basis": "学校/项目资料层数；层高与局部标高估算",
-    "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
+    "partition": "Single chapel nave; Steep slate roof; Tall lancet windows and stepped stone buttresses; Connection to Swift Hall retained from mapped connector. Public-source exterior interpretation; local dimensions approximate.",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/151173255",
+    "campus_refinement": {
+      "profile": "chapel",
+      "height": 13.1,
+      "levels": 1,
+      "features": [
+        "Single chapel nave",
+        "Steep slate roof",
+        "Tall lancet windows and stepped stone buttresses",
+        "Connection to Swift Hall retained from mapped connector"
+      ],
+      "reference": "https://architecture.uchicago.edu/locations/bond_chapel/",
+      "approximation": "Mapped footprint, documented architectural character; secondary dimensions and partition lines are exterior estimates."
+    },
+    "ordinary_joinery": {
+      "window_surrounds": 17,
+      "entrances": 1,
+      "buttresses": 7,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -3135,6 +4030,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144132403",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 414,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -3160,6 +4062,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/191827365",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 160,
+      "entrances": 1,
+      "buttresses": 16,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -3185,6 +4094,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/191827367",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 172,
+      "entrances": 1,
+      "buttresses": 19,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -3210,6 +4126,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/191827368",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 172,
+      "entrances": 1,
+      "buttresses": 18,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -3235,6 +4158,8 @@
     "partition": "分离钟塔、主中殿、低侧廊、陡坡屋顶和扶壁；钟塔最高63.0936m有来源，其他分区标高与装饰估算",
     "source": "https://www.rockefeller.uchicago.edu/the-spaces/rockefeller-architecture/",
     "footprint_source": "https://www.openstreetmap.org/way/150457349",
+    "campus_refinement": null,
+    "ordinary_joinery": null,
     "highlight_joinery": {
       "framed_openings": 333,
       "transoms": 0,
@@ -3301,6 +4226,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/202690811",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 224,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -3326,6 +4258,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/156343657",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 120,
+      "entrances": 1,
+      "buttresses": 11,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -3351,6 +4290,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/156044639",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 138,
+      "entrances": 1,
+      "buttresses": 6,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -3376,6 +4322,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/relation/2961267",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 1211,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 4
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -3401,6 +4354,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/156128083",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 128,
+      "entrances": 1,
+      "buttresses": 10,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -3426,6 +4386,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/155873096",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 112,
+      "entrances": 1,
+      "buttresses": 10,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -3451,6 +4418,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/143323612",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 172,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -3476,6 +4450,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/202690812",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 343,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -3501,6 +4482,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/1054042388",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 328,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -3526,6 +4514,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/202679303",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 50,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -3551,6 +4546,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/202690813",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 224,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -3562,9 +4564,9 @@
     "osm_type": "relation",
     "zone": "east",
     "landmark": false,
-    "height": 43.72,
+    "height": 39.78,
     "height_status": "estimated",
-    "levels": 12.0,
+    "levels": 12,
     "area": 3490.99,
     "width": 83.89,
     "depth": 53.34,
@@ -3573,9 +4575,28 @@
       683.146
     ],
     "basis": "OSM building:levels；层高估算",
-    "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
+    "partition": "Nine-storey residential wings; Separate three-storey upper tower; Gothic and Art Deco stone courses; Mapped courtyard retained open. Public-source exterior interpretation; local dimensions approximate.",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/relation/1953426",
+    "campus_refinement": {
+      "profile": "international",
+      "height": 40.0,
+      "levels": 12,
+      "features": [
+        "Nine-storey residential wings",
+        "Separate three-storey upper tower",
+        "Gothic and Art Deco stone courses",
+        "Mapped courtyard retained open"
+      ],
+      "reference": "https://architecture.uchicago.edu/locations/international_house/",
+      "approximation": "Mapped footprint, documented architectural character; secondary dimensions and partition lines are exterior estimates."
+    },
+    "ordinary_joinery": {
+      "window_surrounds": 822,
+      "entrances": 1,
+      "buttresses": 48,
+      "courses": 6
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -3601,6 +4622,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144132398",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 606,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -3612,9 +4640,9 @@
     "osm_type": "way",
     "zone": "east",
     "landmark": false,
-    "height": 21.32,
+    "height": 15.72,
     "height_status": "estimated",
-    "levels": 4,
+    "levels": 3,
     "area": 2988.19,
     "width": 75.08,
     "depth": 58.11,
@@ -3623,9 +4651,28 @@
       679.679
     ],
     "basis": "未取得可靠层数/高度；按建筑功能与外形估算",
-    "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
+    "partition": "Separate Gothic wall/eaves/roof heights; Lancet/tall hall window rhythm; Stone window surrounds and entry portal; Mapped courtyards and setbacks retained. Public-source exterior interpretation; local dimensions approximate.",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/150457341",
+    "campus_refinement": {
+      "profile": "historic_hall",
+      "height": 15.600000000000001,
+      "levels": 3,
+      "features": [
+        "Separate Gothic wall/eaves/roof heights",
+        "Lancet/tall hall window rhythm",
+        "Stone window surrounds and entry portal",
+        "Mapped courtyards and setbacks retained"
+      ],
+      "reference": "https://architecture.uchicago.edu/locations/ida_noyes_hall/",
+      "approximation": "Mapped footprint, documented architectural character; secondary dimensions and partition lines are exterior estimates."
+    },
+    "ordinary_joinery": {
+      "window_surrounds": 195,
+      "entrances": 1,
+      "buttresses": 33,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -3651,6 +4698,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/156044638",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 108,
+      "entrances": 1,
+      "buttresses": 10,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -3676,6 +4730,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/156343665",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 48,
+      "entrances": 1,
+      "buttresses": 7,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -3701,6 +4762,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/1254935929",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 29,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -3726,6 +4794,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/152132160",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 57,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -3751,6 +4826,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/191827370",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 324,
+      "entrances": 1,
+      "buttresses": 32,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -3776,6 +4858,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144388055",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 120,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -3801,6 +4890,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/156128079",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 165,
+      "entrances": 1,
+      "buttresses": 18,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -3826,6 +4922,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/156343662",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 132,
+      "entrances": 1,
+      "buttresses": 16,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -3851,6 +4954,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/202690808",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 225,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -3876,6 +4986,8 @@
     "partition": "两端哥特式塔楼41.148m有历史官方来源；中央大厅、坡屋顶、小塔和窗位为形态近似",
     "source": "https://campub.lib.uchicago.edu/text/?docId=mvol-0001-0016-0000",
     "footprint_source": "https://www.openstreetmap.org/way/156128082",
+    "campus_refinement": null,
+    "ordinary_joinery": null,
     "highlight_joinery": {
       "framed_openings": 285,
       "transoms": 0,
@@ -3942,6 +5054,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/156343656",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 108,
+      "entrances": 1,
+      "buttresses": 13,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -3967,6 +5086,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/202690815",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 287,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -3992,6 +5118,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/156044642",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 102,
+      "entrances": 1,
+      "buttresses": 4,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -4017,6 +5150,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144636081",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 245,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -4042,6 +5182,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144636078",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 184,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -4067,6 +5214,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/143841712",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 208,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -4092,6 +5246,8 @@
     "partition": "双层底座与4组错位会场塔段；最高52m采用竣工案例；各段宽度、标高与折面简化",
     "source": "https://global.ctbuh.org/resources/papers/4631-Gallagher_DavidRubensteinForum.pdf",
     "footprint_source": "https://www.openstreetmap.org/way/441025431",
+    "campus_refinement": null,
+    "ordinary_joinery": null,
     "highlight_joinery": {
       "framed_openings": 376,
       "transoms": 376,
@@ -4157,6 +5313,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144636089",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 136,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -4168,9 +5331,9 @@
     "osm_type": "way",
     "zone": "south",
     "landmark": false,
-    "height": 16.85,
+    "height": 17.26,
     "height_status": "estimated",
-    "levels": 4.0,
+    "levels": 4,
     "area": 1666.13,
     "width": 38.55,
     "depth": 44.5,
@@ -4179,9 +5342,27 @@
       402.523
     ],
     "basis": "芝加哥市 Building Footprints stories（记录 894277）；层高估算",
-    "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
+    "partition": "Separate glazed ground-floor frontage; Regular upper teaching/residential bays; Thin roof edge and recessed entrances. Public-source exterior interpretation; local dimensions approximate.",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144636084",
+    "campus_refinement": {
+      "profile": "seminary",
+      "height": 17.2,
+      "levels": 4,
+      "features": [
+        "Separate glazed ground-floor frontage",
+        "Regular upper teaching/residential bays",
+        "Thin roof edge and recessed entrances"
+      ],
+      "reference": "https://architecture.uchicago.edu/locations/the_chicago_theological_seminary/",
+      "approximation": "Mapped footprint, documented architectural character; secondary dimensions and partition lines are exterior estimates."
+    },
+    "ordinary_joinery": {
+      "window_surrounds": 168,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 4
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -4207,6 +5388,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/152422723",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 18,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -4232,6 +5420,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/663674229",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 44,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -4257,6 +5452,8 @@
     "partition": "3层柱廊主体+退台第4层、绿屋顶和太阳能板；16.4m、柱位及檐棚示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/143926554",
+    "campus_refinement": null,
+    "ordinary_joinery": null,
     "highlight_joinery": {
       "framed_openings": 259,
       "transoms": 49,
@@ -4324,6 +5521,8 @@
     "partition": "Mies水平砖/钢/玻璃体量；窗带与黑色边框简化，高度9m估算",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/143926548",
+    "campus_refinement": null,
+    "ordinary_joinery": null,
     "highlight_joinery": {
       "framed_openings": 104,
       "transoms": 104,
@@ -4367,9 +5566,9 @@
     "osm_type": "way",
     "zone": "south",
     "landmark": false,
-    "height": 45.65,
+    "height": 45.56,
     "height_status": "estimated",
-    "levels": 14.0,
+    "levels": 14,
     "area": 2126.81,
     "width": 42.82,
     "depth": 68.08,
@@ -4378,9 +5577,27 @@
       391.936
     ],
     "basis": "OSM building:levels；层高估算",
-    "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
+    "partition": "Separate glazed ground-floor frontage; Regular upper teaching/residential bays; Thin roof edge and recessed entrances. Public-source exterior interpretation; local dimensions approximate.",
     "source": "https://www.openstreetmap.org/way/860807638",
     "footprint_source": "https://www.openstreetmap.org/way/860807638",
+    "campus_refinement": {
+      "profile": "hotel",
+      "height": 45.50000000000001,
+      "levels": 14,
+      "features": [
+        "Separate glazed ground-floor frontage",
+        "Regular upper teaching/residential bays",
+        "Thin roof edge and recessed entrances"
+      ],
+      "reference": "https://maps.uchicago.edu/",
+      "approximation": "Mapped footprint, documented architectural character; secondary dimensions and partition lines are exterior estimates."
+    },
+    "ordinary_joinery": {
+      "window_surrounds": 756,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 4
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -4406,6 +5623,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/210904080",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 126,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -4431,6 +5655,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/relation/1957138",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 488,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 4
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -4456,6 +5687,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/152422722",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 152,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -4467,9 +5705,9 @@
     "osm_type": "relation",
     "zone": "south",
     "landmark": false,
-    "height": 27.72,
+    "height": 22.92,
     "height_status": "estimated",
-    "levels": 7.0,
+    "levels": 5,
     "area": 5117.37,
     "width": 105.13,
     "depth": 94.43,
@@ -4478,9 +5716,28 @@
       373.947
     ],
     "basis": "OSM building:levels；层高估算",
-    "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
+    "partition": "Separate Gothic wall/eaves/roof heights; Lancet/tall hall window rhythm; Stone window surrounds and entry portal; Mapped courtyards and setbacks retained. Public-source exterior interpretation; local dimensions approximate.",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/relation/1968186",
+    "campus_refinement": {
+      "profile": "courts",
+      "height": 22.8,
+      "levels": 5,
+      "features": [
+        "Separate Gothic wall/eaves/roof heights",
+        "Lancet/tall hall window rhythm",
+        "Stone window surrounds and entry portal",
+        "Mapped courtyards and setbacks retained"
+      ],
+      "reference": "https://maps.uchicago.edu/",
+      "approximation": "Mapped footprint, documented architectural character; secondary dimensions and partition lines are exterior estimates."
+    },
+    "ordinary_joinery": {
+      "window_surrounds": 930,
+      "entrances": 1,
+      "buttresses": 63,
+      "courses": 4
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -4506,6 +5763,8 @@
     "partition": "西南石材塔楼51.816m有来源；低楼工作室、锯齿采光顶与大玻璃窗位置按形态近似",
     "source": "https://news.uchicago.edu/story/reva-and-david-logan-center-arts-preview-period-begin-march-26",
     "footprint_source": "https://www.openstreetmap.org/way/152422729",
+    "campus_refinement": null,
+    "ordinary_joinery": null,
     "highlight_joinery": {
       "framed_openings": 463,
       "transoms": 0,
@@ -4568,6 +5827,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/210904082",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 18,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -4593,6 +5859,8 @@
     "partition": "6层法学图书馆与低楼教学翼区分，折面幕墙与北侧反射水池示意；整体高度估算",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/152422458",
+    "campus_refinement": null,
+    "ordinary_joinery": null,
     "highlight_joinery": {
       "framed_openings": 234,
       "transoms": 234,
@@ -4654,6 +5922,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/145510725",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 216,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -4679,6 +5954,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/210904081",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 42,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -4690,9 +5972,9 @@
     "osm_type": "way",
     "zone": "south",
     "landmark": false,
-    "height": 4.85,
+    "height": 13.68,
     "height_status": "estimated",
-    "levels": 1,
+    "levels": 2,
     "area": 1232.71,
     "width": 43.48,
     "depth": 29.43,
@@ -4701,9 +5983,27 @@
       336.482
     ],
     "basis": "未取得可靠层数/高度；按建筑功能与外形估算",
-    "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
+    "partition": "Metal and glazed utility envelope; Continuous screened plant range; Low integrated service roof. Public-source exterior interpretation; local dimensions approximate.",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/533422554",
+    "campus_refinement": {
+      "profile": "plant",
+      "height": 13.5,
+      "levels": 2,
+      "features": [
+        "Metal and glazed utility envelope",
+        "Continuous screened plant range",
+        "Low integrated service roof"
+      ],
+      "reference": "https://architecture.uchicago.edu/locations/south_campus_chiller_plant/",
+      "approximation": "Mapped footprint, documented architectural character; secondary dimensions and partition lines are exterior estimates."
+    },
+    "ordinary_joinery": {
+      "window_surrounds": 48,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -4729,6 +6029,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/relation/1957136",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 118,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 4
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -4754,6 +6061,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/211212920",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 8,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -4779,6 +6093,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://www.openstreetmap.org/way/1133910606",
     "footprint_source": "https://www.openstreetmap.org/way/1133910606",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 232,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -4804,6 +6125,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144636082",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 225,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -4829,6 +6157,13 @@
     "partition": "同一建筑分离4层办公翼与9层停车库；16.7/29.5m为层高估算",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/477223630",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 801,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 8
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -4854,6 +6189,8 @@
     "partition": "西楼184ft=56.0832m、其他楼94ft=28.6512m，依据市PD43 2018规划尺寸；层间分缝、机房与分界近似",
     "source": "https://gisapps.chicago.gov/gisimages/zoning_pds/PD43.pdf",
     "footprint_source": "https://www.openstreetmap.org/relation/11687839",
+    "campus_refinement": null,
+    "ordinary_joinery": null,
     "highlight_joinery": {
       "framed_openings": 1202,
       "transoms": 0,
@@ -4932,6 +6269,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/143926550",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 248,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -4957,6 +6301,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/relation/2087203",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 815,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 6
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -4982,6 +6333,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144636085",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 90,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -5007,6 +6365,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/155418366",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 93,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -5032,6 +6397,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/145510720",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 60,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -5057,6 +6429,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/144636088",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 16,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -5082,6 +6461,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/155418363",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 140,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -5107,6 +6493,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/210904471",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 24,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -5132,6 +6525,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/210906294",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 36,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -5157,6 +6557,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/210906295",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 33,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   },
@@ -5182,6 +6589,13 @@
     "partition": "公开平面轮廓、窗带、檐口与屋顶构造简化；窗位、层高及装饰为示意",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/210906296",
+    "campus_refinement": null,
+    "ordinary_joinery": {
+      "window_surrounds": 6,
+      "entrances": 1,
+      "buttresses": 0,
+      "courses": 2
+    },
     "highlight_joinery": null,
     "architecture_reference": null
   }

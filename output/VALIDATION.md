@@ -1,5 +1,16 @@
 # Validation record
 
+## 26.10.18.5 — GLB / FBX / 3DM delivery
+
+- Native GLB: 1368 mesh objects, 3495468 triangles. Khronos glTF Validator: no errors or warnings on the extension-free download.
+- Every native FBX vertex and triangle index matches the corresponding GLB object; meter units, Z-up settings and face normals verified. UChicago also imports with the independent Three.js FBXLoader.
+- Web GLB accessor bytes match the native GLB after lossless meshopt/gzip decoding. HTTP, local classic-script and standalone data integrity checks pass.
+- Guide lists 3DM, FBX and GLB in order; every linked artifact exists and fits the hosting per-file limit. Oversized native files use lossless XZ archives.
+- Refined Rhino model: 288 closed native solids, 1,080 closed meshes, 177 plan curves in 178 nonempty layers; all geometry valid. Existing 19 Highlights and passage/form checks retained.
+
+Earlier verification entries below describe their historical model versions.
+
+
 Final build checked on 2026-10-12.
 
 ## CAD geometry

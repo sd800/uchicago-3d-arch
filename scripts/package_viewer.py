@@ -15,7 +15,7 @@ for r in records:
  r['name_zh']=tr['name_zh'];r['short_zh']=tr['short_zh'];r['aliases_zh']=tr['aliases_zh'];r['short']=short.get(r['osm_id'],r['name'])
  r['partition']=notes_zh.get(str(r['osm_id']),('模型依据公开地图轮廓表示建筑体块，并简化屋顶、檐口和连续窗带；窗位、层高及装饰为示意。' if r['partition'].startswith('公开平面轮廓') else r['partition']))
  r['basis']=r['basis'].replace('OSM building:levels；层高估算','采用 OpenStreetMap 的 building:levels 楼层记录，层高为估算。').replace('学校/项目资料层数；层高与局部标高估算','层数依据学校或项目公开资料，层高及局部标高为估算。').replace('未取得可靠层数/高度；按建筑功能与外形估算','未取得可靠的层数或高度资料，依据建筑用途与外形估算。').replace('公开资料最高高度；主体檐口、屋顶分区与立面细节为近似','最高点依据公开资料，檐口、屋顶分区及立面细节为近似表达。').replace('芝加哥市 Building Footprints stories','采用芝加哥市建筑轮廓数据的 stories 楼层记录').replace('；层高估算','，层高为估算。').replace('学校体育部桅杆峰值100 ft；另有125 ft构件报道；屋面高度估算','桅杆峰顶采用学校体育部介绍的100英尺；另有报道提及125英尺的桅杆构件。屋面高度为估算。').replace('市政府PD43公开2018规划图：西楼184 ft，东/北/南楼94 ft；非竣工测量','采用芝加哥市PD43的2018年公开规划图：西楼184英尺，东、北、南楼94英尺；这些是规划尺寸，未经过竣工实测。').replace('公开地图平面及Frank Lloyd Wright Trust外形；高度10.5m估算','平面采用公开地图，外形参考弗兰克·劳埃德·赖特信托的资料；高度10.5米为估算。')
- r['partition_en']=notes.get(r['osm_id'],'Georeferenced building footprint with simplified roof, cornice and repeated window bays. Courtyard voids are retained where mapped. Local heights and facade openings are approximate.')
+ r['partition_en']=('; '.join(r['campus_refinement']['features'])+'. Exterior interpretation; local dimensions approximate.') if r.get('campus_refinement') else notes.get(r['osm_id'],'Georeferenced building footprint with simplified roof, cornice and repeated window bays. Courtyard voids are retained where mapped. Local heights and facade openings are approximate.')
  if r['height_status']=='published':r['basis_en']='Published maximum height from university or project sources; local roof and facade dimensions remain approximate.'
  elif r['height_status']=='planning':r['basis_en']='2018 Chicago PD43 planning drawings, pages 211 and 223: Block W 184 ft; Blocks N/E/S 94 ft. Not an as-built survey.'
  else:r['basis_en']=f"Estimated exterior height. Floor count used: {r['levels']:g}. " + ('Municipal stories record; assumed floor heights.' if '芝加哥市' in r['basis'] else 'Published/OSM floor counts or a functional massing estimate; local floor heights are assumed.')
@@ -30,7 +30,7 @@ config=json.loads((root/'config/site.config.json').read_text())
 site=config['url']
 assert site == f"https://{config['domain']}/", 'Use one HTTPS root URL for every public reference.'
 seo={'en':{k:config[k] for k in ('title','description','imageAlt')},'zh':config['zh']}
-model=(out/'UChicago_HydePark.3ds').read_bytes()
+model=(out/'UChicago_HydePark.glb').read_bytes()
 from web_model_package import web_payload
 web,compressed=web_payload(root,model)
 base64model=base64.b64encode(compressed).decode()
@@ -49,14 +49,21 @@ for f in json.loads((root/'sources/features_local.json').read_text()):
  if name not in outdoor_names or g.geom_type not in ['Polygon','MultiPolygon']:continue
  hover_places.append({'id':'O'+str(f['id']),'name':name,'name_zh':outdoor_names[name],'hitArea':mapping(g.simplify(.2,preserve_topology=True)),'source':'https://www.openstreetmap.org/'+f['type']+'/'+str(f['id'])})
 hover_places.append({'id':'LAWPOOL','name':'Law School Reflecting Pool','name_zh':'法学院倒影池','hitArea':mapping(box(624,375,680,397)),'source':'Modeled approximate pool outline; scripts/build_campus.py'})
-data={**web,'modelByteLength':len(model),'modelTransferBytes':len(compressed),'layers':json.loads((out/'layer_map.json').read_text()),'palette':json.loads((out/'palette.json').read_text()),'records':records,'preview':'output/campus_aerial.png','downloadUrl':'output/UChicago_HydePark.3ds','offlineModelScript':'assets/model-local.js','seo':seo,'hoverPlaces':hover_places}
+data={**web,'modelByteLength':len(model),'modelTransferBytes':len(compressed),'layers':json.loads((out/'layer_map.json').read_text()),'palette':json.loads((out/'palette.json').read_text()),'records':records,'preview':'output/campus_aerial.png','downloadUrl':'output/UChicago_HydePark.glb','offlineModelScript':'assets/model-local.js','seo':seo,'hoverPlaces':hover_places}
 schema={'@context':'https://schema.org','@graph':[
  {'@type':'WebSite','@id':site+'#website','url':site,'name':'UChicago Campus 3D Model','inLanguage':['en','zh-CN'],'sameAs':'https://github.com/sd800/uchicago-3d-arch','image':site+'assets/brand/phoenix-map.png'},
  {'@type':'WebPage','@id':site+'#webpage','url':site,'name':config['title'],'description':config['description'],'inLanguage':['en','zh-CN'],'isPartOf':{'@id':site+'#website'},'mainEntity':{'@id':site+'#model'},'primaryImageOfPage':{'@type':'ImageObject','url':site+'output/campus_aerial.png','width':2400,'height':1850}},
- {'@type':'3DModel','@id':site+'#model','name':'University of Chicago Hyde Park exterior campus model','description':'Independent public-source exterior model with 177 mapped buildings, individual building layers and a separate landscape layer. Model units are meters; unpublished heights and exterior details are estimates.','contentUrl':site+'output/UChicago_HydePark.3ds','encodingFormat':'application/x-3ds','contentSize':str(len(model))+' bytes','sha256':hashlib.sha256(model).hexdigest(),'thumbnailUrl':site+'output/campus_aerial.png','contentLocation':{'@type':'Place','name':'University of Chicago Hyde Park campus','address':{'@type':'PostalAddress','addressLocality':'Chicago','addressRegion':'IL','addressCountry':'US'}},'isBasedOn':['https://maps.uchicago.edu/','https://architecture.uchicago.edu/','https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg','https://www.openstreetmap.org/copyright']}
+ {'@type':'3DModel','@id':site+'#model','name':'University of Chicago Hyde Park exterior campus model','description':'Independent public-source exterior model with 177 mapped buildings, individual building layers and a separate landscape layer. Model units are meters; unpublished heights and exterior details are estimates.','contentUrl':site+'output/UChicago_HydePark.glb','encodingFormat':'model/gltf-binary','contentSize':str(len(model))+' bytes','sha256':hashlib.sha256(model).hexdigest(),'thumbnailUrl':site+'output/campus_aerial.png','contentLocation':{'@type':'Place','name':'University of Chicago Hyde Park campus','address':{'@type':'PostalAddress','addressLocality':'Chicago','addressRegion':'IL','addressCountry':'US'}},'isBasedOn':['https://maps.uchicago.edu/','https://architecture.uchicago.edu/','https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg','https://www.openstreetmap.org/copyright']}
 ]}
 def script_json(value):
  return json.dumps(value,ensure_ascii=False,separators=(',',':')).replace('</',r'<\/')
+
+from model_downloads import downloads,links
+data['downloads']=downloads(root)
+
+for item in schema['@graph']:
+ if item['@type']=='3DModel':
+  glb=data['downloads'][2];item['contentUrl']=site+glb['url'];item['encodingFormat']='application/x-xz'if glb['name'].endswith('.xz')else'model/gltf-binary';item['contentSize']=str((root/glb['url']).stat().st_size)+' bytes';item['sha256']=hashlib.sha256((root/glb['url']).read_bytes()).hexdigest()
 
 template=(root/'scripts/viewer.template.html').read_text()
 bundle=(root/'tmp/viewer.bundle.js').read_text()
@@ -71,7 +78,7 @@ for token,value in {'__SITE_URL__':site,'__SEO_TITLE__':escape(config['title'],q
  template=template.replace(token,value)
 
 def edition(payload,font_url,image_url,icons,logo,script,robots):
- text=template
+ text=template.replace('__MODEL_DOWNLOADS__',links(payload,robots.startswith('noindex')))
  for token,value in {'__CAMPUS_DATA__':script_json(payload),'__TITLE_FONT_URL__':font_url,'__PREVIEW_IMAGE__':image_url,'__FAVICON__':icons['32'],'__FAVICON_16__':icons['16'],'__APPLE_ICON__':icons['apple'],'__LOGO__':logo,'__VIEWER_SCRIPT__':script,'__ROBOTS__':robots}.items():
   text=text.replace(token,value)
  assert not any(token in text for token in ('__CAMPUS_DATA__','__TITLE_FONT_URL__','__PREVIEW_IMAGE__','__FAVICON__','__FAVICON_16__','__APPLE_ICON__','__LOGO__','__VIEWER_SCRIPT__','__ROBOTS__')), 'Unfilled template placeholder'
@@ -80,10 +87,10 @@ def edition(payload,font_url,image_url,icons,logo,script,robots):
 assets=root/'assets'
 (assets/'viewer.bundle.js').write_text(bundle)
 # Classic scripts work beside index.html under file:// without fetching or CORS.
-(assets/'model-local.js').write_text('window.__UCHICAGO_MODEL_BASE64__='+json.dumps(base64model)+';\n')
+(assets/'model-local.js').write_text('// Generated GLB model data, not credentials.\nwindow.__UCHICAGO_MODEL_BASE64__=\"'+'\\\n'.join(base64model[i:i+32]for i in range(0,len(base64model),32))+'\";\n')
 html=edition(data,'assets/fonts/Manrope.ttf','output/campus_aerial.png',{'32':'assets/favicon-32.png','16':'assets/favicon-16.png','apple':'assets/apple-touch-icon.png'},'assets/brand/phoenix-map-192.png','<script defer src="assets/viewer.bundle.js?v='+hashlib.sha256(bundle.encode()).hexdigest()[:12]+'"></script>','index, follow, max-image-preview:large')
 (root/'index.html').write_text(html,encoding='utf-8')
-standalone={**data,'model':base64model,'preview':preview}
+standalone={**data,'downloads':[{**i,'url':i['name']}for i in data['downloads']],'model':base64model,'preview':preview}
 def png_data(path):return 'data:image/png;base64,'+base64.b64encode(path.read_bytes()).decode()
 icons={'32':png_data(assets/'favicon-32.png'),'16':png_data(assets/'favicon-16.png'),'apple':png_data(assets/'apple-touch-icon.png')}
 offline=edition(standalone,'data:font/ttf;base64,'+base64.b64encode((assets/'fonts/Manrope.ttf').read_bytes()).decode(),preview,icons,png_data(assets/'brand/phoenix-map-192.png'),'<script>'+bundle.replace('</script',r'<\/script')+'</script>','noindex, follow')

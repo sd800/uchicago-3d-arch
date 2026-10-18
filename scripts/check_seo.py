@@ -33,7 +33,7 @@ assert not any('hreflang' in a for _,a in page.tags), 'One URL has no separate l
 assert len([a for t,a in page.tags if t=='h1'])==1
 assert '<title>'+config['title']+'</title>' in html
 payload=json.loads(page.scripts['campus-data'])
-assert 'model' not in payload and urlsplit(payload['modelUrl']).path=='assets/campus-model.bin' and payload['modelFormat']=='campus-3ds-v1'
+assert 'model' not in payload and urlsplit(payload['modelUrl']).path=='assets/campus-model.glb.gz' and payload['modelFormat']=='glb-meshopt-v1'
 assert len(payload['records'])==177
 translations=json.loads((root/'sources/building_names_zh.json').read_text())
 assert {r['code'] for r in translations}=={r['code'] for r in payload['records']}
@@ -47,7 +47,7 @@ assert set(static_codes)=={r['code'] for r in payload['records']}
 assert len(static_codes)==177
 assert "Architectural landmarks" not in html
 assert "Project files &amp; source documentation" not in html
-assert "Download Rhino model" in html and "Download 3DS" in html
+assert [item['format']for item in payload['downloads']]==['3DM','FBX','GLB']
 assert "campus-about" not in html and "About this campus model" not in html
 assert '<noscript>' in html
 for tag,a in page.tags:

@@ -1,5 +1,12 @@
 # Changelog
 
+## 26.10.18.5 — 2026-10-18
+
+- Use GLB for browser geometry while preserving metric construction geometry, material colors, navigation and offline entry points.
+- Offer editable 3DM, binary FBX and extension-free GLB downloads in that order; losslessly archive oversized files for hosting.
+- Refine all 158 ordinary campus buildings, with 23 individual architectural profiles, connected entrances, courtyard treatments and resolved ground margins.
+- Validate native mesh interoperability, lossless web attributes and HTTP/local/offline delivery.
+
 ## 26.10.18.4 — 2026-10-18
 
 - Make Guide reference links muted gray with understated underlines and reduce the entire Reference row to 11 px, keeping model download links visually prominent.

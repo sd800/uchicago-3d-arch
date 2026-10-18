@@ -2,11 +2,11 @@
   "url": "https://uchi.arch.songming.org/",
   "domain": "uchi.arch.songming.org",
   "title": "UChicago Campus 3D Model | Hyde Park Campus",
-  "description": "Explore the University of Chicago Hyde Park campus in 3D: 177 buildings, Main Quads, roads and green spaces, with layered Rhino and 3DS model downloads.",
+  "description": "Explore the University of Chicago Hyde Park campus in 3D: 177 buildings, Main Quads, roads and green spaces, with layered 3DM, FBX and GLB model downloads.",
   "imageAlt": "Bird’s-eye 3D exterior model of the University of Chicago Hyde Park campus, with buildings, streets, plazas and green spaces.",
   "zh": {
     "title": "芝加哥大学 · 三维校区 | 海德公园校区 3D 地图",
-    "description": "探索芝加哥大学海德公园校区的三维地图：177栋建筑、主庭院区、道路、室外广场与绿地景观，支持逐栋建筑分层、地标漫游，以及 Rhino 和 3DS 模型下载。",
+    "description": "探索芝加哥大学海德公园校区的三维地图：177栋建筑、主庭院区、道路、室外广场与绿地景观，支持逐栋建筑分层、地标漫游，以及 3DM、FBX 和 GLB 模型下载。",
     "imageAlt": "芝加哥大学海德公园校区室外空间三维鸟瞰模型，展示建筑、道路、广场与绿地。"
   }
 }
