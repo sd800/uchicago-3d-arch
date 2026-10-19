@@ -40,3 +40,7 @@ After architectural review, validate finite coordinates, valid/closed CAD geomet
 ## Rockefeller Chapel correction
 
 The previous generic multi-row tower windows and low aisle treatment do not meet this standard. Re-review against the university's exterior/aerial photographic archive and official architecture descriptions. In particular, check the single high nave, transverse projection, eastern carillon tower, monumental lancet groups, stepped buttresses, south entrance and the bell-stage apertures before marking the reconstruction complete.
+
+## Complementary visual sources
+
+Use satellite/aerial imagery to verify roof plans, relative masses, courtyards and ground connections; use street views and reliable owner/architect/photographer images to verify elevations, entries and details. Reconcile conflicts between conceptual renders and visible completed construction. A general statement such as “green roofs” does not establish which roof planes are planted. Record direct visual observations and distinguish imagery copyright from a known acquisition date.

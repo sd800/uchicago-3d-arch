@@ -1,6 +1,6 @@
 {
   "review_date": "2026-10-18",
-  "scope": "Crerar detailed source-to-model exterior reconstruction and Harper optimized exterior review, following the recorded Rockefeller and Ratner revisions. Other historical joinery reviews are not certification under the current modeling standard.",
+  "scope": "Detailed Main Quadrangles / Harper reconstruction and a later targeted Campus North roof/material correction, following retained source-specific Highlights. Historical joinery alone is not certification under the current modeling standard.",
   "building_highlight_count": 19,
   "reconstructed_this_review": 1,
   "joinery_count_is_not_fidelity_evidence": true,
@@ -9,17 +9,21 @@
       "id": "10657061",
       "code": "U002",
       "name": "Campus North Residential Commons",
-      "decision": "retained existing individual exterior after review",
+      "decision": "targeted roof and low dining-range correction; remaining exterior not certified as detailed",
       "features_reviewed": [
-        "Three towers at different five/eleven/fifteen-storey heights",
-        "Interlocking open courtyards",
-        "Separate low commons wings",
-        "Recessed glazing and planted roofs"
+        "Three residential bars have pale gray-white membrane roofs and supported parapets; diagonal bar boundaries follow the mapped outline and satellite roof relationships",
+        "Lower Baker Dining Commons has a separate bounded planted roof, maintenance margin and circulation strip",
+        "Mapped open courtyards retained"
       ],
       "reference": "https://studiogang.com/projects/university-of-chicago-campus-north-residential-commons/",
       "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations.",
       "previous_review_decision": "retained existing individual exterior after review",
-      "fidelity_status": "Not certified under the current standard; source-to-model architectural re-review remains required."
+      "fidelity_status": "Not certified under the current standard; source-to-model architectural re-review remains required.",
+      "roof_reference": "https://news.uchicago.edu/story/university-chicago-opens-campus-north-residential-commons",
+      "low_roof_reference": "https://magprod1.uchicago.edu/university-news/hard-hat-tour-campus-north-residential-commons",
+      "source_limits": "Official concept plan distinguishes residential bars and low dining roof; sections and planted bed boundaries remain estimates. Green roof system is documented, but tower tops must not all be represented as lawn.",
+      "satellite_reference": "https://www.google.com/maps/@41.79442,-87.59877,220m/data=!3m1!1e3",
+      "satellite_observation": "Viewed 2026-10-18: three slender residential bars show pale gray-white roof membranes and small plant/equipment, with a broad olive planted Baker Dining Commons roof to the west; two courtyard voids remain visible. The interface gives copyright 2026, not a verified acquisition date."
     },
     {
       "id": "152586235",
@@ -155,7 +159,7 @@
       "id": "157655069",
       "code": "U038",
       "name": "Hutchinson Commons",
-      "decision": "retained existing individual exterior after review",
+      "decision": "reconstructed detailed exterior with authored sections, apertures and joinery",
       "features_reviewed": [
         "Single-storey Gothic great hall",
         "Tall pointed traceried lights",
@@ -165,7 +169,19 @@
       "reference": "https://architecture.uchicago.edu/locations/tower_group_mitchell_tower_hutchinson_commons_reynolds_club_mandel_hall/",
       "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations.",
       "previous_review_decision": "retained existing individual exterior after review",
-      "fidelity_status": "Not certified under the current standard; source-to-model architectural re-review remains required."
+      "fidelity_status": "Not certified under the current standard; source-to-model architectural re-review remains required.",
+      "source_model_comparison": [
+        "Hutchinson single high dining hall",
+        "recessed full-height traceried apertures",
+        "steep red roof and distinct low service range"
+      ],
+      "references": [
+        "https://architecture.uchicago.edu/locations/tower_group_mitchell_tower_hutchinson_commons_reynolds_club_mandel_hall/",
+        "https://mag.uchicago.edu/aerials",
+        "https://uchicagocampusmeanderingsphotos.blogspot.com/2015/11/third-posting-of-photos-from-uchicago.html",
+        "https://news.uchicago.edu/gallery/winter-2025-2026-snow-gallery"
+      ],
+      "dimension_limits": "Public georeferenced footprints and retained published maximums; unpublished local sections, bay widths and ornament are proportional exterior estimates. Photographic interpretation, not survey/BIM accuracy."
     },
     {
       "id": "142870150",
@@ -316,7 +332,7 @@
       "id": "156128082",
       "code": "U136",
       "name": "Harper Memorial Library",
-      "decision": "Optimized exterior reconstruction",
+      "decision": "reconstructed detailed exterior with authored sections, apertures and joinery",
       "features_reviewed": [
         "Twin stone towers with attached corner turrets",
         "Eight central reading-hall windows per long elevation",
@@ -329,7 +345,19 @@
       "review_release": "26.10.18.15",
       "photo_comparison": [
         "https://d3qi0qp55mx5f5.cloudfront.net/architecture/i/locations/large_images/HARPER_large.jpg?mtime=1378903906"
-      ]
+      ],
+      "source_model_comparison": [
+        "Eight true recessed traceried reading-room apertures per elevation",
+        "two tower ends with grouped tall lights, upper galleries, attached corner turrets and supported parapets",
+        "connected north/south archivolt entries and stone relief spandrels"
+      ],
+      "references": [
+        "https://architecture.uchicago.edu/locations/william_rainey_harper_memorial_library/",
+        "https://mag.uchicago.edu/aerials",
+        "https://uchicagocampusmeanderingsphotos.blogspot.com/2015/11/third-posting-of-photos-from-uchicago.html",
+        "https://news.uchicago.edu/gallery/winter-2025-2026-snow-gallery"
+      ],
+      "dimension_limits": "Public georeferenced footprints and retained published maximums; unpublished local sections, bay widths and ornament are proportional exterior estimates. Photographic interpretation, not survey/BIM accuracy."
     },
     {
       "id": "441025431",

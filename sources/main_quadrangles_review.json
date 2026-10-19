@@ -1,0 +1,1118 @@
+{
+  "base_release": "26.10.18.15",
+  "date": "2026-10-18",
+  "scope": "34 Main Quadrangles / Hull Court / immediately enclosing south and side ranges, including detailed Harper; Mitchell retained after review. Crerar, other Medical Center and distant campus geometry protected.",
+  "dimension_status": "Public georeferenced footprints and retained published maximums; unpublished local sections, bay widths and ornament are proportional exterior estimates. Photographic interpretation, not survey/BIM accuracy.",
+  "photographs_redistributed": false,
+  "buildings": [
+    {
+      "code": "U032",
+      "osm_id": 1228219576,
+      "name": "Mitchell Tower",
+      "section": {
+        "eave_m": 24,
+        "roof_rise_m": 0,
+        "levels": 1,
+        "entry": "S",
+        "gables": [],
+        "dormers": 0,
+        "roof": "RoofSlate",
+        "bay_m": 4.0,
+        "pointed_top": false
+      },
+      "references": [
+        "https://architecture.uchicago.edu/locations/tower_group_mitchell_tower_hutchinson_commons_reynolds_club_mandel_hall/",
+        "https://mag.uchicago.edu/aerials",
+        "https://uchicagocampusmeanderingsphotos.blogspot.com/2015/11/third-posting-of-photos-from-uchicago.html",
+        "https://news.uchicago.edu/gallery/winter-2025-2026-snow-gallery"
+      ],
+      "modeled_features": [
+        "Open cross passage",
+        "square bell-stage apertures",
+        "four corner turrets and crenellated crown"
+      ],
+      "photo_comparison": "University aerial photographs establish footprint relationships, roof material and range silhouettes; owner elevations and photographer street-level views resolve the visible principal frontage. Repeated minor bays on obscured rear walls are estimated.",
+      "known_vs_estimated": "Mapped plan retained. Eaves, member sections, minor door positions and repeated secondary openings are exterior estimates; only retained published maxima are measured claims.",
+      "remaining_limits": "No surveyed facade elevations, interiors, readable heraldry or scanned figurative carving. Vegetation can obscure rear-wall details in photographs.",
+      "decision": "retained source-specific open-passage tower, reviewed in context"
+    },
+    {
+      "code": "U034",
+      "osm_id": 157655090,
+      "name": "Zoology",
+      "section": {
+        "eave_m": 13.0,
+        "roof_rise_m": 4.8,
+        "levels": 3,
+        "entry": "S",
+        "gables": [
+          0.13,
+          0.37,
+          0.63,
+          0.87
+        ],
+        "dormers": 0,
+        "roof": "RoofClay",
+        "bay_m": 4.0,
+        "pointed_top": false,
+        "opposite_gables": true
+      },
+      "references": [
+        "https://architecture.uchicago.edu/locations/main_quadrangle/",
+        "https://mag.uchicago.edu/aerials",
+        "https://uchicagocampusmeanderingsphotos.blogspot.com/2015/11/third-posting-of-photos-from-uchicago.html",
+        "https://news.uchicago.edu/gallery/winter-2025-2026-snow-gallery"
+      ],
+      "modeled_features": [
+        "Hull Court north-east zoology range",
+        "paired end gables",
+        "red roof and stone mullioned laboratory bays"
+      ],
+      "photo_comparison": "University aerial photographs establish footprint relationships, roof material and range silhouettes; owner elevations and photographer street-level views resolve the visible principal frontage. Repeated minor bays on obscured rear walls are estimated.",
+      "known_vs_estimated": "Mapped plan retained. Eaves, member sections, minor door positions and repeated secondary openings are exterior estimates; only retained published maxima are measured claims.",
+      "remaining_limits": "No surveyed facade elevations, interiors, readable heraldry or scanned figurative carving. Vegetation can obscure rear-wall details in photographs.",
+      "decision": "detailed exterior reconstruction"
+    },
+    {
+      "code": "U035",
+      "osm_id": 285311999,
+      "name": "Cobb Gate",
+      "section": {
+        "eave_m": 7.9,
+        "roof_rise_m": 2.3,
+        "levels": 2,
+        "entry": "E",
+        "gables": [],
+        "dormers": 0,
+        "roof": "RoofClay",
+        "bay_m": 4.0,
+        "pointed_top": false
+      },
+      "references": [
+        "https://architecture.uchicago.edu/locations/cobb_gate/",
+        "https://mag.uchicago.edu/aerials",
+        "https://uchicagocampusmeanderingsphotos.blogspot.com/2015/11/third-posting-of-photos-from-uchicago.html",
+        "https://news.uchicago.edu/gallery/winter-2025-2026-snow-gallery"
+      ],
+      "modeled_features": [
+        "Covered Cobb Gate with genuine north-south promenade opening and lateral covered axis",
+        "recessed arch shoulders and roof over the pedestrian passage"
+      ],
+      "photo_comparison": "University aerial photographs establish footprint relationships, roof material and range silhouettes; owner elevations and photographer street-level views resolve the visible principal frontage. Repeated minor bays on obscured rear walls are estimated.",
+      "known_vs_estimated": "Mapped plan retained. Eaves, member sections, minor door positions and repeated secondary openings are exterior estimates; only retained published maxima are measured claims.",
+      "remaining_limits": "No surveyed facade elevations, interiors, readable heraldry or scanned figurative carving. Vegetation can obscure rear-wall details in photographs.",
+      "decision": "detailed exterior reconstruction"
+    },
+    {
+      "code": "U036",
+      "osm_id": 154421809,
+      "name": "Anatomy",
+      "section": {
+        "eave_m": 13.0,
+        "roof_rise_m": 4.8,
+        "levels": 3,
+        "entry": "S",
+        "gables": [
+          0.13,
+          0.37,
+          0.63,
+          0.87
+        ],
+        "dormers": 0,
+        "roof": "RoofClay",
+        "bay_m": 4.0,
+        "pointed_top": false,
+        "opposite_gables": true
+      },
+      "references": [
+        "https://architecture.uchicago.edu/locations/main_quadrangle/",
+        "https://mag.uchicago.edu/aerials",
+        "https://uchicagocampusmeanderingsphotos.blogspot.com/2015/11/third-posting-of-photos-from-uchicago.html",
+        "https://news.uchicago.edu/gallery/winter-2025-2026-snow-gallery"
+      ],
+      "modeled_features": [
+        "Anatomy north-west Hull Court range",
+        "offset stone wings and red gables",
+        "connected gate range"
+      ],
+      "photo_comparison": "University aerial photographs establish footprint relationships, roof material and range silhouettes; owner elevations and photographer street-level views resolve the visible principal frontage. Repeated minor bays on obscured rear walls are estimated.",
+      "known_vs_estimated": "Mapped plan retained. Eaves, member sections, minor door positions and repeated secondary openings are exterior estimates; only retained published maxima are measured claims.",
+      "remaining_limits": "No surveyed facade elevations, interiors, readable heraldry or scanned figurative carving. Vegetation can obscure rear-wall details in photographs.",
+      "decision": "detailed exterior reconstruction"
+    },
+    {
+      "code": "U038",
+      "osm_id": 157655069,
+      "name": "Hutchinson Commons",
+      "section": {
+        "eave_m": 13.8,
+        "roof_rise_m": 6.0,
+        "levels": 1,
+        "entry": "S",
+        "gables": [],
+        "dormers": 0,
+        "roof": "RoofClay",
+        "bay_m": 4.0,
+        "pointed_top": false
+      },
+      "references": [
+        "https://architecture.uchicago.edu/locations/tower_group_mitchell_tower_hutchinson_commons_reynolds_club_mandel_hall/",
+        "https://mag.uchicago.edu/aerials",
+        "https://uchicagocampusmeanderingsphotos.blogspot.com/2015/11/third-posting-of-photos-from-uchicago.html",
+        "https://news.uchicago.edu/gallery/winter-2025-2026-snow-gallery"
+      ],
+      "modeled_features": [
+        "Hutchinson single high dining hall",
+        "recessed full-height traceried apertures",
+        "steep red roof and distinct low service range"
+      ],
+      "photo_comparison": "University aerial photographs establish footprint relationships, roof material and range silhouettes; owner elevations and photographer street-level views resolve the visible principal frontage. Repeated minor bays on obscured rear walls are estimated.",
+      "known_vs_estimated": "Mapped plan retained. Eaves, member sections, minor door positions and repeated secondary openings are exterior estimates; only retained published maxima are measured claims.",
+      "remaining_limits": "No surveyed facade elevations, interiors, readable heraldry or scanned figurative carving. Vegetation can obscure rear-wall details in photographs.",
+      "decision": "detailed exterior reconstruction"
+    },
+    {
+      "code": "U039",
+      "osm_id": 154421807,
+      "name": "Snell-Hitchcock Halls",
+      "section": {
+        "eave_m": 10.2,
+        "roof_rise_m": 4.8,
+        "levels": 3,
+        "entry": "S",
+        "gables": [
+          0.18,
+          0.82
+        ],
+        "dormers": 4,
+        "roof": "RoofClay",
+        "bay_m": 4.0,
+        "pointed_top": false
+      },
+      "references": [
+        "https://architecture.uchicago.edu/locations/main_quadrangle/",
+        "https://mag.uchicago.edu/aerials",
+        "https://uchicagocampusmeanderingsphotos.blogspot.com/2015/11/third-posting-of-photos-from-uchicago.html",
+        "https://news.uchicago.edu/gallery/winter-2025-2026-snow-gallery"
+      ],
+      "modeled_features": [
+        "Low three-storey Snell-Hitchcock residential ranges",
+        "L-shaped open court",
+        "broad red roof, low dormers and projecting bays"
+      ],
+      "photo_comparison": "University aerial photographs establish footprint relationships, roof material and range silhouettes; owner elevations and photographer street-level views resolve the visible principal frontage. Repeated minor bays on obscured rear walls are estimated.",
+      "known_vs_estimated": "Mapped plan retained. Eaves, member sections, minor door positions and repeated secondary openings are exterior estimates; only retained published maxima are measured claims.",
+      "remaining_limits": "No surveyed facade elevations, interiors, readable heraldry or scanned figurative carving. Vegetation can obscure rear-wall details in photographs.",
+      "decision": "detailed exterior reconstruction"
+    },
+    {
+      "code": "U042",
+      "osm_id": 157655073,
+      "name": "Reynolds Club",
+      "section": {
+        "eave_m": 13.4,
+        "roof_rise_m": 5.1,
+        "levels": 3,
+        "entry": "W",
+        "gables": [
+          0.18,
+          0.81
+        ],
+        "dormers": 3,
+        "roof": "RoofClay",
+        "bay_m": 4.0,
+        "pointed_top": false
+      },
+      "references": [
+        "https://architecture.uchicago.edu/locations/main_quadrangle/",
+        "https://mag.uchicago.edu/aerials",
+        "https://uchicagocampusmeanderingsphotos.blogspot.com/2015/11/third-posting-of-photos-from-uchicago.html",
+        "https://news.uchicago.edu/gallery/winter-2025-2026-snow-gallery"
+      ],
+      "modeled_features": [
+        "Reynolds angled Tower Group range",
+        "separate courtyard frontage, stone portal and red dormered roof below Mitchell"
+      ],
+      "photo_comparison": "University aerial photographs establish footprint relationships, roof material and range silhouettes; owner elevations and photographer street-level views resolve the visible principal frontage. Repeated minor bays on obscured rear walls are estimated.",
+      "known_vs_estimated": "Mapped plan retained. Eaves, member sections, minor door positions and repeated secondary openings are exterior estimates; only retained published maxima are measured claims.",
+      "remaining_limits": "No surveyed facade elevations, interiors, readable heraldry or scanned figurative carving. Vegetation can obscure rear-wall details in photographs.",
+      "decision": "detailed exterior reconstruction"
+    },
+    {
+      "code": "U050",
+      "osm_id": 157655067,
+      "name": "Erman Biology Center",
+      "section": {
+        "eave_m": 13.0,
+        "roof_rise_m": 4.8,
+        "levels": 3,
+        "entry": "W",
+        "gables": [
+          0.15,
+          0.5,
+          0.85
+        ],
+        "dormers": 0,
+        "roof": "RoofClay",
+        "bay_m": 4.0,
+        "pointed_top": false,
+        "opposite_gables": true
+      },
+      "references": [
+        "https://architecture.uchicago.edu/locations/main_quadrangle/",
+        "https://mag.uchicago.edu/aerials",
+        "https://uchicagocampusmeanderingsphotos.blogspot.com/2015/11/third-posting-of-photos-from-uchicago.html",
+        "https://news.uchicago.edu/gallery/winter-2025-2026-snow-gallery"
+      ],
+      "modeled_features": [
+        "Erman eastern Hull Court laboratory",
+        "deep stone-framed window groups, red roof and gabled ends"
+      ],
+      "photo_comparison": "University aerial photographs establish footprint relationships, roof material and range silhouettes; owner elevations and photographer street-level views resolve the visible principal frontage. Repeated minor bays on obscured rear walls are estimated.",
+      "known_vs_estimated": "Mapped plan retained. Eaves, member sections, minor door positions and repeated secondary openings are exterior estimates; only retained published maxima are measured claims.",
+      "remaining_limits": "No surveyed facade elevations, interiors, readable heraldry or scanned figurative carving. Vegetation can obscure rear-wall details in photographs.",
+      "decision": "detailed exterior reconstruction"
+    },
+    {
+      "code": "U051",
+      "osm_id": 152422457,
+      "name": "Culver",
+      "section": {
+        "eave_m": 16.1,
+        "roof_rise_m": 4.5,
+        "levels": 4,
+        "entry": "E",
+        "gables": [
+          0.15,
+          0.5,
+          0.85
+        ],
+        "dormers": 0,
+        "roof": "RoofClay",
+        "bay_m": 4.0,
+        "pointed_top": false,
+        "opposite_gables": true
+      },
+      "references": [
+        "https://architecture.uchicago.edu/locations/main_quadrangle/",
+        "https://mag.uchicago.edu/aerials",
+        "https://uchicagocampusmeanderingsphotos.blogspot.com/2015/11/third-posting-of-photos-from-uchicago.html",
+        "https://news.uchicago.edu/gallery/winter-2025-2026-snow-gallery"
+      ],
+      "modeled_features": [
+        "Culver western Hull Court range",
+        "higher laboratory floors, projecting central plan bay and distinct pitched roof"
+      ],
+      "photo_comparison": "University aerial photographs establish footprint relationships, roof material and range silhouettes; owner elevations and photographer street-level views resolve the visible principal frontage. Repeated minor bays on obscured rear walls are estimated.",
+      "known_vs_estimated": "Mapped plan retained. Eaves, member sections, minor door positions and repeated secondary openings are exterior estimates; only retained published maxima are measured claims.",
+      "remaining_limits": "No surveyed facade elevations, interiors, readable heraldry or scanned figurative carving. Vegetation can obscure rear-wall details in photographs.",
+      "decision": "detailed exterior reconstruction"
+    },
+    {
+      "code": "U054",
+      "osm_id": 157655071,
+      "name": "Mandel Hall",
+      "section": {
+        "eave_m": 13.7,
+        "roof_rise_m": 5.0,
+        "levels": 1,
+        "entry": "W",
+        "gables": [
+          0.5
+        ],
+        "dormers": 0,
+        "roof": "RoofClay",
+        "bay_m": 5.5,
+        "pointed_top": true,
+        "portal_width": 2.8
+      },
+      "references": [
+        "https://architecture.uchicago.edu/locations/main_quadrangle/",
+        "https://mag.uchicago.edu/aerials",
+        "https://uchicagocampusmeanderingsphotos.blogspot.com/2015/11/third-posting-of-photos-from-uchicago.html",
+        "https://news.uchicago.edu/gallery/winter-2025-2026-snow-gallery"
+      ],
+      "modeled_features": [
+        "Mandel auditorium volume",
+        "tall Gothic hall windows rather than classroom rows",
+        "connected Reynolds end and lower entrance range"
+      ],
+      "photo_comparison": "University aerial photographs establish footprint relationships, roof material and range silhouettes; owner elevations and photographer street-level views resolve the visible principal frontage. Repeated minor bays on obscured rear walls are estimated.",
+      "known_vs_estimated": "Mapped plan retained. Eaves, member sections, minor door positions and repeated secondary openings are exterior estimates; only retained published maxima are measured claims.",
+      "remaining_limits": "No surveyed facade elevations, interiors, readable heraldry or scanned figurative carving. Vegetation can obscure rear-wall details in photographs.",
+      "decision": "detailed exterior reconstruction"
+    },
+    {
+      "code": "U057",
+      "osm_id": 154656512,
+      "name": "Searle Chemical Laboratory",
+      "section": {
+        "eave_m": 18.8,
+        "roof_rise_m": 0,
+        "levels": 4,
+        "entry": "E",
+        "gables": [],
+        "dormers": 0,
+        "roof": "RoofMembrane",
+        "bay_m": 4.0,
+        "pointed_top": false
+      },
+      "references": [
+        "https://magazine.uchicago.edu/1008/features/green-evolution.shtml",
+        "https://mag.uchicago.edu/aerials",
+        "https://uchicagocampusmeanderingsphotos.blogspot.com/2015/11/third-posting-of-photos-from-uchicago.html",
+        "https://news.uchicago.edu/gallery/winter-2025-2026-snow-gallery"
+      ],
+      "modeled_features": [
+        "Four-floor Searle laboratory",
+        "flat roof, four heat-recovery chambers with louvered faces, recessed double-height entry"
+      ],
+      "photo_comparison": "University aerial photographs establish footprint relationships, roof material and range silhouettes; owner elevations and photographer street-level views resolve the visible principal frontage. Repeated minor bays on obscured rear walls are estimated.",
+      "known_vs_estimated": "Mapped plan retained. Eaves, member sections, minor door positions and repeated secondary openings are exterior estimates; only retained published maxima are measured claims.",
+      "remaining_limits": "No surveyed facade elevations, interiors, readable heraldry or scanned figurative carving. Vegetation can obscure rear-wall details in photographs.",
+      "decision": "detailed exterior reconstruction"
+    },
+    {
+      "code": "U067",
+      "osm_id": 157655074,
+      "name": "Ryerson Laboratory",
+      "section": {
+        "eave_m": 18.4,
+        "roof_rise_m": 5.5,
+        "levels": 4,
+        "entry": "S",
+        "gables": [],
+        "dormers": 0,
+        "roof": "RoofClay",
+        "bay_m": 4.0,
+        "pointed_top": false
+      },
+      "references": [
+        "https://architecture.uchicago.edu/locations/main_quadrangle/",
+        "https://mag.uchicago.edu/aerials",
+        "https://uchicagocampusmeanderingsphotos.blogspot.com/2015/11/third-posting-of-photos-from-uchicago.html",
+        "https://news.uchicago.edu/gallery/winter-2025-2026-snow-gallery"
+      ],
+      "modeled_features": [
+        "Ryerson stepped lecture/laboratory plan",
+        "gabled main frontage and separate rear range",
+        "rounded copper observatory on supported drum"
+      ],
+      "photo_comparison": "University aerial photographs establish footprint relationships, roof material and range silhouettes; owner elevations and photographer street-level views resolve the visible principal frontage. Repeated minor bays on obscured rear walls are estimated.",
+      "known_vs_estimated": "Mapped plan retained. Eaves, member sections, minor door positions and repeated secondary openings are exterior estimates; only retained published maxima are measured claims.",
+      "remaining_limits": "No surveyed facade elevations, interiors, readable heraldry or scanned figurative carving. Vegetation can obscure rear-wall details in photographs.",
+      "decision": "detailed exterior reconstruction"
+    },
+    {
+      "code": "U068",
+      "osm_id": 157655066,
+      "name": "Eckhart Hall",
+      "section": {
+        "eave_m": 13.9,
+        "roof_rise_m": 5.0,
+        "levels": 3,
+        "entry": "S",
+        "gables": [
+          0.18,
+          0.82
+        ],
+        "dormers": 2,
+        "roof": "RoofClay",
+        "bay_m": 4.0,
+        "pointed_top": true
+      },
+      "references": [
+        "https://architecture.uchicago.edu/locations/main_quadrangle/",
+        "https://mag.uchicago.edu/aerials",
+        "https://uchicagocampusmeanderingsphotos.blogspot.com/2015/11/third-posting-of-photos-from-uchicago.html",
+        "https://news.uchicago.edu/gallery/winter-2025-2026-snow-gallery"
+      ],
+      "modeled_features": [
+        "Eckhart teaching wings",
+        "red gables and dormers",
+        "large mullioned quad-facing windows and attached side link"
+      ],
+      "photo_comparison": "University aerial photographs establish footprint relationships, roof material and range silhouettes; owner elevations and photographer street-level views resolve the visible principal frontage. Repeated minor bays on obscured rear walls are estimated.",
+      "known_vs_estimated": "Mapped plan retained. Eaves, member sections, minor door positions and repeated secondary openings are exterior estimates; only retained published maxima are measured claims.",
+      "remaining_limits": "No surveyed facade elevations, interiors, readable heraldry or scanned figurative carving. Vegetation can obscure rear-wall details in photographs.",
+      "decision": "detailed exterior reconstruction"
+    },
+    {
+      "code": "U069",
+      "osm_id": 154859382,
+      "name": "Kent Chemical Laboratory",
+      "section": {
+        "eave_m": 14.8,
+        "roof_rise_m": 5.1,
+        "levels": 3,
+        "entry": "S",
+        "gables": [],
+        "dormers": 0,
+        "roof": "RoofClay",
+        "bay_m": 4.0,
+        "pointed_top": false
+      },
+      "references": [
+        "https://architecture.uchicago.edu/locations/main_quadrangle/",
+        "https://mag.uchicago.edu/aerials",
+        "https://uchicagocampusmeanderingsphotos.blogspot.com/2015/11/third-posting-of-photos-from-uchicago.html",
+        "https://news.uchicago.edu/gallery/winter-2025-2026-snow-gallery"
+      ],
+      "modeled_features": [
+        "Kent central lecture hall as a separate bevelled/octagonal roof volume",
+        "south laboratory frontage with twin gables and entry"
+      ],
+      "photo_comparison": "University aerial photographs establish footprint relationships, roof material and range silhouettes; owner elevations and photographer street-level views resolve the visible principal frontage. Repeated minor bays on obscured rear walls are estimated.",
+      "known_vs_estimated": "Mapped plan retained. Eaves, member sections, minor door positions and repeated secondary openings are exterior estimates; only retained published maxima are measured claims.",
+      "remaining_limits": "No surveyed facade elevations, interiors, readable heraldry or scanned figurative carving. Vegetation can obscure rear-wall details in photographs.",
+      "decision": "detailed exterior reconstruction"
+    },
+    {
+      "code": "U075",
+      "osm_id": 154859380,
+      "name": "Jones Laboratory",
+      "section": {
+        "eave_m": 14.8,
+        "roof_rise_m": 3.6,
+        "levels": 4,
+        "entry": "E",
+        "gables": [
+          0.26,
+          0.74
+        ],
+        "dormers": 2,
+        "roof": "RoofSlate",
+        "bay_m": 4.0,
+        "pointed_top": false
+      },
+      "references": [
+        "https://architecture.uchicago.edu/locations/main_quadrangle/",
+        "https://mag.uchicago.edu/aerials",
+        "https://uchicagocampusmeanderingsphotos.blogspot.com/2015/11/third-posting-of-photos-from-uchicago.html",
+        "https://news.uchicago.edu/gallery/winter-2025-2026-snow-gallery"
+      ],
+      "modeled_features": [
+        "Jones historic stone chemistry wings",
+        "slate roof at separate range heights",
+        "projecting east entrance and stone window surrounds"
+      ],
+      "photo_comparison": "University aerial photographs establish footprint relationships, roof material and range silhouettes; owner elevations and photographer street-level views resolve the visible principal frontage. Repeated minor bays on obscured rear walls are estimated.",
+      "known_vs_estimated": "Mapped plan retained. Eaves, member sections, minor door positions and repeated secondary openings are exterior estimates; only retained published maxima are measured claims.",
+      "remaining_limits": "No surveyed facade elevations, interiors, readable heraldry or scanned figurative carving. Vegetation can obscure rear-wall details in photographs.",
+      "decision": "detailed exterior reconstruction"
+    },
+    {
+      "code": "U084",
+      "osm_id": 152284265,
+      "name": "Edward H. Levi Hall",
+      "section": {
+        "eave_m": 25,
+        "roof_rise_m": 0,
+        "levels": 6,
+        "entry": "E",
+        "gables": [],
+        "dormers": 0,
+        "roof": "RoofMembrane",
+        "bay_m": 4.0,
+        "pointed_top": false
+      },
+      "references": [
+        "https://architecture.uchicago.edu/locations/main_quadrangle/",
+        "https://mag.uchicago.edu/aerials",
+        "https://uchicagocampusmeanderingsphotos.blogspot.com/2015/11/third-posting-of-photos-from-uchicago.html",
+        "https://news.uchicago.edu/gallery/winter-2025-2026-snow-gallery"
+      ],
+      "modeled_features": [
+        "Levi modern limestone bar",
+        "actual east-west open ground passage and glazed upper bridge",
+        "regular rectangular office bays"
+      ],
+      "photo_comparison": "University aerial photographs establish footprint relationships, roof material and range silhouettes; owner elevations and photographer street-level views resolve the visible principal frontage. Repeated minor bays on obscured rear walls are estimated.",
+      "known_vs_estimated": "Mapped plan retained. Eaves, member sections, minor door positions and repeated secondary openings are exterior estimates; only retained published maxima are measured claims.",
+      "remaining_limits": "No surveyed facade elevations, interiors, readable heraldry or scanned figurative carving. Vegetation can obscure rear-wall details in photographs.",
+      "decision": "detailed exterior reconstruction"
+    },
+    {
+      "code": "U097",
+      "osm_id": 155201128,
+      "name": "Walker Museum",
+      "section": {
+        "eave_m": 14.6,
+        "roof_rise_m": 6.0,
+        "levels": 3,
+        "entry": "S",
+        "gables": [],
+        "dormers": 0,
+        "roof": "RoofClay",
+        "bay_m": 4.0,
+        "pointed_top": true
+      },
+      "references": [
+        "https://architecture.uchicago.edu/locations/main_quadrangle/",
+        "https://mag.uchicago.edu/aerials",
+        "https://uchicagocampusmeanderingsphotos.blogspot.com/2015/11/third-posting-of-photos-from-uchicago.html",
+        "https://news.uchicago.edu/gallery/winter-2025-2026-snow-gallery"
+      ],
+      "modeled_features": [
+        "Walker museum frontage",
+        "octagonal south bay with pointed copper/red roof and tall traceried gallery",
+        "connected red-roofed wings"
+      ],
+      "photo_comparison": "University aerial photographs establish footprint relationships, roof material and range silhouettes; owner elevations and photographer street-level views resolve the visible principal frontage. Repeated minor bays on obscured rear walls are estimated.",
+      "known_vs_estimated": "Mapped plan retained. Eaves, member sections, minor door positions and repeated secondary openings are exterior estimates; only retained published maxima are measured claims.",
+      "remaining_limits": "No surveyed facade elevations, interiors, readable heraldry or scanned figurative carving. Vegetation can obscure rear-wall details in photographs.",
+      "decision": "detailed exterior reconstruction"
+    },
+    {
+      "code": "U098",
+      "osm_id": 156343655,
+      "name": "Cobb Hall",
+      "section": {
+        "eave_m": 17.6,
+        "roof_rise_m": 5.0,
+        "levels": 4,
+        "entry": "E",
+        "gables": [
+          0.18,
+          0.5,
+          0.82
+        ],
+        "dormers": 2,
+        "roof": "RoofClay",
+        "bay_m": 4.0,
+        "pointed_top": false
+      },
+      "references": [
+        "https://architecture.uchicago.edu/locations/cobb_lecture_hall/",
+        "https://mag.uchicago.edu/aerials",
+        "https://uchicagocampusmeanderingsphotos.blogspot.com/2015/11/third-posting-of-photos-from-uchicago.html",
+        "https://news.uchicago.edu/gallery/winter-2025-2026-snow-gallery"
+      ],
+      "modeled_features": [
+        "Cobb inward-facing ornate quad entrance with layered stone portal",
+        "projecting corner turrets and asymmetric restrained Ellis frontage"
+      ],
+      "photo_comparison": "University aerial photographs establish footprint relationships, roof material and range silhouettes; owner elevations and photographer street-level views resolve the visible principal frontage. Repeated minor bays on obscured rear walls are estimated.",
+      "known_vs_estimated": "Mapped plan retained. Eaves, member sections, minor door positions and repeated secondary openings are exterior estimates; only retained published maxima are measured claims.",
+      "remaining_limits": "No surveyed facade elevations, interiors, readable heraldry or scanned figurative carving. Vegetation can obscure rear-wall details in photographs.",
+      "decision": "detailed exterior reconstruction"
+    },
+    {
+      "code": "U100",
+      "osm_id": 156044644,
+      "name": "Pick Hall",
+      "section": {
+        "eave_m": 17.8,
+        "roof_rise_m": 0,
+        "levels": 4,
+        "entry": "W",
+        "gables": [],
+        "dormers": 0,
+        "roof": "RoofMembrane",
+        "bay_m": 4.0,
+        "pointed_top": false
+      },
+      "references": [
+        "https://architecture.uchicago.edu/locations/main_quadrangle/",
+        "https://mag.uchicago.edu/aerials",
+        "https://uchicagocampusmeanderingsphotos.blogspot.com/2015/11/third-posting-of-photos-from-uchicago.html",
+        "https://news.uchicago.edu/gallery/winter-2025-2026-snow-gallery"
+      ],
+      "modeled_features": [
+        "Pick contemporary flat roof, stone wall planes and rectangular windows",
+        "entrance aligned to the quadrangle without Gothic additions"
+      ],
+      "photo_comparison": "University aerial photographs establish footprint relationships, roof material and range silhouettes; owner elevations and photographer street-level views resolve the visible principal frontage. Repeated minor bays on obscured rear walls are estimated.",
+      "known_vs_estimated": "Mapped plan retained. Eaves, member sections, minor door positions and repeated secondary openings are exterior estimates; only retained published maxima are measured claims.",
+      "remaining_limits": "No surveyed facade elevations, interiors, readable heraldry or scanned figurative carving. Vegetation can obscure rear-wall details in photographs.",
+      "decision": "detailed exterior reconstruction"
+    },
+    {
+      "code": "U101",
+      "osm_id": 151173251,
+      "name": "Swift Hall",
+      "section": {
+        "eave_m": 16.0,
+        "roof_rise_m": 5.0,
+        "levels": 4,
+        "entry": "N",
+        "gables": [
+          0.2,
+          0.8
+        ],
+        "dormers": 3,
+        "roof": "RoofClay",
+        "bay_m": 4.0,
+        "pointed_top": false
+      },
+      "references": [
+        "https://architecture.uchicago.edu/locations/main_quadrangle/",
+        "https://mag.uchicago.edu/aerials",
+        "https://uchicagocampusmeanderingsphotos.blogspot.com/2015/11/third-posting-of-photos-from-uchicago.html",
+        "https://news.uchicago.edu/gallery/winter-2025-2026-snow-gallery"
+      ],
+      "modeled_features": [
+        "Swift north teaching range and south connecting stem",
+        "separate return roofs, Gothic main portal and paired window groups"
+      ],
+      "photo_comparison": "University aerial photographs establish footprint relationships, roof material and range silhouettes; owner elevations and photographer street-level views resolve the visible principal frontage. Repeated minor bays on obscured rear walls are estimated.",
+      "known_vs_estimated": "Mapped plan retained. Eaves, member sections, minor door positions and repeated secondary openings are exterior estimates; only retained published maxima are measured claims.",
+      "remaining_limits": "No surveyed facade elevations, interiors, readable heraldry or scanned figurative carving. Vegetation can obscure rear-wall details in photographs.",
+      "decision": "detailed exterior reconstruction"
+    },
+    {
+      "code": "U102",
+      "osm_id": 155201131,
+      "name": "Rosenwald Hall",
+      "section": {
+        "eave_m": 18.4,
+        "roof_rise_m": 5.3,
+        "levels": 4,
+        "entry": "N",
+        "gables": [],
+        "dormers": 0,
+        "roof": "RoofClay",
+        "bay_m": 4.0,
+        "pointed_top": false
+      },
+      "references": [
+        "https://chronicle.uchicago.edu/010816/rosenwald-roof.shtml",
+        "https://mag.uchicago.edu/aerials",
+        "https://uchicagocampusmeanderingsphotos.blogspot.com/2015/11/third-posting-of-photos-from-uchicago.html",
+        "https://news.uchicago.edu/gallery/winter-2025-2026-snow-gallery"
+      ],
+      "modeled_features": [
+        "Rosenwald northeast octagonal meteorology tower, shallow stone balustrade and upper lights",
+        "grouped north gables and fossil-spandrel relief abstraction"
+      ],
+      "photo_comparison": "University aerial photographs establish footprint relationships, roof material and range silhouettes; owner elevations and photographer street-level views resolve the visible principal frontage. Repeated minor bays on obscured rear walls are estimated.",
+      "known_vs_estimated": "Mapped plan retained. Eaves, member sections, minor door positions and repeated secondary openings are exterior estimates; only retained published maxima are measured claims.",
+      "remaining_limits": "No surveyed facade elevations, interiors, readable heraldry or scanned figurative carving. Vegetation can obscure rear-wall details in photographs.",
+      "decision": "detailed exterior reconstruction"
+    },
+    {
+      "code": "U106",
+      "osm_id": 156044643,
+      "name": "Beecher Hall",
+      "section": {
+        "eave_m": 11.8,
+        "roof_rise_m": 4.2,
+        "levels": 3,
+        "entry": "W",
+        "gables": [],
+        "dormers": 2,
+        "roof": "RoofClay",
+        "bay_m": 4.0,
+        "pointed_top": false
+      },
+      "references": [
+        "https://architecture.uchicago.edu/locations/main_quadrangle/",
+        "https://mag.uchicago.edu/aerials",
+        "https://uchicagocampusmeanderingsphotos.blogspot.com/2015/11/third-posting-of-photos-from-uchicago.html",
+        "https://news.uchicago.edu/gallery/winter-2025-2026-snow-gallery"
+      ],
+      "modeled_features": [
+        "Beecher narrow east-edge academic range",
+        "red roof, low dormers and three supported stone window rows"
+      ],
+      "photo_comparison": "University aerial photographs establish footprint relationships, roof material and range silhouettes; owner elevations and photographer street-level views resolve the visible principal frontage. Repeated minor bays on obscured rear walls are estimated.",
+      "known_vs_estimated": "Mapped plan retained. Eaves, member sections, minor door positions and repeated secondary openings are exterior estimates; only retained published maxima are measured claims.",
+      "remaining_limits": "No surveyed facade elevations, interiors, readable heraldry or scanned figurative carving. Vegetation can obscure rear-wall details in photographs.",
+      "decision": "detailed exterior reconstruction"
+    },
+    {
+      "code": "U107",
+      "osm_id": 151173255,
+      "name": "Bond Chapel",
+      "section": {
+        "eave_m": 8.7,
+        "roof_rise_m": 4.5,
+        "levels": 1,
+        "entry": "W",
+        "gables": [],
+        "dormers": 0,
+        "roof": "RoofSlate",
+        "bay_m": 4.0,
+        "pointed_top": false
+      },
+      "references": [
+        "https://architecture.uchicago.edu/locations/main_quadrangle/",
+        "https://mag.uchicago.edu/aerials",
+        "https://uchicagocampusmeanderingsphotos.blogspot.com/2015/11/third-posting-of-photos-from-uchicago.html",
+        "https://news.uchicago.edu/gallery/winter-2025-2026-snow-gallery"
+      ],
+      "modeled_features": [
+        "Bond Chapel east-west slate nave roof, five tall lateral lancet groups, stepped buttresses and west archivolt entry"
+      ],
+      "photo_comparison": "University aerial photographs establish footprint relationships, roof material and range silhouettes; owner elevations and photographer street-level views resolve the visible principal frontage. Repeated minor bays on obscured rear walls are estimated.",
+      "known_vs_estimated": "Mapped plan retained. Eaves, member sections, minor door positions and repeated secondary openings are exterior estimates; only retained published maxima are measured claims.",
+      "remaining_limits": "No surveyed facade elevations, interiors, readable heraldry or scanned figurative carving. Vegetation can obscure rear-wall details in photographs.",
+      "decision": "detailed exterior reconstruction"
+    },
+    {
+      "code": "U114",
+      "osm_id": 156343657,
+      "name": "Gates-Blake Hall",
+      "section": {
+        "eave_m": 12.8,
+        "roof_rise_m": 4.6,
+        "levels": 3,
+        "entry": "E",
+        "gables": [
+          0.25,
+          0.75
+        ],
+        "dormers": 4,
+        "roof": "RoofClay",
+        "bay_m": 4.0,
+        "pointed_top": false
+      },
+      "references": [
+        "https://architecture.uchicago.edu/locations/main_quadrangle/",
+        "https://mag.uchicago.edu/aerials",
+        "https://uchicagocampusmeanderingsphotos.blogspot.com/2015/11/third-posting-of-photos-from-uchicago.html",
+        "https://news.uchicago.edu/gallery/winter-2025-2026-snow-gallery"
+      ],
+      "modeled_features": [
+        "Gates-Blake west enclosure",
+        "repeated low dormers on a continuous red range, projected bay outlines and recessed entry"
+      ],
+      "photo_comparison": "University aerial photographs establish footprint relationships, roof material and range silhouettes; owner elevations and photographer street-level views resolve the visible principal frontage. Repeated minor bays on obscured rear walls are estimated.",
+      "known_vs_estimated": "Mapped plan retained. Eaves, member sections, minor door positions and repeated secondary openings are exterior estimates; only retained published maxima are measured claims.",
+      "remaining_limits": "No surveyed facade elevations, interiors, readable heraldry or scanned figurative carving. Vegetation can obscure rear-wall details in photographs.",
+      "decision": "detailed exterior reconstruction"
+    },
+    {
+      "code": "U115",
+      "osm_id": 156044639,
+      "name": "Green Hall",
+      "section": {
+        "eave_m": 12.3,
+        "roof_rise_m": 4.7,
+        "levels": 3,
+        "entry": "W",
+        "gables": [
+          0.5
+        ],
+        "dormers": 2,
+        "roof": "RoofClay",
+        "bay_m": 4.0,
+        "pointed_top": false
+      },
+      "references": [
+        "https://architecture.uchicago.edu/locations/main_quadrangle/",
+        "https://mag.uchicago.edu/aerials",
+        "https://uchicagocampusmeanderingsphotos.blogspot.com/2015/11/third-posting-of-photos-from-uchicago.html",
+        "https://news.uchicago.edu/gallery/winter-2025-2026-snow-gallery"
+      ],
+      "modeled_features": [
+        "Green east enclosure",
+        "central projected plan bay, triangular gable, red wing roof and stone window groups"
+      ],
+      "photo_comparison": "University aerial photographs establish footprint relationships, roof material and range silhouettes; owner elevations and photographer street-level views resolve the visible principal frontage. Repeated minor bays on obscured rear walls are estimated.",
+      "known_vs_estimated": "Mapped plan retained. Eaves, member sections, minor door positions and repeated secondary openings are exterior estimates; only retained published maxima are measured claims.",
+      "remaining_limits": "No surveyed facade elevations, interiors, readable heraldry or scanned figurative carving. Vegetation can obscure rear-wall details in photographs.",
+      "decision": "detailed exterior reconstruction"
+    },
+    {
+      "code": "U117",
+      "osm_id": 156128083,
+      "name": "Stuart Hall",
+      "section": {
+        "eave_m": 15.7,
+        "roof_rise_m": 5.0,
+        "levels": 4,
+        "entry": "E",
+        "gables": [
+          0.25,
+          0.75
+        ],
+        "dormers": 3,
+        "roof": "RoofClay",
+        "bay_m": 4.0,
+        "pointed_top": true
+      },
+      "references": [
+        "https://architecture.uchicago.edu/locations/main_quadrangle/",
+        "https://mag.uchicago.edu/aerials",
+        "https://uchicagocampusmeanderingsphotos.blogspot.com/2015/11/third-posting-of-photos-from-uchicago.html",
+        "https://news.uchicago.edu/gallery/winter-2025-2026-snow-gallery"
+      ],
+      "modeled_features": [
+        "Stuart former Law School",
+        "tall Gothic portal, distinct projected east entry range, narrow corner turrets and steep connected roof"
+      ],
+      "photo_comparison": "University aerial photographs establish footprint relationships, roof material and range silhouettes; owner elevations and photographer street-level views resolve the visible principal frontage. Repeated minor bays on obscured rear walls are estimated.",
+      "known_vs_estimated": "Mapped plan retained. Eaves, member sections, minor door positions and repeated secondary openings are exterior estimates; only retained published maxima are measured claims.",
+      "remaining_limits": "No surveyed facade elevations, interiors, readable heraldry or scanned figurative carving. Vegetation can obscure rear-wall details in photographs.",
+      "decision": "detailed exterior reconstruction"
+    },
+    {
+      "code": "U118",
+      "osm_id": 155873096,
+      "name": "Haskell Hall",
+      "section": {
+        "eave_m": 13.0,
+        "roof_rise_m": 5.5,
+        "levels": 3,
+        "entry": "E",
+        "gables": [
+          0.22,
+          0.78
+        ],
+        "dormers": 3,
+        "roof": "RoofClay",
+        "bay_m": 4.0,
+        "pointed_top": true
+      },
+      "references": [
+        "https://architecture.uchicago.edu/locations/main_quadrangle/",
+        "https://mag.uchicago.edu/aerials",
+        "https://uchicagocampusmeanderingsphotos.blogspot.com/2015/11/third-posting-of-photos-from-uchicago.html",
+        "https://news.uchicago.edu/gallery/winter-2025-2026-snow-gallery"
+      ],
+      "modeled_features": [
+        "Haskell long stone museum wing",
+        "central oriel, tall entrance portal, red dormered ridge and projecting end gables"
+      ],
+      "photo_comparison": "University aerial photographs establish footprint relationships, roof material and range silhouettes; owner elevations and photographer street-level views resolve the visible principal frontage. Repeated minor bays on obscured rear walls are estimated.",
+      "known_vs_estimated": "Mapped plan retained. Eaves, member sections, minor door positions and repeated secondary openings are exterior estimates; only retained published maxima are measured claims.",
+      "remaining_limits": "No surveyed facade elevations, interiors, readable heraldry or scanned figurative carving. Vegetation can obscure rear-wall details in photographs.",
+      "decision": "detailed exterior reconstruction"
+    },
+    {
+      "code": "U127",
+      "osm_id": 156044638,
+      "name": "Kelly Hall",
+      "section": {
+        "eave_m": 11.8,
+        "roof_rise_m": 4.2,
+        "levels": 3,
+        "entry": "W",
+        "gables": [],
+        "dormers": 2,
+        "roof": "RoofClay",
+        "bay_m": 4.0,
+        "pointed_top": false
+      },
+      "references": [
+        "https://architecture.uchicago.edu/locations/main_quadrangle/",
+        "https://mag.uchicago.edu/aerials",
+        "https://uchicagocampusmeanderingsphotos.blogspot.com/2015/11/third-posting-of-photos-from-uchicago.html",
+        "https://news.uchicago.edu/gallery/winter-2025-2026-snow-gallery"
+      ],
+      "modeled_features": [
+        "Kelly east academic range",
+        "continuous red roof with shallow dormers, stone sill bands and sheltered quad-facing entrance"
+      ],
+      "photo_comparison": "University aerial photographs establish footprint relationships, roof material and range silhouettes; owner elevations and photographer street-level views resolve the visible principal frontage. Repeated minor bays on obscured rear walls are estimated.",
+      "known_vs_estimated": "Mapped plan retained. Eaves, member sections, minor door positions and repeated secondary openings are exterior estimates; only retained published maxima are measured claims.",
+      "remaining_limits": "No surveyed facade elevations, interiors, readable heraldry or scanned figurative carving. Vegetation can obscure rear-wall details in photographs.",
+      "decision": "detailed exterior reconstruction"
+    },
+    {
+      "code": "U128",
+      "osm_id": 156343665,
+      "name": "Goodspeed Hall",
+      "section": {
+        "eave_m": 12.0,
+        "roof_rise_m": 4.6,
+        "levels": 3,
+        "entry": "E",
+        "gables": [
+          0.5
+        ],
+        "dormers": 2,
+        "roof": "RoofClay",
+        "bay_m": 4.0,
+        "pointed_top": false
+      },
+      "references": [
+        "https://architecture.uchicago.edu/locations/main_quadrangle/",
+        "https://mag.uchicago.edu/aerials",
+        "https://uchicagocampusmeanderingsphotos.blogspot.com/2015/11/third-posting-of-photos-from-uchicago.html",
+        "https://news.uchicago.edu/gallery/winter-2025-2026-snow-gallery"
+      ],
+      "modeled_features": [
+        "Goodspeed former residential range",
+        "projecting stone bays and red dormered roof below adjacent Classics gables"
+      ],
+      "photo_comparison": "University aerial photographs establish footprint relationships, roof material and range silhouettes; owner elevations and photographer street-level views resolve the visible principal frontage. Repeated minor bays on obscured rear walls are estimated.",
+      "known_vs_estimated": "Mapped plan retained. Eaves, member sections, minor door positions and repeated secondary openings are exterior estimates; only retained published maxima are measured claims.",
+      "remaining_limits": "No surveyed facade elevations, interiors, readable heraldry or scanned figurative carving. Vegetation can obscure rear-wall details in photographs.",
+      "decision": "detailed exterior reconstruction"
+    },
+    {
+      "code": "U133",
+      "osm_id": 156128079,
+      "name": "Social Science Research Building",
+      "section": {
+        "eave_m": 20.2,
+        "roof_rise_m": 5.0,
+        "levels": 5,
+        "entry": "N",
+        "gables": [
+          0.22,
+          0.8
+        ],
+        "dormers": 3,
+        "roof": "RoofClay",
+        "bay_m": 4.0,
+        "pointed_top": false
+      },
+      "references": [
+        "https://architecture.uchicago.edu/locations/main_quadrangle/",
+        "https://mag.uchicago.edu/aerials",
+        "https://uchicagocampusmeanderingsphotos.blogspot.com/2015/11/third-posting-of-photos-from-uchicago.html",
+        "https://news.uchicago.edu/gallery/winter-2025-2026-snow-gallery"
+      ],
+      "modeled_features": [
+        "Social Science Research south-east range",
+        "tall upper roof, north entry, grouped rectangular teaching windows and stone spandrels"
+      ],
+      "photo_comparison": "University aerial photographs establish footprint relationships, roof material and range silhouettes; owner elevations and photographer street-level views resolve the visible principal frontage. Repeated minor bays on obscured rear walls are estimated.",
+      "known_vs_estimated": "Mapped plan retained. Eaves, member sections, minor door positions and repeated secondary openings are exterior estimates; only retained published maxima are measured claims.",
+      "remaining_limits": "No surveyed facade elevations, interiors, readable heraldry or scanned figurative carving. Vegetation can obscure rear-wall details in photographs.",
+      "decision": "detailed exterior reconstruction"
+    },
+    {
+      "code": "U134",
+      "osm_id": 156343662,
+      "name": "Wieboldt Hall",
+      "section": {
+        "eave_m": 16.0,
+        "roof_rise_m": 5.0,
+        "levels": 4,
+        "entry": "N",
+        "gables": [
+          0.16,
+          0.84
+        ],
+        "dormers": 3,
+        "roof": "RoofClay",
+        "bay_m": 4.0,
+        "pointed_top": false
+      },
+      "references": [
+        "https://architecture.uchicago.edu/locations/main_quadrangle/",
+        "https://mag.uchicago.edu/aerials",
+        "https://uchicagocampusmeanderingsphotos.blogspot.com/2015/11/third-posting-of-photos-from-uchicago.html",
+        "https://news.uchicago.edu/gallery/winter-2025-2026-snow-gallery"
+      ],
+      "modeled_features": [
+        "Wieboldt southern classroom enclosure",
+        "red range behind Harper tower, north-facing gable groups and stone entry portal"
+      ],
+      "photo_comparison": "University aerial photographs establish footprint relationships, roof material and range silhouettes; owner elevations and photographer street-level views resolve the visible principal frontage. Repeated minor bays on obscured rear walls are estimated.",
+      "known_vs_estimated": "Mapped plan retained. Eaves, member sections, minor door positions and repeated secondary openings are exterior estimates; only retained published maxima are measured claims.",
+      "remaining_limits": "No surveyed facade elevations, interiors, readable heraldry or scanned figurative carving. Vegetation can obscure rear-wall details in photographs.",
+      "decision": "detailed exterior reconstruction"
+    },
+    {
+      "code": "U136",
+      "osm_id": 156128082,
+      "name": "Harper Memorial Library",
+      "section": {
+        "eave_m": 26.2,
+        "roof_rise_m": 5.8,
+        "levels": 4,
+        "entry": "N",
+        "gables": [],
+        "dormers": 0,
+        "roof": "RoofClay",
+        "bay_m": 4.0,
+        "pointed_top": false
+      },
+      "references": [
+        "https://architecture.uchicago.edu/locations/william_rainey_harper_memorial_library/",
+        "https://mag.uchicago.edu/aerials",
+        "https://uchicagocampusmeanderingsphotos.blogspot.com/2015/11/third-posting-of-photos-from-uchicago.html",
+        "https://news.uchicago.edu/gallery/winter-2025-2026-snow-gallery"
+      ],
+      "modeled_features": [
+        "Eight true recessed traceried reading-room apertures per elevation",
+        "two tower ends with grouped tall lights, upper galleries, attached corner turrets and supported parapets",
+        "connected north/south archivolt entries and stone relief spandrels"
+      ],
+      "photo_comparison": "University aerial photographs establish footprint relationships, roof material and range silhouettes; owner elevations and photographer street-level views resolve the visible principal frontage. Repeated minor bays on obscured rear walls are estimated.",
+      "known_vs_estimated": "Mapped plan retained. Eaves, member sections, minor door positions and repeated secondary openings are exterior estimates; only retained published maxima are measured claims.",
+      "remaining_limits": "No surveyed facade elevations, interiors, readable heraldry or scanned figurative carving. Vegetation can obscure rear-wall details in photographs.",
+      "decision": "detailed exterior reconstruction"
+    },
+    {
+      "code": "U137",
+      "osm_id": 156343656,
+      "name": "Classics Building",
+      "section": {
+        "eave_m": 16.0,
+        "roof_rise_m": 5.1,
+        "levels": 4,
+        "entry": "N",
+        "gables": [
+          0.18,
+          0.8
+        ],
+        "dormers": 2,
+        "roof": "RoofClay",
+        "bay_m": 4.0,
+        "pointed_top": true
+      },
+      "references": [
+        "https://architecture.uchicago.edu/locations/main_quadrangle/",
+        "https://mag.uchicago.edu/aerials",
+        "https://uchicagocampusmeanderingsphotos.blogspot.com/2015/11/third-posting-of-photos-from-uchicago.html",
+        "https://news.uchicago.edu/gallery/winter-2025-2026-snow-gallery"
+      ],
+      "modeled_features": [
+        "Classics south-west corner mass",
+        "projecting north entrance, twin gables, dormered red roof and rectangular lower/lancet upper windows"
+      ],
+      "photo_comparison": "University aerial photographs establish footprint relationships, roof material and range silhouettes; owner elevations and photographer street-level views resolve the visible principal frontage. Repeated minor bays on obscured rear walls are estimated.",
+      "known_vs_estimated": "Mapped plan retained. Eaves, member sections, minor door positions and repeated secondary openings are exterior estimates; only retained published maxima are measured claims.",
+      "remaining_limits": "No surveyed facade elevations, interiors, readable heraldry or scanned figurative carving. Vegetation can obscure rear-wall details in photographs.",
+      "decision": "detailed exterior reconstruction"
+    },
+    {
+      "code": "U139",
+      "osm_id": 156044642,
+      "name": "Foster Hall",
+      "section": {
+        "eave_m": 12.5,
+        "roof_rise_m": 5.0,
+        "levels": 3,
+        "entry": "N",
+        "gables": [
+          0.4
+        ],
+        "dormers": 1,
+        "roof": "RoofClay",
+        "bay_m": 4.0,
+        "pointed_top": false
+      },
+      "references": [
+        "https://architecture.uchicago.edu/locations/main_quadrangle/",
+        "https://mag.uchicago.edu/aerials",
+        "https://uchicagocampusmeanderingsphotos.blogspot.com/2015/11/third-posting-of-photos-from-uchicago.html",
+        "https://news.uchicago.edu/gallery/winter-2025-2026-snow-gallery"
+      ],
+      "modeled_features": [
+        "Foster south-east corner building",
+        "conical corner turrets, steep red roof, raised central gable and stone grouped windows"
+      ],
+      "photo_comparison": "University aerial photographs establish footprint relationships, roof material and range silhouettes; owner elevations and photographer street-level views resolve the visible principal frontage. Repeated minor bays on obscured rear walls are estimated.",
+      "known_vs_estimated": "Mapped plan retained. Eaves, member sections, minor door positions and repeated secondary openings are exterior estimates; only retained published maxima are measured claims.",
+      "remaining_limits": "No surveyed facade elevations, interiors, readable heraldry or scanned figurative carving. Vegetation can obscure rear-wall details in photographs.",
+      "decision": "detailed exterior reconstruction"
+    }
+  ],
+  "additional_authorized_buildings": [
+    "U002",
+    "U006"
+  ],
+  "additional_scope": "User-requested whole-campus satellite review: targeted Campus North roof/massing correction; Henry Crown roof material correction; Max Palevsky roof palette correction. Ida Noyes red roof is verified and retained. No certification of unreviewed facade details.",
+  "additional_palette_buildings": [
+    "U011",
+    "U014",
+    "U018"
+  ]
+}

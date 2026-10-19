@@ -14,6 +14,7 @@ from shapely import contains_xy
 from shapely.affinity import rotate
 from campus_refinement import rebuild as retained_rebuild, oriented
 import medical_optimization
+import main_quadrangles
 from science_exteriors import neighbor as science_neighbor, NEIGHBOR_IDS
 
 CATALOG=json.loads((Path(__file__).resolve().parents[1]/'sources/building_optimization.json').read_text())
@@ -168,6 +169,7 @@ def facade(ms,p,z,h,levels,gothic,continuous,spacing,ctx):
 
 def finish(p,h,levels,gothic,ctx,kind=None):
     cfg=ctx.current_design;ms=ctx.ms;family=cfg['family']
+    if cfg['osm_id'] in main_quadrangles.IDS:return main_quadrangles.finish(cfg['osm_id'])
     if cfg.get('medical_profile'):return medical_optimization.finish(p,h,levels,gothic,ctx,kind)
     # Each actual wall range gets a supported plinth/cornice; no rods extend
     # beyond local eaves, and no arbitrary roof boxes are added.
@@ -201,6 +203,7 @@ def finish(p,h,levels,gothic,ctx,kind=None):
 def rebuild(ident,p,h,levels,ctx):
     cfg=SPECS[ident]
     if cfg['family']=='protected_highlight':return None
+    if ident in main_quadrangles.IDS:return main_quadrangles.rebuild(ident,p,h,levels,ctx)
     if cfg.get('medical_profile'):return medical_optimization.rebuild(ident,p,h,levels,ctx)
     if ident in NEIGHBOR_IDS:return science_neighbor(ident,p,h,levels,ctx)
     kind=cfg['family'];ms=ctx.ms;a,b,c,d=p.bounds;cx,cy=p.centroid.coords[0]

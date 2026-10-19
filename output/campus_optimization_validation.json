@@ -1,10 +1,10 @@
 {
   "ordinary_buildings": 158,
-  "protected_highlights": 17,
-  "authorized_highlight_revisions": 2,
+  "protected_highlights": 15,
+  "authorized_highlight_revisions": 4,
   "checks": [
     "All 158 ordinary building layers use explicit exterior recipes and dimensions/source caveats",
-    "The 17 unchanged Highlight mesh/material sequences are identical to release 26.10.18.11; Crerar and Harper are explicitly revised at the user request",
+    "The 15 unchanged Highlight mesh/material sequences are identical to release 26.10.18.11; Crerar, Harper, Hutchinson and Campus North are explicitly revised at the user request",
     "South Steam Plant has a tall supported boiler hall and paired raised flues",
     "High Bay and Snell remain low; the Donnelley greenhouse sits above a four-storey supported base; International House and Grossman retain distinct tall ranges",
     "Pick retains its flat roof and Ryerson has a supported observatory dome",

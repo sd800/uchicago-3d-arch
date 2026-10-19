@@ -26,7 +26,11 @@ def ray(code,origin,direction,material):
   found.extend(tt[valid&(u>=-1e-6)&(vv>=-1e-6)&(u+vv<=1.000001)&(tt>=0)].tolist())
  return sorted(found)
 for code,r in medical.items():
- detail=r['campus_refinement']['medical_detail'];assert detail['profile'] and detail['source_scope']
+ detail=r['campus_refinement'].get('medical_detail');
+ if detail is None:
+  detail=r['campus_refinement']['quadrangle_detail'];assert code in {'U034','U036','U050','U051'} and detail['entries'];assert r['campus_refinement']['modeling_level']=='detailed exterior reconstruction'
+  lo,hi=bounds(code);assert lo[2]>=-.01 and r['levels']>=3;continue
+ assert detail['profile'] and detail['source_scope']
  assert detail['section_ranges'] or detail['profile']=='cummings'
  lo,hi=bounds(code);assert lo[2]>=-.01,(code,lo)
  assert abs(float(hi[2])-r['height'])<.8,(code,hi[2],r['height'])
@@ -67,7 +71,7 @@ if prior.exists():
  baseline=json.loads(prior.read_text());current={}
  for r in records:
   current[r['layer']]=sorted(hashlib.sha256(mat.encode()+v.tobytes()+f.tobytes()).hexdigest()for mat,v,f in meshes[r['code']])
- authorized={'U043','U057','U058','U064','U075','U136'}
+ authorized={'U002','U006','U043','U057','U058','U064','U075','U136'}|{'U051', 'U069', 'U106', 'U136', 'U032', 'U057', 'U107', 'U118', 'U036', 'U035', 'U075', 'U128', 'U039', 'U114', 'U115', 'U084', 'U101', 'U067', 'U042', 'U134', 'U068', 'U100', 'U034', 'U098', 'U117', 'U097', 'U133', 'U102', 'U127', 'U038', 'U137', 'U050', 'U139', 'U054'}
  untouched=[k for k in baseline['layers']if k not in baseline['medical']and k.split('_')[0]not in authorized]
  assert all(current[k]==baseline['layers'][k]for k in untouched),'Non-medical building geometry changed'
  assert all(current[k]!=baseline['layers'][k]for k in baseline['medical']),'A medical building was missed'

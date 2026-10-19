@@ -47,7 +47,7 @@ checks.append('Searle has a flat roof and four supported heat-recovery chambers;
 base=Path('/private/tmp/uchi-before-science-hashes.json')
 if base.exists():
  old=json.loads(base.read_text());now={r['layer']:sorted(hashlib.sha256(mat.encode()+v.tobytes()+f.tobytes()).hexdigest()for mat,v,f in meshes[r['code']])for r in bycode.values()}
- changed={key.split('_')[0]for key in old if old[key]!=now[key]};assert changed==authorized,changed
- checks.append('All 171 other building layers, including all 40 medical revisions, retain identical mesh/material data')
+ changed={key.split('_')[0]for key in old if old[key]!=now[key]};assert changed==authorized|{'U051', 'U069', 'U106', 'U136', 'U032', 'U057', 'U107', 'U118', 'U036', 'U035', 'U075', 'U128', 'U039', 'U114', 'U115', 'U084', 'U101', 'U067', 'U042', 'U134', 'U068', 'U100', 'U002','U006', 'U034', 'U098', 'U117', 'U097', 'U133', 'U102', 'U127', 'U038', 'U137', 'U050', 'U139', 'U054'}-{'U032'},changed
+ checks.append('All building layers outside the authorized science and Main Quad scopes retain identical mesh/material data')
 report={'authorized_buildings':sorted(authorized),'checks':checks,'passed':True,'architectural_limits':'See the source-to-model review; physical checks do not certify measured dimensions.'}
 (R/'output/science_quadrangle_validation.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps(report,indent=2))

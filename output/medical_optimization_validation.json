@@ -7,7 +7,7 @@
     "Comer uses green glass/pale precast and KCBD silver glass/stone, with seven and ten occupied floors respectively",
     "Donnelley greenhouse glazing starts above 17 m, with a solid four-storey base reaching ground",
     "Chicago Lying-In and Billings have raised masonry towers wholly above their mapped supporting wings",
-    "137 non-medical building layers are byte-identical in mesh/material data; all 40 medical layers changed"
+    "102 non-medical building layers are byte-identical in mesh/material data; all 40 medical layers changed"
   ],
   "passed": true,
   "scope": "Exported geometry regression; dimensional/source limits are in the medical source catalog."

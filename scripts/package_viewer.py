@@ -35,6 +35,12 @@ for r in records:
  if detail.get('manual_joinery'):
   r['partition_en']='; '.join(detail['features'])+'. '+detail['limits']
   r['partition']=notes_zh.get(str(r['osm_id']),r['partition'])
+# Campus North's targeted roof correction supersedes the historical generic note.
+for r in records:
+ if r['code']=='U002':
+  r['partition_en']='Three residential bars use neutral membrane roofs and supported parapets. A separate low Baker Dining Commons range has bounded planting, maintenance margins and circulation. The green-roof system is documented by the university and architect; local roof sections, planting boundaries and secondary facade details remain exterior estimates.'
+  r['partition']='三条住宅楼采用中性灰色普通屋面与连续女儿墙；低层 Baker Dining Commons 区分种植面、检修边带和通道。绿化屋顶有学校与建筑师资料，局部屋面、种植边界和次要立面细节仍为外形估算。'
+
 recordsfile=out/'viewer_records.json';recordsfile.write_text(json.dumps(records,ensure_ascii=False,indent=2))
 
 # Keep crawlable HTML small; the same renderer also powers a portable single-file edition.
@@ -66,6 +72,12 @@ for f in json.loads((root/'sources/features_local.json').read_text()):
  hover_places.append({'id':'O'+str(f['id']),'name':name,'name_zh':outdoor_names[name],'hitArea':mapping(g.simplify(.2,preserve_topology=True)),'source':'https://www.openstreetmap.org/'+f['type']+'/'+str(f['id'])})
 hover_places.append({'id':'LAWPOOL','name':'Law School Reflecting Pool','name_zh':'法学院倒影池','hitArea':mapping(box(624,375,680,397)),'source':'Modeled approximate pool outline; scripts/build_campus.py'})
 data={**web,'modelByteLength':len(model),'modelTransferBytes':len(compressed),'layers':json.loads((out/'layer_map.json').read_text()),'palette':json.loads((out/'palette.json').read_text()),'records':records,'preview':'output/campus_aerial.png','downloadUrl':'output/UChicago_HydePark.glb','offlineModelScript':'assets/model-local.js','seo':seo,'hoverPlaces':hover_places}
+# Construction audit trees remain in the downloadable source/record files.
+# The renderer needs identity, geometry bounds and user-facing notes, not
+# repeated recipes, aperture coordinates or mesh validation statistics.
+audit_fields={'campus_refinement','optimization_2026_10_18','ordinary_joinery','highlight_joinery','exterior_reconstruction','architecture_reference'}
+data['records']=[{k:v for k,v in r.items()if k not in audit_fields}for r in records]
+
 schema={'@context':'https://schema.org','@graph':[
  {'@type':'WebSite','@id':site+'#website','url':site,'name':'UChicago Campus 3D Model','inLanguage':['en','zh-CN'],'sameAs':'https://github.com/sd800/uchicago-3d-arch','image':site+'assets/brand/phoenix-map.png'},
  {'@type':'WebPage','@id':site+'#webpage','url':site,'name':config['title'],'description':config['description'],'inLanguage':['en','zh-CN'],'isPartOf':{'@id':site+'#website'},'mainEntity':{'@id':site+'#model'},'primaryImageOfPage':{'@type':'ImageObject','url':site+'output/campus_aerial.png','width':2400,'height':1850}},

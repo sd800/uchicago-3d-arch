@@ -10,7 +10,7 @@ layers=json.loads((r/'output/layer_map.json').read_text())
 for b in highlights:
  s=b.get('highlight_joinery');assert s is not None,b['name']
  if s.get('authored_joinery'):
-  assert b['code']in ['U058','U136'] and b['exterior_reconstruction']['manual_joinery']==s
+  assert b['code']in ['U058','U136','U038'] and b['exterior_reconstruction']['manual_joinery']==s
   assert any(n.startswith(b['code']+'D')for n in layers),b['name']
  elif s['added_triangles']:assert any(n.startswith(b['code']+'HD')for n in layers),b['name']
  else:assert s['hollow_bells'] or b['code'] in bells or b.get('exterior_reconstruction',{}).get('bespoke_joinery'),b['name']

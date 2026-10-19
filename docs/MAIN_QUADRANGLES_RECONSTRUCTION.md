@@ -1,0 +1,25 @@
+# Main Quadrangles exterior reconstruction
+
+Release 26.10.18.16 covers 34 building layers around the Main Quadrangles, Hull Court and immediate enclosing academic ranges. Thirty-three exteriors are reconstructed; the already source-specific Mitchell Tower is retained. Crerar, the remaining Medical Center, the south campus and other distant Highlights are protected (the campus-wide satellite roof corrections are separately documented below) by an exported mesh/material baseline.
+
+This work follows `DETAILED_MODELING_STANDARD.md`: individual architecture and connections establish detail, not frame count. The source-to-model catalog is `sources/main_quadrangles_review.json`. It gives each building a source set, recognizable features, modeled sections, photograph comparison and remaining limits. University aerials resolve the roof/range relationships. Owner elevations and street photographs resolve the principal visible fronts. These images are reference material and are not redistributed.
+
+## Distinctive assemblies
+
+- Harper: the lower academic range supports a separate reading-room envelope. Sixteen actual masonry apertures expose recessed glass, with paired lancets, stone mullions and roundel tracery. The end towers have tall grouped lights, upper galleries, stone courses, supported corner turrets and separate crest/parapet blocks. North and south archivolt entrances meet stepped landings. Eight reading bays per long elevation and the published 135 ft / 41.148 m maximum remain authoritative. Figurative and heraldic carvings are bounded stone abstractions, not replicas.
+- Hull Court: Anatomy, Zoology, Culver and Erman retain their own plan offsets, stone laboratory bays, red roofs, gable groups and existing raised connectors. Cobb Gate remains genuinely open through its pedestrian axis. Hutchinson is a single high dining hall with actual full-height traceried apertures and a lower adjoining range.
+- Main Quad: Ryerson has distinct front/rear ranges and a seated rounded copper observatory; Kent has a separate lecture-theatre volume; Walker has its polygonal gallery bay and pointed roof. Rosenwald's octagonal meteorology tower is separate from its main gabled range. Cobb's tall projecting entrance is distinct from its ordinary classroom bays. Levi's glazed bridge spans an actual ground-level passage.
+- South/east/west enclosure: individual roof ranges, projected entries, gables, dormers, window groups and corner turrets distinguish Swift, Bond, Stuart, Haskell, Classics, Foster and the enclosing academic/residential ranges. Bond's roof ridge follows its east-west nave; Pick keeps a flat modern roof and rectangular entrance. Searle keeps its four documented supported heat-recovery chambers, with bounded louver faces.
+- Landscape: narrow seated stone edges and paving joints refine existing mapped paths; Botany Pond keeps its source boundary and island. Small seats and short door-to-path links sit outside building/water/road masks. No new diagonal routes across the central lawn are fabricated.
+
+## Review and limits
+
+Actual exported CAD is reviewed in batches from principal, opposite and low angles, then in the complete browser model. Regression rays check Harper's apertures, Cobb Gate and Levi's open passages. Layer hashes protect all 142 retained mesh sequences, plus explicit palette checks for the three Max Palevsky layers. Rhino closed solids/meshes, exchange files, terrain occlusion, GLB/offline integrity and fixed Highlight cameras are checked before release.
+
+The reconstruction is an exterior interpretation rather than a surveyed BIM. Unpublished eaves, secondary bay positions, member sections, door dimensions and obscured rear details are proportional estimates. Historical and current photographs establish architectural relationships but do not establish a measured elevation. Interiors, readable heraldry and scanned sculpture are outside the model.
+
+## Subsequent Campus North correction
+
+The user questioned the uniformly green tower roofs. University/Studio Gang material documents a green roof system and identifies the low Dining Commons roof. The model now separates that low planted range from the neutral membrane roofs on the three residential bars. Planted beds leave a maintenance margin and circulation strip. This correction and the named satellite roof-material corrections are explicitly included in the baseline exceptions; it does not certify the remainder of the Campus North facade as detailed. Local roof/bed boundaries remain proportional interpretations.
+
+Google Maps satellite imagery was inspected directly at 41.79442, -87.59877 on 2026-10-18. It shows pale gray-white roofs on the three residential bars, small rooftop service equipment, and the broad olive planted Dining Commons roof to their west. The revised partitions follow those roof relationships and the retained mapped outline. Imagery copyright is not treated as an acquisition date. Roof beds are a bounded interpretation rather than an exact vegetation survey.

@@ -1,5 +1,14 @@
 # Changelog
 
+## 26.10.18.16 — 2026-10-18
+
+- Reconstruct 33 Main Quadrangles / Hull Court / immediately enclosing building exteriors, retain the already authored Mitchell Tower, and limit other campus changes to the separately documented satellite roof corrections. Differentiate red roof ranges, gables, dormers, lecture volumes, entries and projecting bays rather than applying one facade finish.
+- Give Harper Memorial Library detailed twin towers, recessed reading-hall apertures, traceried glass, stone relief/spandrel abstractions, attached turret/parapet work and connected north/south entries, retaining eight reading bays per long elevation and the published tower maximum.
+- Restore the open pedestrian passage under Levi Hall, the east-west Bond Chapel nave roof, Kent's separate lecture theatre, Walker's polygonal bay and Rosenwald's meteorology tower. Refine Cobb's tall Gothic entrance and keep Searle's four laboratory roof chambers.
+- Compare all campus districts with the current accessible Google satellite mosaic; record access date, coverage and interpretation limits. Correct Max Palevsky's blue-violet roofs and Henry Crown's brown-red roof; verify and retain Ida Noyes' existing red roofs without recoloring unrelated materials.
+- Correct Campus North Residential Commons: use neutral roof membranes on its three residential bars and confine planting to the separate low dining roof, with maintenance margins and a path; retain mapped courts.
+- Refine existing Quad paths, pond edges, seating and short entrance connections; retain mapped lawns and path centerlines. Regenerate matching CAD, GLB and offline deliverables, with per-building photo/source comparisons and explicit dimensional limits.
+
 ## 26.10.18.15 — 2026-10-18
 
 - Reconstruct Crerar Library's detailed exterior from the university elevation and renovation architect's photographs/plans: restore recessed lower floors, thick cantilevered limestone walls with wide upper glass apertures, the independent stone entry arch, connected steps/handrails and separate shaped rooflights.

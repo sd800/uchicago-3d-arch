@@ -1,6 +1,6 @@
 {
   "review_date": "2026-10-18",
-  "scope": "All 177 building layers. 158 ordinary buildings receive explicit exterior recipes; 19 existing Highlights are protected. This is optimized exterior modeling, not detailed measured reconstruction.",
+  "scope": "All 177 building layers. Initial ordinary optimization is superseded by the separately documented medical/science and detailed Main Quadrangles revisions where applicable; other layers remain protected.",
   "references": {
     "main_quads": "https://architecture.uchicago.edu/locations/main_quadrangle/",
     "housing_snell": "https://housing.uchicago.edu/residence-life/residential-commons/snell-hitchcock/",
@@ -130,13 +130,14 @@
       "dimension_status": "estimated exterior dimensions; storeys documented only where identified below",
       "confidence": "conservative mapped exterior interpretation",
       "wall": "LightStone",
-      "roof": "RoofSlate",
+      "roof": "FieldhouseRoof",
       "bay_m": 4.1,
       "window_group": "tall upper hall lights; no repeated classroom storeys",
       "roof_form": "connected pitched/hipped wing roof",
       "code": "U006",
       "osm_id": 151173253,
-      "name": "Henry Crown Field House"
+      "name": "Henry Crown Field House",
+      "satellite_roof_review": "sources/satellite_campus_review.json"
     },
     {
       "family": "retained",
@@ -248,7 +249,8 @@
       "roof_form": "retain existing source-specific roof",
       "code": "U011",
       "osm_id": 153266965,
-      "name": "Max Palevsky Commons Central"
+      "name": "Max Palevsky Commons Central",
+      "satellite_roof_review": "sources/satellite_campus_review.json"
     },
     {
       "family": "service",
@@ -316,7 +318,8 @@
       "roof_form": "retain existing source-specific roof",
       "code": "U014",
       "osm_id": 153090078,
-      "name": "Max Palevsky Commons West"
+      "name": "Max Palevsky Commons West",
+      "satellite_roof_review": "sources/satellite_campus_review.json"
     },
     {
       "family": "high_bay",
@@ -405,7 +408,8 @@
       "roof_form": "retain existing source-specific roof",
       "code": "U018",
       "osm_id": 152969810,
-      "name": "Max Palevsky Commons East"
+      "name": "Max Palevsky Commons East",
+      "satellite_roof_review": "sources/satellite_campus_review.json"
     },
     {
       "family": "service_lab",
@@ -704,7 +708,8 @@
       "validation": "Byte-identical building mesh/material comparison against release 26.10.18.11.",
       "code": "U032",
       "osm_id": 1228219576,
-      "name": "Mitchell Tower"
+      "name": "Mitchell Tower",
+      "subsequent_main_quad_review": "sources/main_quadrangles_review.json"
     },
     {
       "family": "historic_house",
@@ -753,7 +758,8 @@
       "name": "Zoology",
       "medical_profile": "hull_gothic",
       "medical_reference": "https://ucmfacilities.uchicago.edu/construction/project_archive/hull_court_complex/",
-      "medical_evidence": "Mapped footprint and owner wayfinding/building inventory; conservative exterior family interpretation"
+      "medical_evidence": "Mapped footprint and owner wayfinding/building inventory; conservative exterior family interpretation",
+      "subsequent_main_quad_review": "sources/main_quadrangles_review.json"
     },
     {
       "family": "gate",
@@ -775,7 +781,8 @@
       "roof_form": "connected pitched/hipped wing roof",
       "code": "U035",
       "osm_id": 285311999,
-      "name": "Cobb Gate"
+      "name": "Cobb Gate",
+      "subsequent_main_quad_review": "sources/main_quadrangles_review.json"
     },
     {
       "family": "gothic_lab",
@@ -802,7 +809,8 @@
       "name": "Anatomy",
       "medical_profile": "hull_gothic",
       "medical_reference": "https://ucmfacilities.uchicago.edu/construction/project_archive/hull_court_complex/",
-      "medical_evidence": "Mapped footprint and owner wayfinding/building inventory; conservative exterior family interpretation"
+      "medical_evidence": "Mapped footprint and owner wayfinding/building inventory; conservative exterior family interpretation",
+      "subsequent_main_quad_review": "sources/main_quadrangles_review.json"
     },
     {
       "family": "tudor_club",
@@ -835,7 +843,8 @@
       "validation": "Byte-identical building mesh/material comparison against release 26.10.18.11.",
       "code": "U038",
       "osm_id": 157655069,
-      "name": "Hutchinson Commons"
+      "name": "Hutchinson Commons",
+      "subsequent_main_quad_review": "sources/main_quadrangles_review.json"
     },
     {
       "family": "snell",
@@ -857,7 +866,8 @@
       "roof_form": "connected pitched/hipped wing roof",
       "code": "U039",
       "osm_id": 154421807,
-      "name": "Snell-Hitchcock Halls"
+      "name": "Snell-Hitchcock Halls",
+      "subsequent_main_quad_review": "sources/main_quadrangles_review.json"
     },
     {
       "family": "house",
@@ -923,7 +933,8 @@
       "roof_form": "connected pitched/hipped wing roof",
       "code": "U042",
       "osm_id": 157655073,
-      "name": "Reynolds Club"
+      "name": "Reynolds Club",
+      "subsequent_main_quad_review": "sources/main_quadrangles_review.json"
     },
     {
       "family": "modern_academic",
@@ -1100,7 +1111,8 @@
       "name": "Erman Biology Center",
       "medical_profile": "hull_gothic",
       "medical_reference": "https://ucmfacilities.uchicago.edu/construction/project_archive/hull_court_complex/",
-      "medical_evidence": "Mapped footprint and owner wayfinding/building inventory; conservative exterior family interpretation"
+      "medical_evidence": "Mapped footprint and owner wayfinding/building inventory; conservative exterior family interpretation",
+      "subsequent_main_quad_review": "sources/main_quadrangles_review.json"
     },
     {
       "family": "laboratory",
@@ -1127,7 +1139,8 @@
       "name": "Culver",
       "medical_profile": "hull_culver",
       "medical_reference": "https://ucmfacilities.uchicago.edu/construction/project_archive/hull_court_complex/",
-      "medical_evidence": "Mapped footprint and owner wayfinding/building inventory; conservative exterior family interpretation"
+      "medical_evidence": "Mapped footprint and owner wayfinding/building inventory; conservative exterior family interpretation",
+      "subsequent_main_quad_review": "sources/main_quadrangles_review.json"
     },
     {
       "family": "house",
@@ -1193,7 +1206,8 @@
       "roof_form": "connected pitched/hipped wing roof",
       "code": "U054",
       "osm_id": 157655071,
-      "name": "Mandel Hall"
+      "name": "Mandel Hall",
+      "subsequent_main_quad_review": "sources/main_quadrangles_review.json"
     },
     {
       "family": "house",
@@ -1261,7 +1275,8 @@
       "code": "U057",
       "osm_id": 154656512,
       "name": "Searle Chemical Laboratory",
-      "science_quad_review": true
+      "science_quad_review": true,
+      "subsequent_main_quad_review": "sources/main_quadrangles_review.json"
     },
     {
       "family": "protected_highlight",
@@ -1481,7 +1496,8 @@
       "roof_form": "recessed flat roof with supported parapet",
       "code": "U067",
       "osm_id": 157655074,
-      "name": "Ryerson Laboratory"
+      "name": "Ryerson Laboratory",
+      "subsequent_main_quad_review": "sources/main_quadrangles_review.json"
     },
     {
       "family": "gothic_academic",
@@ -1503,7 +1519,8 @@
       "roof_form": "connected pitched/hipped wing roof",
       "code": "U068",
       "osm_id": 157655066,
-      "name": "Eckhart Hall"
+      "name": "Eckhart Hall",
+      "subsequent_main_quad_review": "sources/main_quadrangles_review.json"
     },
     {
       "family": "kent",
@@ -1525,7 +1542,8 @@
       "roof_form": "connected pitched/hipped wing roof",
       "code": "U069",
       "osm_id": 154859382,
-      "name": "Kent Chemical Laboratory"
+      "name": "Kent Chemical Laboratory",
+      "subsequent_main_quad_review": "sources/main_quadrangles_review.json"
     },
     {
       "family": "comer",
@@ -1664,7 +1682,8 @@
       "code": "U075",
       "osm_id": 154859380,
       "name": "Jones Laboratory",
-      "science_quad_review": true
+      "science_quad_review": true,
+      "subsequent_main_quad_review": "sources/main_quadrangles_review.json"
     },
     {
       "family": "house",
@@ -1856,7 +1875,8 @@
       "roof_form": "retain existing source-specific roof",
       "code": "U084",
       "osm_id": 152284265,
-      "name": "Edward H. Levi Hall"
+      "name": "Edward H. Levi Hall",
+      "subsequent_main_quad_review": "sources/main_quadrangles_review.json"
     },
     {
       "family": "house",
@@ -2179,7 +2199,8 @@
       "roof_form": "connected pitched/hipped wing roof",
       "code": "U097",
       "osm_id": 155201128,
-      "name": "Walker Museum"
+      "name": "Walker Museum",
+      "subsequent_main_quad_review": "sources/main_quadrangles_review.json"
     },
     {
       "family": "cobb",
@@ -2201,7 +2222,8 @@
       "roof_form": "connected pitched/hipped wing roof",
       "code": "U098",
       "osm_id": 156343655,
-      "name": "Cobb Hall"
+      "name": "Cobb Hall",
+      "subsequent_main_quad_review": "sources/main_quadrangles_review.json"
     },
     {
       "family": "lab_school",
@@ -2245,7 +2267,8 @@
       "roof_form": "recessed flat roof with supported parapet",
       "code": "U100",
       "osm_id": 156044644,
-      "name": "Pick Hall"
+      "name": "Pick Hall",
+      "subsequent_main_quad_review": "sources/main_quadrangles_review.json"
     },
     {
       "family": "gothic_academic",
@@ -2267,7 +2290,8 @@
       "roof_form": "connected pitched/hipped wing roof",
       "code": "U101",
       "osm_id": 151173251,
-      "name": "Swift Hall"
+      "name": "Swift Hall",
+      "subsequent_main_quad_review": "sources/main_quadrangles_review.json"
     },
     {
       "family": "gothic_academic",
@@ -2289,7 +2313,8 @@
       "roof_form": "connected pitched/hipped wing roof",
       "code": "U102",
       "osm_id": 155201131,
-      "name": "Rosenwald Hall"
+      "name": "Rosenwald Hall",
+      "subsequent_main_quad_review": "sources/main_quadrangles_review.json"
     },
     {
       "family": "hospital",
@@ -2386,7 +2411,8 @@
       "roof_form": "connected pitched/hipped wing roof",
       "code": "U106",
       "osm_id": 156044643,
-      "name": "Beecher Hall"
+      "name": "Beecher Hall",
+      "subsequent_main_quad_review": "sources/main_quadrangles_review.json"
     },
     {
       "family": "chapel",
@@ -2408,7 +2434,8 @@
       "roof_form": "connected pitched/hipped wing roof",
       "code": "U107",
       "osm_id": 151173255,
-      "name": "Bond Chapel"
+      "name": "Bond Chapel",
+      "subsequent_main_quad_review": "sources/main_quadrangles_review.json"
     },
     {
       "family": "hospital",
@@ -2560,7 +2587,8 @@
       "roof_form": "connected pitched/hipped wing roof",
       "code": "U114",
       "osm_id": 156343657,
-      "name": "Gates-Blake Hall"
+      "name": "Gates-Blake Hall",
+      "subsequent_main_quad_review": "sources/main_quadrangles_review.json"
     },
     {
       "family": "quad_residence",
@@ -2582,7 +2610,8 @@
       "roof_form": "connected pitched/hipped wing roof",
       "code": "U115",
       "osm_id": 156044639,
-      "name": "Green Hall"
+      "name": "Green Hall",
+      "subsequent_main_quad_review": "sources/main_quadrangles_review.json"
     },
     {
       "family": "historic_hospital",
@@ -2631,7 +2660,8 @@
       "roof_form": "connected pitched/hipped wing roof",
       "code": "U117",
       "osm_id": 156128083,
-      "name": "Stuart Hall"
+      "name": "Stuart Hall",
+      "subsequent_main_quad_review": "sources/main_quadrangles_review.json"
     },
     {
       "family": "gothic_academic",
@@ -2653,7 +2683,8 @@
       "roof_form": "connected pitched/hipped wing roof",
       "code": "U118",
       "osm_id": 155873096,
-      "name": "Haskell Hall"
+      "name": "Haskell Hall",
+      "subsequent_main_quad_review": "sources/main_quadrangles_review.json"
     },
     {
       "family": "sports_hall",
@@ -2852,7 +2883,8 @@
       "roof_form": "connected pitched/hipped wing roof",
       "code": "U126",
       "osm_id": 150457341,
-      "name": "Ida Noyes Hall"
+      "name": "Ida Noyes Hall",
+      "satellite_roof_review": "sources/satellite_campus_review.json"
     },
     {
       "family": "quad_residence",
@@ -2874,7 +2906,8 @@
       "roof_form": "connected pitched/hipped wing roof",
       "code": "U127",
       "osm_id": 156044638,
-      "name": "Kelly Hall"
+      "name": "Kelly Hall",
+      "subsequent_main_quad_review": "sources/main_quadrangles_review.json"
     },
     {
       "family": "gothic_academic",
@@ -2896,7 +2929,8 @@
       "roof_form": "connected pitched/hipped wing roof",
       "code": "U128",
       "osm_id": 156343665,
-      "name": "Goodspeed Hall"
+      "name": "Goodspeed Hall",
+      "subsequent_main_quad_review": "sources/main_quadrangles_review.json"
     },
     {
       "family": "wellness",
@@ -3011,7 +3045,8 @@
       "roof_form": "connected pitched/hipped wing roof",
       "code": "U133",
       "osm_id": 156128079,
-      "name": "Social Science Research Building"
+      "name": "Social Science Research Building",
+      "subsequent_main_quad_review": "sources/main_quadrangles_review.json"
     },
     {
       "family": "gothic_academic",
@@ -3033,7 +3068,8 @@
       "roof_form": "connected pitched/hipped wing roof",
       "code": "U134",
       "osm_id": 156343662,
-      "name": "Wieboldt Hall"
+      "name": "Wieboldt Hall",
+      "subsequent_main_quad_review": "sources/main_quadrangles_review.json"
     },
     {
       "family": "hospital",
@@ -3070,7 +3106,8 @@
       "validation": "Byte-identical building mesh/material comparison against release 26.10.18.11.",
       "code": "U136",
       "osm_id": 156128082,
-      "name": "Harper Memorial Library"
+      "name": "Harper Memorial Library",
+      "subsequent_main_quad_review": "sources/main_quadrangles_review.json"
     },
     {
       "family": "gothic_academic",
@@ -3092,7 +3129,8 @@
       "roof_form": "connected pitched/hipped wing roof",
       "code": "U137",
       "osm_id": 156343656,
-      "name": "Classics Building"
+      "name": "Classics Building",
+      "subsequent_main_quad_review": "sources/main_quadrangles_review.json"
     },
     {
       "family": "hospital",
@@ -3141,7 +3179,8 @@
       "roof_form": "connected pitched/hipped wing roof",
       "code": "U139",
       "osm_id": 156044642,
-      "name": "Foster Hall"
+      "name": "Foster Hall",
+      "subsequent_main_quad_review": "sources/main_quadrangles_review.json"
     },
     {
       "family": "brick_academic",

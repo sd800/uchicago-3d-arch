@@ -1,0 +1,20 @@
+{
+  "scope_buildings": 34,
+  "reconstructed_buildings": 33,
+  "retained_geometry_buildings": 142,
+  "checks": [
+    "34 individual Quad source/section records; 33 reconstructed exteriors and the retained source-specific Mitchell Tower",
+    "Every reconstructed building reaches the relative ground datum",
+    "Levi east-west passage is open at pedestrian height and enclosed by its glazed bridge above",
+    "Cobb Gate opens along the principal north-south promenade as well as the lateral covered axis",
+    "Harper retains eight reading bays per elevation, actual masonry apertures, tracery, two grounded entries and published tower maximum",
+    "Ryerson observatory, Kent separate north theatre, Walker turret and Rosenwald octagonal tower survive CAD export",
+    "Hutchinson is a single tall hall with genuine traceried apertures instead of classroom storeys",
+    "All 142 other mesh/material sequences, including Mitchell, retain identical mesh and material data",
+    "Campus North planting is confined to the low dining roof; the three residential tower tops use neutral membrane roofing",
+    "Satellite-confirmed Palevsky blue-violet, Henry Crown brown-red roof corrections and verification of retained Ida Noyes red roofs are confined to their named layers",
+    "Mapped lawns, pond and path centerlines retained with bounded edges, paving joints and short entrance connections"
+  ],
+  "passed": true,
+  "limits": "Public georeferenced footprints and retained published maximums; unpublished local sections, bay widths and ornament are proportional exterior estimates. Photographic interpretation, not survey/BIM accuracy."
+}

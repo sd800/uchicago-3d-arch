@@ -1,3 +1,4 @@
+from main_quadrangles import landscape as refine_main_quadrangles
 from science_exteriors import landscape as refine_science_quad, entry_clearance
 from campus_refinement import landscape as refine_landscape
 from campus_optimization import rebuild as rebuild_ordinary, finish as finish_ordinary, facade as optimized_facade, specification, roof_shell
@@ -57,7 +58,8 @@ COLORS={
  'MedicalStone':(184,179,157),'MedicalGlass':(75,104,115),'MedicalSilverGlass':(117,150,157),'MedicalGreenGlass':(79,128,120),'MedicalDarkGlass':(52,79,86),'MedicalSteel':(169,178,174),'MedicalPlant':(77,84,86),
  'QuadStone':(185,181,162),'QuadTrim':(214,207,184),'WarmBrick':(139,83,64),'BrownBrick':(115,82,64),'HospitalBrick':(167,117,90),'WindowGlass':(73,99,105),'DoorWood':(86,62,45),'RoofSlate':(85,94,96),'RoofClay':(130,73,55),'RoofMembrane':(151,154,146),'RoofPatina':(111,143,130),
  'FieldTurf':(62,103,71),'FieldStripe':(70,113,77),'CourtApron':(72,101,88),'Infield':(179,129,94),'GoalPost':(219,201,133),
- 'Furniture':(72,78,72),'Solar':(50,73,88),'PalevskyBrick':(177,79,48),'PalevskyPurple':(102,88,125),'PalevskyRoof':(145,108,85),
+ 'RoofSedum':(134,137,98),'RoofPaleMembrane':(197,198,193),'FieldhouseRoof':(124,89,85),
+ 'Furniture':(72,78,72),'Solar':(50,73,88),'PalevskyBrick':(177,79,48),'PalevskyPurple':(102,88,125),'PalevskyRoof':(109,111,143),
 }
 model=rh.File3dm();model.ApplicationName='UChicago Hyde Park Public-source Exterior Model'
 model.Settings.ModelUnitSystem=rh.UnitSystem.Meters;model.Settings.ModelAbsoluteTolerance=.01
@@ -246,6 +248,7 @@ for j,f in enumerate(buildings,1):
     elif i in REBUILT_HIGHLIGHTS:
         if i==1228219576:p=box(x-9.4488/2,y-10.668/2,x+9.4488/2,y+10.668/2)
         detail_record=rebuild_highlight(ms,p,i,h,body,SimpleNamespace(**globals()))
+        levels=detail_record.get('levels',levels)
         partition='; '.join(detail_record['features'])+'. Public-source exterior reconstruction; member dimensions approximate.'
     elif i==157655069:
         # The great dining hall has tall Gothic windows and an open single
@@ -315,10 +318,21 @@ for j,f in enumerate(buildings,1):
             body(q,zz,hh,'Metal',lev=2,arch=False,cont=True);flat(q,zz+hh-.13,'Metal')
         partition='双层底座与4组错位会场塔段；最高52m采用竣工案例；各段宽度、标高与折面简化'
     elif i==10657061:
-        regions=[(box(a-1,1394,706,d+1),50.3,15),(box(676,b-1,c+1,1394),37.5,11),(box(a-1,b-1,676,1394),18.5,5)]
-        for cut,hh,ll in regions:
-            q=p.intersection(cut);body(q,0,hh,'WhitePanel',lev=ll,arch=False);flat(q,hh,'Garden')
-        h=50.3;partition='三组白色住宅塔及庭院；5/11/15层有资料，50.3/37.5/18.5m及分界位置估算；窗框重复表达'
+        # University / Studio Gang distinguish the low planted dining roof
+        # from the three residential bars. Never paint every tower as turf.
+        north=p.intersection(Polygon([(623,1403),(643,1407),(672,1413),(686,1413),(699,1396),(706,1396),(706,1430),(623,1430)]))
+        east=p.intersection(Polygon([(711,1322),(735,1322),(735,1404),(711,1404),(711,1386),(718,1382),(718,1359),(712,1332)])).difference(north)
+        diagonal=p.intersection(Polygon([(677,1313),(694,1313),(695,1335),(696,1352),(711.5,1379),(714,1396),(705,1403),(693,1392),(678,1360)])).difference(north.union(east))
+        dining=p.difference(unary_union([north,east,diagonal]))
+        for q,hh,ll in [(north,50.3,15),(diagonal,37.5,11),(east,18.5,5)]:
+            body(q,0,hh,'WhitePanel',lev=ll,arch=False);flat(q,hh,'RoofPaleMembrane')
+            for poly in polygons(q.difference(q.buffer(-.23,join_style=2))):ms['WhitePanel'].append(extrusion(poly,hh,.42))
+        body(dining,0,5.5,'WhitePanel',lev=1,arch=False);flat(dining,5.5,'RoofMembrane')
+        # Bounded planted beds leave a pale maintenance perimeter and a
+        # circulation strip; sedum is not represented by a uniform lawn lid.
+        planted=dining.buffer(-1.15,join_style=2).difference(box(a-1,1373,c+1,1374.4))
+        for q in polygons(planted):ms['RoofSedum'].append(extrusion(q,5.65,.10))
+        h=50.72;partition='三条5/11/15层住宅楼采用中性灰色普通屋面；低层Baker Dining Commons区分种植面、检修边带与通道。绿化屋顶有学校/建筑师资料，局部边界与标高仍为估算。'
     elif i==11687839:
         high=p.intersection(box(a-1,b-1,798,313));rest=p.difference(high)
         body(rest,0,94*.3048,'WhitePanel',lev=7,arch=False);flat(rest,94*.3048)
@@ -539,6 +553,7 @@ athletic_refinement=refine_athletic_fields(SimpleNamespace(**globals()),athletic
 (OUT/'athletic_fields_refinement.json').write_text(json.dumps(athletic_refinement,indent=2)+'\n')
 landscape_refinement=refine_landscape(SimpleNamespace(**globals()))
 landscape_refinement['science_quad']=refine_science_quad(SimpleNamespace(**globals()))
+landscape_refinement['main_quadrangles']=refine_main_quadrangles(SimpleNamespace(**globals()))
 (OUT/'campus_landscape_refinement.json').write_text(json.dumps(landscape_refinement,indent=2))
 for k,(mat,parts) in enumerate(eg.items()):
     if parts:chunk_meshes(f'E{k:02d}',parts,mat,'环境_Environment',{'Landscape':'Mapped boundaries and centerlines; approximate tree planting, surface levels, road widths','Units':'meters'})

@@ -45,14 +45,16 @@ const mixed=new Mesh(new BoxGeometry(10,10,10),Array.from({length:6},(_,i)=>new 
 const single=new Mesh(new BoxGeometry(10,10,10),new MeshPhongMaterial({name:'Ground'}));new Group().add(single);assert.equal(prepareLandscape(single).length,3,'A single Ground material retains its closed shell plus a separate top-depth barrier');
 const glass=new MeshPhongMaterial({transparent:true,opacity:.73});stabilizeBuildingMaterial(glass,true);assert.equal(glass.depthWrite,false);assert.equal(glass.depthTest,true);assert.equal(glass.opacity,.73);
 const body=new MeshPhongMaterial();stabilizeBuildingMaterial(body);assert.equal(body.depthWrite,true);assert.equal(body.depthTest,true);
-let roofCaps=0;
+let roofCaps=0,paleMembraneParts=0;
 const buildingMeshes=[];campus.traverse(m=>{if(m.isMesh&&layers[m.name]?.category!=='environment')buildingMeshes.push(m);});
 for(const mesh of buildingMeshes){
  const original=mesh.geometry,hash=createHash('sha256').update(original.attributes.position.array).digest('hex'),count=original.index?.count??original.attributes.position.count,originalBox=new Box3().setFromObject(mesh);
  const wallColors=new Map((Array.isArray(mesh.material)?mesh.material:[mesh.material]).map(m=>[m.name,m.color.getHex()]));
  const ground=originalBox.min.z-1,parts=prepareBuildingRoofs(mesh,ground,mesh.name.includes('D'));let faces=0;
  for(const part of parts){assert.equal(createHash('sha256').update(part.geometry.attributes.position.array).digest('hex'),hash,'Roof coloring retains original positions');faces+=part.geometry.index?.count??part.geometry.attributes.position.count;for(const material of Array.isArray(part.material)?part.material:[part.material])if(material.userData.campusRoof){roofCaps++;assert.equal(material.color.getHex(),0x657078);assert.equal(material.depthTest,true);}else assert.equal(material.color.getHex(),wallColors.get(material.name),'Walls and stone trim retain their colors');assert.ok(new Box3().setFromObject(part).equals(originalBox),'Roof coloring retains mesh bounds');}
+ for(const part of parts)for(const material of Array.isArray(part.material)?part.material:[part.material])if(material.name==='RoofPaleMembrane'){paleMembraneParts++;assert.ok(!material.userData.campusRoof,'Satellite-confirmed pale membrane must retain its authored color');}
  assert.equal(faces,count,'Roof coloring retains every original triangle exactly once');
 }
+assert.ok(paleMembraneParts>0,'Campus North pale roof membranes survive browser preparation');
 console.log(`Rendering passed: ${skins} map skins / ${triangles.toLocaleString()} upward triangles, ${structures} unchanged structural meshes, stable material ordering, transparent/details occlusion and ${cases} tight depth-frustum cases.`);
 console.log(`Roof color checks passed: ${roofCaps} gray roof caps, unchanged triangle membership and georeferenced positions.`);

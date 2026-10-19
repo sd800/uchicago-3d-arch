@@ -1,0 +1,1671 @@
+{
+  "access_date": "2026-10-18",
+  "provider": "Current Google Maps satellite layer, directly viewed in the browser; imagery credits Airbus, Maxar Technologies and Vexcel Imaging US",
+  "imagery_acquisition_date": "Not exposed in the inspected interface. Copyright 2026 is not a verified capture date. This is the current accessible default mosaic, not a guarantee of the newest possible imagery worldwide.",
+  "scope": "The complete existing modeled campus, with five district sweeps and enlarged checks of suspected roof-material discrepancies; 177 indexed building layers. This is a regional plan/roof review, not individual facade or measured-condition certification.",
+  "regions": {
+    "north": {
+      "name": "Northern housing, athletics, art and library district",
+      "map": "https://www.google.com/maps/@41.7923714,-87.5989631,640m/data=!3m1!1e3",
+      "observations": [
+        "Three pale Campus North residential roof bars around open courts, with a distinct olive lower dining roof to their west",
+        "Max Palevsky roofs show a blue-violet surface; Henry Crown shows a brown-red pitched roof",
+        "Ratner pale metal curved roofs, track and baseball field arrangement, Regenstein stepped plan and Mansueto oval dome remain identifiable"
+      ]
+    },
+    "quads": {
+      "name": "Main Quadrangles, Hull Court and Science Quadrangle",
+      "map": "https://www.google.com/maps/@41.7894521,-87.5989631,640m/data=!3m1!1e3",
+      "observations": [
+        "Red pitched wing roofs dominate the historic quadrangles, with localized flat modern laboratory roofs",
+        "Central lawn circle and approach axes, enclosing courtyard voids and Hull Court building relationships are retained",
+        "Targeted enlarged Hutchinson image resolves its long red gabled hall roof, Reynolds wing and multiple cross-gables on the Hull laboratories"
+      ]
+    },
+    "medical": {
+      "name": "Western clinical and research district",
+      "map": "https://www.google.com/maps/@41.7894521,-87.6029502,640m/data=!3m1!1e3",
+      "observations": [
+        "Clinical blocks have mixed pale/gray flat membranes and dense roof plant, distinct from historic red-roof laboratory ranges",
+        "Major hospital mass offsets, courtyard voids and raised connectors remain visible",
+        "Construction and paved surfaces beyond the existing mapped scope are not assumed to be completed university buildings"
+      ]
+    },
+    "south": {
+      "name": "Midway, Law Quadrangle and south-campus residences/institutions",
+      "map": "https://www.google.com/maps/@41.7846519,-87.5989631,640m/data=!3m1!1e3",
+      "observations": [
+        "Midway lawns are divided by road corridors, tree belts and existing paths; the rink occupies its mapped central location",
+        "Law and residential blocks retain their mapped open courts and separate flat/steep roof ranges",
+        "Woodlawn, Grossman, Logan, Keller, Rubenstein and southern institutional footprints were compared at district-plan scale"
+      ]
+    },
+    "east": {
+      "name": "Eastern academic corridor, Laboratory Schools and International House",
+      "map": "https://www.google.com/maps/@41.787425,-87.5964261,640m/data=!3m1!1e3",
+      "observations": [
+        "Roof plans combine red historic wings, flat contemporary additions and green court/athletics spaces",
+        "Rockefeller, Robie, Booth, school courts, Jackman field and International House remain distinct plan elements",
+        "Enlarged Ida Noyes view confirms red roof wings, dormer rhythm and a contemporary flat roof to the north"
+      ]
+    }
+  },
+  "targeted_maps": {
+    "campus_north": "https://www.google.com/maps/@41.79442,-87.59877,220m/data=!3m1!1e3",
+    "hutchinson": "https://www.google.com/maps/place/1133+E+57th+St+Hutchinson+Commons,+Chicago,+IL+60637/",
+    "ida_noyes": "https://www.google.com/maps/search/Ida+Noyes+Hall+University+of+Chicago/"
+  },
+  "specific_corrections": {
+    "U002": "Replace universally green residential tower caps with pale gray-white membranes; separate the western low planted dining roof and trace tower/roof partitions against the mapped outline.",
+    "U006": "Change the Henry Crown pitched roof to a bounded brown-red material.",
+    "U011": "Correct Max Palevsky roof palette from brown to blue-violet.",
+    "U014": "Correct Max Palevsky roof palette from brown to blue-violet.",
+    "U018": "Correct Max Palevsky roof palette from brown to blue-violet.",
+    "U034": "Refine the observed repeated two-sided cross-gable roof rhythm in the detailed Zoology reconstruction.",
+    "U036": "Refine the northern Hull range roof/gable rhythm in the detailed Anatomy reconstruction.",
+    "U050": "Refine the longitudinal Hull laboratory cross-gable rhythm in the detailed Erman reconstruction.",
+    "U051": "Refine the higher western Hull range gables in the detailed Culver reconstruction."
+  },
+  "limitations": [
+    "Tree cover and roof shadows obscure secondary footprints and some courtyard edges. Roof color is interpreted as a material class, not a calibrated color sample.",
+    "Satellite viewing does not verify entrance elevations, actual floor heights, interiors, facade carving or every small mechanical unit. Street-level/owner/architect photographs supplement the detailed Main Quad reconstruction.",
+    "No source imagery is redistributed; the audit stores source links and observations only.",
+    "The model is still an exterior interpretation. A district sweep is not evidence that every historical Highlight already satisfies the detailed modeling standard."
+  ],
+  "buildings": [
+    {
+      "code": "U001",
+      "name": "Campus North Parking Garage",
+      "district": "north",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7923714,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U002",
+      "name": "Campus North Residential Commons",
+      "district": "north",
+      "review_level": "targeted roof correction",
+      "correction": "Replace universally green residential tower caps with pale gray-white membranes; separate the western low planted dining roof and trace tower/roof partitions against the mapped outline.",
+      "reference": "https://www.google.com/maps/@41.7923714,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U003",
+      "name": "Gerald Ratner Athletics Center",
+      "district": "north",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7923714,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U004",
+      "name": "Cochrane-Woods Art Center",
+      "district": "north",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7923714,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U005",
+      "name": "Court Theatre",
+      "district": "north",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7923714,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U006",
+      "name": "Henry Crown Field House",
+      "district": "north",
+      "review_level": "targeted roof correction",
+      "correction": "Change the Henry Crown pitched roof to a bounded brown-red material.",
+      "reference": "https://www.google.com/maps/@41.7923714,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U007",
+      "name": "David and Alfred Smart Museum of Art",
+      "district": "north",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7923714,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U008",
+      "name": "Young Memorial Building",
+      "district": "north",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7923714,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U009",
+      "name": "Stagg Field",
+      "district": "north",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7923714,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U010",
+      "name": "847 East 56th Street",
+      "district": "north",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7923714,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U011",
+      "name": "Max Palevsky Commons Central",
+      "district": "north",
+      "review_level": "targeted roof correction",
+      "correction": "Correct Max Palevsky roof palette from brown to blue-violet.",
+      "reference": "https://www.google.com/maps/@41.7923714,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U012",
+      "name": "University of Chicago Auto Service Facility",
+      "district": "north",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7923714,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U013",
+      "name": "West Campus Combined Utility Plant",
+      "district": "north",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7923714,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U014",
+      "name": "Max Palevsky Commons West",
+      "district": "north",
+      "review_level": "targeted roof correction",
+      "correction": "Correct Max Palevsky roof palette from brown to blue-violet.",
+      "reference": "https://www.google.com/maps/@41.7923714,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U015",
+      "name": "High Bay Research Building",
+      "district": "north",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7923714,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U016",
+      "name": "Michelson Center for Physics",
+      "district": "north",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7923714,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U017",
+      "name": "Molecular Engineering Modular Offices",
+      "district": "north",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7923714,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U018",
+      "name": "Max Palevsky Commons East",
+      "district": "north",
+      "review_level": "targeted roof correction",
+      "correction": "Correct Max Palevsky roof palette from brown to blue-violet.",
+      "reference": "https://www.google.com/maps/@41.7923714,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U019",
+      "name": "Accelerator Building",
+      "district": "medical",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.6029502,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U020",
+      "name": "UChicago Child Development Center - Drexel",
+      "district": "north",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7923714,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U021",
+      "name": "Knapp Research Center",
+      "district": "medical",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.6029502,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U022",
+      "name": "Joseph Regenstein Library",
+      "district": "north",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7923714,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U023",
+      "name": "Medical Campus Parking Garage B",
+      "district": "medical",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.6029502,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U024",
+      "name": "Joe and Rika Mansueto Library",
+      "district": "north",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7923714,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U025",
+      "name": "Knapp Center for Biomedical Discovery",
+      "district": "medical",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.6029502,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U026",
+      "name": "Greenhouse",
+      "district": "medical",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.6029502,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U027",
+      "name": "Bartlett Dining Commons",
+      "district": "north",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7923714,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U028",
+      "name": "William Eckhardt Research Center",
+      "district": "north",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7923714,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U029",
+      "name": "Donnelley Biological Sciences Learning Center",
+      "district": "medical",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.6029502,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U030",
+      "name": "Biopsychology Science Building",
+      "district": "medical",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.6029502,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U031",
+      "name": "Rohr Chabad Jewish Center",
+      "district": "east",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.787425,-87.5964261,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U032",
+      "name": "Mitchell Tower",
+      "district": "quads",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U033",
+      "name": "Neubauer Collegium",
+      "district": "east",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.787425,-87.5964261,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U034",
+      "name": "Zoology",
+      "district": "medical",
+      "review_level": "targeted roof correction",
+      "correction": "Refine the observed repeated two-sided cross-gable roof rhythm in the detailed Zoology reconstruction.",
+      "reference": "https://www.google.com/maps/@41.7894521,-87.6029502,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U035",
+      "name": "Cobb Gate",
+      "district": "quads",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U036",
+      "name": "Anatomy",
+      "district": "medical",
+      "review_level": "targeted roof correction",
+      "correction": "Refine the northern Hull range roof/gable rhythm in the detailed Anatomy reconstruction.",
+      "reference": "https://www.google.com/maps/@41.7894521,-87.6029502,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U037",
+      "name": "Quadrangle Club",
+      "district": "east",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.787425,-87.5964261,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U038",
+      "name": "Hutchinson Commons",
+      "district": "quads",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U039",
+      "name": "Snell-Hitchcock Halls",
+      "district": "quads",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U040",
+      "name": "5706 South Woodlawn Avenue",
+      "district": "east",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.787425,-87.5964261,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U041",
+      "name": "Hunnewell House",
+      "district": "east",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.787425,-87.5964261,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U042",
+      "name": "Reynolds Club",
+      "district": "quads",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U043",
+      "name": "Kersten Physics Teaching Center",
+      "district": "quads",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U044",
+      "name": "Center for Care and Discovery",
+      "district": "medical",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.6029502,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U045",
+      "name": "Gordon Center for Integrative Science",
+      "district": "medical",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.6029502,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U046",
+      "name": "Office of Multicultural Student Affairs",
+      "district": "east",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.787425,-87.5964261,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U047",
+      "name": "Ryder House",
+      "district": "east",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.787425,-87.5964261,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U048",
+      "name": "Delta Upsilon House",
+      "district": "east",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.787425,-87.5964261,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U049",
+      "name": "Newberger Hillel Center",
+      "district": "east",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.787425,-87.5964261,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U050",
+      "name": "Erman Biology Center",
+      "district": "medical",
+      "review_level": "targeted roof correction",
+      "correction": "Refine the longitudinal Hull laboratory cross-gable rhythm in the detailed Erman reconstruction.",
+      "reference": "https://www.google.com/maps/@41.7894521,-87.6029502,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U051",
+      "name": "Culver",
+      "district": "medical",
+      "review_level": "targeted roof correction",
+      "correction": "Refine the higher western Hull range gables in the detailed Culver reconstruction.",
+      "reference": "https://www.google.com/maps/@41.7894521,-87.6029502,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U052",
+      "name": "Concert Office",
+      "district": "east",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.787425,-87.5964261,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U053",
+      "name": "Institute of Politics",
+      "district": "east",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.787425,-87.5964261,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U054",
+      "name": "Mandel Hall",
+      "district": "quads",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U055",
+      "name": "5728 S. Woodlawn",
+      "district": "east",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.787425,-87.5964261,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U056",
+      "name": "Stevanovich Center for Financial Mathematics",
+      "district": "east",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.787425,-87.5964261,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U057",
+      "name": "Searle Chemical Laboratory",
+      "district": "quads",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U058",
+      "name": "John Crerar Library",
+      "district": "quads",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U059",
+      "name": "5729 South Woodlawn Avenue",
+      "district": "east",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.787425,-87.5964261,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U060",
+      "name": "Comparative Human Development Building",
+      "district": "east",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.787425,-87.5964261,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U061",
+      "name": "Gender/Race Studies Building",
+      "district": "east",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.787425,-87.5964261,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U062",
+      "name": "Calvert House",
+      "district": "east",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.787425,-87.5964261,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U063",
+      "name": "NSIT Office",
+      "district": "east",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.787425,-87.5964261,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U064",
+      "name": "Henry Hinds Laboratory for Geophysical Sciences",
+      "district": "quads",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U065",
+      "name": "Comer Hospital East Wing",
+      "district": "medical",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.6029502,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U066",
+      "name": "Duchossois Center for Advanced Medicine",
+      "district": "medical",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.6029502,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U067",
+      "name": "Ryerson Laboratory",
+      "district": "quads",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U068",
+      "name": "Eckhart Hall",
+      "district": "quads",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U069",
+      "name": "Kent Chemical Laboratory",
+      "district": "quads",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U070",
+      "name": "Comer Children's Hospital",
+      "district": "medical",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.6029502,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U071",
+      "name": "SCRS Building",
+      "district": "east",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.787425,-87.5964261,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U072",
+      "name": "U of C Nursery School",
+      "district": "east",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.787425,-87.5964261,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U073",
+      "name": "Saieh Hall Annex",
+      "district": "east",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.787425,-87.5964261,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U074",
+      "name": "McGiffert House",
+      "district": "east",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.787425,-87.5964261,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U075",
+      "name": "Jones Laboratory",
+      "district": "quads",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U076",
+      "name": "Alpha Delta Phi House",
+      "district": "east",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.787425,-87.5964261,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U077",
+      "name": "U of C Nursery School",
+      "district": "east",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.787425,-87.5964261,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U078",
+      "name": "Cummings Life Sciences Center",
+      "district": "medical",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.6029502,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U079",
+      "name": "Kovler",
+      "district": "medical",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.6029502,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U080",
+      "name": "Saieh Hall for Economics",
+      "district": "east",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.787425,-87.5964261,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U081",
+      "name": "Frederick C. Robie House",
+      "district": "east",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.787425,-87.5964261,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U082",
+      "name": "American School",
+      "district": "medical",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.6029502,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U083",
+      "name": "University Bookstore",
+      "district": "quads",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U084",
+      "name": "Edward H. Levi Hall",
+      "district": "quads",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U085",
+      "name": "Frank R. Lillie House",
+      "district": "east",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.787425,-87.5964261,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U086",
+      "name": "Abbott Hall",
+      "district": "medical",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.6029502,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U087",
+      "name": "Bernard A. Mitchell Hospital",
+      "district": "medical",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.6029502,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U088",
+      "name": "Institute for the Study of Ancient Cultures",
+      "district": "east",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.787425,-87.5964261,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U089",
+      "name": "Wilder House",
+      "district": "east",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.787425,-87.5964261,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U090",
+      "name": "Gordon Parks Arts Hall",
+      "district": "east",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.787425,-87.5964261,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U091",
+      "name": "Surgery Brain",
+      "district": "medical",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.6029502,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U092",
+      "name": "Carlson",
+      "district": "medical",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.6029502,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U093",
+      "name": "Peck Pavilion",
+      "district": "medical",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.6029502,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U094",
+      "name": "Medical Campus Parking Garage A",
+      "district": "medical",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.6029502,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U095",
+      "name": "Charles M. Harper Center",
+      "district": "east",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.787425,-87.5964261,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U096",
+      "name": "MRI",
+      "district": "medical",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.6029502,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U097",
+      "name": "Walker Museum",
+      "district": "quads",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U098",
+      "name": "Cobb Hall",
+      "district": "quads",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U099",
+      "name": "Belfield Hall",
+      "district": "east",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.787425,-87.5964261,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U100",
+      "name": "Pick Hall",
+      "district": "quads",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U101",
+      "name": "Swift Hall",
+      "district": "quads",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U102",
+      "name": "Rosenwald Hall",
+      "district": "quads",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U103",
+      "name": "Rubloff Intensive Care",
+      "district": "medical",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.6029502,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U104",
+      "name": "Sunny Gymnasium",
+      "district": "east",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.787425,-87.5964261,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U105",
+      "name": "Armour",
+      "district": "medical",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.6029502,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U106",
+      "name": "Beecher Hall",
+      "district": "quads",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U107",
+      "name": "Bond Chapel",
+      "district": "quads",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U108",
+      "name": "Wyler Children's Hospital",
+      "district": "medical",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.6029502,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U109",
+      "name": "Judd Hall",
+      "district": "east",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.787425,-87.5964261,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U110",
+      "name": "University High School",
+      "district": "east",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.787425,-87.5964261,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U111",
+      "name": "Laboratory Middle School",
+      "district": "east",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.787425,-87.5964261,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U112",
+      "name": "Rockefeller Memorial Chapel",
+      "district": "east",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.787425,-87.5964261,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U113",
+      "name": "Franklin McLean Research Institute",
+      "district": "medical",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.6029502,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U114",
+      "name": "Gates-Blake Hall",
+      "district": "quads",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U115",
+      "name": "Green Hall",
+      "district": "quads",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U116",
+      "name": "Billings",
+      "district": "medical",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.6029502,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U117",
+      "name": "Stuart Hall",
+      "district": "quads",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U118",
+      "name": "Haskell Hall",
+      "district": "quads",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U119",
+      "name": "Kovler Gymnasium",
+      "district": "east",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.787425,-87.5964261,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U120",
+      "name": "Gilman Smith",
+      "district": "medical",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.6029502,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U121",
+      "name": "Parking/Materials Management",
+      "district": "medical",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.6029502,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U122",
+      "name": "Goldblatt Pavilion",
+      "district": "medical",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.6029502,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U123",
+      "name": "Goldblatt",
+      "district": "medical",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.6029502,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U124",
+      "name": "International House",
+      "district": "east",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.787425,-87.5964261,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U125",
+      "name": "Chicago Lying-In Hospital",
+      "district": "medical",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.6029502,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U126",
+      "name": "Ida Noyes Hall",
+      "district": "east",
+      "review_level": "targeted roof verification",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.787425,-87.5964261,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified.",
+      "observation": "Existing RoofClay material and wing-roof relationship agree at this comparison level; no change required."
+    },
+    {
+      "code": "U127",
+      "name": "Kelly Hall",
+      "district": "quads",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U128",
+      "name": "Goodspeed Hall",
+      "district": "quads",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U129",
+      "name": "UChicago Student Wellness Center",
+      "district": "medical",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.6029502,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U130",
+      "name": "UChicago President's Mansion",
+      "district": "east",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.787425,-87.5964261,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U131",
+      "name": "Blaine Hall",
+      "district": "east",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.787425,-87.5964261,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U132",
+      "name": "Breckinridge House",
+      "district": "east",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.787425,-87.5964261,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U133",
+      "name": "Social Science Research Building",
+      "district": "quads",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U134",
+      "name": "Wieboldt Hall",
+      "district": "quads",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U135",
+      "name": "Bobs Roberts",
+      "district": "medical",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.6029502,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U136",
+      "name": "Harper Memorial Library",
+      "district": "quads",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U137",
+      "name": "Classics Building",
+      "district": "quads",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U138",
+      "name": "Hicks McElwee",
+      "district": "medical",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.6029502,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U139",
+      "name": "Foster Hall",
+      "district": "quads",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U140",
+      "name": "Chapin Hall",
+      "district": "south",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7846519,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U141",
+      "name": "Toyota Technological Institute",
+      "district": "south",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7846519,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U142",
+      "name": "University Press Building",
+      "district": "south",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7846519,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U143",
+      "name": "Rubenstein Forum",
+      "district": "south",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7846519,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U144",
+      "name": "Erna Heller Hall",
+      "district": "south",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7846519,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U145",
+      "name": "Chicago Theological Seminary",
+      "district": "south",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7846519,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U146",
+      "name": "Taft House",
+      "district": "south",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7846519,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U147",
+      "name": "Campus ancillary building 663674229",
+      "district": "south",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7846519,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U148",
+      "name": "Harris School of Public Policy Keller Center",
+      "district": "south",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7846519,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U149",
+      "name": "Edith Abbott Hall / Crown Family School",
+      "district": "south",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7846519,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U150",
+      "name": "The Study at the University of Chicago",
+      "district": "south",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7846519,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U151",
+      "name": "Faculty Apartments",
+      "district": "south",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7846519,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U152",
+      "name": "1155 East 60th Street",
+      "district": "south",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7846519,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U153",
+      "name": "Midway Studios",
+      "district": "south",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7846519,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U154",
+      "name": "Burton-Judson Courts",
+      "district": "south",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7846519,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U155",
+      "name": "Logan Center for the Arts",
+      "district": "south",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7846519,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U156",
+      "name": "Faculty Apartments",
+      "district": "south",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7846519,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U157",
+      "name": "Laird Bell Law Quadrangle",
+      "district": "south",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7846519,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U158",
+      "name": "Midway Residence Hall",
+      "district": "south",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7846519,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U159",
+      "name": "Faculty Apartments",
+      "district": "south",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7846519,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U160",
+      "name": "South Campus Chiller Plant",
+      "district": "south",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7846519,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U161",
+      "name": "Edelstone Center",
+      "district": "medical",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.6029502,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U162",
+      "name": "6041 South Blackstone Avenue",
+      "district": "south",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7846519,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U163",
+      "name": "Kimbark South Parking Garage",
+      "district": "south",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7846519,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U164",
+      "name": "6045 Kenwood Building",
+      "district": "south",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7846519,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U165",
+      "name": "6054 S. Drexel / Campus South Parking",
+      "district": "south",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7846519,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U166",
+      "name": "Woodlawn Residential & Dining Commons",
+      "district": "south",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7846519,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U167",
+      "name": "Center for Research Libraries",
+      "district": "south",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7846519,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U168",
+      "name": "Renee Granville-Grossman Residential Commons",
+      "district": "south",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7846519,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U169",
+      "name": "University of Chicago Steam Plant",
+      "district": "south",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7846519,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U170",
+      "name": "6044-6052 South Ingleside Avenue",
+      "district": "south",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7846519,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U171",
+      "name": "Woodlawn Social Services Center",
+      "district": "medical",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7894521,-87.6029502,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U172",
+      "name": "Steam Plant Auxiliary Building",
+      "district": "south",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7846519,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U173",
+      "name": "6051-6057 South Drexel Avenue",
+      "district": "south",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7846519,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U174",
+      "name": "6054-6056 South Ingleside Avenue",
+      "district": "south",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7846519,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U175",
+      "name": "920-922 East 61st Street",
+      "district": "south",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7846519,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U176",
+      "name": "924-926 East 61st Street",
+      "district": "south",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7846519,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    },
+    {
+      "code": "U177",
+      "name": "928 East 61st Street",
+      "district": "south",
+      "review_level": "district roof/plan comparison",
+      "correction": null,
+      "reference": "https://www.google.com/maps/@41.7846519,-87.5989631,640m/data=!3m1!1e3",
+      "detail_limit": "Minor roof equipment and obscured edges are not individually verified."
+    }
+  ]
+}

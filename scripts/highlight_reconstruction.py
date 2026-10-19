@@ -1,3 +1,4 @@
+from main_quadrangles import harper as detailed_harper, rebuild as detailed_quadrangle
 from science_exteriors import crerar as rebuild_crerar, harper as rebuild_harper, CRERAR_REFERENCE, CRERAR_FEATURES, HARPER_REFERENCE, HARPER_FEATURES
 """Individual highlight corrections after the architectural form audit.
 
@@ -13,7 +14,7 @@ from shapely.geometry import box,Polygon,Point,LineString
 from shapely.ops import unary_union
 from shapely import segmentize
 
-REFS={156128082:HARPER_REFERENCE,150457349:ROCKEFELLER_REFERENCE,125667497:'https://flwright.org/explore/frederick-c-robie-house',152586235:'https://architecture.uchicago.edu/locations/gerald_ratner_athletics_center/',142870150:'https://architecture.uchicago.edu/locations/gordon_center_for_integrative_science/',152284260:CRERAR_REFERENCE,1228219576:'https://architecture.uchicago.edu/locations/tower_group_mitchell_tower_hutchinson_commons_reynolds_club_mandel_hall/'}
+REFS={157655069:'https://architecture.uchicago.edu/locations/tower_group_mitchell_tower_hutchinson_commons_reynolds_club_mandel_hall/',156128082:HARPER_REFERENCE,150457349:ROCKEFELLER_REFERENCE,125667497:'https://flwright.org/explore/frederick-c-robie-house',152586235:'https://architecture.uchicago.edu/locations/gerald_ratner_athletics_center/',142870150:'https://architecture.uchicago.edu/locations/gordon_center_for_integrative_science/',152284260:CRERAR_REFERENCE,1228219576:'https://architecture.uchicago.edu/locations/tower_group_mitchell_tower_hutchinson_commons_reynolds_club_mandel_hall/'}
 FEATURES={
 156128082:HARPER_FEATURES,
 150457349:ROCKEFELLER_FEATURES,125667497:['long Roman-brick living/dining bar','deep low hipped clay eaves with limestone fascia','24 art-glass door bays along the south balcony','upper bedroom mass','central chimney','brick terraces, parapets and urns'],
@@ -24,7 +25,8 @@ FEATURES={
 
 def rebuild(ms,p,ident,h,body,t):
     if ident==152284260:return rebuild_crerar(ms,p,h,body,t)
-    if ident==156128082:return rebuild_harper(ms,p,h,body,t)
+    if ident==156128082:return detailed_harper(ms,p,h,body,t)
+    if ident==157655069:return detailed_quadrangle(ident,p,h,1,t)
     if ident==150457349:return rebuild_rockefeller(ms,p,h,body,t)
     if ident==152586235:return rebuild_ratner(ms,p,h,body,t)
     a,b,c,d=p.bounds;x,y=p.centroid.coords[0]
