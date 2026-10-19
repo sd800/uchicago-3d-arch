@@ -1,13 +1,13 @@
 {
   "format": "glTF 2.0 / FBX 7.4",
   "name": "UChicago_HydePark",
-  "meshCount": 1454,
-  "triangles": 2916700,
-  "vertices": 1802960,
+  "meshCount": 1493,
+  "triangles": 2631140,
+  "vertices": 1608632,
   "sourceCoordinateSystem": "meters, Z up, north +Y; GLB root maps to standard Y up",
-  "glbBytes": 40146900,
-  "fbxBytes": 24800766,
-  "glbSha256": "1c1da0f269830c7f0dc9640170721925e4e95cd56f0016589343cf0cc142c427",
-  "fbxSha256": "494227bda0eb0fd5b68e3d74ae570aee35aaef88a5ccf05bf0e390a3be4d4c46",
+  "glbBytes": 36129488,
+  "fbxBytes": 23219893,
+  "glbSha256": "ac4f371867827466bc2e37c0e2e3fa664029295d3fb410f43ccfceebfffa086e",
+  "fbxSha256": "47232cf880a3db1e372bbf3d6a7ebfb01560bedc38c9d09e79dac47363a803ac",
   "geometry": "Original construction positions rounded only to Float32 (same precision as previous mesh export); original face sequence and material assignments retained."
 }

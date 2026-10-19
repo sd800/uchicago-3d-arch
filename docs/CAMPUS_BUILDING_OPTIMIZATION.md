@@ -11,8 +11,8 @@ The mapped footprint and court openings remain the primary geometry source. Publ
 - Snell–Hitchcock: low three-storey residential ranges replace the former oversized block; open court, connected roofs and separate front gables.
 - International House: nine-storey north range, lower three-storey south wings and a west tower reaching twelve storeys; open mapped court and clay lower roofs.
 - Renee Granville-Grossman: stepped five/seven/nine-storey court ranges, distinguishing brick wings and pale corner towers.
-- Duchossois and Comer: six-storey precast/glazed medical ranges and a seven-storey brick patient block respectively; lower arrival wings, atrium and grounded entrance canopy.
-- High Bay: one tall experimental storey and four north-light roof ranges, rather than a generic multistorey office block. Greenhouse: low three-range glazing and supported ribs.
+- Duchossois and Comer: six-storey precast/glazed medical ranges and a seven-storey green-glass patient block respectively; lower arrival wings, atrium and grounded entrance canopy.
+- High Bay: one tall experimental storey and four north-light roof ranges, rather than a generic multistorey office block. Greenhouse: three glass roof ranges above a supported four-storey Donnelley base (corrected in the medical-side pass).
 - Main Quadrangles: source-informed limestone ranges, rectangular paired upper lights instead of universal pointed office windows, connected slate/clay wing roofs, restrained entrance-side gables, thresholds and steps. Ryerson receives a supported observatory drum/dome. Kent separates its low lecture range from the taller laboratory wings.
 - Pick Hall: concrete/flat-roof Brutalist massing replaces the invented Gothic treatment.
 - Midway Studios: low studio/barn and house ranges. South Steam Plant: tall brick boiler hall, large divided industrial lights and paired roof flues from university built photographs.
@@ -68,7 +68,7 @@ These technical checks prevent geometry regressions. They do not certify measure
 | U023 | Medical Campus Parking Garage B | garage | 8 / 26.4 m | conservative mapped exterior interpretation |
 | U024 | Joe and Rika Mansueto Library | Existing Highlight retained | — | Protected against 26.10.18.11 |
 | U025 | Knapp Center for Biomedical Discovery | retained | 10 / 40.7 m | existing individual massing retained; facade and entrance reviewed |
-| U026 | Greenhouse | greenhouse | 1 / 3.0 m | conservative mapped exterior interpretation |
+| U026 | Greenhouse | roof_greenhouse | 4 + greenhouse / 21.3 m | four-storey supporting base and rooftop glass ranges |
 | U027 | Bartlett Dining Commons | dining_hall | 1 / 10.6 m | conservative mapped exterior interpretation |
 | U028 | William Eckhardt Research Center | Existing Highlight retained | — | Protected against 26.10.18.11 |
 | U029 | Donnelley Biological Sciences Learning Center | laboratory | 4 / 17.0 m | conservative mapped exterior interpretation |
@@ -220,3 +220,5 @@ These technical checks prevent geometry regressions. They do not certify measure
 | U175 | 920-922 East 61st Street | house | 3 / 9.6 m | conservative mapped exterior interpretation |
 | U176 | 924-926 East 61st Street | house | 3 / 9.6 m | conservative mapped exterior interpretation |
 | U177 | 928 East 61st Street | house | 1 / 3.6 m | conservative mapped exterior interpretation |
+
+The medical-side rows above are superseded where applicable by [Medical exterior optimization](MEDICAL_EXTERIOR_OPTIMIZATION.md) and the per-building medical source catalog.

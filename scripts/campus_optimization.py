@@ -13,6 +13,7 @@ from shapely.ops import unary_union
 from shapely import contains_xy
 from shapely.affinity import rotate
 from campus_refinement import rebuild as retained_rebuild, oriented
+import medical_optimization
 
 CATALOG=json.loads((Path(__file__).resolve().parents[1]/'sources/building_optimization.json').read_text())
 SPECS={row['osm_id']:row for row in CATALOG['buildings']}
@@ -110,6 +111,8 @@ def roof_shell(p, z, rise, ctx, mat='RoofSlate'):
 def facade(ms,p,z,h,levels,gothic,continuous,spacing,ctx):
     cfg=ctx.current_design
     if not cfg or cfg['family']=='protected_highlight':return False
+    if cfg.get('medical_profile'):
+        medical_optimization.facade(ms,p,z,h,levels,ctx);return True
     family=cfg['family'];period=family in PERIOD or (family=='retained'and cfg.get('retained_profile')in['museum'])
     hall=family in ['sports_hall','dining_hall','great_hall','gothic_gym','chapel','high_bay']
     # Existing individually modeled laboratory ranges retain their actual local
@@ -164,6 +167,7 @@ def facade(ms,p,z,h,levels,gothic,continuous,spacing,ctx):
 
 def finish(p,h,levels,gothic,ctx,kind=None):
     cfg=ctx.current_design;ms=ctx.ms;family=cfg['family']
+    if cfg.get('medical_profile'):return medical_optimization.finish(p,h,levels,gothic,ctx,kind)
     # Each actual wall range gets a supported plinth/cornice; no rods extend
     # beyond local eaves, and no arbitrary roof boxes are added.
     courses=0
@@ -196,6 +200,7 @@ def finish(p,h,levels,gothic,ctx,kind=None):
 def rebuild(ident,p,h,levels,ctx):
     cfg=SPECS[ident]
     if cfg['family']=='protected_highlight':return None
+    if cfg.get('medical_profile'):return medical_optimization.rebuild(ident,p,h,levels,ctx)
     kind=cfg['family'];ms=ctx.ms;a,b,c,d=p.bounds;cx,cy=p.centroid.coords[0]
     e=cfg['eave_m'];rise=cfg['roof_rise_m'];wall=cfg['wall'];roof=cfg['roof'];features=[]
     def add(g,z,hh,mat=wall,lev=None,windows=True):

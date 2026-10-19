@@ -1,0 +1,381 @@
+{
+  "review_date": "2026-10-18",
+  "scope": "All 40 non-Highlight layers in the current Medical filter. Gordon Center, the existing medical Highlight, is checked and retained unchanged.",
+  "modeling_level": "optimized exterior, not measured detailed reconstruction",
+  "references": {
+    "map": "https://www.uchicagomedicine.org/-/media/pdfs/adult-pdfs/patients-and-visitors/patients/medical-campus-map.pdf",
+    "history": "https://mbsaa.uchicago.edu/2026/07/evolution-of-the-university-of-chicagos-medical-campus/",
+    "ccd": "https://www.rvapc.com/works/university-of-chicago-medicine-center-for-care-and-discovery/",
+    "dcam": "https://architecture.uchicago.edu/locations/duchossois_center_for_advanced_medicine/",
+    "comer": "https://www.uchicagomedicine.org/comer/find-a-location/uchicago-medicine-comer-childrens-hospital-hyde-park",
+    "mitchell": "https://www.uchicagomedicine.org/find-a-location/uchicago-medicine-mitchell-hospital-hyde-park",
+    "knapp": "https://architecture.uchicago.edu/locations/knapp_center_for_biomedical_discovery/",
+    "bslc": "https://ucmfacilities.uchicago.edu/construction/project_archive/biological_sciences_learning_center/",
+    "cummings": "https://architecture.uchicago.edu/locations/cummings_life_science_center/",
+    "hull": "https://ucmfacilities.uchicago.edu/construction/project_archive/hull_court_complex/",
+    "parking": "https://www.uchicagomedicine.org/patients-visitors/patient-information/directions-and-maps/parking",
+    "bsd": "https://bsdfacilities.uchicago.edu/building-management-home"
+  },
+  "buildings": [
+    {
+      "code": "U019",
+      "name": "Accelerator Building",
+      "osm_id": 148014495,
+      "profile": "service_lab",
+      "reference": "https://bsdfacilities.uchicago.edu/building-management-home",
+      "evidence": "Mapped footprint and owner wayfinding/building inventory; conservative exterior family interpretation",
+      "limits": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated."
+    },
+    {
+      "code": "U021",
+      "name": "Knapp Research Center",
+      "osm_id": 1054042714,
+      "profile": "knapp_research",
+      "reference": "https://ucmfacilities.uchicago.edu/construction/project_archive/biological_sciences_learning_center/",
+      "evidence": "Owner/architect exterior photograph comparison",
+      "limits": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated."
+    },
+    {
+      "code": "U023",
+      "name": "Medical Campus Parking Garage B",
+      "osm_id": 442771900,
+      "profile": "garage",
+      "reference": "https://www.uchicagomedicine.org/patients-visitors/patient-information/directions-and-maps/parking",
+      "evidence": "Mapped footprint and owner wayfinding/building inventory; conservative exterior family interpretation",
+      "limits": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated."
+    },
+    {
+      "code": "U025",
+      "name": "Knapp Center for Biomedical Discovery",
+      "osm_id": 143527369,
+      "profile": "knapp_discovery",
+      "reference": "https://architecture.uchicago.edu/locations/knapp_center_for_biomedical_discovery/",
+      "evidence": "Owner/architect exterior photograph comparison",
+      "limits": "Documented storeys and published maximum retained where available; new wing heights, canopy sizes and facade rhythms are exterior estimates."
+    },
+    {
+      "code": "U026",
+      "name": "Greenhouse",
+      "osm_id": 1112082353,
+      "profile": "roof_greenhouse",
+      "reference": "https://ucmfacilities.uchicago.edu/construction/project_archive/biological_sciences_learning_center/",
+      "evidence": "Owner/architect exterior photograph comparison",
+      "limits": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated."
+    },
+    {
+      "code": "U029",
+      "name": "Donnelley Biological Sciences Learning Center",
+      "osm_id": 142420007,
+      "profile": "bslc",
+      "reference": "https://ucmfacilities.uchicago.edu/construction/project_archive/biological_sciences_learning_center/",
+      "evidence": "Owner/architect exterior photograph comparison",
+      "limits": "Documented storeys and published maximum retained where available; new wing heights, canopy sizes and facade rhythms are exterior estimates."
+    },
+    {
+      "code": "U030",
+      "name": "Biopsychology Science Building",
+      "osm_id": 148014497,
+      "profile": "low_laboratory",
+      "reference": "https://bsdfacilities.uchicago.edu/building-management-home",
+      "evidence": "Mapped footprint and owner wayfinding/building inventory; conservative exterior family interpretation",
+      "limits": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated."
+    },
+    {
+      "code": "U034",
+      "name": "Zoology",
+      "osm_id": 157655090,
+      "profile": "hull_gothic",
+      "reference": "https://ucmfacilities.uchicago.edu/construction/project_archive/hull_court_complex/",
+      "evidence": "Mapped footprint and owner wayfinding/building inventory; conservative exterior family interpretation",
+      "limits": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated."
+    },
+    {
+      "code": "U036",
+      "name": "Anatomy",
+      "osm_id": 154421809,
+      "profile": "hull_gothic",
+      "reference": "https://ucmfacilities.uchicago.edu/construction/project_archive/hull_court_complex/",
+      "evidence": "Mapped footprint and owner wayfinding/building inventory; conservative exterior family interpretation",
+      "limits": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated."
+    },
+    {
+      "code": "U044",
+      "name": "Center for Care and Discovery",
+      "osm_id": 142771603,
+      "profile": "ccd",
+      "reference": "https://www.rvapc.com/works/university-of-chicago-medicine-center-for-care-and-discovery/",
+      "evidence": "Owner/architect exterior photograph comparison",
+      "limits": "Documented storeys and published maximum retained where available; new wing heights, canopy sizes and facade rhythms are exterior estimates."
+    },
+    {
+      "code": "U050",
+      "name": "Erman Biology Center",
+      "osm_id": 157655067,
+      "profile": "hull_gothic",
+      "reference": "https://ucmfacilities.uchicago.edu/construction/project_archive/hull_court_complex/",
+      "evidence": "Mapped footprint and owner wayfinding/building inventory; conservative exterior family interpretation",
+      "limits": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated."
+    },
+    {
+      "code": "U051",
+      "name": "Culver",
+      "osm_id": 152422457,
+      "profile": "hull_culver",
+      "reference": "https://ucmfacilities.uchicago.edu/construction/project_archive/hull_court_complex/",
+      "evidence": "Mapped footprint and owner wayfinding/building inventory; conservative exterior family interpretation",
+      "limits": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated."
+    },
+    {
+      "code": "U065",
+      "name": "Comer Hospital East Wing",
+      "osm_id": 202690810,
+      "profile": "comer_east",
+      "reference": "https://www.uchicagomedicine.org/comer/find-a-location/uchicago-medicine-comer-childrens-hospital-hyde-park",
+      "evidence": "Owner/architect exterior photograph comparison",
+      "limits": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated."
+    },
+    {
+      "code": "U066",
+      "name": "Duchossois Center for Advanced Medicine",
+      "osm_id": 142771605,
+      "profile": "dcam",
+      "reference": "https://architecture.uchicago.edu/locations/duchossois_center_for_advanced_medicine/",
+      "evidence": "Owner/architect exterior photograph comparison",
+      "limits": "Documented storeys and published maximum retained where available; new wing heights, canopy sizes and facade rhythms are exterior estimates."
+    },
+    {
+      "code": "U070",
+      "name": "Comer Children's Hospital",
+      "osm_id": 142771611,
+      "profile": "comer",
+      "reference": "https://www.uchicagomedicine.org/comer/find-a-location/uchicago-medicine-comer-childrens-hospital-hyde-park",
+      "evidence": "Owner/architect exterior photograph comparison",
+      "limits": "Documented storeys and published maximum retained where available; new wing heights, canopy sizes and facade rhythms are exterior estimates."
+    },
+    {
+      "code": "U078",
+      "name": "Cummings Life Sciences Center",
+      "osm_id": 89537392,
+      "profile": "cummings",
+      "reference": "https://architecture.uchicago.edu/locations/cummings_life_science_center/",
+      "evidence": "Owner/architect exterior photograph comparison",
+      "limits": "Documented storeys and published maximum retained where available; new wing heights, canopy sizes and facade rhythms are exterior estimates."
+    },
+    {
+      "code": "U079",
+      "name": "Kovler",
+      "osm_id": 142871281,
+      "profile": "low_laboratory",
+      "reference": "https://bsdfacilities.uchicago.edu/building-management-home",
+      "evidence": "Mapped footprint and owner wayfinding/building inventory; conservative exterior family interpretation",
+      "limits": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated."
+    },
+    {
+      "code": "U082",
+      "name": "American School",
+      "osm_id": 144047119,
+      "profile": "brick_school",
+      "reference": "https://bsdfacilities.uchicago.edu/building-management-home",
+      "evidence": "Mapped footprint and owner wayfinding/building inventory; conservative exterior family interpretation",
+      "limits": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated."
+    },
+    {
+      "code": "U086",
+      "name": "Abbott Hall",
+      "osm_id": 145401959,
+      "profile": "abbott",
+      "reference": "https://mbsaa.uchicago.edu/2026/07/evolution-of-the-university-of-chicagos-medical-campus/",
+      "evidence": "Owner/architect exterior photograph comparison",
+      "limits": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated."
+    },
+    {
+      "code": "U087",
+      "name": "Bernard A. Mitchell Hospital",
+      "osm_id": 144132395,
+      "profile": "mitchell",
+      "reference": "https://www.uchicagomedicine.org/find-a-location/uchicago-medicine-mitchell-hospital-hyde-park",
+      "evidence": "Owner/architect exterior photograph comparison",
+      "limits": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated."
+    },
+    {
+      "code": "U091",
+      "name": "Surgery Brain",
+      "osm_id": 145400407,
+      "profile": "research_slab",
+      "reference": "https://bsdfacilities.uchicago.edu/building-management-home",
+      "evidence": "Mapped footprint and owner wayfinding/building inventory; conservative exterior family interpretation",
+      "limits": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated."
+    },
+    {
+      "code": "U092",
+      "name": "Carlson",
+      "osm_id": 202690809,
+      "profile": "research_court",
+      "reference": "https://bsdfacilities.uchicago.edu/building-management-home",
+      "evidence": "Mapped footprint and owner wayfinding/building inventory; conservative exterior family interpretation",
+      "limits": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated."
+    },
+    {
+      "code": "U093",
+      "name": "Peck Pavilion",
+      "osm_id": 145476720,
+      "profile": "peck",
+      "reference": "https://bsdfacilities.uchicago.edu/building-management-home",
+      "evidence": "Mapped footprint and owner wayfinding/building inventory; conservative exterior family interpretation",
+      "limits": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated."
+    },
+    {
+      "code": "U094",
+      "name": "Medical Campus Parking Garage A",
+      "osm_id": 152284264,
+      "profile": "garage",
+      "reference": "https://www.uchicagomedicine.org/patients-visitors/patient-information/directions-and-maps/parking",
+      "evidence": "Mapped footprint and owner wayfinding/building inventory; conservative exterior family interpretation",
+      "limits": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated."
+    },
+    {
+      "code": "U096",
+      "name": "MRI",
+      "osm_id": 202690817,
+      "profile": "imaging",
+      "reference": "https://bsdfacilities.uchicago.edu/building-management-home",
+      "evidence": "Mapped footprint and owner wayfinding/building inventory; conservative exterior family interpretation",
+      "limits": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated."
+    },
+    {
+      "code": "U103",
+      "name": "Rubloff Intensive Care",
+      "osm_id": 202690819,
+      "profile": "rubloff",
+      "reference": "https://www.uchicagomedicine.org/-/media/pdfs/adult-pdfs/patients-and-visitors/patients/medical-campus-map.pdf",
+      "evidence": "Mapped footprint and owner wayfinding/building inventory; conservative exterior family interpretation",
+      "limits": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated."
+    },
+    {
+      "code": "U105",
+      "name": "Armour",
+      "osm_id": 202690807,
+      "profile": "historic_lab",
+      "reference": "https://mbsaa.uchicago.edu/2026/07/evolution-of-the-university-of-chicagos-medical-campus/",
+      "evidence": "Owner/architect exterior photograph comparison",
+      "limits": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated."
+    },
+    {
+      "code": "U108",
+      "name": "Wyler Children's Hospital",
+      "osm_id": 144132403,
+      "profile": "wyler",
+      "reference": "https://www.uchicagomedicine.org/-/media/pdfs/adult-pdfs/patients-and-visitors/patients/medical-campus-map.pdf",
+      "evidence": "Mapped footprint and owner wayfinding/building inventory; conservative exterior family interpretation",
+      "limits": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated."
+    },
+    {
+      "code": "U113",
+      "name": "Franklin McLean Research Institute",
+      "osm_id": 202690811,
+      "profile": "research_slab",
+      "reference": "https://bsdfacilities.uchicago.edu/building-management-home",
+      "evidence": "Mapped footprint and owner wayfinding/building inventory; conservative exterior family interpretation",
+      "limits": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated."
+    },
+    {
+      "code": "U116",
+      "name": "Billings",
+      "osm_id": 2961267,
+      "profile": "billings",
+      "reference": "https://mbsaa.uchicago.edu/2026/07/evolution-of-the-university-of-chicagos-medical-campus/",
+      "evidence": "Owner/architect exterior photograph comparison",
+      "limits": "Documented storeys and published maximum retained where available; new wing heights, canopy sizes and facade rhythms are exterior estimates."
+    },
+    {
+      "code": "U120",
+      "name": "Gilman Smith",
+      "osm_id": 202690812,
+      "profile": "gilman",
+      "reference": "https://www.uchicagomedicine.org/-/media/pdfs/adult-pdfs/patients-and-visitors/patients/medical-campus-map.pdf",
+      "evidence": "Mapped footprint and owner wayfinding/building inventory; conservative exterior family interpretation",
+      "limits": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated."
+    },
+    {
+      "code": "U121",
+      "name": "Parking/Materials Management",
+      "osm_id": 1054042388,
+      "profile": "materials",
+      "reference": "https://www.uchicagomedicine.org/-/media/pdfs/adult-pdfs/patients-and-visitors/patients/medical-campus-map.pdf",
+      "evidence": "Mapped footprint and owner wayfinding/building inventory; conservative exterior family interpretation",
+      "limits": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated."
+    },
+    {
+      "code": "U122",
+      "name": "Goldblatt Pavilion",
+      "osm_id": 202679303,
+      "profile": "goldblatt_entry",
+      "reference": "https://mbsaa.uchicago.edu/2026/07/evolution-of-the-university-of-chicagos-medical-campus/",
+      "evidence": "Owner/architect exterior photograph comparison",
+      "limits": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated."
+    },
+    {
+      "code": "U123",
+      "name": "Goldblatt",
+      "osm_id": 202690813,
+      "profile": "historic_lab",
+      "reference": "https://mbsaa.uchicago.edu/2026/07/evolution-of-the-university-of-chicagos-medical-campus/",
+      "evidence": "Owner/architect exterior photograph comparison",
+      "limits": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated."
+    },
+    {
+      "code": "U125",
+      "name": "Chicago Lying-In Hospital",
+      "osm_id": 144132398,
+      "profile": "lying_in",
+      "reference": "https://mbsaa.uchicago.edu/2026/07/evolution-of-the-university-of-chicagos-medical-campus/",
+      "evidence": "Owner/architect exterior photograph comparison",
+      "limits": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated."
+    },
+    {
+      "code": "U129",
+      "name": "UChicago Student Wellness Center",
+      "osm_id": 1254935929,
+      "profile": "wellness",
+      "reference": "https://bsdfacilities.uchicago.edu/building-management-home",
+      "evidence": "Mapped footprint and owner wayfinding/building inventory; conservative exterior family interpretation",
+      "limits": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated."
+    },
+    {
+      "code": "U135",
+      "name": "Bobs Roberts",
+      "osm_id": 202690808,
+      "profile": "bobs_roberts",
+      "reference": "https://www.uchicagomedicine.org/-/media/pdfs/adult-pdfs/patients-and-visitors/patients/medical-campus-map.pdf",
+      "evidence": "Mapped footprint and owner wayfinding/building inventory; conservative exterior family interpretation",
+      "limits": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated."
+    },
+    {
+      "code": "U138",
+      "name": "Hicks McElwee",
+      "osm_id": 202690815,
+      "profile": "historic_lab",
+      "reference": "https://mbsaa.uchicago.edu/2026/07/evolution-of-the-university-of-chicagos-medical-campus/",
+      "evidence": "Owner/architect exterior photograph comparison",
+      "limits": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated."
+    },
+    {
+      "code": "U161",
+      "name": "Edelstone Center",
+      "osm_id": 1957136,
+      "profile": "brick_school",
+      "reference": "https://bsdfacilities.uchicago.edu/building-management-home",
+      "evidence": "Mapped footprint and owner wayfinding/building inventory; conservative exterior family interpretation",
+      "limits": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated."
+    },
+    {
+      "code": "U171",
+      "name": "Woodlawn Social Services Center",
+      "osm_id": 145510720,
+      "profile": "service",
+      "reference": "https://bsdfacilities.uchicago.edu/building-management-home",
+      "evidence": "Mapped footprint and owner wayfinding/building inventory; conservative exterior family interpretation",
+      "limits": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated."
+    }
+  ]
+}

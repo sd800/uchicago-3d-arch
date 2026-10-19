@@ -1,0 +1,14 @@
+{
+  "medical_layers": 40,
+  "retained_medical_highlight": "Gordon Center",
+  "checks": [
+    "40 medical layers have individual source/profile records, finite ground-connected geometry and entries on their mapped street walls",
+    "CCD seventh-floor glazing is physically recessed more than 2.5 m behind the lower curtain wall; ten occupied floors and published maximum retained",
+    "Comer uses green glass/pale precast and KCBD silver glass/stone, with seven and ten occupied floors respectively",
+    "Donnelley greenhouse glazing starts above 17 m, with a solid four-storey base reaching ground",
+    "Chicago Lying-In and Billings have raised masonry towers wholly above their mapped supporting wings",
+    "137 non-medical building layers are byte-identical in mesh/material data; all 40 medical layers changed"
+  ],
+  "passed": true,
+  "scope": "Exported geometry regression; dimensional/source limits are in the medical source catalog."
+}

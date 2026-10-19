@@ -42,13 +42,14 @@ def ray(code,origin,direction,far=10000,material=None):
   found.extend(tt[valid&(u>=-1e-6)&(vv>=-1e-6)&(u+vv<=1.000001)&(tt>=0)&(tt<=far)].tolist())
  return sorted(found)
 def peak(code):return max(float(v[:,2].max())for _,v,_ in meshes[code])
-for code,limit in [('U015',9.5),('U026',5.0),('U039',16.0)]:assert peak(code)<limit,(code,peak(code))
+for code,limit in [('U015',9.5),('U039',16.0)]:assert peak(code)<limit,(code,peak(code))
 assert bycode['U015']['levels']==1 and bycode['U039']['levels']==3
 assert bycode['U124']['levels']==12 and 40<peak('U124')<41
 assert bycode['U168']['levels']==9 and 29<peak('U168')<31
 assert 37<peak('U169')<39 and bycode['U169']['levels']==5
 checks.append('South Steam Plant has a tall supported boiler hall and paired raised flues')
-checks.append('High Bay, greenhouse and Snell remain low; International House and Grossman have distinct tall ranges')
+assert 21.0 < peak('U026') < 21.6 and bycode['U026']['levels']==4
+checks.append('High Bay and Snell remain low; the Donnelley greenhouse sits above a four-storey supported base; International House and Grossman retain distinct tall ranges')
 pickmats={m for m,_,_ in meshes['U100']};assert 'RoofMembrane'in pickmats and 'RoofSlate'not in pickmats
 assert 'RoofPatina'in{m for m,_,_ in meshes['U067']}
 checks.append('Pick retains its flat roof and Ryerson has a supported observatory dome')

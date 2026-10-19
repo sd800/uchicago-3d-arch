@@ -1,5 +1,5 @@
 from campus_refinement import landscape as refine_landscape
-from campus_optimization import rebuild as rebuild_ordinary, finish as finish_ordinary, facade as optimized_facade, specification
+from campus_optimization import rebuild as rebuild_ordinary, finish as finish_ordinary, facade as optimized_facade, specification, roof_shell
 from athletic_fields import layout as athletic_layout, handles as athletic_handles, refine as refine_athletic_fields
 from highlight_finish import detailed_joinery
 from highlight_reconstruction import rebuild as rebuild_highlight, REFS as REBUILT_HIGHLIGHTS
@@ -52,6 +52,7 @@ COLORS={
  'Court':(89,132,122),'Marking':(232,228,207),'Leaves':(67,116,75),'Trunk':(119,95,68),
  'RatnerTan':(180,139,93),'RatnerBrown':(100,88,76),'RatnerDrum':(124,68,56),'RatnerRoof':(112,137,141),'RatnerRoofSeam':(88,110,115),'RatnerFascia':(66,83,86),'RatnerSteel':(214,219,210),'RatnerCable':(118,126,121),'RatnerGlass':(111,154,161),'RatnerFrost':(172,184,175),
  'ChapelStone':(185,184,170),'ChapelTrim':(207,204,186),'ChapelRoof':(106,115,118),'ChapelRoofSeam':(119,127,128),'ChapelRecess':(122,124,113),'ChapelDoor':(91,68,48),'ChapelDoorTrim':(119,93,64),'ChapelLead':(83,92,87),'ChapelLouvre':(62,67,64),
+ 'MedicalStone':(184,179,157),'MedicalGlass':(75,104,115),'MedicalSilverGlass':(117,150,157),'MedicalGreenGlass':(79,128,120),'MedicalDarkGlass':(52,79,86),'MedicalSteel':(169,178,174),'MedicalPlant':(77,84,86),
  'QuadStone':(185,181,162),'QuadTrim':(214,207,184),'WarmBrick':(139,83,64),'BrownBrick':(115,82,64),'HospitalBrick':(167,117,90),'WindowGlass':(73,99,105),'DoorWood':(86,62,45),'RoofSlate':(85,94,96),'RoofClay':(130,73,55),'RoofMembrane':(151,154,146),'RoofPatina':(111,143,130),
  'FieldTurf':(62,103,71),'FieldStripe':(70,113,77),'CourtApron':(72,101,88),'Infield':(179,129,94),'GoalPost':(219,201,133),
  'Furniture':(72,78,72),'Solar':(50,73,88),'PalevskyBrick':(177,79,48),'PalevskyPurple':(102,88,125),'PalevskyRoof':(145,108,85),

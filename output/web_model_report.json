@@ -2,11 +2,11 @@
   "format": "glb-meshopt-v1",
   "codec": "glTF 2.0 + EXT_meshopt_compression (lossless) + gzip",
   "source": "output/UChicago_HydePark.glb",
-  "sourceBytes": 40146900,
-  "sourceSha256": "1c1da0f269830c7f0dc9640170721925e4e95cd56f0016589343cf0cc142c427",
-  "packedBytes": 20306268,
-  "transferBytes": 3007856,
-  "transferSha256": "b9e82679aca5b9ad6f0413e2dbe4d1314ad9513c3a1bf753fb9229f99eb84618",
-  "compressedViews": 2908,
+  "sourceBytes": 36129488,
+  "sourceSha256": "ac4f371867827466bc2e37c0e2e3fa664029295d3fb410f43ccfceebfffa086e",
+  "packedBytes": 18497760,
+  "transferBytes": 3013458,
+  "transferSha256": "4525fa416d69d33516dc9001edb07e6cb652065af60fcb5952db826a225efa93",
+  "compressedViews": 2986,
   "geometryChanged": false
 }

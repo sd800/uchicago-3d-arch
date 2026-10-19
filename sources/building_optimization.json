@@ -412,13 +412,15 @@
       "storeys": 2,
       "eave_m": 9.5,
       "roof_rise_m": 0.0,
-      "entry": "south",
+      "entry": "north",
       "references": [
+        "https://bsdfacilities.uchicago.edu/building-management-home",
+        "https://www.uchicagomedicine.org/-/media/pdfs/adult-pdfs/patients-and-visitors/patients/medical-campus-map.pdf",
         "https://maps.uchicago.edu/",
         "https://www.openstreetmap.org/way/148014495"
       ],
       "evidence": "Mapped footprint and source-described architectural family; facade module, roof section and local entry dimensions estimated.",
-      "dimension_status": "estimated exterior dimensions; storeys documented only where identified below",
+      "dimension_status": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated.",
       "confidence": "conservative mapped exterior interpretation",
       "wall": "LightStone",
       "roof": "RoofMembrane",
@@ -427,7 +429,10 @@
       "roof_form": "recessed flat roof with supported parapet",
       "code": "U019",
       "osm_id": 148014495,
-      "name": "Accelerator Building"
+      "name": "Accelerator Building",
+      "medical_profile": "service_lab",
+      "medical_reference": "https://bsdfacilities.uchicago.edu/building-management-home",
+      "medical_evidence": "Mapped footprint and owner wayfinding/building inventory; conservative exterior family interpretation"
     },
     {
       "family": "daycare",
@@ -456,22 +461,27 @@
       "storeys": 5,
       "eave_m": 21.0,
       "roof_rise_m": 0.0,
-      "entry": "east",
+      "entry": "south",
       "references": [
+        "https://ucmfacilities.uchicago.edu/construction/project_archive/biological_sciences_learning_center/",
+        "https://www.uchicagomedicine.org/-/media/pdfs/adult-pdfs/patients-and-visitors/patients/medical-campus-map.pdf",
         "https://maps.uchicago.edu/",
         "https://www.openstreetmap.org/way/1054042714"
       ],
       "evidence": "Mapped footprint and source-described architectural family; facade module, roof section and local entry dimensions estimated.",
-      "dimension_status": "estimated exterior dimensions; storeys documented only where identified below",
+      "dimension_status": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated.",
       "confidence": "conservative mapped exterior interpretation",
-      "wall": "LightStone",
+      "wall": "QuadStone",
       "roof": "RoofMembrane",
       "bay_m": 4.1,
       "window_group": "recessed metal-framed bays",
       "roof_form": "recessed flat roof with supported parapet",
       "code": "U021",
       "osm_id": 1054042714,
-      "name": "Knapp Research Center"
+      "name": "Knapp Research Center",
+      "medical_profile": "knapp_research",
+      "medical_reference": "https://ucmfacilities.uchicago.edu/construction/project_archive/biological_sciences_learning_center/",
+      "medical_evidence": "Owner/architect exterior photograph comparison"
     },
     {
       "family": "protected_highlight",
@@ -491,11 +501,13 @@
       "roof_rise_m": 0.0,
       "entry": "east",
       "references": [
+        "https://www.uchicagomedicine.org/patients-visitors/patient-information/directions-and-maps/parking",
+        "https://www.uchicagomedicine.org/-/media/pdfs/adult-pdfs/patients-and-visitors/patients/medical-campus-map.pdf",
         "https://www.uchicagomedicine.org/comer/patients-and-visitors/patient-information/directions-and-maps/parking",
         "https://www.openstreetmap.org/way/442771900"
       ],
       "evidence": "Mapped footprint and source-described architectural family; facade module, roof section and local entry dimensions estimated.",
-      "dimension_status": "estimated exterior dimensions; storeys documented only where identified below",
+      "dimension_status": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated.",
       "confidence": "conservative mapped exterior interpretation",
       "wall": "LightStone",
       "roof": "RoofMembrane",
@@ -504,7 +516,10 @@
       "roof_form": "recessed flat roof with supported parapet",
       "code": "U023",
       "osm_id": 442771900,
-      "name": "Medical Campus Parking Garage B"
+      "name": "Medical Campus Parking Garage B",
+      "medical_profile": "garage",
+      "medical_reference": "https://www.uchicagomedicine.org/patients-visitors/patient-information/directions-and-maps/parking",
+      "medical_evidence": "Mapped footprint and owner wayfinding/building inventory; conservative exterior family interpretation"
     },
     {
       "family": "protected_highlight",
@@ -525,10 +540,11 @@
       "entry": "east",
       "references": [
         "https://architecture.uchicago.edu/locations/knapp_center_for_biomedical_discovery/",
+        "https://www.uchicagomedicine.org/-/media/pdfs/adult-pdfs/patients-and-visitors/patients/medical-campus-map.pdf",
         "https://www.openstreetmap.org/way/143527369"
       ],
       "evidence": "Mapped footprint and source-described architectural family; facade module, roof section and local entry dimensions estimated.",
-      "dimension_status": "estimated exterior dimensions; storeys documented only where identified below",
+      "dimension_status": "Documented storeys and published maximum retained where available; new wing heights, canopy sizes and facade rhythms are exterior estimates.",
       "confidence": "existing individual massing retained; facade and entrance reviewed",
       "retained_profile": "laboratory",
       "wall": "LightStone",
@@ -538,20 +554,25 @@
       "roof_form": "retain existing source-specific roof",
       "code": "U025",
       "osm_id": 143527369,
-      "name": "Knapp Center for Biomedical Discovery"
+      "name": "Knapp Center for Biomedical Discovery",
+      "medical_profile": "knapp_discovery",
+      "medical_reference": "https://architecture.uchicago.edu/locations/knapp_center_for_biomedical_discovery/",
+      "medical_evidence": "Owner/architect exterior photograph comparison"
     },
     {
       "family": "greenhouse",
-      "storeys": 1,
-      "eave_m": 3.0,
-      "roof_rise_m": 1.7,
+      "storeys": 4,
+      "eave_m": 17.2,
+      "roof_rise_m": 4.1,
       "entry": "south",
       "references": [
+        "https://ucmfacilities.uchicago.edu/construction/project_archive/biological_sciences_learning_center/",
+        "https://www.uchicagomedicine.org/-/media/pdfs/adult-pdfs/patients-and-visitors/patients/medical-campus-map.pdf",
         "https://maps.uchicago.edu/",
         "https://www.openstreetmap.org/way/1112082353"
       ],
       "evidence": "Mapped footprint and source-described architectural family; facade module, roof section and local entry dimensions estimated.",
-      "dimension_status": "estimated exterior dimensions; storeys documented only where identified below",
+      "dimension_status": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated.",
       "confidence": "conservative mapped exterior interpretation",
       "wall": "LightStone",
       "roof": "RoofSlate",
@@ -560,7 +581,10 @@
       "roof_form": "connected pitched/hipped wing roof",
       "code": "U026",
       "osm_id": 1112082353,
-      "name": "Greenhouse"
+      "name": "Greenhouse",
+      "medical_profile": "roof_greenhouse",
+      "medical_reference": "https://ucmfacilities.uchicago.edu/construction/project_archive/biological_sciences_learning_center/",
+      "medical_evidence": "Owner/architect exterior photograph comparison"
     },
     {
       "family": "dining_hall",
@@ -602,11 +626,13 @@
       "roof_rise_m": 0.0,
       "entry": "south",
       "references": [
+        "https://ucmfacilities.uchicago.edu/construction/project_archive/biological_sciences_learning_center/",
+        "https://www.uchicagomedicine.org/-/media/pdfs/adult-pdfs/patients-and-visitors/patients/medical-campus-map.pdf",
         "https://maps.uchicago.edu/",
         "https://www.openstreetmap.org/way/142420007"
       ],
       "evidence": "Mapped footprint and source-described architectural family; facade module, roof section and local entry dimensions estimated.",
-      "dimension_status": "estimated exterior dimensions; storeys documented only where identified below",
+      "dimension_status": "Documented storeys and published maximum retained where available; new wing heights, canopy sizes and facade rhythms are exterior estimates.",
       "confidence": "conservative mapped exterior interpretation",
       "wall": "LightStone",
       "roof": "RoofMembrane",
@@ -615,20 +641,25 @@
       "roof_form": "recessed flat roof with supported parapet",
       "code": "U029",
       "osm_id": 142420007,
-      "name": "Donnelley Biological Sciences Learning Center"
+      "name": "Donnelley Biological Sciences Learning Center",
+      "medical_profile": "bslc",
+      "medical_reference": "https://ucmfacilities.uchicago.edu/construction/project_archive/biological_sciences_learning_center/",
+      "medical_evidence": "Owner/architect exterior photograph comparison"
     },
     {
       "family": "laboratory",
       "storeys": 3,
       "eave_m": 12.6,
       "roof_rise_m": 0.0,
-      "entry": "east",
+      "entry": "west",
       "references": [
+        "https://bsdfacilities.uchicago.edu/building-management-home",
+        "https://www.uchicagomedicine.org/-/media/pdfs/adult-pdfs/patients-and-visitors/patients/medical-campus-map.pdf",
         "https://maps.uchicago.edu/",
         "https://www.openstreetmap.org/way/148014497"
       ],
       "evidence": "Mapped footprint and source-described architectural family; facade module, roof section and local entry dimensions estimated.",
-      "dimension_status": "estimated exterior dimensions; storeys documented only where identified below",
+      "dimension_status": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated.",
       "confidence": "conservative mapped exterior interpretation",
       "wall": "LightStone",
       "roof": "RoofMembrane",
@@ -637,7 +668,10 @@
       "roof_form": "recessed flat roof with supported parapet",
       "code": "U030",
       "osm_id": 148014497,
-      "name": "Biopsychology Science Building"
+      "name": "Biopsychology Science Building",
+      "medical_profile": "low_laboratory",
+      "medical_reference": "https://bsdfacilities.uchicago.edu/building-management-home",
+      "medical_evidence": "Mapped footprint and owner wayfinding/building inventory; conservative exterior family interpretation"
     },
     {
       "family": "house",
@@ -699,13 +733,15 @@
       "storeys": 3,
       "eave_m": 13.2,
       "roof_rise_m": 3.7,
-      "entry": "east",
+      "entry": "south",
       "references": [
+        "https://ucmfacilities.uchicago.edu/construction/project_archive/hull_court_complex/",
+        "https://www.uchicagomedicine.org/-/media/pdfs/adult-pdfs/patients-and-visitors/patients/medical-campus-map.pdf",
         "https://architecture.uchicago.edu/locations/main_quadrangle/",
         "https://www.openstreetmap.org/way/157655090"
       ],
       "evidence": "Mapped footprint and source-described architectural family; facade module, roof section and local entry dimensions estimated.",
-      "dimension_status": "estimated exterior dimensions; storeys documented only where identified below",
+      "dimension_status": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated.",
       "confidence": "conservative mapped exterior interpretation",
       "wall": "QuadStone",
       "roof": "RoofSlate",
@@ -714,7 +750,10 @@
       "roof_form": "connected pitched/hipped wing roof",
       "code": "U034",
       "osm_id": 157655090,
-      "name": "Zoology"
+      "name": "Zoology",
+      "medical_profile": "hull_gothic",
+      "medical_reference": "https://ucmfacilities.uchicago.edu/construction/project_archive/hull_court_complex/",
+      "medical_evidence": "Mapped footprint and owner wayfinding/building inventory; conservative exterior family interpretation"
     },
     {
       "family": "gate",
@@ -743,13 +782,15 @@
       "storeys": 3,
       "eave_m": 13.2,
       "roof_rise_m": 3.7,
-      "entry": "east",
+      "entry": "south",
       "references": [
+        "https://ucmfacilities.uchicago.edu/construction/project_archive/hull_court_complex/",
+        "https://www.uchicagomedicine.org/-/media/pdfs/adult-pdfs/patients-and-visitors/patients/medical-campus-map.pdf",
         "https://architecture.uchicago.edu/locations/main_quadrangle/",
         "https://www.openstreetmap.org/way/154421809"
       ],
       "evidence": "Mapped footprint and source-described architectural family; facade module, roof section and local entry dimensions estimated.",
-      "dimension_status": "estimated exterior dimensions; storeys documented only where identified below",
+      "dimension_status": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated.",
       "confidence": "conservative mapped exterior interpretation",
       "wall": "QuadStone",
       "roof": "RoofSlate",
@@ -758,7 +799,10 @@
       "roof_form": "connected pitched/hipped wing roof",
       "code": "U036",
       "osm_id": 154421809,
-      "name": "Anatomy"
+      "name": "Anatomy",
+      "medical_profile": "hull_gothic",
+      "medical_reference": "https://ucmfacilities.uchicago.edu/construction/project_archive/hull_court_complex/",
+      "medical_evidence": "Mapped footprint and owner wayfinding/building inventory; conservative exterior family interpretation"
     },
     {
       "family": "tudor_club",
@@ -908,13 +952,15 @@
       "storeys": 10,
       "eave_m": 55.0,
       "roof_rise_m": 19.676,
-      "entry": "east",
+      "entry": "south",
       "references": [
+        "https://www.rvapc.com/works/university-of-chicago-medicine-center-for-care-and-discovery/",
+        "https://www.uchicagomedicine.org/-/media/pdfs/adult-pdfs/patients-and-visitors/patients/medical-campus-map.pdf",
         "https://maps.uchicago.edu/",
         "https://www.openstreetmap.org/way/142771603"
       ],
       "evidence": "Mapped footprint and source-described architectural family; facade module, roof section and local entry dimensions estimated.",
-      "dimension_status": "estimated exterior dimensions; storeys documented only where identified below",
+      "dimension_status": "Documented storeys and published maximum retained where available; new wing heights, canopy sizes and facade rhythms are exterior estimates.",
       "confidence": "conservative mapped exterior interpretation",
       "wall": "LightStone",
       "roof": "RoofSlate",
@@ -923,7 +969,10 @@
       "roof_form": "connected pitched/hipped wing roof",
       "code": "U044",
       "osm_id": 142771603,
-      "name": "Center for Care and Discovery"
+      "name": "Center for Care and Discovery",
+      "medical_profile": "ccd",
+      "medical_reference": "https://www.rvapc.com/works/university-of-chicago-medicine-center-for-care-and-discovery/",
+      "medical_evidence": "Owner/architect exterior photograph comparison"
     },
     {
       "family": "protected_highlight",
@@ -1031,11 +1080,13 @@
       "roof_rise_m": 3.8,
       "entry": "west",
       "references": [
+        "https://ucmfacilities.uchicago.edu/construction/project_archive/hull_court_complex/",
+        "https://www.uchicagomedicine.org/-/media/pdfs/adult-pdfs/patients-and-visitors/patients/medical-campus-map.pdf",
         "https://architecture.uchicago.edu/locations/main_quadrangle/",
         "https://www.openstreetmap.org/way/157655067"
       ],
       "evidence": "Mapped footprint and source-described architectural family; facade module, roof section and local entry dimensions estimated.",
-      "dimension_status": "estimated exterior dimensions; storeys documented only where identified below",
+      "dimension_status": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated.",
       "confidence": "conservative mapped exterior interpretation",
       "wall": "QuadStone",
       "roof": "RoofSlate",
@@ -1044,7 +1095,10 @@
       "roof_form": "connected pitched/hipped wing roof",
       "code": "U050",
       "osm_id": 157655067,
-      "name": "Erman Biology Center"
+      "name": "Erman Biology Center",
+      "medical_profile": "hull_gothic",
+      "medical_reference": "https://ucmfacilities.uchicago.edu/construction/project_archive/hull_court_complex/",
+      "medical_evidence": "Mapped footprint and owner wayfinding/building inventory; conservative exterior family interpretation"
     },
     {
       "family": "laboratory",
@@ -1053,11 +1107,13 @@
       "roof_rise_m": 0.0,
       "entry": "east",
       "references": [
+        "https://ucmfacilities.uchicago.edu/construction/project_archive/hull_court_complex/",
+        "https://www.uchicagomedicine.org/-/media/pdfs/adult-pdfs/patients-and-visitors/patients/medical-campus-map.pdf",
         "https://maps.uchicago.edu/",
         "https://www.openstreetmap.org/way/152422457"
       ],
       "evidence": "Mapped footprint and source-described architectural family; facade module, roof section and local entry dimensions estimated.",
-      "dimension_status": "estimated exterior dimensions; storeys documented only where identified below",
+      "dimension_status": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated.",
       "confidence": "conservative mapped exterior interpretation",
       "wall": "LightStone",
       "roof": "RoofMembrane",
@@ -1066,7 +1122,10 @@
       "roof_form": "recessed flat roof with supported parapet",
       "code": "U051",
       "osm_id": 152422457,
-      "name": "Culver"
+      "name": "Culver",
+      "medical_profile": "hull_culver",
+      "medical_reference": "https://ucmfacilities.uchicago.edu/construction/project_archive/hull_court_complex/",
+      "medical_evidence": "Mapped footprint and owner wayfinding/building inventory; conservative exterior family interpretation"
     },
     {
       "family": "house",
@@ -1349,13 +1408,15 @@
       "storeys": 6,
       "eave_m": 25.5,
       "roof_rise_m": 0.0,
-      "entry": "west",
+      "entry": "north",
       "references": [
+        "https://www.uchicagomedicine.org/comer/find-a-location/uchicago-medicine-comer-childrens-hospital-hyde-park",
+        "https://www.uchicagomedicine.org/-/media/pdfs/adult-pdfs/patients-and-visitors/patients/medical-campus-map.pdf",
         "https://neurology.uchicago.edu/education/residencywork-life",
         "https://www.openstreetmap.org/way/202690810"
       ],
       "evidence": "Mapped footprint and source-described architectural family; facade module, roof section and local entry dimensions estimated.",
-      "dimension_status": "estimated exterior dimensions; storeys documented only where identified below",
+      "dimension_status": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated.",
       "confidence": "conservative mapped exterior interpretation",
       "wall": "LightStone",
       "roof": "RoofMembrane",
@@ -1364,7 +1425,10 @@
       "roof_form": "recessed flat roof with supported parapet",
       "code": "U065",
       "osm_id": 202690810,
-      "name": "Comer Hospital East Wing"
+      "name": "Comer Hospital East Wing",
+      "medical_profile": "comer_east",
+      "medical_reference": "https://www.uchicagomedicine.org/comer/find-a-location/uchicago-medicine-comer-childrens-hospital-hyde-park",
+      "medical_evidence": "Owner/architect exterior photograph comparison"
     },
     {
       "family": "dcam",
@@ -1374,10 +1438,11 @@
       "entry": "east",
       "references": [
         "https://architecture.uchicago.edu/locations/duchossois_center_for_advanced_medicine/",
+        "https://www.uchicagomedicine.org/-/media/pdfs/adult-pdfs/patients-and-visitors/patients/medical-campus-map.pdf",
         "https://www.openstreetmap.org/way/142771605"
       ],
       "evidence": "Mapped footprint and source-described architectural family; facade module, roof section and local entry dimensions estimated.",
-      "dimension_status": "Storey count from owner/architect description; eave/roof dimensions and stepped partitions estimated.",
+      "dimension_status": "Documented storeys and published maximum retained where available; new wing heights, canopy sizes and facade rhythms are exterior estimates.",
       "confidence": "source-specific silhouette correction",
       "wall": "LightStone",
       "roof": "RoofMembrane",
@@ -1386,7 +1451,10 @@
       "roof_form": "recessed flat roof with supported parapet",
       "code": "U066",
       "osm_id": 142771605,
-      "name": "Duchossois Center for Advanced Medicine"
+      "name": "Duchossois Center for Advanced Medicine",
+      "medical_profile": "dcam",
+      "medical_reference": "https://architecture.uchicago.edu/locations/duchossois_center_for_advanced_medicine/",
+      "medical_evidence": "Owner/architect exterior photograph comparison"
     },
     {
       "family": "ryerson",
@@ -1459,13 +1527,15 @@
       "storeys": 7,
       "eave_m": 30.1,
       "roof_rise_m": 0.0,
-      "entry": "west",
+      "entry": "north",
       "references": [
+        "https://www.uchicagomedicine.org/comer/find-a-location/uchicago-medicine-comer-childrens-hospital-hyde-park",
+        "https://www.uchicagomedicine.org/-/media/pdfs/adult-pdfs/patients-and-visitors/patients/medical-campus-map.pdf",
         "https://chronicle.uchicago.edu/060202/comer.shtml",
         "https://www.openstreetmap.org/way/142771611"
       ],
       "evidence": "Mapped footprint and source-described architectural family; facade module, roof section and local entry dimensions estimated.",
-      "dimension_status": "Storey count from owner/architect description; eave/roof dimensions and stepped partitions estimated.",
+      "dimension_status": "Documented storeys and published maximum retained where available; new wing heights, canopy sizes and facade rhythms are exterior estimates.",
       "confidence": "source-specific silhouette correction",
       "wall": "HospitalBrick",
       "roof": "RoofMembrane",
@@ -1474,7 +1544,10 @@
       "roof_form": "recessed flat roof with supported parapet",
       "code": "U070",
       "osm_id": 142771611,
-      "name": "Comer Children's Hospital"
+      "name": "Comer Children's Hospital",
+      "medical_profile": "comer",
+      "medical_reference": "https://www.uchicagomedicine.org/comer/find-a-location/uchicago-medicine-comer-childrens-hospital-hyde-park",
+      "medical_evidence": "Owner/architect exterior photograph comparison"
     },
     {
       "family": "house",
@@ -1635,13 +1708,14 @@
       "storeys": 11,
       "eave_m": 44.7,
       "roof_rise_m": 0.0,
-      "entry": "east",
+      "entry": "west",
       "references": [
         "https://architecture.uchicago.edu/locations/cummings_life_science_center/",
+        "https://www.uchicagomedicine.org/-/media/pdfs/adult-pdfs/patients-and-visitors/patients/medical-campus-map.pdf",
         "https://www.openstreetmap.org/way/89537392"
       ],
       "evidence": "Mapped footprint and source-described architectural family; facade module, roof section and local entry dimensions estimated.",
-      "dimension_status": "estimated exterior dimensions; storeys documented only where identified below",
+      "dimension_status": "Documented storeys and published maximum retained where available; new wing heights, canopy sizes and facade rhythms are exterior estimates.",
       "confidence": "existing individual massing retained; facade and entrance reviewed",
       "retained_profile": "cummings",
       "wall": "LightStone",
@@ -1651,7 +1725,10 @@
       "roof_form": "retain existing source-specific roof",
       "code": "U078",
       "osm_id": 89537392,
-      "name": "Cummings Life Sciences Center"
+      "name": "Cummings Life Sciences Center",
+      "medical_profile": "cummings",
+      "medical_reference": "https://architecture.uchicago.edu/locations/cummings_life_science_center/",
+      "medical_evidence": "Owner/architect exterior photograph comparison"
     },
     {
       "family": "laboratory",
@@ -1660,11 +1737,13 @@
       "roof_rise_m": 0.0,
       "entry": "east",
       "references": [
+        "https://bsdfacilities.uchicago.edu/building-management-home",
+        "https://www.uchicagomedicine.org/-/media/pdfs/adult-pdfs/patients-and-visitors/patients/medical-campus-map.pdf",
         "https://maps.uchicago.edu/",
         "https://www.openstreetmap.org/way/142871281"
       ],
       "evidence": "Mapped footprint and source-described architectural family; facade module, roof section and local entry dimensions estimated.",
-      "dimension_status": "estimated exterior dimensions; storeys documented only where identified below",
+      "dimension_status": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated.",
       "confidence": "conservative mapped exterior interpretation",
       "wall": "LightStone",
       "roof": "RoofMembrane",
@@ -1673,7 +1752,10 @@
       "roof_form": "recessed flat roof with supported parapet",
       "code": "U079",
       "osm_id": 142871281,
-      "name": "Kovler"
+      "name": "Kovler",
+      "medical_profile": "low_laboratory",
+      "medical_reference": "https://bsdfacilities.uchicago.edu/building-management-home",
+      "medical_evidence": "Mapped footprint and owner wayfinding/building inventory; conservative exterior family interpretation"
     },
     {
       "family": "protected_highlight",
@@ -1702,13 +1784,15 @@
       "storeys": 4,
       "eave_m": 14.5,
       "roof_rise_m": 0.0,
-      "entry": "north",
+      "entry": "west",
       "references": [
+        "https://bsdfacilities.uchicago.edu/building-management-home",
+        "https://www.uchicagomedicine.org/-/media/pdfs/adult-pdfs/patients-and-visitors/patients/medical-campus-map.pdf",
         "https://maps.uchicago.edu/",
         "https://www.openstreetmap.org/way/144047119"
       ],
       "evidence": "Mapped footprint and source-described architectural family; facade module, roof section and local entry dimensions estimated.",
-      "dimension_status": "estimated exterior dimensions; storeys documented only where identified below",
+      "dimension_status": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated.",
       "confidence": "conservative mapped exterior interpretation",
       "wall": "WarmBrick",
       "roof": "RoofMembrane",
@@ -1717,7 +1801,10 @@
       "roof_form": "recessed flat roof with supported parapet",
       "code": "U082",
       "osm_id": 144047119,
-      "name": "American School"
+      "name": "American School",
+      "medical_profile": "brick_school",
+      "medical_reference": "https://bsdfacilities.uchicago.edu/building-management-home",
+      "medical_evidence": "Mapped footprint and owner wayfinding/building inventory; conservative exterior family interpretation"
     },
     {
       "family": "bookstore",
@@ -1788,16 +1875,18 @@
     },
     {
       "family": "hospital",
-      "storeys": 7,
-      "eave_m": 26.5,
+      "storeys": 5,
+      "eave_m": 21.5,
       "roof_rise_m": 0.0,
-      "entry": "east",
+      "entry": "north",
       "references": [
+        "https://mbsaa.uchicago.edu/2026/07/evolution-of-the-university-of-chicagos-medical-campus/",
+        "https://www.uchicagomedicine.org/-/media/pdfs/adult-pdfs/patients-and-visitors/patients/medical-campus-map.pdf",
         "https://neurology.uchicago.edu/education/residencywork-life",
         "https://www.openstreetmap.org/way/145401959"
       ],
       "evidence": "Mapped footprint and source-described architectural family; facade module, roof section and local entry dimensions estimated.",
-      "dimension_status": "estimated exterior dimensions; storeys documented only where identified below",
+      "dimension_status": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated.",
       "confidence": "conservative mapped exterior interpretation",
       "wall": "LightStone",
       "roof": "RoofMembrane",
@@ -1806,7 +1895,10 @@
       "roof_form": "recessed flat roof with supported parapet",
       "code": "U086",
       "osm_id": 145401959,
-      "name": "Abbott Hall"
+      "name": "Abbott Hall",
+      "medical_profile": "abbott",
+      "medical_reference": "https://mbsaa.uchicago.edu/2026/07/evolution-of-the-university-of-chicagos-medical-campus/",
+      "medical_evidence": "Owner/architect exterior photograph comparison"
     },
     {
       "family": "hospital",
@@ -1815,11 +1907,13 @@
       "roof_rise_m": 0.0,
       "entry": "west",
       "references": [
+        "https://www.uchicagomedicine.org/find-a-location/uchicago-medicine-mitchell-hospital-hyde-park",
+        "https://www.uchicagomedicine.org/-/media/pdfs/adult-pdfs/patients-and-visitors/patients/medical-campus-map.pdf",
         "https://neurology.uchicago.edu/education/residencywork-life",
         "https://www.openstreetmap.org/way/144132395"
       ],
       "evidence": "Mapped footprint and source-described architectural family; facade module, roof section and local entry dimensions estimated.",
-      "dimension_status": "estimated exterior dimensions; storeys documented only where identified below",
+      "dimension_status": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated.",
       "confidence": "conservative mapped exterior interpretation",
       "wall": "LightStone",
       "roof": "RoofMembrane",
@@ -1828,7 +1922,10 @@
       "roof_form": "recessed flat roof with supported parapet",
       "code": "U087",
       "osm_id": 144132395,
-      "name": "Bernard A. Mitchell Hospital"
+      "name": "Bernard A. Mitchell Hospital",
+      "medical_profile": "mitchell",
+      "medical_reference": "https://www.uchicagomedicine.org/find-a-location/uchicago-medicine-mitchell-hospital-hyde-park",
+      "medical_evidence": "Owner/architect exterior photograph comparison"
     },
     {
       "family": "isac",
@@ -1902,13 +1999,15 @@
       "storeys": 6,
       "eave_m": 25.5,
       "roof_rise_m": 0.0,
-      "entry": "north",
+      "entry": "east",
       "references": [
+        "https://bsdfacilities.uchicago.edu/building-management-home",
+        "https://www.uchicagomedicine.org/-/media/pdfs/adult-pdfs/patients-and-visitors/patients/medical-campus-map.pdf",
         "https://neurology.uchicago.edu/education/residencywork-life",
         "https://www.openstreetmap.org/way/145400407"
       ],
       "evidence": "Mapped footprint and source-described architectural family; facade module, roof section and local entry dimensions estimated.",
-      "dimension_status": "estimated exterior dimensions; storeys documented only where identified below",
+      "dimension_status": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated.",
       "confidence": "conservative mapped exterior interpretation",
       "wall": "LightStone",
       "roof": "RoofMembrane",
@@ -1917,7 +2016,10 @@
       "roof_form": "recessed flat roof with supported parapet",
       "code": "U091",
       "osm_id": 145400407,
-      "name": "Surgery Brain"
+      "name": "Surgery Brain",
+      "medical_profile": "research_slab",
+      "medical_reference": "https://bsdfacilities.uchicago.edu/building-management-home",
+      "medical_evidence": "Mapped footprint and owner wayfinding/building inventory; conservative exterior family interpretation"
     },
     {
       "family": "hospital",
@@ -1926,11 +2028,13 @@
       "roof_rise_m": 0.0,
       "entry": "south",
       "references": [
+        "https://bsdfacilities.uchicago.edu/building-management-home",
+        "https://www.uchicagomedicine.org/-/media/pdfs/adult-pdfs/patients-and-visitors/patients/medical-campus-map.pdf",
         "https://neurology.uchicago.edu/education/residencywork-life",
         "https://www.openstreetmap.org/way/202690809"
       ],
       "evidence": "Mapped footprint and source-described architectural family; facade module, roof section and local entry dimensions estimated.",
-      "dimension_status": "estimated exterior dimensions; storeys documented only where identified below",
+      "dimension_status": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated.",
       "confidence": "conservative mapped exterior interpretation",
       "wall": "LightStone",
       "roof": "RoofMembrane",
@@ -1939,20 +2043,25 @@
       "roof_form": "recessed flat roof with supported parapet",
       "code": "U092",
       "osm_id": 202690809,
-      "name": "Carlson"
+      "name": "Carlson",
+      "medical_profile": "research_court",
+      "medical_reference": "https://bsdfacilities.uchicago.edu/building-management-home",
+      "medical_evidence": "Mapped footprint and owner wayfinding/building inventory; conservative exterior family interpretation"
     },
     {
       "family": "hospital",
       "storeys": 7,
       "eave_m": 27.5,
       "roof_rise_m": 0.0,
-      "entry": "east",
+      "entry": "west",
       "references": [
+        "https://bsdfacilities.uchicago.edu/building-management-home",
+        "https://www.uchicagomedicine.org/-/media/pdfs/adult-pdfs/patients-and-visitors/patients/medical-campus-map.pdf",
         "https://neurology.uchicago.edu/education/residencywork-life",
         "https://www.openstreetmap.org/way/145476720"
       ],
       "evidence": "Mapped footprint and source-described architectural family; facade module, roof section and local entry dimensions estimated.",
-      "dimension_status": "estimated exterior dimensions; storeys documented only where identified below",
+      "dimension_status": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated.",
       "confidence": "conservative mapped exterior interpretation",
       "wall": "LightStone",
       "roof": "RoofMembrane",
@@ -1961,7 +2070,10 @@
       "roof_form": "recessed flat roof with supported parapet",
       "code": "U093",
       "osm_id": 145476720,
-      "name": "Peck Pavilion"
+      "name": "Peck Pavilion",
+      "medical_profile": "peck",
+      "medical_reference": "https://bsdfacilities.uchicago.edu/building-management-home",
+      "medical_evidence": "Mapped footprint and owner wayfinding/building inventory; conservative exterior family interpretation"
     },
     {
       "family": "garage",
@@ -1970,11 +2082,13 @@
       "roof_rise_m": 0.0,
       "entry": "east",
       "references": [
+        "https://www.uchicagomedicine.org/patients-visitors/patient-information/directions-and-maps/parking",
+        "https://www.uchicagomedicine.org/-/media/pdfs/adult-pdfs/patients-and-visitors/patients/medical-campus-map.pdf",
         "https://www.uchicagomedicine.org/comer/patients-and-visitors/patient-information/directions-and-maps/parking",
         "https://www.openstreetmap.org/way/152284264"
       ],
       "evidence": "Mapped footprint and source-described architectural family; facade module, roof section and local entry dimensions estimated.",
-      "dimension_status": "estimated exterior dimensions; storeys documented only where identified below",
+      "dimension_status": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated.",
       "confidence": "conservative mapped exterior interpretation",
       "wall": "LightStone",
       "roof": "RoofMembrane",
@@ -1983,7 +2097,10 @@
       "roof_form": "recessed flat roof with supported parapet",
       "code": "U094",
       "osm_id": 152284264,
-      "name": "Medical Campus Parking Garage A"
+      "name": "Medical Campus Parking Garage A",
+      "medical_profile": "garage",
+      "medical_reference": "https://www.uchicagomedicine.org/patients-visitors/patient-information/directions-and-maps/parking",
+      "medical_evidence": "Mapped footprint and owner wayfinding/building inventory; conservative exterior family interpretation"
     },
     {
       "family": "retained",
@@ -2013,13 +2130,15 @@
       "storeys": 2,
       "eave_m": 8.5,
       "roof_rise_m": 0.0,
-      "entry": "south",
+      "entry": "east",
       "references": [
+        "https://bsdfacilities.uchicago.edu/building-management-home",
+        "https://www.uchicagomedicine.org/-/media/pdfs/adult-pdfs/patients-and-visitors/patients/medical-campus-map.pdf",
         "https://maps.uchicago.edu/",
         "https://www.openstreetmap.org/way/202690817"
       ],
       "evidence": "Mapped footprint and source-described architectural family; facade module, roof section and local entry dimensions estimated.",
-      "dimension_status": "estimated exterior dimensions; storeys documented only where identified below",
+      "dimension_status": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated.",
       "confidence": "conservative mapped exterior interpretation",
       "wall": "LightStone",
       "roof": "RoofMembrane",
@@ -2028,7 +2147,10 @@
       "roof_form": "recessed flat roof with supported parapet",
       "code": "U096",
       "osm_id": 202690817,
-      "name": "MRI"
+      "name": "MRI",
+      "medical_profile": "imaging",
+      "medical_reference": "https://bsdfacilities.uchicago.edu/building-management-home",
+      "medical_evidence": "Mapped footprint and owner wayfinding/building inventory; conservative exterior family interpretation"
     },
     {
       "family": "gothic_academic",
@@ -2167,13 +2289,14 @@
       "storeys": 7,
       "eave_m": 28.0,
       "roof_rise_m": 0.0,
-      "entry": "south",
+      "entry": "west",
       "references": [
+        "https://www.uchicagomedicine.org/-/media/pdfs/adult-pdfs/patients-and-visitors/patients/medical-campus-map.pdf",
         "https://neurology.uchicago.edu/education/residencywork-life",
         "https://www.openstreetmap.org/way/202690819"
       ],
       "evidence": "Mapped footprint and source-described architectural family; facade module, roof section and local entry dimensions estimated.",
-      "dimension_status": "estimated exterior dimensions; storeys documented only where identified below",
+      "dimension_status": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated.",
       "confidence": "conservative mapped exterior interpretation",
       "wall": "LightStone",
       "roof": "RoofMembrane",
@@ -2182,7 +2305,10 @@
       "roof_form": "recessed flat roof with supported parapet",
       "code": "U103",
       "osm_id": 202690819,
-      "name": "Rubloff Intensive Care"
+      "name": "Rubloff Intensive Care",
+      "medical_profile": "rubloff",
+      "medical_reference": "https://www.uchicagomedicine.org/-/media/pdfs/adult-pdfs/patients-and-visitors/patients/medical-campus-map.pdf",
+      "medical_evidence": "Mapped footprint and owner wayfinding/building inventory; conservative exterior family interpretation"
     },
     {
       "family": "gothic_gym",
@@ -2211,13 +2337,15 @@
       "storeys": 5,
       "eave_m": 20.5,
       "roof_rise_m": 0.0,
-      "entry": "south",
+      "entry": "east",
       "references": [
+        "https://mbsaa.uchicago.edu/2026/07/evolution-of-the-university-of-chicagos-medical-campus/",
+        "https://www.uchicagomedicine.org/-/media/pdfs/adult-pdfs/patients-and-visitors/patients/medical-campus-map.pdf",
         "https://neurology.uchicago.edu/education/residencywork-life",
         "https://www.openstreetmap.org/way/202690807"
       ],
       "evidence": "Mapped footprint and source-described architectural family; facade module, roof section and local entry dimensions estimated.",
-      "dimension_status": "estimated exterior dimensions; storeys documented only where identified below",
+      "dimension_status": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated.",
       "confidence": "conservative mapped exterior interpretation",
       "wall": "LightStone",
       "roof": "RoofMembrane",
@@ -2226,7 +2354,10 @@
       "roof_form": "recessed flat roof with supported parapet",
       "code": "U105",
       "osm_id": 202690807,
-      "name": "Armour"
+      "name": "Armour",
+      "medical_profile": "historic_lab",
+      "medical_reference": "https://mbsaa.uchicago.edu/2026/07/evolution-of-the-university-of-chicagos-medical-campus/",
+      "medical_evidence": "Owner/architect exterior photograph comparison"
     },
     {
       "family": "quad_residence",
@@ -2279,11 +2410,12 @@
       "roof_rise_m": 0.0,
       "entry": "west",
       "references": [
+        "https://www.uchicagomedicine.org/-/media/pdfs/adult-pdfs/patients-and-visitors/patients/medical-campus-map.pdf",
         "https://neurology.uchicago.edu/education/residencywork-life",
         "https://www.openstreetmap.org/way/144132403"
       ],
       "evidence": "Mapped footprint and source-described architectural family; facade module, roof section and local entry dimensions estimated.",
-      "dimension_status": "estimated exterior dimensions; storeys documented only where identified below",
+      "dimension_status": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated.",
       "confidence": "conservative mapped exterior interpretation",
       "wall": "LightStone",
       "roof": "RoofMembrane",
@@ -2292,7 +2424,10 @@
       "roof_form": "recessed flat roof with supported parapet",
       "code": "U108",
       "osm_id": 144132403,
-      "name": "Wyler Children's Hospital"
+      "name": "Wyler Children's Hospital",
+      "medical_profile": "wyler",
+      "medical_reference": "https://www.uchicagomedicine.org/-/media/pdfs/adult-pdfs/patients-and-visitors/patients/medical-campus-map.pdf",
+      "medical_evidence": "Mapped footprint and owner wayfinding/building inventory; conservative exterior family interpretation"
     },
     {
       "family": "lab_school",
@@ -2378,11 +2513,13 @@
       "roof_rise_m": 0.0,
       "entry": "east",
       "references": [
+        "https://bsdfacilities.uchicago.edu/building-management-home",
+        "https://www.uchicagomedicine.org/-/media/pdfs/adult-pdfs/patients-and-visitors/patients/medical-campus-map.pdf",
         "https://neurology.uchicago.edu/education/residencywork-life",
         "https://www.openstreetmap.org/way/202690811"
       ],
       "evidence": "Mapped footprint and source-described architectural family; facade module, roof section and local entry dimensions estimated.",
-      "dimension_status": "estimated exterior dimensions; storeys documented only where identified below",
+      "dimension_status": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated.",
       "confidence": "conservative mapped exterior interpretation",
       "wall": "LightStone",
       "roof": "RoofMembrane",
@@ -2391,7 +2528,10 @@
       "roof_form": "recessed flat roof with supported parapet",
       "code": "U113",
       "osm_id": 202690811,
-      "name": "Franklin McLean Research Institute"
+      "name": "Franklin McLean Research Institute",
+      "medical_profile": "research_slab",
+      "medical_reference": "https://bsdfacilities.uchicago.edu/building-management-home",
+      "medical_evidence": "Mapped footprint and owner wayfinding/building inventory; conservative exterior family interpretation"
     },
     {
       "family": "gothic_academic",
@@ -2444,11 +2584,13 @@
       "roof_rise_m": 0.0,
       "entry": "south",
       "references": [
+        "https://mbsaa.uchicago.edu/2026/07/evolution-of-the-university-of-chicagos-medical-campus/",
+        "https://www.uchicagomedicine.org/-/media/pdfs/adult-pdfs/patients-and-visitors/patients/medical-campus-map.pdf",
         "https://neurology.uchicago.edu/education/residencywork-life",
         "https://www.openstreetmap.org/relation/2961267"
       ],
       "evidence": "Mapped footprint and source-described architectural family; facade module, roof section and local entry dimensions estimated.",
-      "dimension_status": "estimated exterior dimensions; storeys documented only where identified below",
+      "dimension_status": "Documented storeys and published maximum retained where available; new wing heights, canopy sizes and facade rhythms are exterior estimates.",
       "confidence": "conservative mapped exterior interpretation",
       "wall": "LightStone",
       "roof": "RoofMembrane",
@@ -2457,7 +2599,10 @@
       "roof_form": "recessed flat roof with supported parapet",
       "code": "U116",
       "osm_id": 2961267,
-      "name": "Billings"
+      "name": "Billings",
+      "medical_profile": "billings",
+      "medical_reference": "https://mbsaa.uchicago.edu/2026/07/evolution-of-the-university-of-chicagos-medical-campus/",
+      "medical_evidence": "Owner/architect exterior photograph comparison"
     },
     {
       "family": "gothic_academic",
@@ -2530,13 +2675,14 @@
       "storeys": 7,
       "eave_m": 27.0,
       "roof_rise_m": 0.0,
-      "entry": "east",
+      "entry": "south",
       "references": [
+        "https://www.uchicagomedicine.org/-/media/pdfs/adult-pdfs/patients-and-visitors/patients/medical-campus-map.pdf",
         "https://neurology.uchicago.edu/education/residencywork-life",
         "https://www.openstreetmap.org/way/202690812"
       ],
       "evidence": "Mapped footprint and source-described architectural family; facade module, roof section and local entry dimensions estimated.",
-      "dimension_status": "estimated exterior dimensions; storeys documented only where identified below",
+      "dimension_status": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated.",
       "confidence": "conservative mapped exterior interpretation",
       "wall": "LightStone",
       "roof": "RoofMembrane",
@@ -2545,20 +2691,24 @@
       "roof_form": "recessed flat roof with supported parapet",
       "code": "U120",
       "osm_id": 202690812,
-      "name": "Gilman Smith"
+      "name": "Gilman Smith",
+      "medical_profile": "gilman",
+      "medical_reference": "https://www.uchicagomedicine.org/-/media/pdfs/adult-pdfs/patients-and-visitors/patients/medical-campus-map.pdf",
+      "medical_evidence": "Mapped footprint and owner wayfinding/building inventory; conservative exterior family interpretation"
     },
     {
       "family": "garage",
       "storeys": 4,
       "eave_m": 13.2,
       "roof_rise_m": 0.0,
-      "entry": "east",
+      "entry": "south",
       "references": [
+        "https://www.uchicagomedicine.org/-/media/pdfs/adult-pdfs/patients-and-visitors/patients/medical-campus-map.pdf",
         "https://www.uchicagomedicine.org/comer/patients-and-visitors/patient-information/directions-and-maps/parking",
         "https://www.openstreetmap.org/way/1054042388"
       ],
       "evidence": "Mapped footprint and source-described architectural family; facade module, roof section and local entry dimensions estimated.",
-      "dimension_status": "estimated exterior dimensions; storeys documented only where identified below",
+      "dimension_status": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated.",
       "confidence": "conservative mapped exterior interpretation",
       "wall": "LightStone",
       "roof": "RoofMembrane",
@@ -2567,7 +2717,10 @@
       "roof_form": "recessed flat roof with supported parapet",
       "code": "U121",
       "osm_id": 1054042388,
-      "name": "Parking/Materials Management"
+      "name": "Parking/Materials Management",
+      "medical_profile": "materials",
+      "medical_reference": "https://www.uchicagomedicine.org/-/media/pdfs/adult-pdfs/patients-and-visitors/patients/medical-campus-map.pdf",
+      "medical_evidence": "Mapped footprint and owner wayfinding/building inventory; conservative exterior family interpretation"
     },
     {
       "family": "hospital_low",
@@ -2576,11 +2729,13 @@
       "roof_rise_m": 0.0,
       "entry": "south",
       "references": [
+        "https://mbsaa.uchicago.edu/2026/07/evolution-of-the-university-of-chicagos-medical-campus/",
+        "https://www.uchicagomedicine.org/-/media/pdfs/adult-pdfs/patients-and-visitors/patients/medical-campus-map.pdf",
         "https://maps.uchicago.edu/",
         "https://www.openstreetmap.org/way/202679303"
       ],
       "evidence": "Mapped footprint and source-described architectural family; facade module, roof section and local entry dimensions estimated.",
-      "dimension_status": "estimated exterior dimensions; storeys documented only where identified below",
+      "dimension_status": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated.",
       "confidence": "conservative mapped exterior interpretation",
       "wall": "LightStone",
       "roof": "RoofMembrane",
@@ -2589,20 +2744,25 @@
       "roof_form": "recessed flat roof with supported parapet",
       "code": "U122",
       "osm_id": 202679303,
-      "name": "Goldblatt Pavilion"
+      "name": "Goldblatt Pavilion",
+      "medical_profile": "goldblatt_entry",
+      "medical_reference": "https://mbsaa.uchicago.edu/2026/07/evolution-of-the-university-of-chicagos-medical-campus/",
+      "medical_evidence": "Owner/architect exterior photograph comparison"
     },
     {
       "family": "hospital",
       "storeys": 5,
       "eave_m": 20.5,
       "roof_rise_m": 0.0,
-      "entry": "south",
+      "entry": "east",
       "references": [
+        "https://mbsaa.uchicago.edu/2026/07/evolution-of-the-university-of-chicagos-medical-campus/",
+        "https://www.uchicagomedicine.org/-/media/pdfs/adult-pdfs/patients-and-visitors/patients/medical-campus-map.pdf",
         "https://neurology.uchicago.edu/education/residencywork-life",
         "https://www.openstreetmap.org/way/202690813"
       ],
       "evidence": "Mapped footprint and source-described architectural family; facade module, roof section and local entry dimensions estimated.",
-      "dimension_status": "estimated exterior dimensions; storeys documented only where identified below",
+      "dimension_status": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated.",
       "confidence": "conservative mapped exterior interpretation",
       "wall": "LightStone",
       "roof": "RoofMembrane",
@@ -2611,7 +2771,10 @@
       "roof_form": "recessed flat roof with supported parapet",
       "code": "U123",
       "osm_id": 202690813,
-      "name": "Goldblatt"
+      "name": "Goldblatt",
+      "medical_profile": "historic_lab",
+      "medical_reference": "https://mbsaa.uchicago.edu/2026/07/evolution-of-the-university-of-chicagos-medical-campus/",
+      "medical_evidence": "Owner/architect exterior photograph comparison"
     },
     {
       "family": "international",
@@ -2637,25 +2800,30 @@
     },
     {
       "family": "historic_hospital",
-      "storeys": 6,
-      "eave_m": 23.8,
-      "roof_rise_m": 0.0,
+      "storeys": 4,
+      "eave_m": 14.6,
+      "roof_rise_m": 3.6,
       "entry": "south",
       "references": [
+        "https://mbsaa.uchicago.edu/2026/07/evolution-of-the-university-of-chicagos-medical-campus/",
+        "https://www.uchicagomedicine.org/-/media/pdfs/adult-pdfs/patients-and-visitors/patients/medical-campus-map.pdf",
         "https://neurology.uchicago.edu/education/residencywork-life",
         "https://www.openstreetmap.org/way/144132398"
       ],
       "evidence": "Mapped footprint and source-described architectural family; facade module, roof section and local entry dimensions estimated.",
-      "dimension_status": "estimated exterior dimensions; storeys documented only where identified below",
+      "dimension_status": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated.",
       "confidence": "conservative mapped exterior interpretation",
       "wall": "LightStone",
-      "roof": "RoofMembrane",
+      "roof": "RoofSlate",
       "bay_m": 4.1,
       "window_group": "recessed metal-framed bays",
       "roof_form": "recessed flat roof with supported parapet",
       "code": "U125",
       "osm_id": 144132398,
-      "name": "Chicago Lying-In Hospital"
+      "name": "Chicago Lying-In Hospital",
+      "medical_profile": "lying_in",
+      "medical_reference": "https://mbsaa.uchicago.edu/2026/07/evolution-of-the-university-of-chicagos-medical-campus/",
+      "medical_evidence": "Owner/architect exterior photograph comparison"
     },
     {
       "family": "ida_noyes",
@@ -2728,13 +2896,15 @@
       "storeys": 1,
       "eave_m": 4.8,
       "roof_rise_m": 0.0,
-      "entry": "north",
+      "entry": "south",
       "references": [
+        "https://bsdfacilities.uchicago.edu/building-management-home",
+        "https://www.uchicagomedicine.org/-/media/pdfs/adult-pdfs/patients-and-visitors/patients/medical-campus-map.pdf",
         "https://maps.uchicago.edu/",
         "https://www.openstreetmap.org/way/1254935929"
       ],
       "evidence": "Mapped footprint and source-described architectural family; facade module, roof section and local entry dimensions estimated.",
-      "dimension_status": "estimated exterior dimensions; storeys documented only where identified below",
+      "dimension_status": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated.",
       "confidence": "conservative mapped exterior interpretation",
       "wall": "LightStone",
       "roof": "RoofMembrane",
@@ -2743,7 +2913,10 @@
       "roof_form": "recessed flat roof with supported parapet",
       "code": "U129",
       "osm_id": 1254935929,
-      "name": "UChicago Student Wellness Center"
+      "name": "UChicago Student Wellness Center",
+      "medical_profile": "wellness",
+      "medical_reference": "https://bsdfacilities.uchicago.edu/building-management-home",
+      "medical_evidence": "Mapped footprint and owner wayfinding/building inventory; conservative exterior family interpretation"
     },
     {
       "family": "mansion",
@@ -2860,13 +3033,14 @@
       "storeys": 5,
       "eave_m": 20.5,
       "roof_rise_m": 0.0,
-      "entry": "west",
+      "entry": "south",
       "references": [
+        "https://www.uchicagomedicine.org/-/media/pdfs/adult-pdfs/patients-and-visitors/patients/medical-campus-map.pdf",
         "https://neurology.uchicago.edu/education/residencywork-life",
         "https://www.openstreetmap.org/way/202690808"
       ],
       "evidence": "Mapped footprint and source-described architectural family; facade module, roof section and local entry dimensions estimated.",
-      "dimension_status": "estimated exterior dimensions; storeys documented only where identified below",
+      "dimension_status": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated.",
       "confidence": "conservative mapped exterior interpretation",
       "wall": "LightStone",
       "roof": "RoofMembrane",
@@ -2875,7 +3049,10 @@
       "roof_form": "recessed flat roof with supported parapet",
       "code": "U135",
       "osm_id": 202690808,
-      "name": "Bobs Roberts"
+      "name": "Bobs Roberts",
+      "medical_profile": "bobs_roberts",
+      "medical_reference": "https://www.uchicagomedicine.org/-/media/pdfs/adult-pdfs/patients-and-visitors/patients/medical-campus-map.pdf",
+      "medical_evidence": "Mapped footprint and owner wayfinding/building inventory; conservative exterior family interpretation"
     },
     {
       "family": "protected_highlight",
@@ -2917,11 +3094,13 @@
       "roof_rise_m": 0.0,
       "entry": "east",
       "references": [
+        "https://mbsaa.uchicago.edu/2026/07/evolution-of-the-university-of-chicagos-medical-campus/",
+        "https://www.uchicagomedicine.org/-/media/pdfs/adult-pdfs/patients-and-visitors/patients/medical-campus-map.pdf",
         "https://neurology.uchicago.edu/education/residencywork-life",
         "https://www.openstreetmap.org/way/202690815"
       ],
       "evidence": "Mapped footprint and source-described architectural family; facade module, roof section and local entry dimensions estimated.",
-      "dimension_status": "estimated exterior dimensions; storeys documented only where identified below",
+      "dimension_status": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated.",
       "confidence": "conservative mapped exterior interpretation",
       "wall": "LightStone",
       "roof": "RoofMembrane",
@@ -2930,7 +3109,10 @@
       "roof_form": "recessed flat roof with supported parapet",
       "code": "U138",
       "osm_id": 202690815,
-      "name": "Hicks McElwee"
+      "name": "Hicks McElwee",
+      "medical_profile": "historic_lab",
+      "medical_reference": "https://mbsaa.uchicago.edu/2026/07/evolution-of-the-university-of-chicagos-medical-campus/",
+      "medical_evidence": "Owner/architect exterior photograph comparison"
     },
     {
       "family": "quad_residence",
@@ -3369,13 +3551,15 @@
       "storeys": 2,
       "eave_m": 8.5,
       "roof_rise_m": 0.0,
-      "entry": "east",
+      "entry": "south",
       "references": [
+        "https://bsdfacilities.uchicago.edu/building-management-home",
+        "https://www.uchicagomedicine.org/-/media/pdfs/adult-pdfs/patients-and-visitors/patients/medical-campus-map.pdf",
         "https://maps.uchicago.edu/",
         "https://www.openstreetmap.org/relation/1957136"
       ],
       "evidence": "Mapped footprint and source-described architectural family; facade module, roof section and local entry dimensions estimated.",
-      "dimension_status": "estimated exterior dimensions; storeys documented only where identified below",
+      "dimension_status": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated.",
       "confidence": "conservative mapped exterior interpretation",
       "wall": "WarmBrick",
       "roof": "RoofMembrane",
@@ -3384,7 +3568,10 @@
       "roof_form": "recessed flat roof with supported parapet",
       "code": "U161",
       "osm_id": 1957136,
-      "name": "Edelstone Center"
+      "name": "Edelstone Center",
+      "medical_profile": "brick_school",
+      "medical_reference": "https://bsdfacilities.uchicago.edu/building-management-home",
+      "medical_evidence": "Mapped footprint and owner wayfinding/building inventory; conservative exterior family interpretation"
     },
     {
       "family": "house",
@@ -3579,13 +3766,15 @@
       "storeys": 1,
       "eave_m": 4.8,
       "roof_rise_m": 0.0,
-      "entry": "north",
+      "entry": "east",
       "references": [
+        "https://bsdfacilities.uchicago.edu/building-management-home",
+        "https://www.uchicagomedicine.org/-/media/pdfs/adult-pdfs/patients-and-visitors/patients/medical-campus-map.pdf",
         "https://maps.uchicago.edu/",
         "https://www.openstreetmap.org/way/145510720"
       ],
       "evidence": "Mapped footprint and source-described architectural family; facade module, roof section and local entry dimensions estimated.",
-      "dimension_status": "estimated exterior dimensions; storeys documented only where identified below",
+      "dimension_status": "Exterior interpretation from mapped outline and architectural character; local heights, storeys and openings remain estimated.",
       "confidence": "conservative mapped exterior interpretation",
       "wall": "LightStone",
       "roof": "RoofMembrane",
@@ -3594,7 +3783,10 @@
       "roof_form": "recessed flat roof with supported parapet",
       "code": "U171",
       "osm_id": 145510720,
-      "name": "Woodlawn Social Services Center"
+      "name": "Woodlawn Social Services Center",
+      "medical_profile": "service",
+      "medical_reference": "https://bsdfacilities.uchicago.edu/building-management-home",
+      "medical_evidence": "Mapped footprint and owner wayfinding/building inventory; conservative exterior family interpretation"
     },
     {
       "family": "service",

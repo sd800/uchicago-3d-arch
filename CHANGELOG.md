@@ -1,5 +1,12 @@
 # Changelog
 
+## 26.10.18.14 — 2026-10-18
+
+- Optimize all 40 ordinary buildings in the Medical district, retaining the existing Gordon Center Highlight and every non-medical building mesh.
+- Rebuild CCD's recessed seventh-floor Sky Lobby and horizontal facade, DCAM's precast/glazed ranges, Comer's green-glass exterior, KCBD's laboratory floors and connected roof plate, and the Donnelley rooftop greenhouse with a four-storey supporting base.
+- Differentiate Billings and Chicago Lying-In towers, Abbott's historic scale, clinical/research ranges, open parking decks and grounded entry canopies, steps and ramps. Preserve mapped courts and raised inter-building connections.
+- Regenerate the matching browser GLB, editable CAD downloads and offline edition; document per-building source evidence and estimated dimensions, and add physical medical-geometry regressions.
+
 ## 26.10.18.13 — 2026-10-18
 
 - Set Rockefeller Chapel and Mansueto Library Explore views to the exact user-specified bearing, elevation, vertical span and ground-level center.
