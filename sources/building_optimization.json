@@ -929,14 +929,15 @@
       "family": "modern_academic",
       "storeys": 3,
       "eave_m": 14.0,
-      "roof_rise_m": 0.0,
+      "roof_rise_m": 0,
       "entry": "south",
       "references": [
+        "https://magazine.uchicago.edu/0504/peer/arch.shtml",
         "https://maps.uchicago.edu/",
         "https://www.openstreetmap.org/way/142870317"
       ],
-      "evidence": "Mapped footprint and source-described architectural family; facade module, roof section and local entry dimensions estimated.",
-      "dimension_status": "estimated exterior dimensions; storeys documented only where identified below",
+      "evidence": "Individual Science Quadrangle source comparison, 18 October 2026",
+      "dimension_status": "Owner/architect exterior character and mapped outline; local floor heights, facade modules and secondary dimensions remain estimates.",
       "confidence": "conservative mapped exterior interpretation",
       "wall": "LightStone",
       "roof": "RoofMembrane",
@@ -945,7 +946,8 @@
       "roof_form": "recessed flat roof with supported parapet",
       "code": "U043",
       "osm_id": 142870317,
-      "name": "Kersten Physics Teaching Center"
+      "name": "Kersten Physics Teaching Center",
+      "science_quad_review": true
     },
     {
       "family": "ccd",
@@ -1238,30 +1240,32 @@
       "name": "Stevanovich Center for Financial Mathematics"
     },
     {
-      "family": "gothic_lab",
+      "family": "modern_academic",
       "storeys": 4,
-      "eave_m": 16.5,
-      "roof_rise_m": 4.0,
+      "eave_m": 18.8,
+      "roof_rise_m": 0,
       "entry": "east",
       "references": [
+        "https://hga.com/projects/university-of-chicago-searle-chemistry-laboratory/",
         "https://architecture.uchicago.edu/locations/main_quadrangle/",
         "https://www.openstreetmap.org/way/154656512"
       ],
-      "evidence": "Mapped footprint and source-described architectural family; facade module, roof section and local entry dimensions estimated.",
-      "dimension_status": "estimated exterior dimensions; storeys documented only where identified below",
+      "evidence": "Individual Science Quadrangle source comparison, 18 October 2026",
+      "dimension_status": "Owner/architect exterior character and mapped outline; local floor heights, facade modules and secondary dimensions remain estimates.",
       "confidence": "conservative mapped exterior interpretation",
       "wall": "QuadStone",
-      "roof": "RoofSlate",
+      "roof": "RoofMembrane",
       "bay_m": 4.6,
       "window_group": "paired stone lights with rectangular upper windows",
       "roof_form": "connected pitched/hipped wing roof",
       "code": "U057",
       "osm_id": 154656512,
-      "name": "Searle Chemical Laboratory"
+      "name": "Searle Chemical Laboratory",
+      "science_quad_review": true
     },
     {
       "family": "protected_highlight",
-      "decision": "Retain the existing individually reconstructed or reviewed Highlight; do not replace with a generic campus recipe.",
+      "decision": "Explicitly reworked at user request in release 26.10.18.15; retain the authored detailed/optimized exterior instead of applying an ordinary generic recipe.",
       "references": [
         "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg"
       ],
@@ -1382,16 +1386,16 @@
     },
     {
       "family": "retained",
-      "storeys": 5,
-      "eave_m": 20.7,
-      "roof_rise_m": 0.0,
+      "storeys": 6,
+      "eave_m": 23.4,
+      "roof_rise_m": 0,
       "entry": "south",
       "references": [
         "https://architecture.uchicago.edu/locations/henry_hinds_laboratory_for_geophysical_sciences/",
         "https://www.openstreetmap.org/way/88865426"
       ],
-      "evidence": "Mapped footprint and source-described architectural family; facade module, roof section and local entry dimensions estimated.",
-      "dimension_status": "estimated exterior dimensions; storeys documented only where identified below",
+      "evidence": "Individual Science Quadrangle source comparison, 18 October 2026",
+      "dimension_status": "Owner/architect exterior character and mapped outline; local floor heights, facade modules and secondary dimensions remain estimates.",
       "confidence": "existing individual massing retained; facade and entrance reviewed",
       "retained_profile": "hinds",
       "wall": "LightStone",
@@ -1401,7 +1405,8 @@
       "roof_form": "retain existing source-specific roof",
       "code": "U064",
       "osm_id": 88865426,
-      "name": "Henry Hinds Laboratory for Geophysical Sciences"
+      "name": "Henry Hinds Laboratory for Geophysical Sciences",
+      "science_quad_review": true
     },
     {
       "family": "hospital",
@@ -1638,26 +1643,28 @@
       "name": "McGiffert House"
     },
     {
-      "family": "modern_academic",
+      "family": "gothic_lab",
       "storeys": 4,
-      "eave_m": 16.8,
-      "roof_rise_m": 0.0,
+      "eave_m": 14.8,
+      "roof_rise_m": 3.6,
       "entry": "east",
       "references": [
+        "https://photoarchive.lib.uchicago.edu/db.xqy?one=apf2-04547.xml",
         "https://maps.uchicago.edu/",
         "https://www.openstreetmap.org/way/154859380"
       ],
-      "evidence": "Mapped footprint and source-described architectural family; facade module, roof section and local entry dimensions estimated.",
-      "dimension_status": "estimated exterior dimensions; storeys documented only where identified below",
+      "evidence": "Individual Science Quadrangle source comparison, 18 October 2026",
+      "dimension_status": "Owner/architect exterior character and mapped outline; local floor heights, facade modules and secondary dimensions remain estimates.",
       "confidence": "conservative mapped exterior interpretation",
       "wall": "LightStone",
-      "roof": "RoofMembrane",
+      "roof": "RoofSlate",
       "bay_m": 4.1,
       "window_group": "recessed metal-framed bays",
       "roof_form": "recessed flat roof with supported parapet",
       "code": "U075",
       "osm_id": 154859380,
-      "name": "Jones Laboratory"
+      "name": "Jones Laboratory",
+      "science_quad_review": true
     },
     {
       "family": "house",
@@ -3056,7 +3063,7 @@
     },
     {
       "family": "protected_highlight",
-      "decision": "Retain the existing individually reconstructed or reviewed Highlight; do not replace with a generic campus recipe.",
+      "decision": "Explicitly reworked at user request in release 26.10.18.15; retain the authored detailed/optimized exterior instead of applying an ordinary generic recipe.",
       "references": [
         "https://campub.lib.uchicago.edu/text/?docId=mvol-0001-0016-0000"
       ],

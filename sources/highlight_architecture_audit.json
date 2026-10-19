@@ -1,6 +1,6 @@
 {
   "review_date": "2026-10-18",
-  "scope": "The current source-to-model revision optimizes Ratner Athletics Center. The preceding Rockefeller review remains recorded; other historical geometry/joinery reviews are not certification under the current modeling standard.",
+  "scope": "Crerar detailed source-to-model exterior reconstruction and Harper optimized exterior review, following the recorded Rockefeller and Ratner revisions. Other historical joinery reviews are not certification under the current modeling standard.",
   "building_highlight_count": 19,
   "reconstructed_this_review": 1,
   "joinery_count_is_not_fidelity_evidence": true,
@@ -188,18 +188,23 @@
       "id": "152284260",
       "code": "U058",
       "name": "John Crerar Library",
-      "decision": "reconstructed source-specific exterior",
+      "decision": "Detailed source-to-model exterior reconstruction",
       "features_reviewed": [
-        "three above-ground library levels",
-        "11-foot upper-floor cantilever",
-        "vertical narrow concrete window bays",
-        "central atrium roof lantern",
-        "2018 roof skylights"
+        "Thick upper limestone walls and genuinely recessed lower floors",
+        "2018 wide top-floor glass apertures",
+        "Independent stone entry arch and double-height glazing",
+        "Connected stair landing and handrails",
+        "Separate shaped atrium/stair rooflights and small rooflights"
       ],
-      "reference": "https://www.lib.uchicago.edu/crerar/about-crerar-library/history/",
+      "reference": "https://marcararc.co/portfolio/crerar-reno/",
       "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations.",
       "previous_review_decision": "reconstructed source-specific exterior",
-      "fidelity_status": "Not certified under the current standard; source-to-model architectural re-review remains required."
+      "fidelity_status": "Recompared with owner/architect exterior photographs and published architectural facts; undocumented sections and small members remain interpretations.",
+      "review_release": "26.10.18.15",
+      "photo_comparison": [
+        "https://marcararc.co/wp-content/uploads/2022/01/UC-Crerar-ext-01-2919-scaled.jpg",
+        "https://marcararc.co/wp-content/uploads/2021/03/UC-Crerar-ext-02-2279-scaled.jpg"
+      ]
     },
     {
       "id": "143457513",
@@ -311,17 +316,20 @@
       "id": "156128082",
       "code": "U136",
       "name": "Harper Memorial Library",
-      "decision": "retained existing individual exterior after review",
+      "decision": "Optimized exterior reconstruction",
       "features_reviewed": [
-        "Two Gothic library end towers",
-        "Lower central reading hall",
-        "Independent steep slate roofs",
-        "Crenellated crowns and tall hall glazing"
+        "Twin stone towers with attached corner turrets",
+        "Eight central reading-hall windows per long elevation",
+        "Two lower window floors, central entrance and connected pitched roof"
       ],
       "reference": "https://campub.lib.uchicago.edu/text/?docId=mvol-0001-0016-0000",
       "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations.",
       "previous_review_decision": "retained existing individual exterior after review",
-      "fidelity_status": "Not certified under the current standard; source-to-model architectural re-review remains required."
+      "fidelity_status": "Recompared with owner/architect exterior photographs and published architectural facts; undocumented sections and small members remain interpretations.",
+      "review_release": "26.10.18.15",
+      "photo_comparison": [
+        "https://d3qi0qp55mx5f5.cloudfront.net/architecture/i/locations/large_images/HARPER_large.jpg?mtime=1378903906"
+      ]
     },
     {
       "id": "441025431",

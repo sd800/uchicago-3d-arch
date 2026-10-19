@@ -28,6 +28,13 @@ for r in records:
    status=recipe['dimension_status'].replace('estimated exterior dimensions; storeys documented only where identified below','Exterior dimensions and floor count are estimated from the mapped footprint and architectural family.')
    r['basis_en']=status+' Modeled maximum includes the roof; local section dimensions are approximate.'
   r['partition']='本轮按该楼的独立方案优化主要体量、屋顶、成组开窗与入口衔接，保留地图轮廓和庭院。未公开的构件尺寸及重复窗位为室外形态估算，并非实测或施工模型。'
+# Bespoke source-comparison exteriors carry their own current architectural
+# notes instead of inheriting an earlier generic Highlight description.
+for r in records:
+ detail=r.get('exterior_reconstruction')or{}
+ if detail.get('manual_joinery'):
+  r['partition_en']='; '.join(detail['features'])+'. '+detail['limits']
+  r['partition']=notes_zh.get(str(r['osm_id']),r['partition'])
 recordsfile=out/'viewer_records.json';recordsfile.write_text(json.dumps(records,ensure_ascii=False,indent=2))
 
 # Keep crawlable HTML small; the same renderer also powers a portable single-file edition.

@@ -67,7 +67,8 @@ if prior.exists():
  baseline=json.loads(prior.read_text());current={}
  for r in records:
   current[r['layer']]=sorted(hashlib.sha256(mat.encode()+v.tobytes()+f.tobytes()).hexdigest()for mat,v,f in meshes[r['code']])
- untouched=[k for k in baseline['layers']if k not in baseline['medical']]
+ authorized={'U043','U057','U058','U064','U075','U136'}
+ untouched=[k for k in baseline['layers']if k not in baseline['medical']and k.split('_')[0]not in authorized]
  assert all(current[k]==baseline['layers'][k]for k in untouched),'Non-medical building geometry changed'
  assert all(current[k]!=baseline['layers'][k]for k in baseline['medical']),'A medical building was missed'
  checks.append(f'{len(untouched)} non-medical building layers are byte-identical in mesh/material data; all 40 medical layers changed')

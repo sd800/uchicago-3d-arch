@@ -1,3 +1,4 @@
+from science_exteriors import crerar as rebuild_crerar, harper as rebuild_harper, CRERAR_REFERENCE, CRERAR_FEATURES, HARPER_REFERENCE, HARPER_FEATURES
 """Individual highlight corrections after the architectural form audit.
 
 Primary owner/architect references are recorded beside each reconstruction.
@@ -12,15 +13,18 @@ from shapely.geometry import box,Polygon,Point,LineString
 from shapely.ops import unary_union
 from shapely import segmentize
 
-REFS={150457349:ROCKEFELLER_REFERENCE,125667497:'https://flwright.org/explore/frederick-c-robie-house',152586235:'https://architecture.uchicago.edu/locations/gerald_ratner_athletics_center/',142870150:'https://architecture.uchicago.edu/locations/gordon_center_for_integrative_science/',152284260:'https://www.lib.uchicago.edu/crerar/about-crerar-library/history/',1228219576:'https://architecture.uchicago.edu/locations/tower_group_mitchell_tower_hutchinson_commons_reynolds_club_mandel_hall/'}
+REFS={156128082:HARPER_REFERENCE,150457349:ROCKEFELLER_REFERENCE,125667497:'https://flwright.org/explore/frederick-c-robie-house',152586235:'https://architecture.uchicago.edu/locations/gerald_ratner_athletics_center/',142870150:'https://architecture.uchicago.edu/locations/gordon_center_for_integrative_science/',152284260:CRERAR_REFERENCE,1228219576:'https://architecture.uchicago.edu/locations/tower_group_mitchell_tower_hutchinson_commons_reynolds_club_mandel_hall/'}
 FEATURES={
+156128082:HARPER_FEATURES,
 150457349:ROCKEFELLER_FEATURES,125667497:['long Roman-brick living/dining bar','deep low hipped clay eaves with limestone fascia','24 art-glass door bays along the south balcony','upper bedroom mass','central chimney','brick terraces, parapets and urns'],
 152586235:RATNER_FEATURES,
 142870150:['separate limestone research wings','tall glazed eastern hinge atrium','open ground-level breezeway','six-storey-height steel colonnade','glazed upper bridge and limestone canopy'],
-152284260:['three above-ground library levels','11-foot upper-floor cantilever','vertical narrow concrete window bays','central atrium roof lantern','2018 roof skylights'],
+152284260:CRERAR_FEATURES,
 1228219576:['square limestone Gothic tower','true open ground-level cross passage','deep bell-stage arches','four corner turrets','crenellated parapet','paired narrow Gothic lights']}
 
 def rebuild(ms,p,ident,h,body,t):
+    if ident==152284260:return rebuild_crerar(ms,p,h,body,t)
+    if ident==156128082:return rebuild_harper(ms,p,h,body,t)
     if ident==150457349:return rebuild_rockefeller(ms,p,h,body,t)
     if ident==152586235:return rebuild_ratner(ms,p,h,body,t)
     a,b,c,d=p.bounds;x,y=p.centroid.coords[0]
@@ -106,16 +110,6 @@ def rebuild(ms,p,ident,h,body,t):
         for xx in np.linspace(330,390,9):ms['Metal'].append(t.cylinder((xx,997.7,0),(xx,997.7,25.8),.29,12))
         add(box(325,996.2,396,1000.3),25.8,.48,'LightStone');add(north,.0,.16,'Paving')
         stats={'open_breezeway_clearance_m':5.4,'high_steel_colonnade':True,'glazed_hinge_atrium':True}
-    elif ident==152284260:
-        lower=p.buffer(-3.3528,join_style=2);body(lower,0,10.3,'Limestone',lev=2,arch=False);body(p,10.3,4.7,'Limestone',lev=1,arch=False);add(p,15,.16,'Metal');coping(p,15.16)
-        # Central three-storey atrium lantern and the remodel's narrow roof lights.
-        lantern=box(x-3.5,929,x+3.5,964).intersection(p);body(lantern,15.16,1.2,'Glass',windows=False);add(lantern,16.36,.10,'Glass');coping(lantern,16.46,'Metal')
-        for xx in np.arange(a+7,c-4,5.4):
-            q=box(xx-.8,970,xx+.8,981).intersection(p.buffer(-1));add(q,15.18,.13,'Glass')
-        for yy in np.arange(b+4,d-3,4.8):
-            for xx,sign in [(a-.03,-1),(c+.03,1)]:
-                pane((xx,yy-.7),(xx,yy+.7),10.85,3.4,(sign,0),frame='Concrete',width=.7)
-        stats={'cantilever_m':3.3528,'atrium_roof_lantern':True}
     elif ident==1228219576:
         # p already calibrated to the published historic square dimensions.
         cx,cy=p.centroid.coords[0];w=c-a;depth=d-b

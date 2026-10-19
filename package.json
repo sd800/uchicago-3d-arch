@@ -34,7 +34,8 @@
     "check:athletic-fields": "node scripts/check_athletic_fields.mjs",
     "check:campus-optimization": "python3 scripts/check_campus_optimization.py",
     "check:highlight-views": "node scripts/check_highlight_views.mjs",
-    "check:medical": "python3 scripts/check_medical_optimization.py"
+    "check:medical": "python3 scripts/check_medical_optimization.py",
+    "check:science-quad": "python3 scripts/check_science_quadrangle.py"
   },
   "dependencies": {
     "three": "0.186.1"

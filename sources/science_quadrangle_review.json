@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-18",
+  "base_release": "26.10.18.14",
+  "scope": "Crerar detailed exterior; Harper optimized exterior; Kersten, Searle, Hinds and Jones optimized exteriors; Science Quadrangle entry/walk interfaces.",
+  "authorized_building_changes": [
+    "U043",
+    "U057",
+    "U058",
+    "U064",
+    "U075",
+    "U136"
+  ],
+  "references": {
+    "crerar_owner": "https://www.lib.uchicago.edu/crerar/about-crerar-library/history/",
+    "crerar_owner_facts": "https://www.lib.uchicago.edu/collex/exhibits/library-all-time/architectural-data-and-facts/",
+    "crerar_renovation": "https://marcararc.co/portfolio/crerar-reno/",
+    "crerar_enclosure": "https://zsllc-us.com/project/crerar-library/",
+    "harper": "https://architecture.uchicago.edu/locations/william_rainey_harper_memorial_library/",
+    "kersten": "https://magazine.uchicago.edu/0504/peer/arch.shtml",
+    "searle": "https://hga.com/projects/university-of-chicago-searle-chemistry-laboratory/",
+    "searle_floors": "https://grummanbutkus.com/projects/searle-chemistry-laboratory-existing-building-commissioning/",
+    "searle_roof": "https://magazine.uchicago.edu/1008/features/green-evolution.shtml",
+    "hinds": "https://architecture.uchicago.edu/locations/henry_hinds_laboratory_for_geophysical_sciences/",
+    "jones": "https://photoarchive.lib.uchicago.edu/db.xqy?one=apf2-04547.xml"
+  },
+  "crerar": {
+    "standard": "Detailed exterior reconstruction by source-to-model architectural correspondence, not added-frame count",
+    "verified_dimensions": {
+      "above_ground_levels": 3,
+      "lower_level": 1,
+      "upper_cantilever_m": 3.3528,
+      "renovated_panel_height_m": 3.3528,
+      "renovated_panel_width_up_to_m": 7.62
+    },
+    "source_features": [
+      "Photographed recessed lower grid and massive upper cantilever",
+      "2018 full-height upper glass replacements",
+      "Independent limestone entry arch and glazed two-storey arrival",
+      "Connected granite landing, broad stairs and handrails",
+      "Replaced atrium/stair glazing and added smaller rooflights"
+    ],
+    "limits": [
+      "Mapped georeferenced footprint retained; approximate historical plan dimensions are not treated as an exact roof boundary",
+      "Local roof/eave heights, portal placement within the east frontage and individual stone-panel joints remain photographic/plan interpretations",
+      "No interior reconstruction; heraldic/lettering content not represented as readable text"
+    ]
+  },
+  "harper": {
+    "standard": "Optimized exterior",
+    "photo_features": [
+      "Two tall square end towers, lower stone walls and high Gothic reading-room window group",
+      "Eight central Gothic reading-room bays in the university elevation",
+      "Connected central pitched roof, attached corner turrets and stone courses"
+    ],
+    "published_maximum_m": 41.148,
+    "limits": "Hall/roof/turret sublevels and repeated openings are proportional estimates; carved sculpture is abstracted."
+  },
+  "neighbors": {
+    "U043": "Kersten: different limestone Ellis Avenue and angled glazed quad fronts, pitched glazed atrium spine",
+    "U057": "Searle: four above-ground floors plus basement, flat laboratory roof and four documented heat-recovery chambers; replaces erroneous Gothic roof",
+    "U064": "Hinds: tall split-head stone service shafts and red-brick exhaust housings rise above the main flat laboratory body; six facade rows are photo-interpreted, not a published floor count",
+    "U075": "Jones: historic stone/roof/entrance character replaces generic modern academic treatment"
+  },
+  "landscape": "Only short entry-to-existing-walk gap closure, existing path edges and stair clearance; no invented diagonal Quad routes; adjacent medical and Gordon geometry retained."
+}

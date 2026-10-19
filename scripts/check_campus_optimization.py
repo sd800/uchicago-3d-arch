@@ -22,7 +22,7 @@ for r in ordinary:
  assert r['ordinary_joinery']['buttresses']==0,r['name']
  assert r['height']>0 and r['levels']>=1
 checks.append('All 158 ordinary building layers use explicit exterior recipes and dimensions/source caveats')
-baseline=read('sources/protected_highlight_mesh_hashes.json')['layers'];hashes=collections.defaultdict(list);meshes=collections.defaultdict(list);all_codes=set()
+baseline=read('sources/protected_highlight_mesh_hashes.json')['layers'];authorized={'U058','U136'};baseline={k:v for k,v in baseline.items()if k.split('_')[0]not in authorized};hashes=collections.defaultdict(list);meshes=collections.defaultdict(list);all_codes=set()
 for name,v,f in read_legacy_meshes(root/'output/UChicago_HydePark.3ds'):
  info=layers[name];lay=info['layer']
  assert np.isfinite(v).all() and f.max()<len(v),name
@@ -31,7 +31,7 @@ for name,v,f in read_legacy_meshes(root/'output/UChicago_HydePark.3ds'):
  if info.get('category')=='building':meshes[lay.split('_')[0]].append((info['material'],v,f))
 assert len(all_codes)==177
 assert {k:sorted(v)for k,v in hashes.items()}==baseline,'Existing Highlights changed unexpectedly'
-checks.append('All 19 existing Highlight mesh/material sequences are identical to release 26.10.18.11')
+checks.append('The 17 unchanged Highlight mesh/material sequences are identical to release 26.10.18.11; Crerar and Harper are explicitly revised at the user request')
 bycode={r['code']:r for r in records}
 def ray(code,origin,direction,far=10000,material=None):
  o=np.asarray(origin);d=np.asarray(direction);found=[]
@@ -71,5 +71,5 @@ for r in ordinary:
   assert not hits,(r['name'],'courtyard was filled',hits[:2])
   courts+=1
 checks.append(str(courts)+' mapped courtyard centers stay physically open to the sky')
-report={'ordinary_buildings':158,'protected_highlights':19,'checks':checks,'passed':True,'scope':'Geometry regression only. See source catalog for documentary limits.'}
+report={'ordinary_buildings':158,'protected_highlights':17,'authorized_highlight_revisions':2,'checks':checks,'passed':True,'scope':'Geometry regression only. See source catalog for documentary limits.'}
 (root/'output/campus_optimization_validation.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps(report,indent=2))

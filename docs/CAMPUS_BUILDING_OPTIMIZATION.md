@@ -222,3 +222,5 @@ These technical checks prevent geometry regressions. They do not certify measure
 | U177 | 928 East 61st Street | house | 1 / 3.6 m | conservative mapped exterior interpretation |
 
 The medical-side rows above are superseded where applicable by [Medical exterior optimization](MEDICAL_EXTERIOR_OPTIMIZATION.md) and the per-building medical source catalog.
+
+Crerar and Harper were explicitly reworked at the user request in release 26.10.18.15; the other 17 Highlight mesh sequences remain protected against 26.10.18.11. The Science Quadrangle follow-up also corrects Kersten, Searle, Hinds and Jones; see [Science Quadrangle and libraries](SCIENCE_QUADRANGLE_AND_LIBRARIES.md).

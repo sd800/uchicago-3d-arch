@@ -194,12 +194,12 @@
     "category": "building",
     "material": "Metal"
   },
-  "U004D5000": {
+  "U004D5400": {
     "layer": "U004_Cochrane-Woods Art Center",
     "category": "building",
     "material": "QuadTrim"
   },
-  "U004D5400": {
+  "U004D5800": {
     "layer": "U004_Cochrane-Woods Art Center",
     "category": "building",
     "material": "WindowGlass"
@@ -234,7 +234,7 @@
     "category": "building",
     "material": "Frame"
   },
-  "U005D5400": {
+  "U005D5800": {
     "layer": "U005_Court Theatre",
     "category": "building",
     "material": "WindowGlass"
@@ -264,12 +264,12 @@
     "category": "building",
     "material": "Frame"
   },
-  "U006D5400": {
+  "U006D5800": {
     "layer": "U006_Henry Crown Field House",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U006D5600": {
+  "U006D6000": {
     "layer": "U006_Henry Crown Field House",
     "category": "building",
     "material": "RoofSlate"
@@ -304,12 +304,12 @@
     "category": "building",
     "material": "Metal"
   },
-  "U007D5000": {
+  "U007D5400": {
     "layer": "U007_David and Alfred Smart Museum of Art",
     "category": "building",
     "material": "QuadTrim"
   },
-  "U007D5400": {
+  "U007D5800": {
     "layer": "U007_David and Alfred Smart Museum of Art",
     "category": "building",
     "material": "WindowGlass"
@@ -339,17 +339,17 @@
     "category": "building",
     "material": "Frame"
   },
-  "U008D5100": {
+  "U008D5500": {
     "layer": "U008_Young Memorial Building",
     "category": "building",
     "material": "WarmBrick"
   },
-  "U008D5400": {
+  "U008D5800": {
     "layer": "U008_Young Memorial Building",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U008D5800": {
+  "U008D6200": {
     "layer": "U008_Young Memorial Building",
     "category": "building",
     "material": "RoofMembrane"
@@ -374,12 +374,12 @@
     "category": "building",
     "material": "Frame"
   },
-  "U009D5400": {
+  "U009D5800": {
     "layer": "U009_Stagg Field",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U009D5800": {
+  "U009D6200": {
     "layer": "U009_Stagg Field",
     "category": "building",
     "material": "RoofMembrane"
@@ -409,17 +409,17 @@
     "category": "building",
     "material": "Frame"
   },
-  "U010D5400": {
+  "U010D5800": {
     "layer": "U010_847 East 56th Street",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U010D5500": {
+  "U010D5900": {
     "layer": "U010_847 East 56th Street",
     "category": "building",
     "material": "DoorWood"
   },
-  "U010D5600": {
+  "U010D6000": {
     "layer": "U010_847 East 56th Street",
     "category": "building",
     "material": "RoofSlate"
@@ -449,17 +449,17 @@
     "category": "building",
     "material": "Frame"
   },
-  "U011D5400": {
+  "U011D5800": {
     "layer": "U011_Max Palevsky Commons Central",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U011D6800": {
+  "U011D7200": {
     "layer": "U011_Max Palevsky Commons Central",
     "category": "building",
     "material": "PalevskyPurple"
   },
-  "U011D6900": {
+  "U011D7300": {
     "layer": "U011_Max Palevsky Commons Central",
     "category": "building",
     "material": "PalevskyRoof"
@@ -489,12 +489,12 @@
     "category": "building",
     "material": "Frame"
   },
-  "U012D5400": {
+  "U012D5800": {
     "layer": "U012_University of Chicago Auto Service Facility",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U012D5800": {
+  "U012D6200": {
     "layer": "U012_University of Chicago Auto Service Facility",
     "category": "building",
     "material": "RoofMembrane"
@@ -529,7 +529,7 @@
     "category": "building",
     "material": "Frame"
   },
-  "U013D5400": {
+  "U013D5800": {
     "layer": "U013_West Campus Combined Utility Plant",
     "category": "building",
     "material": "WindowGlass"
@@ -559,17 +559,17 @@
     "category": "building",
     "material": "Frame"
   },
-  "U014D5400": {
+  "U014D5800": {
     "layer": "U014_Max Palevsky Commons West",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U014D6800": {
+  "U014D7200": {
     "layer": "U014_Max Palevsky Commons West",
     "category": "building",
     "material": "PalevskyPurple"
   },
-  "U014D6900": {
+  "U014D7300": {
     "layer": "U014_Max Palevsky Commons West",
     "category": "building",
     "material": "PalevskyRoof"
@@ -619,12 +619,12 @@
     "category": "building",
     "material": "Frame"
   },
-  "U015D5400": {
+  "U015D5800": {
     "layer": "U015_High Bay Research Building",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U015D5800": {
+  "U015D6200": {
     "layer": "U015_High Bay Research Building",
     "category": "building",
     "material": "RoofMembrane"
@@ -654,12 +654,12 @@
     "category": "building",
     "material": "Frame"
   },
-  "U016D5400": {
+  "U016D5800": {
     "layer": "U016_Michelson Center for Physics",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U016D5800": {
+  "U016D6200": {
     "layer": "U016_Michelson Center for Physics",
     "category": "building",
     "material": "RoofMembrane"
@@ -689,12 +689,12 @@
     "category": "building",
     "material": "Frame"
   },
-  "U017D5400": {
+  "U017D5800": {
     "layer": "U017_Molecular Engineering Modular Offices",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U017D5800": {
+  "U017D6200": {
     "layer": "U017_Molecular Engineering Modular Offices",
     "category": "building",
     "material": "RoofMembrane"
@@ -724,17 +724,17 @@
     "category": "building",
     "material": "Frame"
   },
-  "U018D5400": {
+  "U018D5800": {
     "layer": "U018_Max Palevsky Commons East",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U018D6800": {
+  "U018D7200": {
     "layer": "U018_Max Palevsky Commons East",
     "category": "building",
     "material": "PalevskyPurple"
   },
-  "U018D6900": {
+  "U018D7300": {
     "layer": "U018_Max Palevsky Commons East",
     "category": "building",
     "material": "PalevskyRoof"
@@ -749,22 +749,22 @@
     "category": "building",
     "material": "Paving"
   },
-  "U019D4200": {
+  "U019D4600": {
     "layer": "U019_Accelerator Building",
     "category": "building",
     "material": "MedicalStone"
   },
-  "U019D4300": {
+  "U019D4700": {
     "layer": "U019_Accelerator Building",
     "category": "building",
     "material": "MedicalGlass"
   },
-  "U019D4700": {
+  "U019D5100": {
     "layer": "U019_Accelerator Building",
     "category": "building",
     "material": "MedicalSteel"
   },
-  "U019D5800": {
+  "U019D6200": {
     "layer": "U019_Accelerator Building",
     "category": "building",
     "material": "RoofMembrane"
@@ -794,12 +794,12 @@
     "category": "building",
     "material": "Frame"
   },
-  "U020D5400": {
+  "U020D5800": {
     "layer": "U020_UChicago Child Development Center - Drexel",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U020D5800": {
+  "U020D6200": {
     "layer": "U020_UChicago Child Development Center - Drexel",
     "category": "building",
     "material": "RoofMembrane"
@@ -829,22 +829,22 @@
     "category": "building",
     "material": "Paving"
   },
-  "U021D4300": {
+  "U021D4700": {
     "layer": "U021_Knapp Research Center",
     "category": "building",
     "material": "MedicalGlass"
   },
-  "U021D4600": {
+  "U021D5000": {
     "layer": "U021_Knapp Research Center",
     "category": "building",
     "material": "MedicalDarkGlass"
   },
-  "U021D4700": {
+  "U021D5100": {
     "layer": "U021_Knapp Research Center",
     "category": "building",
     "material": "MedicalSteel"
   },
-  "U021D5800": {
+  "U021D6200": {
     "layer": "U021_Knapp Research Center",
     "category": "building",
     "material": "RoofMembrane"
@@ -934,12 +934,12 @@
     "category": "building",
     "material": "MedicalStone"
   },
-  "U023D4200": {
+  "U023D4600": {
     "layer": "U023_Medical Campus Parking Garage B",
     "category": "building",
     "material": "MedicalStone"
   },
-  "U023D5800": {
+  "U023D6200": {
     "layer": "U023_Medical Campus Parking Garage B",
     "category": "building",
     "material": "RoofMembrane"
@@ -1009,22 +1009,22 @@
     "category": "building",
     "material": "Paving"
   },
-  "U025D4300": {
+  "U025D4700": {
     "layer": "U025_Knapp Center for Biomedical Discovery",
     "category": "building",
     "material": "MedicalGlass"
   },
-  "U025D4400": {
+  "U025D4800": {
     "layer": "U025_Knapp Center for Biomedical Discovery",
     "category": "building",
     "material": "MedicalSilverGlass"
   },
-  "U025D4500": {
+  "U025D4900": {
     "layer": "U025_Knapp Center for Biomedical Discovery",
     "category": "building",
     "material": "MedicalGreenGlass"
   },
-  "U025D4700": {
+  "U025D5100": {
     "layer": "U025_Knapp Center for Biomedical Discovery",
     "category": "building",
     "material": "MedicalSteel"
@@ -1049,22 +1049,22 @@
     "category": "building",
     "material": "MedicalSilverGlass"
   },
-  "U026D4300": {
+  "U026D4700": {
     "layer": "U026_Greenhouse",
     "category": "building",
     "material": "MedicalGlass"
   },
-  "U026D4400": {
+  "U026D4800": {
     "layer": "U026_Greenhouse",
     "category": "building",
     "material": "MedicalSilverGlass"
   },
-  "U026D4700": {
+  "U026D5100": {
     "layer": "U026_Greenhouse",
     "category": "building",
     "material": "MedicalSteel"
   },
-  "U026D5800": {
+  "U026D6200": {
     "layer": "U026_Greenhouse",
     "category": "building",
     "material": "RoofMembrane"
@@ -1079,22 +1079,22 @@
     "category": "building",
     "material": "Concrete"
   },
-  "U027D5000": {
+  "U027D5400": {
     "layer": "U027_Bartlett Dining Commons",
     "category": "building",
     "material": "QuadTrim"
   },
-  "U027D5400": {
+  "U027D5800": {
     "layer": "U027_Bartlett Dining Commons",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U027D5500": {
+  "U027D5900": {
     "layer": "U027_Bartlett Dining Commons",
     "category": "building",
     "material": "DoorWood"
   },
-  "U027D5600": {
+  "U027D6000": {
     "layer": "U027_Bartlett Dining Commons",
     "category": "building",
     "material": "RoofSlate"
@@ -1159,22 +1159,22 @@
     "category": "building",
     "material": "Paving"
   },
-  "U029D4300": {
+  "U029D4700": {
     "layer": "U029_Donnelley Biological Sciences Learning Center",
     "category": "building",
     "material": "MedicalGlass"
   },
-  "U029D4600": {
+  "U029D5000": {
     "layer": "U029_Donnelley Biological Sciences Learning Center",
     "category": "building",
     "material": "MedicalDarkGlass"
   },
-  "U029D4700": {
+  "U029D5100": {
     "layer": "U029_Donnelley Biological Sciences Learning Center",
     "category": "building",
     "material": "MedicalSteel"
   },
-  "U029D5800": {
+  "U029D6200": {
     "layer": "U029_Donnelley Biological Sciences Learning Center",
     "category": "building",
     "material": "RoofMembrane"
@@ -1189,22 +1189,22 @@
     "category": "building",
     "material": "Paving"
   },
-  "U030D4200": {
+  "U030D4600": {
     "layer": "U030_Biopsychology Science Building",
     "category": "building",
     "material": "MedicalStone"
   },
-  "U030D4300": {
+  "U030D4700": {
     "layer": "U030_Biopsychology Science Building",
     "category": "building",
     "material": "MedicalGlass"
   },
-  "U030D4700": {
+  "U030D5100": {
     "layer": "U030_Biopsychology Science Building",
     "category": "building",
     "material": "MedicalSteel"
   },
-  "U030D5800": {
+  "U030D6200": {
     "layer": "U030_Biopsychology Science Building",
     "category": "building",
     "material": "RoofMembrane"
@@ -1234,17 +1234,17 @@
     "category": "building",
     "material": "Frame"
   },
-  "U031D5400": {
+  "U031D5800": {
     "layer": "U031_Rohr Chabad Jewish Center",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U031D5500": {
+  "U031D5900": {
     "layer": "U031_Rohr Chabad Jewish Center",
     "category": "building",
     "material": "DoorWood"
   },
-  "U031D5600": {
+  "U031D6000": {
     "layer": "U031_Rohr Chabad Jewish Center",
     "category": "building",
     "material": "RoofSlate"
@@ -1319,17 +1319,17 @@
     "category": "building",
     "material": "Frame"
   },
-  "U033D5400": {
+  "U033D5800": {
     "layer": "U033_Neubauer Collegium",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U033D5500": {
+  "U033D5900": {
     "layer": "U033_Neubauer Collegium",
     "category": "building",
     "material": "DoorWood"
   },
-  "U033D5600": {
+  "U033D6000": {
     "layer": "U033_Neubauer Collegium",
     "category": "building",
     "material": "RoofSlate"
@@ -1344,32 +1344,32 @@
     "category": "building",
     "material": "Paving"
   },
-  "U034D4200": {
+  "U034D4600": {
     "layer": "U034_Zoology",
     "category": "building",
     "material": "MedicalStone"
   },
-  "U034D4300": {
+  "U034D4700": {
     "layer": "U034_Zoology",
     "category": "building",
     "material": "MedicalGlass"
   },
-  "U034D4700": {
+  "U034D5100": {
     "layer": "U034_Zoology",
     "category": "building",
     "material": "MedicalSteel"
   },
-  "U034D5000": {
+  "U034D5400": {
     "layer": "U034_Zoology",
     "category": "building",
     "material": "QuadTrim"
   },
-  "U034D5600": {
+  "U034D6000": {
     "layer": "U034_Zoology",
     "category": "building",
     "material": "RoofSlate"
   },
-  "U034D5800": {
+  "U034D6200": {
     "layer": "U034_Zoology",
     "category": "building",
     "material": "RoofMembrane"
@@ -1404,12 +1404,12 @@
     "category": "building",
     "material": "Frame"
   },
-  "U035D5400": {
+  "U035D5800": {
     "layer": "U035_Cobb Gate",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U035D5600": {
+  "U035D6000": {
     "layer": "U035_Cobb Gate",
     "category": "building",
     "material": "RoofSlate"
@@ -1424,32 +1424,32 @@
     "category": "building",
     "material": "Paving"
   },
-  "U036D4200": {
+  "U036D4600": {
     "layer": "U036_Anatomy",
     "category": "building",
     "material": "MedicalStone"
   },
-  "U036D4300": {
+  "U036D4700": {
     "layer": "U036_Anatomy",
     "category": "building",
     "material": "MedicalGlass"
   },
-  "U036D4700": {
+  "U036D5100": {
     "layer": "U036_Anatomy",
     "category": "building",
     "material": "MedicalSteel"
   },
-  "U036D5000": {
+  "U036D5400": {
     "layer": "U036_Anatomy",
     "category": "building",
     "material": "QuadTrim"
   },
-  "U036D5600": {
+  "U036D6000": {
     "layer": "U036_Anatomy",
     "category": "building",
     "material": "RoofSlate"
   },
-  "U036D5800": {
+  "U036D6200": {
     "layer": "U036_Anatomy",
     "category": "building",
     "material": "RoofMembrane"
@@ -1479,22 +1479,22 @@
     "category": "building",
     "material": "Frame"
   },
-  "U037D5100": {
+  "U037D5500": {
     "layer": "U037_Quadrangle Club",
     "category": "building",
     "material": "WarmBrick"
   },
-  "U037D5400": {
+  "U037D5800": {
     "layer": "U037_Quadrangle Club",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U037D5500": {
+  "U037D5900": {
     "layer": "U037_Quadrangle Club",
     "category": "building",
     "material": "DoorWood"
   },
-  "U037D5600": {
+  "U037D6000": {
     "layer": "U037_Quadrangle Club",
     "category": "building",
     "material": "RoofSlate"
@@ -1534,27 +1534,27 @@
     "category": "building",
     "material": "Concrete"
   },
-  "U039D4900": {
+  "U039D5300": {
     "layer": "U039_Snell-Hitchcock Halls",
     "category": "building",
     "material": "QuadStone"
   },
-  "U039D5000": {
+  "U039D5400": {
     "layer": "U039_Snell-Hitchcock Halls",
     "category": "building",
     "material": "QuadTrim"
   },
-  "U039D5400": {
+  "U039D5800": {
     "layer": "U039_Snell-Hitchcock Halls",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U039D5500": {
+  "U039D5900": {
     "layer": "U039_Snell-Hitchcock Halls",
     "category": "building",
     "material": "DoorWood"
   },
-  "U039D5700": {
+  "U039D6100": {
     "layer": "U039_Snell-Hitchcock Halls",
     "category": "building",
     "material": "RoofClay"
@@ -1584,17 +1584,17 @@
     "category": "building",
     "material": "Frame"
   },
-  "U040D5400": {
+  "U040D5800": {
     "layer": "U040_5706 South Woodlawn Avenue",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U040D5500": {
+  "U040D5900": {
     "layer": "U040_5706 South Woodlawn Avenue",
     "category": "building",
     "material": "DoorWood"
   },
-  "U040D5600": {
+  "U040D6000": {
     "layer": "U040_5706 South Woodlawn Avenue",
     "category": "building",
     "material": "RoofSlate"
@@ -1624,17 +1624,17 @@
     "category": "building",
     "material": "Frame"
   },
-  "U041D5400": {
+  "U041D5800": {
     "layer": "U041_Hunnewell House",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U041D5500": {
+  "U041D5900": {
     "layer": "U041_Hunnewell House",
     "category": "building",
     "material": "DoorWood"
   },
-  "U041D5600": {
+  "U041D6000": {
     "layer": "U041_Hunnewell House",
     "category": "building",
     "material": "RoofSlate"
@@ -1649,27 +1649,27 @@
     "category": "building",
     "material": "Concrete"
   },
-  "U042D4900": {
+  "U042D5300": {
     "layer": "U042_Reynolds Club",
     "category": "building",
     "material": "QuadStone"
   },
-  "U042D5000": {
+  "U042D5400": {
     "layer": "U042_Reynolds Club",
     "category": "building",
     "material": "QuadTrim"
   },
-  "U042D5400": {
+  "U042D5800": {
     "layer": "U042_Reynolds Club",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U042D5500": {
+  "U042D5900": {
     "layer": "U042_Reynolds Club",
     "category": "building",
     "material": "DoorWood"
   },
-  "U042D5700": {
+  "U042D6100": {
     "layer": "U042_Reynolds Club",
     "category": "building",
     "material": "RoofClay"
@@ -1677,7 +1677,37 @@
   "U043B00": {
     "layer": "U043_Kersten Physics Teaching Center",
     "category": "building",
-    "material": "LightStone"
+    "material": "QuadStone"
+  },
+  "U043B01": {
+    "layer": "U043_Kersten Physics Teaching Center",
+    "category": "building",
+    "material": "CrerarGlass"
+  },
+  "U043B02": {
+    "layer": "U043_Kersten Physics Teaching Center",
+    "category": "building",
+    "material": "CrerarGlass"
+  },
+  "U043B03": {
+    "layer": "U043_Kersten Physics Teaching Center",
+    "category": "building",
+    "material": "CrerarGlass"
+  },
+  "U043B04": {
+    "layer": "U043_Kersten Physics Teaching Center",
+    "category": "building",
+    "material": "CrerarGlass"
+  },
+  "U043B05": {
+    "layer": "U043_Kersten Physics Teaching Center",
+    "category": "building",
+    "material": "CrerarGlass"
+  },
+  "U043B06": {
+    "layer": "U043_Kersten Physics Teaching Center",
+    "category": "building",
+    "material": "CrerarGlass"
   },
   "U043D0100": {
     "layer": "U043_Kersten Physics Teaching Center",
@@ -1699,12 +1729,27 @@
     "category": "building",
     "material": "Frame"
   },
+  "U043D4300": {
+    "layer": "U043_Kersten Physics Teaching Center",
+    "category": "building",
+    "material": "CrerarGlass"
+  },
+  "U043D4400": {
+    "layer": "U043_Kersten Physics Teaching Center",
+    "category": "building",
+    "material": "CrerarMetal"
+  },
   "U043D5400": {
+    "layer": "U043_Kersten Physics Teaching Center",
+    "category": "building",
+    "material": "QuadTrim"
+  },
+  "U043D5800": {
     "layer": "U043_Kersten Physics Teaching Center",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U043D5800": {
+  "U043D6200": {
     "layer": "U043_Kersten Physics Teaching Center",
     "category": "building",
     "material": "RoofMembrane"
@@ -1744,32 +1789,32 @@
     "category": "building",
     "material": "Paving"
   },
-  "U044D4300": {
+  "U044D4700": {
     "layer": "U044_Center for Care and Discovery",
     "category": "building",
     "material": "MedicalGlass"
   },
-  "U044D4400": {
+  "U044D4800": {
     "layer": "U044_Center for Care and Discovery",
     "category": "building",
     "material": "MedicalSilverGlass"
   },
-  "U044D4600": {
+  "U044D5000": {
     "layer": "U044_Center for Care and Discovery",
     "category": "building",
     "material": "MedicalDarkGlass"
   },
-  "U044D4700": {
+  "U044D5100": {
     "layer": "U044_Center for Care and Discovery",
     "category": "building",
     "material": "MedicalSteel"
   },
-  "U044D4800": {
+  "U044D5200": {
     "layer": "U044_Center for Care and Discovery",
     "category": "building",
     "material": "MedicalPlant"
   },
-  "U044D5800": {
+  "U044D6200": {
     "layer": "U044_Center for Care and Discovery",
     "category": "building",
     "material": "RoofMembrane"
@@ -1854,17 +1899,17 @@
     "category": "building",
     "material": "Frame"
   },
-  "U046D5400": {
+  "U046D5800": {
     "layer": "U046_Office of Multicultural Student Affairs",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U046D5500": {
+  "U046D5900": {
     "layer": "U046_Office of Multicultural Student Affairs",
     "category": "building",
     "material": "DoorWood"
   },
-  "U046D5600": {
+  "U046D6000": {
     "layer": "U046_Office of Multicultural Student Affairs",
     "category": "building",
     "material": "RoofSlate"
@@ -1894,17 +1939,17 @@
     "category": "building",
     "material": "Frame"
   },
-  "U047D5400": {
+  "U047D5800": {
     "layer": "U047_Ryder House",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U047D5500": {
+  "U047D5900": {
     "layer": "U047_Ryder House",
     "category": "building",
     "material": "DoorWood"
   },
-  "U047D5600": {
+  "U047D6000": {
     "layer": "U047_Ryder House",
     "category": "building",
     "material": "RoofSlate"
@@ -1934,17 +1979,17 @@
     "category": "building",
     "material": "Frame"
   },
-  "U048D5400": {
+  "U048D5800": {
     "layer": "U048_Delta Upsilon House",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U048D5500": {
+  "U048D5900": {
     "layer": "U048_Delta Upsilon House",
     "category": "building",
     "material": "DoorWood"
   },
-  "U048D5600": {
+  "U048D6000": {
     "layer": "U048_Delta Upsilon House",
     "category": "building",
     "material": "RoofSlate"
@@ -1974,17 +2019,17 @@
     "category": "building",
     "material": "Frame"
   },
-  "U049D5100": {
+  "U049D5500": {
     "layer": "U049_Newberger Hillel Center",
     "category": "building",
     "material": "WarmBrick"
   },
-  "U049D5400": {
+  "U049D5800": {
     "layer": "U049_Newberger Hillel Center",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U049D5800": {
+  "U049D6200": {
     "layer": "U049_Newberger Hillel Center",
     "category": "building",
     "material": "RoofMembrane"
@@ -1999,32 +2044,32 @@
     "category": "building",
     "material": "Paving"
   },
-  "U050D4200": {
+  "U050D4600": {
     "layer": "U050_Erman Biology Center",
     "category": "building",
     "material": "MedicalStone"
   },
-  "U050D4300": {
+  "U050D4700": {
     "layer": "U050_Erman Biology Center",
     "category": "building",
     "material": "MedicalGlass"
   },
-  "U050D4700": {
+  "U050D5100": {
     "layer": "U050_Erman Biology Center",
     "category": "building",
     "material": "MedicalSteel"
   },
-  "U050D5000": {
+  "U050D5400": {
     "layer": "U050_Erman Biology Center",
     "category": "building",
     "material": "QuadTrim"
   },
-  "U050D5600": {
+  "U050D6000": {
     "layer": "U050_Erman Biology Center",
     "category": "building",
     "material": "RoofSlate"
   },
-  "U050D5800": {
+  "U050D6200": {
     "layer": "U050_Erman Biology Center",
     "category": "building",
     "material": "RoofMembrane"
@@ -2039,32 +2084,32 @@
     "category": "building",
     "material": "Paving"
   },
-  "U051D4200": {
+  "U051D4600": {
     "layer": "U051_Culver",
     "category": "building",
     "material": "MedicalStone"
   },
-  "U051D4300": {
+  "U051D4700": {
     "layer": "U051_Culver",
     "category": "building",
     "material": "MedicalGlass"
   },
-  "U051D4700": {
+  "U051D5100": {
     "layer": "U051_Culver",
     "category": "building",
     "material": "MedicalSteel"
   },
-  "U051D5000": {
+  "U051D5400": {
     "layer": "U051_Culver",
     "category": "building",
     "material": "QuadTrim"
   },
-  "U051D5600": {
+  "U051D6000": {
     "layer": "U051_Culver",
     "category": "building",
     "material": "RoofSlate"
   },
-  "U051D5800": {
+  "U051D6200": {
     "layer": "U051_Culver",
     "category": "building",
     "material": "RoofMembrane"
@@ -2094,17 +2139,17 @@
     "category": "building",
     "material": "Frame"
   },
-  "U052D5400": {
+  "U052D5800": {
     "layer": "U052_Concert Office",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U052D5500": {
+  "U052D5900": {
     "layer": "U052_Concert Office",
     "category": "building",
     "material": "DoorWood"
   },
-  "U052D5600": {
+  "U052D6000": {
     "layer": "U052_Concert Office",
     "category": "building",
     "material": "RoofSlate"
@@ -2134,17 +2179,17 @@
     "category": "building",
     "material": "Frame"
   },
-  "U053D5400": {
+  "U053D5800": {
     "layer": "U053_Institute of Politics",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U053D5500": {
+  "U053D5900": {
     "layer": "U053_Institute of Politics",
     "category": "building",
     "material": "DoorWood"
   },
-  "U053D5600": {
+  "U053D6000": {
     "layer": "U053_Institute of Politics",
     "category": "building",
     "material": "RoofSlate"
@@ -2159,22 +2204,22 @@
     "category": "building",
     "material": "Concrete"
   },
-  "U054D5000": {
+  "U054D5400": {
     "layer": "U054_Mandel Hall",
     "category": "building",
     "material": "QuadTrim"
   },
-  "U054D5400": {
+  "U054D5800": {
     "layer": "U054_Mandel Hall",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U054D5500": {
+  "U054D5900": {
     "layer": "U054_Mandel Hall",
     "category": "building",
     "material": "DoorWood"
   },
-  "U054D5600": {
+  "U054D6000": {
     "layer": "U054_Mandel Hall",
     "category": "building",
     "material": "RoofSlate"
@@ -2204,17 +2249,17 @@
     "category": "building",
     "material": "Frame"
   },
-  "U055D5400": {
+  "U055D5800": {
     "layer": "U055_5728 S. Woodlawn",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U055D5500": {
+  "U055D5900": {
     "layer": "U055_5728 S. Woodlawn",
     "category": "building",
     "material": "DoorWood"
   },
-  "U055D5600": {
+  "U055D6000": {
     "layer": "U055_5728 S. Woodlawn",
     "category": "building",
     "material": "RoofSlate"
@@ -2244,17 +2289,17 @@
     "category": "building",
     "material": "Frame"
   },
-  "U056D5400": {
+  "U056D5800": {
     "layer": "U056_Stevanovich Center for Financial Mathematics",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U056D5500": {
+  "U056D5900": {
     "layer": "U056_Stevanovich Center for Financial Mathematics",
     "category": "building",
     "material": "DoorWood"
   },
-  "U056D5600": {
+  "U056D6000": {
     "layer": "U056_Stevanovich Center for Financial Mathematics",
     "category": "building",
     "material": "RoofSlate"
@@ -2264,80 +2309,115 @@
     "category": "building",
     "material": "QuadStone"
   },
+  "U057B01": {
+    "layer": "U057_Searle Chemical Laboratory",
+    "category": "building",
+    "material": "MedicalSteel"
+  },
+  "U057B02": {
+    "layer": "U057_Searle Chemical Laboratory",
+    "category": "building",
+    "material": "MedicalSteel"
+  },
+  "U057B03": {
+    "layer": "U057_Searle Chemical Laboratory",
+    "category": "building",
+    "material": "MedicalSteel"
+  },
+  "U057B04": {
+    "layer": "U057_Searle Chemical Laboratory",
+    "category": "building",
+    "material": "MedicalSteel"
+  },
+  "U057D0100": {
+    "layer": "U057_Searle Chemical Laboratory",
+    "category": "building",
+    "material": "LightStone"
+  },
   "U057D0500": {
     "layer": "U057_Searle Chemical Laboratory",
     "category": "building",
     "material": "Concrete"
   },
-  "U057D5000": {
+  "U057D0700": {
     "layer": "U057_Searle Chemical Laboratory",
     "category": "building",
-    "material": "QuadTrim"
+    "material": "Metal"
+  },
+  "U057D1000": {
+    "layer": "U057_Searle Chemical Laboratory",
+    "category": "building",
+    "material": "Frame"
+  },
+  "U057D4300": {
+    "layer": "U057_Searle Chemical Laboratory",
+    "category": "building",
+    "material": "CrerarGlass"
+  },
+  "U057D4400": {
+    "layer": "U057_Searle Chemical Laboratory",
+    "category": "building",
+    "material": "CrerarMetal"
+  },
+  "U057D5200": {
+    "layer": "U057_Searle Chemical Laboratory",
+    "category": "building",
+    "material": "MedicalPlant"
   },
   "U057D5400": {
     "layer": "U057_Searle Chemical Laboratory",
     "category": "building",
+    "material": "QuadTrim"
+  },
+  "U057D5800": {
+    "layer": "U057_Searle Chemical Laboratory",
+    "category": "building",
     "material": "WindowGlass"
   },
-  "U057D5500": {
+  "U057D6200": {
     "layer": "U057_Searle Chemical Laboratory",
     "category": "building",
-    "material": "DoorWood"
-  },
-  "U057D5600": {
-    "layer": "U057_Searle Chemical Laboratory",
-    "category": "building",
-    "material": "RoofSlate"
+    "material": "RoofMembrane"
   },
   "U058B00": {
     "layer": "U058_John Crerar Library",
     "category": "building",
-    "material": "Limestone"
+    "material": "CrerarGlass"
   },
   "U058B01": {
     "layer": "U058_John Crerar Library",
     "category": "building",
-    "material": "Limestone"
+    "material": "CrerarGlass"
   },
-  "U058B02": {
+  "U058D1300": {
     "layer": "U058_John Crerar Library",
     "category": "building",
-    "material": "Glass"
+    "material": "Paving"
   },
-  "U058HD0000": {
+  "U058D4200": {
     "layer": "U058_John Crerar Library",
     "category": "building",
-    "material": "Frame"
+    "material": "CrerarStone"
   },
-  "U058D0100": {
+  "U058D4300": {
     "layer": "U058_John Crerar Library",
     "category": "building",
-    "material": "LightStone"
+    "material": "CrerarGlass"
   },
-  "U058D0500": {
+  "U058D4400": {
     "layer": "U058_John Crerar Library",
     "category": "building",
-    "material": "Concrete"
+    "material": "CrerarMetal"
   },
-  "U058D0700": {
+  "U058D4500": {
     "layer": "U058_John Crerar Library",
     "category": "building",
-    "material": "Metal"
+    "material": "CrerarJoint"
   },
-  "U058D0800": {
+  "U058D6200": {
     "layer": "U058_John Crerar Library",
     "category": "building",
-    "material": "Glass"
-  },
-  "U058D0900": {
-    "layer": "U058_John Crerar Library",
-    "category": "building",
-    "material": "DarkGlass"
-  },
-  "U058D1000": {
-    "layer": "U058_John Crerar Library",
-    "category": "building",
-    "material": "Frame"
+    "material": "RoofMembrane"
   },
   "U059B00": {
     "layer": "U059_5729 South Woodlawn Avenue",
@@ -2364,17 +2444,17 @@
     "category": "building",
     "material": "Frame"
   },
-  "U059D5400": {
+  "U059D5800": {
     "layer": "U059_5729 South Woodlawn Avenue",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U059D5500": {
+  "U059D5900": {
     "layer": "U059_5729 South Woodlawn Avenue",
     "category": "building",
     "material": "DoorWood"
   },
-  "U059D5600": {
+  "U059D6000": {
     "layer": "U059_5729 South Woodlawn Avenue",
     "category": "building",
     "material": "RoofSlate"
@@ -2404,17 +2484,17 @@
     "category": "building",
     "material": "Frame"
   },
-  "U060D5100": {
+  "U060D5500": {
     "layer": "U060_Comparative Human Development Building",
     "category": "building",
     "material": "WarmBrick"
   },
-  "U060D5400": {
+  "U060D5800": {
     "layer": "U060_Comparative Human Development Building",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U060D5800": {
+  "U060D6200": {
     "layer": "U060_Comparative Human Development Building",
     "category": "building",
     "material": "RoofMembrane"
@@ -2444,17 +2524,17 @@
     "category": "building",
     "material": "Frame"
   },
-  "U061D5400": {
+  "U061D5800": {
     "layer": "U061_Gender_Race Studies Building",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U061D5500": {
+  "U061D5900": {
     "layer": "U061_Gender_Race Studies Building",
     "category": "building",
     "material": "DoorWood"
   },
-  "U061D5600": {
+  "U061D6000": {
     "layer": "U061_Gender_Race Studies Building",
     "category": "building",
     "material": "RoofSlate"
@@ -2484,17 +2564,17 @@
     "category": "building",
     "material": "Frame"
   },
-  "U062D5400": {
+  "U062D5800": {
     "layer": "U062_Calvert House",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U062D5500": {
+  "U062D5900": {
     "layer": "U062_Calvert House",
     "category": "building",
     "material": "DoorWood"
   },
-  "U062D5600": {
+  "U062D6000": {
     "layer": "U062_Calvert House",
     "category": "building",
     "material": "RoofSlate"
@@ -2524,17 +2604,17 @@
     "category": "building",
     "material": "Frame"
   },
-  "U063D5400": {
+  "U063D5800": {
     "layer": "U063_NSIT Office",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U063D5500": {
+  "U063D5900": {
     "layer": "U063_NSIT Office",
     "category": "building",
     "material": "DoorWood"
   },
-  "U063D5600": {
+  "U063D6000": {
     "layer": "U063_NSIT Office",
     "category": "building",
     "material": "RoofSlate"
@@ -2542,77 +2622,107 @@
   "U064B00": {
     "layer": "U064_Henry Hinds Laboratory for Geophysical Sciences",
     "category": "building",
-    "material": "Concrete"
+    "material": "QuadStone"
   },
   "U064B01": {
     "layer": "U064_Henry Hinds Laboratory for Geophysical Sciences",
     "category": "building",
-    "material": "Brick"
+    "material": "QuadStone"
   },
   "U064B02": {
     "layer": "U064_Henry Hinds Laboratory for Geophysical Sciences",
     "category": "building",
-    "material": "Brick"
+    "material": "WarmBrick"
   },
   "U064B03": {
     "layer": "U064_Henry Hinds Laboratory for Geophysical Sciences",
     "category": "building",
-    "material": "Brick"
+    "material": "QuadStone"
   },
   "U064B04": {
     "layer": "U064_Henry Hinds Laboratory for Geophysical Sciences",
     "category": "building",
-    "material": "Brick"
+    "material": "QuadStone"
   },
   "U064B05": {
     "layer": "U064_Henry Hinds Laboratory for Geophysical Sciences",
     "category": "building",
-    "material": "Brick"
+    "material": "WarmBrick"
   },
   "U064B06": {
     "layer": "U064_Henry Hinds Laboratory for Geophysical Sciences",
     "category": "building",
-    "material": "Brick"
+    "material": "QuadStone"
   },
   "U064B07": {
     "layer": "U064_Henry Hinds Laboratory for Geophysical Sciences",
     "category": "building",
-    "material": "Brick"
+    "material": "QuadStone"
   },
   "U064B08": {
     "layer": "U064_Henry Hinds Laboratory for Geophysical Sciences",
     "category": "building",
-    "material": "Brick"
+    "material": "WarmBrick"
+  },
+  "U064B09": {
+    "layer": "U064_Henry Hinds Laboratory for Geophysical Sciences",
+    "category": "building",
+    "material": "QuadStone"
+  },
+  "U064B10": {
+    "layer": "U064_Henry Hinds Laboratory for Geophysical Sciences",
+    "category": "building",
+    "material": "QuadStone"
+  },
+  "U064B11": {
+    "layer": "U064_Henry Hinds Laboratory for Geophysical Sciences",
+    "category": "building",
+    "material": "QuadStone"
+  },
+  "U064B12": {
+    "layer": "U064_Henry Hinds Laboratory for Geophysical Sciences",
+    "category": "building",
+    "material": "WarmBrick"
+  },
+  "U064B13": {
+    "layer": "U064_Henry Hinds Laboratory for Geophysical Sciences",
+    "category": "building",
+    "material": "QuadStone"
   },
   "U064D0100": {
     "layer": "U064_Henry Hinds Laboratory for Geophysical Sciences",
     "category": "building",
     "material": "LightStone"
   },
-  "U064D0200": {
-    "layer": "U064_Henry Hinds Laboratory for Geophysical Sciences",
-    "category": "building",
-    "material": "Brick"
-  },
   "U064D0500": {
     "layer": "U064_Henry Hinds Laboratory for Geophysical Sciences",
     "category": "building",
     "material": "Concrete"
   },
-  "U064D0700": {
+  "U064D4400": {
     "layer": "U064_Henry Hinds Laboratory for Geophysical Sciences",
     "category": "building",
-    "material": "Metal"
+    "material": "CrerarMetal"
   },
-  "U064D1000": {
+  "U064D5200": {
     "layer": "U064_Henry Hinds Laboratory for Geophysical Sciences",
     "category": "building",
-    "material": "Frame"
+    "material": "MedicalPlant"
   },
   "U064D5400": {
     "layer": "U064_Henry Hinds Laboratory for Geophysical Sciences",
     "category": "building",
+    "material": "QuadTrim"
+  },
+  "U064D5800": {
+    "layer": "U064_Henry Hinds Laboratory for Geophysical Sciences",
+    "category": "building",
     "material": "WindowGlass"
+  },
+  "U064D6200": {
+    "layer": "U064_Henry Hinds Laboratory for Geophysical Sciences",
+    "category": "building",
+    "material": "RoofMembrane"
   },
   "U065B00": {
     "layer": "U065_Comer Hospital East Wing",
@@ -2629,22 +2739,22 @@
     "category": "building",
     "material": "Paving"
   },
-  "U065D4300": {
+  "U065D4700": {
     "layer": "U065_Comer Hospital East Wing",
     "category": "building",
     "material": "MedicalGlass"
   },
-  "U065D4500": {
+  "U065D4900": {
     "layer": "U065_Comer Hospital East Wing",
     "category": "building",
     "material": "MedicalGreenGlass"
   },
-  "U065D4700": {
+  "U065D5100": {
     "layer": "U065_Comer Hospital East Wing",
     "category": "building",
     "material": "MedicalSteel"
   },
-  "U065D5800": {
+  "U065D6200": {
     "layer": "U065_Comer Hospital East Wing",
     "category": "building",
     "material": "RoofMembrane"
@@ -2669,32 +2779,32 @@
     "category": "building",
     "material": "Paving"
   },
-  "U066D4200": {
+  "U066D4600": {
     "layer": "U066_Duchossois Center for Advanced Medicine",
     "category": "building",
     "material": "MedicalStone"
   },
-  "U066D4300": {
+  "U066D4700": {
     "layer": "U066_Duchossois Center for Advanced Medicine",
     "category": "building",
     "material": "MedicalGlass"
   },
-  "U066D4600": {
+  "U066D5000": {
     "layer": "U066_Duchossois Center for Advanced Medicine",
     "category": "building",
     "material": "MedicalDarkGlass"
   },
-  "U066D4700": {
+  "U066D5100": {
     "layer": "U066_Duchossois Center for Advanced Medicine",
     "category": "building",
     "material": "MedicalSteel"
   },
-  "U066D5000": {
+  "U066D5400": {
     "layer": "U066_Duchossois Center for Advanced Medicine",
     "category": "building",
     "material": "QuadTrim"
   },
-  "U066D5800": {
+  "U066D6200": {
     "layer": "U066_Duchossois Center for Advanced Medicine",
     "category": "building",
     "material": "RoofMembrane"
@@ -2719,27 +2829,27 @@
     "category": "building",
     "material": "Concrete"
   },
-  "U067D5000": {
+  "U067D5400": {
     "layer": "U067_Ryerson Laboratory",
     "category": "building",
     "material": "QuadTrim"
   },
-  "U067D5400": {
+  "U067D5800": {
     "layer": "U067_Ryerson Laboratory",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U067D5500": {
+  "U067D5900": {
     "layer": "U067_Ryerson Laboratory",
     "category": "building",
     "material": "DoorWood"
   },
-  "U067D5800": {
+  "U067D6200": {
     "layer": "U067_Ryerson Laboratory",
     "category": "building",
     "material": "RoofMembrane"
   },
-  "U067D5900": {
+  "U067D6300": {
     "layer": "U067_Ryerson Laboratory",
     "category": "building",
     "material": "RoofPatina"
@@ -2754,22 +2864,22 @@
     "category": "building",
     "material": "Concrete"
   },
-  "U068D5000": {
+  "U068D5400": {
     "layer": "U068_Eckhart Hall",
     "category": "building",
     "material": "QuadTrim"
   },
-  "U068D5400": {
+  "U068D5800": {
     "layer": "U068_Eckhart Hall",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U068D5500": {
+  "U068D5900": {
     "layer": "U068_Eckhart Hall",
     "category": "building",
     "material": "DoorWood"
   },
-  "U068D5600": {
+  "U068D6000": {
     "layer": "U068_Eckhart Hall",
     "category": "building",
     "material": "RoofSlate"
@@ -2789,22 +2899,22 @@
     "category": "building",
     "material": "Concrete"
   },
-  "U069D5000": {
+  "U069D5400": {
     "layer": "U069_Kent Chemical Laboratory",
     "category": "building",
     "material": "QuadTrim"
   },
-  "U069D5400": {
+  "U069D5800": {
     "layer": "U069_Kent Chemical Laboratory",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U069D5500": {
+  "U069D5900": {
     "layer": "U069_Kent Chemical Laboratory",
     "category": "building",
     "material": "DoorWood"
   },
-  "U069D5600": {
+  "U069D6000": {
     "layer": "U069_Kent Chemical Laboratory",
     "category": "building",
     "material": "RoofSlate"
@@ -2834,27 +2944,27 @@
     "category": "building",
     "material": "Paving"
   },
-  "U070D4200": {
+  "U070D4600": {
     "layer": "U070_Comer Children's Hospital",
     "category": "building",
     "material": "MedicalStone"
   },
-  "U070D4300": {
+  "U070D4700": {
     "layer": "U070_Comer Children's Hospital",
     "category": "building",
     "material": "MedicalGlass"
   },
-  "U070D4500": {
+  "U070D4900": {
     "layer": "U070_Comer Children's Hospital",
     "category": "building",
     "material": "MedicalGreenGlass"
   },
-  "U070D4700": {
+  "U070D5100": {
     "layer": "U070_Comer Children's Hospital",
     "category": "building",
     "material": "MedicalSteel"
   },
-  "U070D5800": {
+  "U070D6200": {
     "layer": "U070_Comer Children's Hospital",
     "category": "building",
     "material": "RoofMembrane"
@@ -2884,17 +2994,17 @@
     "category": "building",
     "material": "Frame"
   },
-  "U071D5400": {
+  "U071D5800": {
     "layer": "U071_SCRS Building",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U071D5500": {
+  "U071D5900": {
     "layer": "U071_SCRS Building",
     "category": "building",
     "material": "DoorWood"
   },
-  "U071D5600": {
+  "U071D6000": {
     "layer": "U071_SCRS Building",
     "category": "building",
     "material": "RoofSlate"
@@ -2924,17 +3034,17 @@
     "category": "building",
     "material": "Frame"
   },
-  "U072D5400": {
+  "U072D5800": {
     "layer": "U072_U of C Nursery School",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U072D5500": {
+  "U072D5900": {
     "layer": "U072_U of C Nursery School",
     "category": "building",
     "material": "DoorWood"
   },
-  "U072D5600": {
+  "U072D6000": {
     "layer": "U072_U of C Nursery School",
     "category": "building",
     "material": "RoofSlate"
@@ -2964,12 +3074,12 @@
     "category": "building",
     "material": "Frame"
   },
-  "U073D5400": {
+  "U073D5800": {
     "layer": "U073_Saieh Hall Annex",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U073D5800": {
+  "U073D6200": {
     "layer": "U073_Saieh Hall Annex",
     "category": "building",
     "material": "RoofMembrane"
@@ -2999,17 +3109,17 @@
     "category": "building",
     "material": "Frame"
   },
-  "U074D5100": {
+  "U074D5500": {
     "layer": "U074_McGiffert House",
     "category": "building",
     "material": "WarmBrick"
   },
-  "U074D5400": {
+  "U074D5800": {
     "layer": "U074_McGiffert House",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U074D5800": {
+  "U074D6200": {
     "layer": "U074_McGiffert House",
     "category": "building",
     "material": "RoofMembrane"
@@ -3017,37 +3127,32 @@
   "U075B00": {
     "layer": "U075_Jones Laboratory",
     "category": "building",
-    "material": "LightStone"
-  },
-  "U075D0100": {
-    "layer": "U075_Jones Laboratory",
-    "category": "building",
-    "material": "LightStone"
+    "material": "QuadStone"
   },
   "U075D0500": {
     "layer": "U075_Jones Laboratory",
     "category": "building",
     "material": "Concrete"
   },
-  "U075D0700": {
-    "layer": "U075_Jones Laboratory",
-    "category": "building",
-    "material": "Metal"
-  },
-  "U075D1000": {
-    "layer": "U075_Jones Laboratory",
-    "category": "building",
-    "material": "Frame"
-  },
   "U075D5400": {
     "layer": "U075_Jones Laboratory",
     "category": "building",
-    "material": "WindowGlass"
+    "material": "QuadTrim"
   },
   "U075D5800": {
     "layer": "U075_Jones Laboratory",
     "category": "building",
-    "material": "RoofMembrane"
+    "material": "WindowGlass"
+  },
+  "U075D5900": {
+    "layer": "U075_Jones Laboratory",
+    "category": "building",
+    "material": "DoorWood"
+  },
+  "U075D6000": {
+    "layer": "U075_Jones Laboratory",
+    "category": "building",
+    "material": "RoofSlate"
   },
   "U076B00": {
     "layer": "U076_Alpha Delta Phi House",
@@ -3074,17 +3179,17 @@
     "category": "building",
     "material": "Frame"
   },
-  "U076D5400": {
+  "U076D5800": {
     "layer": "U076_Alpha Delta Phi House",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U076D5500": {
+  "U076D5900": {
     "layer": "U076_Alpha Delta Phi House",
     "category": "building",
     "material": "DoorWood"
   },
-  "U076D5600": {
+  "U076D6000": {
     "layer": "U076_Alpha Delta Phi House",
     "category": "building",
     "material": "RoofSlate"
@@ -3114,17 +3219,17 @@
     "category": "building",
     "material": "Frame"
   },
-  "U077D5400": {
+  "U077D5800": {
     "layer": "U077_U of C Nursery School",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U077D5500": {
+  "U077D5900": {
     "layer": "U077_U of C Nursery School",
     "category": "building",
     "material": "DoorWood"
   },
-  "U077D5600": {
+  "U077D6000": {
     "layer": "U077_U of C Nursery School",
     "category": "building",
     "material": "RoofSlate"
@@ -3354,12 +3459,12 @@
     "category": "building",
     "material": "Paving"
   },
-  "U078D4300": {
+  "U078D4700": {
     "layer": "U078_Cummings Life Sciences Center",
     "category": "building",
     "material": "MedicalGlass"
   },
-  "U078D4700": {
+  "U078D5100": {
     "layer": "U078_Cummings Life Sciences Center",
     "category": "building",
     "material": "MedicalSteel"
@@ -3374,22 +3479,22 @@
     "category": "building",
     "material": "Paving"
   },
-  "U079D4200": {
+  "U079D4600": {
     "layer": "U079_Kovler",
     "category": "building",
     "material": "MedicalStone"
   },
-  "U079D4300": {
+  "U079D4700": {
     "layer": "U079_Kovler",
     "category": "building",
     "material": "MedicalGlass"
   },
-  "U079D4700": {
+  "U079D5100": {
     "layer": "U079_Kovler",
     "category": "building",
     "material": "MedicalSteel"
   },
-  "U079D5800": {
+  "U079D6200": {
     "layer": "U079_Kovler",
     "category": "building",
     "material": "RoofMembrane"
@@ -3499,22 +3604,22 @@
     "category": "building",
     "material": "Paving"
   },
-  "U082D4300": {
+  "U082D4700": {
     "layer": "U082_American School",
     "category": "building",
     "material": "MedicalGlass"
   },
-  "U082D4700": {
+  "U082D5100": {
     "layer": "U082_American School",
     "category": "building",
     "material": "MedicalSteel"
   },
-  "U082D5100": {
+  "U082D5500": {
     "layer": "U082_American School",
     "category": "building",
     "material": "WarmBrick"
   },
-  "U082D5800": {
+  "U082D6200": {
     "layer": "U082_American School",
     "category": "building",
     "material": "RoofMembrane"
@@ -3544,12 +3649,12 @@
     "category": "building",
     "material": "Frame"
   },
-  "U083D5400": {
+  "U083D5800": {
     "layer": "U083_University Bookstore",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U083D5600": {
+  "U083D6000": {
     "layer": "U083_University Bookstore",
     "category": "building",
     "material": "RoofSlate"
@@ -3579,7 +3684,7 @@
     "category": "building",
     "material": "Frame"
   },
-  "U084D5400": {
+  "U084D5800": {
     "layer": "U084_Edward H. Levi Hall",
     "category": "building",
     "material": "WindowGlass"
@@ -3609,17 +3714,17 @@
     "category": "building",
     "material": "Frame"
   },
-  "U085D5400": {
+  "U085D5800": {
     "layer": "U085_Frank R. Lillie House",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U085D5500": {
+  "U085D5900": {
     "layer": "U085_Frank R. Lillie House",
     "category": "building",
     "material": "DoorWood"
   },
-  "U085D5600": {
+  "U085D6000": {
     "layer": "U085_Frank R. Lillie House",
     "category": "building",
     "material": "RoofSlate"
@@ -3639,27 +3744,27 @@
     "category": "building",
     "material": "Paving"
   },
-  "U086D4200": {
+  "U086D4600": {
     "layer": "U086_Abbott Hall",
     "category": "building",
     "material": "MedicalStone"
   },
-  "U086D4300": {
+  "U086D4700": {
     "layer": "U086_Abbott Hall",
     "category": "building",
     "material": "MedicalGlass"
   },
-  "U086D4700": {
+  "U086D5100": {
     "layer": "U086_Abbott Hall",
     "category": "building",
     "material": "MedicalSteel"
   },
-  "U086D5000": {
+  "U086D5400": {
     "layer": "U086_Abbott Hall",
     "category": "building",
     "material": "QuadTrim"
   },
-  "U086D5800": {
+  "U086D6200": {
     "layer": "U086_Abbott Hall",
     "category": "building",
     "material": "RoofMembrane"
@@ -3684,32 +3789,32 @@
     "category": "building",
     "material": "Paving"
   },
-  "U087D4200": {
+  "U087D4600": {
     "layer": "U087_Bernard A. Mitchell Hospital",
     "category": "building",
     "material": "MedicalStone"
   },
-  "U087D4300": {
+  "U087D4700": {
     "layer": "U087_Bernard A. Mitchell Hospital",
     "category": "building",
     "material": "MedicalGlass"
   },
-  "U087D4400": {
+  "U087D4800": {
     "layer": "U087_Bernard A. Mitchell Hospital",
     "category": "building",
     "material": "MedicalSilverGlass"
   },
-  "U087D4600": {
+  "U087D5000": {
     "layer": "U087_Bernard A. Mitchell Hospital",
     "category": "building",
     "material": "MedicalDarkGlass"
   },
-  "U087D4700": {
+  "U087D5100": {
     "layer": "U087_Bernard A. Mitchell Hospital",
     "category": "building",
     "material": "MedicalSteel"
   },
-  "U087D5800": {
+  "U087D6200": {
     "layer": "U087_Bernard A. Mitchell Hospital",
     "category": "building",
     "material": "RoofMembrane"
@@ -3724,27 +3829,27 @@
     "category": "building",
     "material": "Concrete"
   },
-  "U088D4900": {
+  "U088D5300": {
     "layer": "U088_Institute for the Study of Ancient Cultures",
     "category": "building",
     "material": "QuadStone"
   },
-  "U088D5000": {
+  "U088D5400": {
     "layer": "U088_Institute for the Study of Ancient Cultures",
     "category": "building",
     "material": "QuadTrim"
   },
-  "U088D5400": {
+  "U088D5800": {
     "layer": "U088_Institute for the Study of Ancient Cultures",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U088D5500": {
+  "U088D5900": {
     "layer": "U088_Institute for the Study of Ancient Cultures",
     "category": "building",
     "material": "DoorWood"
   },
-  "U088D5700": {
+  "U088D6100": {
     "layer": "U088_Institute for the Study of Ancient Cultures",
     "category": "building",
     "material": "RoofClay"
@@ -3774,17 +3879,17 @@
     "category": "building",
     "material": "Frame"
   },
-  "U089D5400": {
+  "U089D5800": {
     "layer": "U089_Wilder House",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U089D5500": {
+  "U089D5900": {
     "layer": "U089_Wilder House",
     "category": "building",
     "material": "DoorWood"
   },
-  "U089D5600": {
+  "U089D6000": {
     "layer": "U089_Wilder House",
     "category": "building",
     "material": "RoofSlate"
@@ -3819,7 +3924,7 @@
     "category": "building",
     "material": "Frame"
   },
-  "U090D5400": {
+  "U090D5800": {
     "layer": "U090_Gordon Parks Arts Hall",
     "category": "building",
     "material": "WindowGlass"
@@ -3839,27 +3944,27 @@
     "category": "building",
     "material": "Paving"
   },
-  "U091D4200": {
+  "U091D4600": {
     "layer": "U091_Surgery Brain",
     "category": "building",
     "material": "MedicalStone"
   },
-  "U091D4300": {
+  "U091D4700": {
     "layer": "U091_Surgery Brain",
     "category": "building",
     "material": "MedicalGlass"
   },
-  "U091D4400": {
+  "U091D4800": {
     "layer": "U091_Surgery Brain",
     "category": "building",
     "material": "MedicalSilverGlass"
   },
-  "U091D4700": {
+  "U091D5100": {
     "layer": "U091_Surgery Brain",
     "category": "building",
     "material": "MedicalSteel"
   },
-  "U091D5800": {
+  "U091D6200": {
     "layer": "U091_Surgery Brain",
     "category": "building",
     "material": "RoofMembrane"
@@ -3884,27 +3989,27 @@
     "category": "building",
     "material": "Paving"
   },
-  "U092D4200": {
+  "U092D4600": {
     "layer": "U092_Carlson",
     "category": "building",
     "material": "MedicalStone"
   },
-  "U092D4300": {
+  "U092D4700": {
     "layer": "U092_Carlson",
     "category": "building",
     "material": "MedicalGlass"
   },
-  "U092D4400": {
+  "U092D4800": {
     "layer": "U092_Carlson",
     "category": "building",
     "material": "MedicalSilverGlass"
   },
-  "U092D4700": {
+  "U092D5100": {
     "layer": "U092_Carlson",
     "category": "building",
     "material": "MedicalSteel"
   },
-  "U092D5800": {
+  "U092D6200": {
     "layer": "U092_Carlson",
     "category": "building",
     "material": "RoofMembrane"
@@ -3924,27 +4029,27 @@
     "category": "building",
     "material": "Paving"
   },
-  "U093D4200": {
+  "U093D4600": {
     "layer": "U093_Peck Pavilion",
     "category": "building",
     "material": "MedicalStone"
   },
-  "U093D4300": {
+  "U093D4700": {
     "layer": "U093_Peck Pavilion",
     "category": "building",
     "material": "MedicalGlass"
   },
-  "U093D4400": {
+  "U093D4800": {
     "layer": "U093_Peck Pavilion",
     "category": "building",
     "material": "MedicalSilverGlass"
   },
-  "U093D4700": {
+  "U093D5100": {
     "layer": "U093_Peck Pavilion",
     "category": "building",
     "material": "MedicalSteel"
   },
-  "U093D5800": {
+  "U093D6200": {
     "layer": "U093_Peck Pavilion",
     "category": "building",
     "material": "RoofMembrane"
@@ -3979,12 +4084,12 @@
     "category": "building",
     "material": "MedicalStone"
   },
-  "U094D4200": {
+  "U094D4600": {
     "layer": "U094_Medical Campus Parking Garage A",
     "category": "building",
     "material": "MedicalStone"
   },
-  "U094D5800": {
+  "U094D6200": {
     "layer": "U094_Medical Campus Parking Garage A",
     "category": "building",
     "material": "RoofMembrane"
@@ -4019,7 +4124,7 @@
     "category": "building",
     "material": "Frame"
   },
-  "U095D5400": {
+  "U095D5800": {
     "layer": "U095_Charles M. Harper Center",
     "category": "building",
     "material": "WindowGlass"
@@ -4034,22 +4139,22 @@
     "category": "building",
     "material": "Paving"
   },
-  "U096D4200": {
+  "U096D4600": {
     "layer": "U096_MRI",
     "category": "building",
     "material": "MedicalStone"
   },
-  "U096D4300": {
+  "U096D4700": {
     "layer": "U096_MRI",
     "category": "building",
     "material": "MedicalGlass"
   },
-  "U096D4700": {
+  "U096D5100": {
     "layer": "U096_MRI",
     "category": "building",
     "material": "MedicalSteel"
   },
-  "U096D5800": {
+  "U096D6200": {
     "layer": "U096_MRI",
     "category": "building",
     "material": "RoofMembrane"
@@ -4064,22 +4169,22 @@
     "category": "building",
     "material": "Concrete"
   },
-  "U097D5000": {
+  "U097D5400": {
     "layer": "U097_Walker Museum",
     "category": "building",
     "material": "QuadTrim"
   },
-  "U097D5400": {
+  "U097D5800": {
     "layer": "U097_Walker Museum",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U097D5500": {
+  "U097D5900": {
     "layer": "U097_Walker Museum",
     "category": "building",
     "material": "DoorWood"
   },
-  "U097D5600": {
+  "U097D6000": {
     "layer": "U097_Walker Museum",
     "category": "building",
     "material": "RoofSlate"
@@ -4094,27 +4199,27 @@
     "category": "building",
     "material": "Concrete"
   },
-  "U098D4900": {
+  "U098D5300": {
     "layer": "U098_Cobb Hall",
     "category": "building",
     "material": "QuadStone"
   },
-  "U098D5000": {
+  "U098D5400": {
     "layer": "U098_Cobb Hall",
     "category": "building",
     "material": "QuadTrim"
   },
-  "U098D5400": {
+  "U098D5800": {
     "layer": "U098_Cobb Hall",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U098D5500": {
+  "U098D5900": {
     "layer": "U098_Cobb Hall",
     "category": "building",
     "material": "DoorWood"
   },
-  "U098D5700": {
+  "U098D6100": {
     "layer": "U098_Cobb Hall",
     "category": "building",
     "material": "RoofClay"
@@ -4129,27 +4234,27 @@
     "category": "building",
     "material": "Concrete"
   },
-  "U099D4900": {
+  "U099D5300": {
     "layer": "U099_Belfield Hall",
     "category": "building",
     "material": "QuadStone"
   },
-  "U099D5000": {
+  "U099D5400": {
     "layer": "U099_Belfield Hall",
     "category": "building",
     "material": "QuadTrim"
   },
-  "U099D5400": {
+  "U099D5800": {
     "layer": "U099_Belfield Hall",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U099D5500": {
+  "U099D5900": {
     "layer": "U099_Belfield Hall",
     "category": "building",
     "material": "DoorWood"
   },
-  "U099D5700": {
+  "U099D6100": {
     "layer": "U099_Belfield Hall",
     "category": "building",
     "material": "RoofClay"
@@ -4179,12 +4284,12 @@
     "category": "building",
     "material": "Frame"
   },
-  "U100D5400": {
+  "U100D5800": {
     "layer": "U100_Pick Hall",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U100D5800": {
+  "U100D6200": {
     "layer": "U100_Pick Hall",
     "category": "building",
     "material": "RoofMembrane"
@@ -4199,22 +4304,22 @@
     "category": "building",
     "material": "Concrete"
   },
-  "U101D5000": {
+  "U101D5400": {
     "layer": "U101_Swift Hall",
     "category": "building",
     "material": "QuadTrim"
   },
-  "U101D5400": {
+  "U101D5800": {
     "layer": "U101_Swift Hall",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U101D5500": {
+  "U101D5900": {
     "layer": "U101_Swift Hall",
     "category": "building",
     "material": "DoorWood"
   },
-  "U101D5600": {
+  "U101D6000": {
     "layer": "U101_Swift Hall",
     "category": "building",
     "material": "RoofSlate"
@@ -4229,22 +4334,22 @@
     "category": "building",
     "material": "Concrete"
   },
-  "U102D5000": {
+  "U102D5400": {
     "layer": "U102_Rosenwald Hall",
     "category": "building",
     "material": "QuadTrim"
   },
-  "U102D5400": {
+  "U102D5800": {
     "layer": "U102_Rosenwald Hall",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U102D5500": {
+  "U102D5900": {
     "layer": "U102_Rosenwald Hall",
     "category": "building",
     "material": "DoorWood"
   },
-  "U102D5600": {
+  "U102D6000": {
     "layer": "U102_Rosenwald Hall",
     "category": "building",
     "material": "RoofSlate"
@@ -4269,27 +4374,27 @@
     "category": "building",
     "material": "Paving"
   },
-  "U103D4200": {
+  "U103D4600": {
     "layer": "U103_Rubloff Intensive Care",
     "category": "building",
     "material": "MedicalStone"
   },
-  "U103D4300": {
+  "U103D4700": {
     "layer": "U103_Rubloff Intensive Care",
     "category": "building",
     "material": "MedicalGlass"
   },
-  "U103D4400": {
+  "U103D4800": {
     "layer": "U103_Rubloff Intensive Care",
     "category": "building",
     "material": "MedicalSilverGlass"
   },
-  "U103D4700": {
+  "U103D5100": {
     "layer": "U103_Rubloff Intensive Care",
     "category": "building",
     "material": "MedicalSteel"
   },
-  "U103D5800": {
+  "U103D6200": {
     "layer": "U103_Rubloff Intensive Care",
     "category": "building",
     "material": "RoofMembrane"
@@ -4304,22 +4409,22 @@
     "category": "building",
     "material": "Concrete"
   },
-  "U104D5000": {
+  "U104D5400": {
     "layer": "U104_Sunny Gymnasium",
     "category": "building",
     "material": "QuadTrim"
   },
-  "U104D5400": {
+  "U104D5800": {
     "layer": "U104_Sunny Gymnasium",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U104D5500": {
+  "U104D5900": {
     "layer": "U104_Sunny Gymnasium",
     "category": "building",
     "material": "DoorWood"
   },
-  "U104D5600": {
+  "U104D6000": {
     "layer": "U104_Sunny Gymnasium",
     "category": "building",
     "material": "RoofSlate"
@@ -4334,27 +4439,27 @@
     "category": "building",
     "material": "Paving"
   },
-  "U105D4200": {
+  "U105D4600": {
     "layer": "U105_Armour",
     "category": "building",
     "material": "MedicalStone"
   },
-  "U105D4300": {
+  "U105D4700": {
     "layer": "U105_Armour",
     "category": "building",
     "material": "MedicalGlass"
   },
-  "U105D4700": {
+  "U105D5100": {
     "layer": "U105_Armour",
     "category": "building",
     "material": "MedicalSteel"
   },
-  "U105D5000": {
+  "U105D5400": {
     "layer": "U105_Armour",
     "category": "building",
     "material": "QuadTrim"
   },
-  "U105D5800": {
+  "U105D6200": {
     "layer": "U105_Armour",
     "category": "building",
     "material": "RoofMembrane"
@@ -4369,22 +4474,22 @@
     "category": "building",
     "material": "Concrete"
   },
-  "U106D5000": {
+  "U106D5400": {
     "layer": "U106_Beecher Hall",
     "category": "building",
     "material": "QuadTrim"
   },
-  "U106D5400": {
+  "U106D5800": {
     "layer": "U106_Beecher Hall",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U106D5500": {
+  "U106D5900": {
     "layer": "U106_Beecher Hall",
     "category": "building",
     "material": "DoorWood"
   },
-  "U106D5600": {
+  "U106D6000": {
     "layer": "U106_Beecher Hall",
     "category": "building",
     "material": "RoofSlate"
@@ -4399,22 +4504,22 @@
     "category": "building",
     "material": "Concrete"
   },
-  "U107D5000": {
+  "U107D5400": {
     "layer": "U107_Bond Chapel",
     "category": "building",
     "material": "QuadTrim"
   },
-  "U107D5400": {
+  "U107D5800": {
     "layer": "U107_Bond Chapel",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U107D5500": {
+  "U107D5900": {
     "layer": "U107_Bond Chapel",
     "category": "building",
     "material": "DoorWood"
   },
-  "U107D5600": {
+  "U107D6000": {
     "layer": "U107_Bond Chapel",
     "category": "building",
     "material": "RoofSlate"
@@ -4434,27 +4539,27 @@
     "category": "building",
     "material": "Paving"
   },
-  "U108D4200": {
+  "U108D4600": {
     "layer": "U108_Wyler Children's Hospital",
     "category": "building",
     "material": "MedicalStone"
   },
-  "U108D4300": {
+  "U108D4700": {
     "layer": "U108_Wyler Children's Hospital",
     "category": "building",
     "material": "MedicalGlass"
   },
-  "U108D4400": {
+  "U108D4800": {
     "layer": "U108_Wyler Children's Hospital",
     "category": "building",
     "material": "MedicalSilverGlass"
   },
-  "U108D4700": {
+  "U108D5100": {
     "layer": "U108_Wyler Children's Hospital",
     "category": "building",
     "material": "MedicalSteel"
   },
-  "U108D5800": {
+  "U108D6200": {
     "layer": "U108_Wyler Children's Hospital",
     "category": "building",
     "material": "RoofMembrane"
@@ -4469,27 +4574,27 @@
     "category": "building",
     "material": "Concrete"
   },
-  "U109D4900": {
+  "U109D5300": {
     "layer": "U109_Judd Hall",
     "category": "building",
     "material": "QuadStone"
   },
-  "U109D5000": {
+  "U109D5400": {
     "layer": "U109_Judd Hall",
     "category": "building",
     "material": "QuadTrim"
   },
-  "U109D5400": {
+  "U109D5800": {
     "layer": "U109_Judd Hall",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U109D5500": {
+  "U109D5900": {
     "layer": "U109_Judd Hall",
     "category": "building",
     "material": "DoorWood"
   },
-  "U109D5700": {
+  "U109D6100": {
     "layer": "U109_Judd Hall",
     "category": "building",
     "material": "RoofClay"
@@ -4504,27 +4609,27 @@
     "category": "building",
     "material": "Concrete"
   },
-  "U110D4900": {
+  "U110D5300": {
     "layer": "U110_University High School",
     "category": "building",
     "material": "QuadStone"
   },
-  "U110D5000": {
+  "U110D5400": {
     "layer": "U110_University High School",
     "category": "building",
     "material": "QuadTrim"
   },
-  "U110D5400": {
+  "U110D5800": {
     "layer": "U110_University High School",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U110D5500": {
+  "U110D5900": {
     "layer": "U110_University High School",
     "category": "building",
     "material": "DoorWood"
   },
-  "U110D5700": {
+  "U110D6100": {
     "layer": "U110_University High School",
     "category": "building",
     "material": "RoofClay"
@@ -4539,27 +4644,27 @@
     "category": "building",
     "material": "Concrete"
   },
-  "U111D4900": {
+  "U111D5300": {
     "layer": "U111_Laboratory Middle School",
     "category": "building",
     "material": "QuadStone"
   },
-  "U111D5000": {
+  "U111D5400": {
     "layer": "U111_Laboratory Middle School",
     "category": "building",
     "material": "QuadTrim"
   },
-  "U111D5400": {
+  "U111D5800": {
     "layer": "U111_Laboratory Middle School",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U111D5500": {
+  "U111D5900": {
     "layer": "U111_Laboratory Middle School",
     "category": "building",
     "material": "DoorWood"
   },
-  "U111D5700": {
+  "U111D6100": {
     "layer": "U111_Laboratory Middle School",
     "category": "building",
     "material": "RoofClay"
@@ -4669,27 +4774,27 @@
     "category": "building",
     "material": "Paving"
   },
-  "U113D4200": {
+  "U113D4600": {
     "layer": "U113_Franklin McLean Research Institute",
     "category": "building",
     "material": "MedicalStone"
   },
-  "U113D4300": {
+  "U113D4700": {
     "layer": "U113_Franklin McLean Research Institute",
     "category": "building",
     "material": "MedicalGlass"
   },
-  "U113D4400": {
+  "U113D4800": {
     "layer": "U113_Franklin McLean Research Institute",
     "category": "building",
     "material": "MedicalSilverGlass"
   },
-  "U113D4700": {
+  "U113D5100": {
     "layer": "U113_Franklin McLean Research Institute",
     "category": "building",
     "material": "MedicalSteel"
   },
-  "U113D5800": {
+  "U113D6200": {
     "layer": "U113_Franklin McLean Research Institute",
     "category": "building",
     "material": "RoofMembrane"
@@ -4704,22 +4809,22 @@
     "category": "building",
     "material": "Concrete"
   },
-  "U114D5000": {
+  "U114D5400": {
     "layer": "U114_Gates-Blake Hall",
     "category": "building",
     "material": "QuadTrim"
   },
-  "U114D5400": {
+  "U114D5800": {
     "layer": "U114_Gates-Blake Hall",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U114D5500": {
+  "U114D5900": {
     "layer": "U114_Gates-Blake Hall",
     "category": "building",
     "material": "DoorWood"
   },
-  "U114D5600": {
+  "U114D6000": {
     "layer": "U114_Gates-Blake Hall",
     "category": "building",
     "material": "RoofSlate"
@@ -4734,22 +4839,22 @@
     "category": "building",
     "material": "Concrete"
   },
-  "U115D5000": {
+  "U115D5400": {
     "layer": "U115_Green Hall",
     "category": "building",
     "material": "QuadTrim"
   },
-  "U115D5400": {
+  "U115D5800": {
     "layer": "U115_Green Hall",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U115D5500": {
+  "U115D5900": {
     "layer": "U115_Green Hall",
     "category": "building",
     "material": "DoorWood"
   },
-  "U115D5600": {
+  "U115D6000": {
     "layer": "U115_Green Hall",
     "category": "building",
     "material": "RoofSlate"
@@ -4774,27 +4879,27 @@
     "category": "building",
     "material": "Paving"
   },
-  "U116D4200": {
+  "U116D4600": {
     "layer": "U116_Billings",
     "category": "building",
     "material": "MedicalStone"
   },
-  "U116D4300": {
+  "U116D4700": {
     "layer": "U116_Billings",
     "category": "building",
     "material": "MedicalGlass"
   },
-  "U116D4700": {
+  "U116D5100": {
     "layer": "U116_Billings",
     "category": "building",
     "material": "MedicalSteel"
   },
-  "U116D5000": {
+  "U116D5400": {
     "layer": "U116_Billings",
     "category": "building",
     "material": "QuadTrim"
   },
-  "U116D5800": {
+  "U116D6200": {
     "layer": "U116_Billings",
     "category": "building",
     "material": "RoofMembrane"
@@ -4809,22 +4914,22 @@
     "category": "building",
     "material": "Concrete"
   },
-  "U117D5000": {
+  "U117D5400": {
     "layer": "U117_Stuart Hall",
     "category": "building",
     "material": "QuadTrim"
   },
-  "U117D5400": {
+  "U117D5800": {
     "layer": "U117_Stuart Hall",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U117D5500": {
+  "U117D5900": {
     "layer": "U117_Stuart Hall",
     "category": "building",
     "material": "DoorWood"
   },
-  "U117D5600": {
+  "U117D6000": {
     "layer": "U117_Stuart Hall",
     "category": "building",
     "material": "RoofSlate"
@@ -4839,22 +4944,22 @@
     "category": "building",
     "material": "Concrete"
   },
-  "U118D5000": {
+  "U118D5400": {
     "layer": "U118_Haskell Hall",
     "category": "building",
     "material": "QuadTrim"
   },
-  "U118D5400": {
+  "U118D5800": {
     "layer": "U118_Haskell Hall",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U118D5500": {
+  "U118D5900": {
     "layer": "U118_Haskell Hall",
     "category": "building",
     "material": "DoorWood"
   },
-  "U118D5600": {
+  "U118D6000": {
     "layer": "U118_Haskell Hall",
     "category": "building",
     "material": "RoofSlate"
@@ -4884,12 +4989,12 @@
     "category": "building",
     "material": "Frame"
   },
-  "U119D5400": {
+  "U119D5800": {
     "layer": "U119_Kovler Gymnasium",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U119D5600": {
+  "U119D6000": {
     "layer": "U119_Kovler Gymnasium",
     "category": "building",
     "material": "RoofSlate"
@@ -4909,27 +5014,27 @@
     "category": "building",
     "material": "Paving"
   },
-  "U120D4200": {
+  "U120D4600": {
     "layer": "U120_Gilman Smith",
     "category": "building",
     "material": "MedicalStone"
   },
-  "U120D4300": {
+  "U120D4700": {
     "layer": "U120_Gilman Smith",
     "category": "building",
     "material": "MedicalGlass"
   },
-  "U120D4400": {
+  "U120D4800": {
     "layer": "U120_Gilman Smith",
     "category": "building",
     "material": "MedicalSilverGlass"
   },
-  "U120D4700": {
+  "U120D5100": {
     "layer": "U120_Gilman Smith",
     "category": "building",
     "material": "MedicalSteel"
   },
-  "U120D5800": {
+  "U120D6200": {
     "layer": "U120_Gilman Smith",
     "category": "building",
     "material": "RoofMembrane"
@@ -4969,22 +5074,22 @@
     "category": "building",
     "material": "MedicalStone"
   },
-  "U121D4200": {
+  "U121D4600": {
     "layer": "U121_Parking_Materials Management",
     "category": "building",
     "material": "MedicalStone"
   },
-  "U121D4600": {
+  "U121D5000": {
     "layer": "U121_Parking_Materials Management",
     "category": "building",
     "material": "MedicalDarkGlass"
   },
-  "U121D4700": {
+  "U121D5100": {
     "layer": "U121_Parking_Materials Management",
     "category": "building",
     "material": "MedicalSteel"
   },
-  "U121D5800": {
+  "U121D6200": {
     "layer": "U121_Parking_Materials Management",
     "category": "building",
     "material": "RoofMembrane"
@@ -4999,32 +5104,32 @@
     "category": "building",
     "material": "Paving"
   },
-  "U122D4200": {
+  "U122D4600": {
     "layer": "U122_Goldblatt Pavilion",
     "category": "building",
     "material": "MedicalStone"
   },
-  "U122D4300": {
+  "U122D4700": {
     "layer": "U122_Goldblatt Pavilion",
     "category": "building",
     "material": "MedicalGlass"
   },
-  "U122D4600": {
+  "U122D5000": {
     "layer": "U122_Goldblatt Pavilion",
     "category": "building",
     "material": "MedicalDarkGlass"
   },
-  "U122D4700": {
+  "U122D5100": {
     "layer": "U122_Goldblatt Pavilion",
     "category": "building",
     "material": "MedicalSteel"
   },
-  "U122D5800": {
+  "U122D6200": {
     "layer": "U122_Goldblatt Pavilion",
     "category": "building",
     "material": "RoofMembrane"
   },
-  "U122D6500": {
+  "U122D6900": {
     "layer": "U122_Goldblatt Pavilion",
     "category": "building",
     "material": "Furniture"
@@ -5039,27 +5144,27 @@
     "category": "building",
     "material": "Paving"
   },
-  "U123D4200": {
+  "U123D4600": {
     "layer": "U123_Goldblatt",
     "category": "building",
     "material": "MedicalStone"
   },
-  "U123D4300": {
+  "U123D4700": {
     "layer": "U123_Goldblatt",
     "category": "building",
     "material": "MedicalGlass"
   },
-  "U123D4700": {
+  "U123D5100": {
     "layer": "U123_Goldblatt",
     "category": "building",
     "material": "MedicalSteel"
   },
-  "U123D5000": {
+  "U123D5400": {
     "layer": "U123_Goldblatt",
     "category": "building",
     "material": "QuadTrim"
   },
-  "U123D5800": {
+  "U123D6200": {
     "layer": "U123_Goldblatt",
     "category": "building",
     "material": "RoofMembrane"
@@ -5099,27 +5204,27 @@
     "category": "building",
     "material": "Frame"
   },
-  "U124D4900": {
+  "U124D5300": {
     "layer": "U124_International House",
     "category": "building",
     "material": "QuadStone"
   },
-  "U124D5000": {
+  "U124D5400": {
     "layer": "U124_International House",
     "category": "building",
     "material": "QuadTrim"
   },
-  "U124D5400": {
+  "U124D5800": {
     "layer": "U124_International House",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U124D5700": {
+  "U124D6100": {
     "layer": "U124_International House",
     "category": "building",
     "material": "RoofClay"
   },
-  "U124D5800": {
+  "U124D6200": {
     "layer": "U124_International House",
     "category": "building",
     "material": "RoofMembrane"
@@ -5139,37 +5244,37 @@
     "category": "building",
     "material": "Paving"
   },
-  "U125D4200": {
+  "U125D4600": {
     "layer": "U125_Chicago Lying-In Hospital",
     "category": "building",
     "material": "MedicalStone"
   },
-  "U125D4300": {
+  "U125D4700": {
     "layer": "U125_Chicago Lying-In Hospital",
     "category": "building",
     "material": "MedicalGlass"
   },
-  "U125D4600": {
+  "U125D5000": {
     "layer": "U125_Chicago Lying-In Hospital",
     "category": "building",
     "material": "MedicalDarkGlass"
   },
-  "U125D4700": {
+  "U125D5100": {
     "layer": "U125_Chicago Lying-In Hospital",
     "category": "building",
     "material": "MedicalSteel"
   },
-  "U125D5000": {
+  "U125D5400": {
     "layer": "U125_Chicago Lying-In Hospital",
     "category": "building",
     "material": "QuadTrim"
   },
-  "U125D5600": {
+  "U125D6000": {
     "layer": "U125_Chicago Lying-In Hospital",
     "category": "building",
     "material": "RoofSlate"
   },
-  "U125D5800": {
+  "U125D6200": {
     "layer": "U125_Chicago Lying-In Hospital",
     "category": "building",
     "material": "RoofMembrane"
@@ -5184,27 +5289,27 @@
     "category": "building",
     "material": "Concrete"
   },
-  "U126D4900": {
+  "U126D5300": {
     "layer": "U126_Ida Noyes Hall",
     "category": "building",
     "material": "QuadStone"
   },
-  "U126D5000": {
+  "U126D5400": {
     "layer": "U126_Ida Noyes Hall",
     "category": "building",
     "material": "QuadTrim"
   },
-  "U126D5400": {
+  "U126D5800": {
     "layer": "U126_Ida Noyes Hall",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U126D5500": {
+  "U126D5900": {
     "layer": "U126_Ida Noyes Hall",
     "category": "building",
     "material": "DoorWood"
   },
-  "U126D5700": {
+  "U126D6100": {
     "layer": "U126_Ida Noyes Hall",
     "category": "building",
     "material": "RoofClay"
@@ -5219,22 +5324,22 @@
     "category": "building",
     "material": "Concrete"
   },
-  "U127D5000": {
+  "U127D5400": {
     "layer": "U127_Kelly Hall",
     "category": "building",
     "material": "QuadTrim"
   },
-  "U127D5400": {
+  "U127D5800": {
     "layer": "U127_Kelly Hall",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U127D5500": {
+  "U127D5900": {
     "layer": "U127_Kelly Hall",
     "category": "building",
     "material": "DoorWood"
   },
-  "U127D5600": {
+  "U127D6000": {
     "layer": "U127_Kelly Hall",
     "category": "building",
     "material": "RoofSlate"
@@ -5249,22 +5354,22 @@
     "category": "building",
     "material": "Concrete"
   },
-  "U128D5000": {
+  "U128D5400": {
     "layer": "U128_Goodspeed Hall",
     "category": "building",
     "material": "QuadTrim"
   },
-  "U128D5400": {
+  "U128D5800": {
     "layer": "U128_Goodspeed Hall",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U128D5500": {
+  "U128D5900": {
     "layer": "U128_Goodspeed Hall",
     "category": "building",
     "material": "DoorWood"
   },
-  "U128D5600": {
+  "U128D6000": {
     "layer": "U128_Goodspeed Hall",
     "category": "building",
     "material": "RoofSlate"
@@ -5289,27 +5394,27 @@
     "category": "building",
     "material": "Paving"
   },
-  "U129D4200": {
+  "U129D4600": {
     "layer": "U129_UChicago Student Wellness Center",
     "category": "building",
     "material": "MedicalStone"
   },
-  "U129D4300": {
+  "U129D4700": {
     "layer": "U129_UChicago Student Wellness Center",
     "category": "building",
     "material": "MedicalGlass"
   },
-  "U129D4500": {
+  "U129D4900": {
     "layer": "U129_UChicago Student Wellness Center",
     "category": "building",
     "material": "MedicalGreenGlass"
   },
-  "U129D4700": {
+  "U129D5100": {
     "layer": "U129_UChicago Student Wellness Center",
     "category": "building",
     "material": "MedicalSteel"
   },
-  "U129D5800": {
+  "U129D6200": {
     "layer": "U129_UChicago Student Wellness Center",
     "category": "building",
     "material": "RoofMembrane"
@@ -5339,17 +5444,17 @@
     "category": "building",
     "material": "Frame"
   },
-  "U130D5400": {
+  "U130D5800": {
     "layer": "U130_UChicago President's Mansion",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U130D5500": {
+  "U130D5900": {
     "layer": "U130_UChicago President's Mansion",
     "category": "building",
     "material": "DoorWood"
   },
-  "U130D5700": {
+  "U130D6100": {
     "layer": "U130_UChicago President's Mansion",
     "category": "building",
     "material": "RoofClay"
@@ -5364,27 +5469,27 @@
     "category": "building",
     "material": "Concrete"
   },
-  "U131D4900": {
+  "U131D5300": {
     "layer": "U131_Blaine Hall",
     "category": "building",
     "material": "QuadStone"
   },
-  "U131D5000": {
+  "U131D5400": {
     "layer": "U131_Blaine Hall",
     "category": "building",
     "material": "QuadTrim"
   },
-  "U131D5400": {
+  "U131D5800": {
     "layer": "U131_Blaine Hall",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U131D5500": {
+  "U131D5900": {
     "layer": "U131_Blaine Hall",
     "category": "building",
     "material": "DoorWood"
   },
-  "U131D5700": {
+  "U131D6100": {
     "layer": "U131_Blaine Hall",
     "category": "building",
     "material": "RoofClay"
@@ -5414,17 +5519,17 @@
     "category": "building",
     "material": "Frame"
   },
-  "U132D5400": {
+  "U132D5800": {
     "layer": "U132_Breckinridge House",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U132D5500": {
+  "U132D5900": {
     "layer": "U132_Breckinridge House",
     "category": "building",
     "material": "DoorWood"
   },
-  "U132D5600": {
+  "U132D6000": {
     "layer": "U132_Breckinridge House",
     "category": "building",
     "material": "RoofSlate"
@@ -5439,22 +5544,22 @@
     "category": "building",
     "material": "Concrete"
   },
-  "U133D5000": {
+  "U133D5400": {
     "layer": "U133_Social Science Research Building",
     "category": "building",
     "material": "QuadTrim"
   },
-  "U133D5400": {
+  "U133D5800": {
     "layer": "U133_Social Science Research Building",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U133D5500": {
+  "U133D5900": {
     "layer": "U133_Social Science Research Building",
     "category": "building",
     "material": "DoorWood"
   },
-  "U133D5600": {
+  "U133D6000": {
     "layer": "U133_Social Science Research Building",
     "category": "building",
     "material": "RoofSlate"
@@ -5469,22 +5574,22 @@
     "category": "building",
     "material": "Concrete"
   },
-  "U134D5000": {
+  "U134D5400": {
     "layer": "U134_Wieboldt Hall",
     "category": "building",
     "material": "QuadTrim"
   },
-  "U134D5400": {
+  "U134D5800": {
     "layer": "U134_Wieboldt Hall",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U134D5500": {
+  "U134D5900": {
     "layer": "U134_Wieboldt Hall",
     "category": "building",
     "material": "DoorWood"
   },
-  "U134D5600": {
+  "U134D6000": {
     "layer": "U134_Wieboldt Hall",
     "category": "building",
     "material": "RoofSlate"
@@ -5504,27 +5609,27 @@
     "category": "building",
     "material": "Paving"
   },
-  "U135D4200": {
+  "U135D4600": {
     "layer": "U135_Bobs Roberts",
     "category": "building",
     "material": "MedicalStone"
   },
-  "U135D4300": {
+  "U135D4700": {
     "layer": "U135_Bobs Roberts",
     "category": "building",
     "material": "MedicalGlass"
   },
-  "U135D4700": {
+  "U135D5100": {
     "layer": "U135_Bobs Roberts",
     "category": "building",
     "material": "MedicalSteel"
   },
-  "U135D5000": {
+  "U135D5400": {
     "layer": "U135_Bobs Roberts",
     "category": "building",
     "material": "QuadTrim"
   },
-  "U135D5800": {
+  "U135D6200": {
     "layer": "U135_Bobs Roberts",
     "category": "building",
     "material": "RoofMembrane"
@@ -5532,42 +5637,52 @@
   "U136B00": {
     "layer": "U136_Harper Memorial Library",
     "category": "building",
-    "material": "Limestone"
+    "material": "QuadStone"
   },
   "U136B01": {
     "layer": "U136_Harper Memorial Library",
     "category": "building",
-    "material": "Limestone"
+    "material": "QuadStone"
   },
   "U136B02": {
     "layer": "U136_Harper Memorial Library",
     "category": "building",
-    "material": "Limestone"
+    "material": "QuadStone"
   },
-  "U136HD0000": {
+  "U136D1300": {
     "layer": "U136_Harper Memorial Library",
     "category": "building",
-    "material": "LightStone"
+    "material": "Paving"
   },
-  "U136D0000": {
+  "U136D5300": {
     "layer": "U136_Harper Memorial Library",
     "category": "building",
-    "material": "Limestone"
+    "material": "QuadStone"
   },
-  "U136D0100": {
+  "U136D5400": {
     "layer": "U136_Harper Memorial Library",
     "category": "building",
-    "material": "LightStone"
+    "material": "QuadTrim"
   },
-  "U136D0300": {
+  "U136D5800": {
     "layer": "U136_Harper Memorial Library",
     "category": "building",
-    "material": "Slate"
+    "material": "WindowGlass"
   },
-  "U136D0900": {
+  "U136D5900": {
     "layer": "U136_Harper Memorial Library",
     "category": "building",
-    "material": "DarkGlass"
+    "material": "DoorWood"
+  },
+  "U136D6000": {
+    "layer": "U136_Harper Memorial Library",
+    "category": "building",
+    "material": "RoofSlate"
+  },
+  "U136D6100": {
+    "layer": "U136_Harper Memorial Library",
+    "category": "building",
+    "material": "RoofClay"
   },
   "U137B00": {
     "layer": "U137_Classics Building",
@@ -5579,22 +5694,22 @@
     "category": "building",
     "material": "Concrete"
   },
-  "U137D5000": {
+  "U137D5400": {
     "layer": "U137_Classics Building",
     "category": "building",
     "material": "QuadTrim"
   },
-  "U137D5400": {
+  "U137D5800": {
     "layer": "U137_Classics Building",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U137D5500": {
+  "U137D5900": {
     "layer": "U137_Classics Building",
     "category": "building",
     "material": "DoorWood"
   },
-  "U137D5600": {
+  "U137D6000": {
     "layer": "U137_Classics Building",
     "category": "building",
     "material": "RoofSlate"
@@ -5609,27 +5724,27 @@
     "category": "building",
     "material": "Paving"
   },
-  "U138D4200": {
+  "U138D4600": {
     "layer": "U138_Hicks McElwee",
     "category": "building",
     "material": "MedicalStone"
   },
-  "U138D4300": {
+  "U138D4700": {
     "layer": "U138_Hicks McElwee",
     "category": "building",
     "material": "MedicalGlass"
   },
-  "U138D4700": {
+  "U138D5100": {
     "layer": "U138_Hicks McElwee",
     "category": "building",
     "material": "MedicalSteel"
   },
-  "U138D5000": {
+  "U138D5400": {
     "layer": "U138_Hicks McElwee",
     "category": "building",
     "material": "QuadTrim"
   },
-  "U138D5800": {
+  "U138D6200": {
     "layer": "U138_Hicks McElwee",
     "category": "building",
     "material": "RoofMembrane"
@@ -5644,22 +5759,22 @@
     "category": "building",
     "material": "Concrete"
   },
-  "U139D5000": {
+  "U139D5400": {
     "layer": "U139_Foster Hall",
     "category": "building",
     "material": "QuadTrim"
   },
-  "U139D5400": {
+  "U139D5800": {
     "layer": "U139_Foster Hall",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U139D5500": {
+  "U139D5900": {
     "layer": "U139_Foster Hall",
     "category": "building",
     "material": "DoorWood"
   },
-  "U139D5600": {
+  "U139D6000": {
     "layer": "U139_Foster Hall",
     "category": "building",
     "material": "RoofSlate"
@@ -5689,17 +5804,17 @@
     "category": "building",
     "material": "Frame"
   },
-  "U140D5100": {
+  "U140D5500": {
     "layer": "U140_Chapin Hall",
     "category": "building",
     "material": "WarmBrick"
   },
-  "U140D5400": {
+  "U140D5800": {
     "layer": "U140_Chapin Hall",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U140D5800": {
+  "U140D6200": {
     "layer": "U140_Chapin Hall",
     "category": "building",
     "material": "RoofMembrane"
@@ -5729,17 +5844,17 @@
     "category": "building",
     "material": "Frame"
   },
-  "U141D5100": {
+  "U141D5500": {
     "layer": "U141_Toyota Technological Institute",
     "category": "building",
     "material": "WarmBrick"
   },
-  "U141D5400": {
+  "U141D5800": {
     "layer": "U141_Toyota Technological Institute",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U141D5800": {
+  "U141D6200": {
     "layer": "U141_Toyota Technological Institute",
     "category": "building",
     "material": "RoofMembrane"
@@ -5769,17 +5884,17 @@
     "category": "building",
     "material": "Frame"
   },
-  "U142D5100": {
+  "U142D5500": {
     "layer": "U142_University Press Building",
     "category": "building",
     "material": "WarmBrick"
   },
-  "U142D5400": {
+  "U142D5800": {
     "layer": "U142_University Press Building",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U142D5800": {
+  "U142D6200": {
     "layer": "U142_University Press Building",
     "category": "building",
     "material": "RoofMembrane"
@@ -5859,17 +5974,17 @@
     "category": "building",
     "material": "Frame"
   },
-  "U144D5100": {
+  "U144D5500": {
     "layer": "U144_Erna Heller Hall",
     "category": "building",
     "material": "WarmBrick"
   },
-  "U144D5400": {
+  "U144D5800": {
     "layer": "U144_Erna Heller Hall",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U144D5800": {
+  "U144D6200": {
     "layer": "U144_Erna Heller Hall",
     "category": "building",
     "material": "RoofMembrane"
@@ -5904,7 +6019,7 @@
     "category": "building",
     "material": "Frame"
   },
-  "U145D5400": {
+  "U145D5800": {
     "layer": "U145_Chicago Theological Seminary",
     "category": "building",
     "material": "WindowGlass"
@@ -5934,17 +6049,17 @@
     "category": "building",
     "material": "Frame"
   },
-  "U146D5400": {
+  "U146D5800": {
     "layer": "U146_Taft House",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U146D5500": {
+  "U146D5900": {
     "layer": "U146_Taft House",
     "category": "building",
     "material": "DoorWood"
   },
-  "U146D5600": {
+  "U146D6000": {
     "layer": "U146_Taft House",
     "category": "building",
     "material": "RoofSlate"
@@ -5974,12 +6089,12 @@
     "category": "building",
     "material": "Frame"
   },
-  "U147D5400": {
+  "U147D5800": {
     "layer": "U147_Campus ancillary building 663674229",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U147D5800": {
+  "U147D6200": {
     "layer": "U147_Campus ancillary building 663674229",
     "category": "building",
     "material": "RoofMembrane"
@@ -6024,7 +6139,7 @@
     "category": "building",
     "material": "Garden"
   },
-  "U148D6600": {
+  "U148D7000": {
     "layer": "U148_Harris School of Public Policy Keller Center",
     "category": "building",
     "material": "Solar"
@@ -6079,7 +6194,7 @@
     "category": "building",
     "material": "Frame"
   },
-  "U150D5400": {
+  "U150D5800": {
     "layer": "U150_The Study at the University of Chicago",
     "category": "building",
     "material": "WindowGlass"
@@ -6109,17 +6224,17 @@
     "category": "building",
     "material": "Frame"
   },
-  "U151D5100": {
+  "U151D5500": {
     "layer": "U151_Faculty Apartments",
     "category": "building",
     "material": "WarmBrick"
   },
-  "U151D5400": {
+  "U151D5800": {
     "layer": "U151_Faculty Apartments",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U151D5800": {
+  "U151D6200": {
     "layer": "U151_Faculty Apartments",
     "category": "building",
     "material": "RoofMembrane"
@@ -6149,12 +6264,12 @@
     "category": "building",
     "material": "Frame"
   },
-  "U152D5400": {
+  "U152D5800": {
     "layer": "U152_1155 East 60th Street",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U152D5800": {
+  "U152D6200": {
     "layer": "U152_1155 East 60th Street",
     "category": "building",
     "material": "RoofMembrane"
@@ -6189,17 +6304,17 @@
     "category": "building",
     "material": "Frame"
   },
-  "U153D5400": {
+  "U153D5800": {
     "layer": "U153_Midway Studios",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U153D5500": {
+  "U153D5900": {
     "layer": "U153_Midway Studios",
     "category": "building",
     "material": "DoorWood"
   },
-  "U153D5600": {
+  "U153D6000": {
     "layer": "U153_Midway Studios",
     "category": "building",
     "material": "RoofSlate"
@@ -6229,27 +6344,27 @@
     "category": "building",
     "material": "Concrete"
   },
-  "U154D5000": {
+  "U154D5400": {
     "layer": "U154_Burton-Judson Courts",
     "category": "building",
     "material": "QuadTrim"
   },
-  "U154D5400": {
+  "U154D5800": {
     "layer": "U154_Burton-Judson Courts",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U154D5500": {
+  "U154D5900": {
     "layer": "U154_Burton-Judson Courts",
     "category": "building",
     "material": "DoorWood"
   },
-  "U154D5600": {
+  "U154D6000": {
     "layer": "U154_Burton-Judson Courts",
     "category": "building",
     "material": "RoofSlate"
   },
-  "U154D5800": {
+  "U154D6200": {
     "layer": "U154_Burton-Judson Courts",
     "category": "building",
     "material": "RoofMembrane"
@@ -6309,17 +6424,17 @@
     "category": "building",
     "material": "Frame"
   },
-  "U156D5400": {
+  "U156D5800": {
     "layer": "U156_Faculty Apartments",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U156D5500": {
+  "U156D5900": {
     "layer": "U156_Faculty Apartments",
     "category": "building",
     "material": "DoorWood"
   },
-  "U156D5600": {
+  "U156D6000": {
     "layer": "U156_Faculty Apartments",
     "category": "building",
     "material": "RoofSlate"
@@ -6384,17 +6499,17 @@
     "category": "building",
     "material": "Frame"
   },
-  "U158D5100": {
+  "U158D5500": {
     "layer": "U158_Midway Residence Hall",
     "category": "building",
     "material": "WarmBrick"
   },
-  "U158D5400": {
+  "U158D5800": {
     "layer": "U158_Midway Residence Hall",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U158D5800": {
+  "U158D6200": {
     "layer": "U158_Midway Residence Hall",
     "category": "building",
     "material": "RoofMembrane"
@@ -6424,17 +6539,17 @@
     "category": "building",
     "material": "Frame"
   },
-  "U159D5100": {
+  "U159D5500": {
     "layer": "U159_Faculty Apartments",
     "category": "building",
     "material": "WarmBrick"
   },
-  "U159D5400": {
+  "U159D5800": {
     "layer": "U159_Faculty Apartments",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U159D5800": {
+  "U159D6200": {
     "layer": "U159_Faculty Apartments",
     "category": "building",
     "material": "RoofMembrane"
@@ -6469,7 +6584,7 @@
     "category": "building",
     "material": "Frame"
   },
-  "U160D5400": {
+  "U160D5800": {
     "layer": "U160_South Campus Chiller Plant",
     "category": "building",
     "material": "WindowGlass"
@@ -6484,22 +6599,22 @@
     "category": "building",
     "material": "Paving"
   },
-  "U161D4300": {
+  "U161D4700": {
     "layer": "U161_Edelstone Center",
     "category": "building",
     "material": "MedicalGlass"
   },
-  "U161D4700": {
+  "U161D5100": {
     "layer": "U161_Edelstone Center",
     "category": "building",
     "material": "MedicalSteel"
   },
-  "U161D5100": {
+  "U161D5500": {
     "layer": "U161_Edelstone Center",
     "category": "building",
     "material": "WarmBrick"
   },
-  "U161D5800": {
+  "U161D6200": {
     "layer": "U161_Edelstone Center",
     "category": "building",
     "material": "RoofMembrane"
@@ -6529,17 +6644,17 @@
     "category": "building",
     "material": "Frame"
   },
-  "U162D5400": {
+  "U162D5800": {
     "layer": "U162_6041 South Blackstone Avenue",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U162D5500": {
+  "U162D5900": {
     "layer": "U162_6041 South Blackstone Avenue",
     "category": "building",
     "material": "DoorWood"
   },
-  "U162D5600": {
+  "U162D6000": {
     "layer": "U162_6041 South Blackstone Avenue",
     "category": "building",
     "material": "RoofSlate"
@@ -6604,17 +6719,17 @@
     "category": "building",
     "material": "Frame"
   },
-  "U164D5100": {
+  "U164D5500": {
     "layer": "U164_6045 Kenwood Building",
     "category": "building",
     "material": "WarmBrick"
   },
-  "U164D5400": {
+  "U164D5800": {
     "layer": "U164_6045 Kenwood Building",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U164D5800": {
+  "U164D6200": {
     "layer": "U164_6045 Kenwood Building",
     "category": "building",
     "material": "RoofMembrane"
@@ -6704,12 +6819,12 @@
     "category": "building",
     "material": "Frame"
   },
-  "U165D5400": {
+  "U165D5800": {
     "layer": "U165_6054 S. Drexel _ Campus South Parking",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U165D5600": {
+  "U165D6000": {
     "layer": "U165_6054 S. Drexel _ Campus South Parking",
     "category": "building",
     "material": "RoofSlate"
@@ -6774,17 +6889,17 @@
     "category": "building",
     "material": "Frame"
   },
-  "U167D5100": {
+  "U167D5500": {
     "layer": "U167_Center for Research Libraries",
     "category": "building",
     "material": "WarmBrick"
   },
-  "U167D5400": {
+  "U167D5800": {
     "layer": "U167_Center for Research Libraries",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U167D5800": {
+  "U167D6200": {
     "layer": "U167_Center for Research Libraries",
     "category": "building",
     "material": "RoofMembrane"
@@ -6844,12 +6959,12 @@
     "category": "building",
     "material": "Frame"
   },
-  "U168D5400": {
+  "U168D5800": {
     "layer": "U168_Renee Granville-Grossman Residential Commons",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U168D5800": {
+  "U168D6200": {
     "layer": "U168_Renee Granville-Grossman Residential Commons",
     "category": "building",
     "material": "RoofMembrane"
@@ -6889,22 +7004,22 @@
     "category": "building",
     "material": "Frame"
   },
-  "U169D5000": {
+  "U169D5400": {
     "layer": "U169_University of Chicago Steam Plant",
     "category": "building",
     "material": "QuadTrim"
   },
-  "U169D5100": {
+  "U169D5500": {
     "layer": "U169_University of Chicago Steam Plant",
     "category": "building",
     "material": "WarmBrick"
   },
-  "U169D5400": {
+  "U169D5800": {
     "layer": "U169_University of Chicago Steam Plant",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U169D5800": {
+  "U169D6200": {
     "layer": "U169_University of Chicago Steam Plant",
     "category": "building",
     "material": "RoofMembrane"
@@ -6934,17 +7049,17 @@
     "category": "building",
     "material": "Frame"
   },
-  "U170D5100": {
+  "U170D5500": {
     "layer": "U170_6044-6052 South Ingleside Avenue",
     "category": "building",
     "material": "WarmBrick"
   },
-  "U170D5400": {
+  "U170D5800": {
     "layer": "U170_6044-6052 South Ingleside Avenue",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U170D5800": {
+  "U170D6200": {
     "layer": "U170_6044-6052 South Ingleside Avenue",
     "category": "building",
     "material": "RoofMembrane"
@@ -6959,22 +7074,22 @@
     "category": "building",
     "material": "Paving"
   },
-  "U171D4200": {
+  "U171D4600": {
     "layer": "U171_Woodlawn Social Services Center",
     "category": "building",
     "material": "MedicalStone"
   },
-  "U171D4300": {
+  "U171D4700": {
     "layer": "U171_Woodlawn Social Services Center",
     "category": "building",
     "material": "MedicalGlass"
   },
-  "U171D4700": {
+  "U171D5100": {
     "layer": "U171_Woodlawn Social Services Center",
     "category": "building",
     "material": "MedicalSteel"
   },
-  "U171D5800": {
+  "U171D6200": {
     "layer": "U171_Woodlawn Social Services Center",
     "category": "building",
     "material": "RoofMembrane"
@@ -7004,12 +7119,12 @@
     "category": "building",
     "material": "Frame"
   },
-  "U172D5400": {
+  "U172D5800": {
     "layer": "U172_Steam Plant Auxiliary Building",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U172D5800": {
+  "U172D6200": {
     "layer": "U172_Steam Plant Auxiliary Building",
     "category": "building",
     "material": "RoofMembrane"
@@ -7039,17 +7154,17 @@
     "category": "building",
     "material": "Frame"
   },
-  "U173D5100": {
+  "U173D5500": {
     "layer": "U173_6051-6057 South Drexel Avenue",
     "category": "building",
     "material": "WarmBrick"
   },
-  "U173D5400": {
+  "U173D5800": {
     "layer": "U173_6051-6057 South Drexel Avenue",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U173D5800": {
+  "U173D6200": {
     "layer": "U173_6051-6057 South Drexel Avenue",
     "category": "building",
     "material": "RoofMembrane"
@@ -7079,17 +7194,17 @@
     "category": "building",
     "material": "Frame"
   },
-  "U174D5400": {
+  "U174D5800": {
     "layer": "U174_6054-6056 South Ingleside Avenue",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U174D5500": {
+  "U174D5900": {
     "layer": "U174_6054-6056 South Ingleside Avenue",
     "category": "building",
     "material": "DoorWood"
   },
-  "U174D5600": {
+  "U174D6000": {
     "layer": "U174_6054-6056 South Ingleside Avenue",
     "category": "building",
     "material": "RoofSlate"
@@ -7119,17 +7234,17 @@
     "category": "building",
     "material": "Frame"
   },
-  "U175D5400": {
+  "U175D5800": {
     "layer": "U175_920-922 East 61st Street",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U175D5500": {
+  "U175D5900": {
     "layer": "U175_920-922 East 61st Street",
     "category": "building",
     "material": "DoorWood"
   },
-  "U175D5600": {
+  "U175D6000": {
     "layer": "U175_920-922 East 61st Street",
     "category": "building",
     "material": "RoofSlate"
@@ -7159,17 +7274,17 @@
     "category": "building",
     "material": "Frame"
   },
-  "U176D5400": {
+  "U176D5800": {
     "layer": "U176_924-926 East 61st Street",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U176D5500": {
+  "U176D5900": {
     "layer": "U176_924-926 East 61st Street",
     "category": "building",
     "material": "DoorWood"
   },
-  "U176D5600": {
+  "U176D6000": {
     "layer": "U176_924-926 East 61st Street",
     "category": "building",
     "material": "RoofSlate"
@@ -7199,17 +7314,17 @@
     "category": "building",
     "material": "Frame"
   },
-  "U177D5400": {
+  "U177D5800": {
     "layer": "U177_928 East 61st Street",
     "category": "building",
     "material": "WindowGlass"
   },
-  "U177D5500": {
+  "U177D5900": {
     "layer": "U177_928 East 61st Street",
     "category": "building",
     "material": "DoorWood"
   },
-  "U177D5600": {
+  "U177D6000": {
     "layer": "U177_928 East 61st Street",
     "category": "building",
     "material": "RoofSlate"
@@ -7369,6 +7484,11 @@
     "category": "environment",
     "material": "LightStone"
   },
+  "E0500": {
+    "layer": "环境_Environment",
+    "category": "environment",
+    "material": "Concrete"
+  },
   "E1100": {
     "layer": "环境_Environment",
     "category": "environment",
@@ -7434,32 +7554,32 @@
     "category": "environment",
     "material": "Trunk"
   },
-  "E6000": {
+  "E6400": {
     "layer": "环境_Environment",
     "category": "environment",
     "material": "FieldTurf"
   },
-  "E6100": {
+  "E6500": {
     "layer": "环境_Environment",
     "category": "environment",
     "material": "FieldStripe"
   },
-  "E6200": {
+  "E6600": {
     "layer": "环境_Environment",
     "category": "environment",
     "material": "CourtApron"
   },
-  "E6300": {
+  "E6700": {
     "layer": "环境_Environment",
     "category": "environment",
     "material": "Infield"
   },
-  "E6400": {
+  "E6800": {
     "layer": "环境_Environment",
     "category": "environment",
     "material": "GoalPost"
   },
-  "E6500": {
+  "E6900": {
     "layer": "环境_Environment",
     "category": "environment",
     "material": "Furniture"

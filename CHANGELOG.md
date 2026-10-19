@@ -1,5 +1,12 @@
 # Changelog
 
+## 26.10.18.15 — 2026-10-18
+
+- Reconstruct Crerar Library's detailed exterior from the university elevation and renovation architect's photographs/plans: restore recessed lower floors, thick cantilevered limestone walls with wide upper glass apertures, the independent stone entry arch, connected steps/handrails and separate shaped rooflights.
+- Optimize Kersten, Searle, Hinds and Jones around the Science Quadrangle; correct Searle's modern flat-roof laboratory form, Jones' historic character and Hinds' raised service towers. Connect Crerar's entry apron to existing paths and clear trees from the stairs.
+- Optimize Harper Memorial Library's central reading-hall bays, twin towers, connected roof, corner turrets, stone courses and centered entrance while retaining its published tower maximum and existing Explore camera.
+- Preserve all other building meshes, including the newly revised medical district, and update the matching CAD, browser and offline deliverables.
+
 ## 26.10.18.14 — 2026-10-18
 
 - Optimize all 40 ordinary buildings in the Medical district, retaining the existing Gordon Center Highlight and every non-medical building mesh.

@@ -3,5 +3,10 @@
   "courtyards": 10,
   "path_edge_length_m": 80379.33,
   "infill_lawn_m2": 163849.08,
-  "infill_paving_m2": 78629.32
+  "infill_paving_m2": 78629.32,
+  "science_quad": {
+    "crerar_entry_link_m": 4.46,
+    "existing_quad_walks_refined_m2": 986.36,
+    "new_cross_quad_routes": 0
+  }
 }

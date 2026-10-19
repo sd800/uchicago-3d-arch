@@ -1,3 +1,4 @@
+from science_exteriors import landscape as refine_science_quad, entry_clearance
 from campus_refinement import landscape as refine_landscape
 from campus_optimization import rebuild as rebuild_ordinary, finish as finish_ordinary, facade as optimized_facade, specification, roof_shell
 from athletic_fields import layout as athletic_layout, handles as athletic_handles, refine as refine_athletic_fields
@@ -52,6 +53,7 @@ COLORS={
  'Court':(89,132,122),'Marking':(232,228,207),'Leaves':(67,116,75),'Trunk':(119,95,68),
  'RatnerTan':(180,139,93),'RatnerBrown':(100,88,76),'RatnerDrum':(124,68,56),'RatnerRoof':(112,137,141),'RatnerRoofSeam':(88,110,115),'RatnerFascia':(66,83,86),'RatnerSteel':(214,219,210),'RatnerCable':(118,126,121),'RatnerGlass':(111,154,161),'RatnerFrost':(172,184,175),
  'ChapelStone':(185,184,170),'ChapelTrim':(207,204,186),'ChapelRoof':(106,115,118),'ChapelRoofSeam':(119,127,128),'ChapelRecess':(122,124,113),'ChapelDoor':(91,68,48),'ChapelDoorTrim':(119,93,64),'ChapelLead':(83,92,87),'ChapelLouvre':(62,67,64),
+ 'CrerarStone':(198,194,176),'CrerarGlass':(61,87,94),'CrerarMetal':(73,80,80),'CrerarJoint':(166,164,151),
  'MedicalStone':(184,179,157),'MedicalGlass':(75,104,115),'MedicalSilverGlass':(117,150,157),'MedicalGreenGlass':(79,128,120),'MedicalDarkGlass':(52,79,86),'MedicalSteel':(169,178,174),'MedicalPlant':(77,84,86),
  'QuadStone':(185,181,162),'QuadTrim':(214,207,184),'WarmBrick':(139,83,64),'BrownBrick':(115,82,64),'HospitalBrick':(167,117,90),'WindowGlass':(73,99,105),'DoorWood':(86,62,45),'RoofSlate':(85,94,96),'RoofClay':(130,73,55),'RoofMembrane':(151,154,146),'RoofPatina':(111,143,130),
  'FieldTurf':(62,103,71),'FieldStripe':(70,113,77),'CourtApron':(72,101,88),'Infield':(179,129,94),'GoalPost':(219,201,133),
@@ -383,9 +385,12 @@ for j,f in enumerate(buildings,1):
         ordinary_stats=finish_ordinary(p,h,levels,gothic,SimpleNamespace(**globals()),campus_refinement['profile']if campus_refinement else None)
     highlight_stats=None
     if i in landmarks:
-        joinery,highlight_stats=detailed_joinery(ms,p,0,h,SimpleNamespace(**globals()),gothic=gothic)
-        for kk,(mm,parts)in enumerate(joinery.items()):
-            if parts:chunk_meshes(code+f'HD{kk:02d}',parts,mm,lay,info)
+        if detail_record and detail_record.get('manual_joinery'):
+            highlight_stats=detail_record['manual_joinery']
+        else:
+            joinery,highlight_stats=detailed_joinery(ms,p,0,h,SimpleNamespace(**globals()),gothic=gothic)
+            for kk,(mm,parts)in enumerate(joinery.items()):
+                if parts:chunk_meshes(code+f'HD{kk:02d}',parts,mm,lay,info)
     # One mesh per material per building; Rhino layer contains native body solids plus editable detail meshes.
     for k,(mat,parts) in enumerate(ms.items()):
         if parts:chunk_meshes(code+f'D{k:02d}',parts,mat,lay,info)
@@ -494,10 +499,10 @@ for xx in np.arange(542,713,28):
         pp=Point(xx,yy)
         if not footprints.buffer(2).contains(pp):eg['Furniture'].append(boxmesh(xx,yy,.35,2.0,.55,.15))
 trees=[];mapped_trees=0
-safe_green=unary_union([greenarea,gardenarea]).difference(footprints.buffer(3)).buffer(-2)
+safe_green=unary_union([greenarea,gardenarea]).difference(footprints.buffer(3)).buffer(-2).difference(entry_clearance())
 def tree_point(xx,yy):
     if athletic_plan['tree_exclusion'].covers(Point(xx,yy)):return False
-    if scope.contains(Point(xx,yy)) and not footprints.buffer(3).contains(Point(xx,yy)) and not roadarea.buffer(1).contains(Point(xx,yy)) and all((xx-a)**2+(yy-b)**2>45 for a,b in trees):trees.append((xx,yy));return True
+    if scope.contains(Point(xx,yy)) and not entry_clearance().contains(Point(xx,yy)) and not footprints.buffer(3).contains(Point(xx,yy)) and not roadarea.buffer(1).contains(Point(xx,yy)) and all((xx-a)**2+(yy-b)**2>45 for a,b in trees):trees.append((xx,yy));return True
 for ii,t in ntags.items():
     if t.get('natural')=='tree' and tree_point(*nodes[ii]):mapped_trees+=1
 for w in ways:
@@ -533,6 +538,7 @@ for w in ways:
 athletic_refinement=refine_athletic_fields(SimpleNamespace(**globals()),athletic_plan)
 (OUT/'athletic_fields_refinement.json').write_text(json.dumps(athletic_refinement,indent=2)+'\n')
 landscape_refinement=refine_landscape(SimpleNamespace(**globals()))
+landscape_refinement['science_quad']=refine_science_quad(SimpleNamespace(**globals()))
 (OUT/'campus_landscape_refinement.json').write_text(json.dumps(landscape_refinement,indent=2))
 for k,(mat,parts) in enumerate(eg.items()):
     if parts:chunk_meshes(f'E{k:02d}',parts,mat,'环境_Environment',{'Landscape':'Mapped boundaries and centerlines; approximate tree planting, surface levels, road widths','Units':'meters'})

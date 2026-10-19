@@ -6811,7 +6811,7 @@
     "osm_type": "way",
     "zone": "quads",
     "landmark": false,
-    "height": 14.5,
+    "height": 16.12,
     "height_status": "estimated",
     "levels": 3,
     "area": 1375.92,
@@ -6821,33 +6821,35 @@
       453.603,
       1002.324
     ],
-    "basis": "Source-informed exterior interpretation; local eave and roof heights are estimates. estimated exterior dimensions; storeys documented only where identified below",
+    "basis": "Source-informed exterior interpretation; local eave and roof heights are estimates. Owner/architect exterior character and mapped outline; local floor heights, facade modules and secondary dimensions remain estimates.",
     "partition": "本轮按该楼的独立方案优化主要体量、屋顶、成组开窗与入口衔接，保留地图轮廓和庭院。未公开的构件尺寸及重复窗位为室外形态估算，并非实测或施工模型。",
-    "source": "https://maps.uchicago.edu/",
+    "source": "https://magazine.uchicago.edu/0504/peer/arch.shtml",
     "footprint_source": "https://www.openstreetmap.org/way/142870317",
     "campus_refinement": {
-      "profile": "modern_academic",
-      "height": 14.5,
+      "profile": "kersten",
+      "height": 16.2,
       "levels": 3,
       "features": [
-        "Individual mapped wings, setbacks and courtyard voids",
-        "Grouped recessed facade bays with supported lintels, sills and thin mullions",
-        "recessed flat roof with supported parapet"
+        "Stone Ellis Avenue wing and angled glazed science-quadrangle frontage",
+        "Three teaching levels with separate roof heights",
+        "Continuous glazed central spine and pitched atrium rooflight",
+        "Existing north bridge connection retained"
       ],
-      "reference": "https://maps.uchicago.edu/",
+      "reference": "https://magazine.uchicago.edu/0504/peer/arch.shtml",
       "modeling_level": "optimized exterior",
       "optimization_recipe": {
         "family": "modern_academic",
         "storeys": 3,
         "eave_m": 14.0,
-        "roof_rise_m": 0.0,
+        "roof_rise_m": 0,
         "entry": "south",
         "references": [
+          "https://magazine.uchicago.edu/0504/peer/arch.shtml",
           "https://maps.uchicago.edu/",
           "https://www.openstreetmap.org/way/142870317"
         ],
-        "evidence": "Mapped footprint and source-described architectural family; facade module, roof section and local entry dimensions estimated.",
-        "dimension_status": "estimated exterior dimensions; storeys documented only where identified below",
+        "evidence": "Individual Science Quadrangle source comparison, 18 October 2026",
+        "dimension_status": "Owner/architect exterior character and mapped outline; local floor heights, facade modules and secondary dimensions remain estimates.",
         "confidence": "conservative mapped exterior interpretation",
         "wall": "LightStone",
         "roof": "RoofMembrane",
@@ -6856,13 +6858,14 @@
         "roof_form": "recessed flat roof with supported parapet",
         "code": "U043",
         "osm_id": 142870317,
-        "name": "Kersten Physics Teaching Center"
+        "name": "Kersten Physics Teaching Center",
+        "science_quad_review": true
       },
-      "approximation": "Mapped footprint and source-described architectural family; facade module, roof section and local entry dimensions estimated."
+      "approximation": "Source-informed exterior massing; undocumented dimensions and minor openings remain estimates."
     },
     "exterior_reconstruction": null,
     "ordinary_joinery": {
-      "window_surrounds": 147,
+      "window_surrounds": 102,
       "entrances": 1,
       "buttresses": 0,
       "courses": 2,
@@ -6879,14 +6882,15 @@
       "family": "modern_academic",
       "storeys": 3,
       "eave_m": 14.0,
-      "roof_rise_m": 0.0,
+      "roof_rise_m": 0,
       "entry": "south",
       "references": [
+        "https://magazine.uchicago.edu/0504/peer/arch.shtml",
         "https://maps.uchicago.edu/",
         "https://www.openstreetmap.org/way/142870317"
       ],
-      "evidence": "Mapped footprint and source-described architectural family; facade module, roof section and local entry dimensions estimated.",
-      "dimension_status": "estimated exterior dimensions; storeys documented only where identified below",
+      "evidence": "Individual Science Quadrangle source comparison, 18 October 2026",
+      "dimension_status": "Owner/architect exterior character and mapped outline; local floor heights, facade modules and secondary dimensions remain estimates.",
       "confidence": "conservative mapped exterior interpretation",
       "wall": "LightStone",
       "roof": "RoofMembrane",
@@ -6895,14 +6899,15 @@
       "roof_form": "recessed flat roof with supported parapet",
       "code": "U043",
       "osm_id": 142870317,
-      "name": "Kersten Physics Teaching Center"
+      "name": "Kersten Physics Teaching Center",
+      "science_quad_review": true
     },
     "name_zh": "克斯滕物理教学中心",
     "short_zh": "克斯滕物理教学中心",
     "aliases_zh": [],
     "short": "Kersten Physics Teaching Center",
-    "partition_en": "Individual mapped wings, setbacks and courtyard voids; Grouped recessed facade bays with supported lintels, sills and thin mullions; recessed flat roof with supported parapet. Exterior interpretation; local dimensions approximate.",
-    "basis_en": "Exterior dimensions and floor count are estimated from the mapped footprint and architectural family. Modeled maximum includes the roof; local section dimensions are approximate."
+    "partition_en": "Stone Ellis Avenue wing and angled glazed science-quadrangle frontage; Three teaching levels with separate roof heights; Continuous glazed central spine and pitched atrium rooflight; Existing north bridge connection retained. Exterior interpretation; local dimensions approximate.",
+    "basis_en": "Owner/architect exterior character and mapped outline; local floor heights, facade modules and secondary dimensions remain estimates. Modeled maximum includes the roof; local section dimensions are approximate."
   },
   {
     "code": "U044",
@@ -8362,7 +8367,7 @@
     "osm_type": "way",
     "zone": "quads",
     "landmark": false,
-    "height": 20.591,
+    "height": 22.34,
     "height_status": "estimated",
     "levels": 4,
     "area": 1583.98,
@@ -8372,44 +8377,47 @@
       508.547,
       946.092
     ],
-    "basis": "Source-informed exterior interpretation; local eave and roof heights are estimates. estimated exterior dimensions; storeys documented only where identified below",
+    "basis": "Source-informed exterior interpretation; local eave and roof heights are estimates. Owner/architect exterior character and mapped outline; local floor heights, facade modules and secondary dimensions remain estimates.",
     "partition": "本轮按该楼的独立方案优化主要体量、屋顶、成组开窗与入口衔接，保留地图轮廓和庭院。未公开的构件尺寸及重复窗位为室外形态估算，并非实测或施工模型。",
-    "source": "https://architecture.uchicago.edu/locations/main_quadrangle/",
+    "source": "https://hga.com/projects/university-of-chicago-searle-chemistry-laboratory/",
     "footprint_source": "https://www.openstreetmap.org/way/154656512",
     "campus_refinement": {
-      "profile": "gothic_lab",
-      "height": 20.75,
+      "profile": "searle",
+      "height": 22.34,
       "levels": 4,
       "features": [
-        "Individual mapped wings, setbacks and courtyard voids",
-        "Grouped recessed facade bays with supported lintels, sills and thin mullions",
-        "connected pitched/hipped wing roof"
+        "Four above-ground laboratory floors, replacing an incorrect Gothic pitched-roof profile",
+        "Flat membrane roof and four documented heat-recovery chambers",
+        "Two-storey glazed entrances on Ellis Avenue and quadrangle sides",
+        "Openings and secondary plant dimensions remain estimates"
       ],
-      "reference": "https://architecture.uchicago.edu/locations/main_quadrangle/",
+      "reference": "https://hga.com/projects/university-of-chicago-searle-chemistry-laboratory/",
       "modeling_level": "optimized exterior",
       "optimization_recipe": {
-        "family": "gothic_lab",
+        "family": "modern_academic",
         "storeys": 4,
-        "eave_m": 16.5,
-        "roof_rise_m": 4.0,
+        "eave_m": 18.8,
+        "roof_rise_m": 0,
         "entry": "east",
         "references": [
+          "https://hga.com/projects/university-of-chicago-searle-chemistry-laboratory/",
           "https://architecture.uchicago.edu/locations/main_quadrangle/",
           "https://www.openstreetmap.org/way/154656512"
         ],
-        "evidence": "Mapped footprint and source-described architectural family; facade module, roof section and local entry dimensions estimated.",
-        "dimension_status": "estimated exterior dimensions; storeys documented only where identified below",
+        "evidence": "Individual Science Quadrangle source comparison, 18 October 2026",
+        "dimension_status": "Owner/architect exterior character and mapped outline; local floor heights, facade modules and secondary dimensions remain estimates.",
         "confidence": "conservative mapped exterior interpretation",
         "wall": "QuadStone",
-        "roof": "RoofSlate",
+        "roof": "RoofMembrane",
         "bay_m": 4.6,
         "window_group": "paired stone lights with rectangular upper windows",
         "roof_form": "connected pitched/hipped wing roof",
         "code": "U057",
         "osm_id": 154656512,
-        "name": "Searle Chemical Laboratory"
+        "name": "Searle Chemical Laboratory",
+        "science_quad_review": true
       },
-      "approximation": "Mapped footprint and source-described architectural family; facade module, roof section and local entry dimensions estimated."
+      "approximation": "Source-informed exterior massing; undocumented dimensions and minor openings remain estimates."
     },
     "exterior_reconstruction": null,
     "ordinary_joinery": {
@@ -8427,33 +8435,35 @@
     "highlight_joinery": null,
     "architecture_reference": null,
     "optimization_2026_10_18": {
-      "family": "gothic_lab",
+      "family": "modern_academic",
       "storeys": 4,
-      "eave_m": 16.5,
-      "roof_rise_m": 4.0,
+      "eave_m": 18.8,
+      "roof_rise_m": 0,
       "entry": "east",
       "references": [
+        "https://hga.com/projects/university-of-chicago-searle-chemistry-laboratory/",
         "https://architecture.uchicago.edu/locations/main_quadrangle/",
         "https://www.openstreetmap.org/way/154656512"
       ],
-      "evidence": "Mapped footprint and source-described architectural family; facade module, roof section and local entry dimensions estimated.",
-      "dimension_status": "estimated exterior dimensions; storeys documented only where identified below",
+      "evidence": "Individual Science Quadrangle source comparison, 18 October 2026",
+      "dimension_status": "Owner/architect exterior character and mapped outline; local floor heights, facade modules and secondary dimensions remain estimates.",
       "confidence": "conservative mapped exterior interpretation",
       "wall": "QuadStone",
-      "roof": "RoofSlate",
+      "roof": "RoofMembrane",
       "bay_m": 4.6,
       "window_group": "paired stone lights with rectangular upper windows",
       "roof_form": "connected pitched/hipped wing roof",
       "code": "U057",
       "osm_id": 154656512,
-      "name": "Searle Chemical Laboratory"
+      "name": "Searle Chemical Laboratory",
+      "science_quad_review": true
     },
     "name_zh": "瑟尔化学实验楼",
     "short_zh": "瑟尔化学实验楼",
     "aliases_zh": [],
     "short": "Searle Chemical Laboratory",
-    "partition_en": "Individual mapped wings, setbacks and courtyard voids; Grouped recessed facade bays with supported lintels, sills and thin mullions; connected pitched/hipped wing roof. Exterior interpretation; local dimensions approximate.",
-    "basis_en": "Exterior dimensions and floor count are estimated from the mapped footprint and architectural family. Modeled maximum includes the roof; local section dimensions are approximate."
+    "partition_en": "Four above-ground laboratory floors, replacing an incorrect Gothic pitched-roof profile; Flat membrane roof and four documented heat-recovery chambers; Two-storey glazed entrances on Ellis Avenue and quadrangle sides; Openings and secondary plant dimensions remain estimates. Exterior interpretation; local dimensions approximate.",
+    "basis_en": "Owner/architect exterior character and mapped outline; local floor heights, facade modules and secondary dimensions remain estimates. Modeled maximum includes the roof; local section dimensions are approximate."
   },
   {
     "code": "U058",
@@ -8463,7 +8473,7 @@
     "osm_type": "way",
     "zone": "quads",
     "landmark": true,
-    "height": 16.6,
+    "height": 16.5947,
     "height_status": "estimated",
     "levels": 3,
     "area": 4256.8,
@@ -8474,29 +8484,208 @@
       946.081
     ],
     "basis": "层数依据学校或项目公开资料，层高及局部标高为估算。",
-    "partition": "上层3.3528米的出挑依据公开介绍中的11英尺尺寸。模型表示三层地上体块及屋顶采光窗，总高度15米为估算。",
+    "partition": "按学校建筑立面和改造建筑师照片、平面重建：保留三个地上层、退进下层和上层11英尺悬挑；上层厚石墙采用真实窗洞与退进宽幅玻璃，入口前独立石拱架与通高玻璃、台阶、扶手连接；重建两组主要天窗和小型天窗。公开的悬挑和改造玻璃尺寸用于比例校核，屋面标高、入口在立面内的位置、石材接缝及小构件仍为室外形态估算。",
     "source": "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg",
     "footprint_source": "https://www.openstreetmap.org/way/152284260",
     "campus_refinement": null,
     "exterior_reconstruction": {
-      "reference": "https://www.lib.uchicago.edu/crerar/about-crerar-library/history/",
+      "reference": "https://marcararc.co/portfolio/crerar-reno/",
       "features": [
-        "three above-ground library levels",
-        "11-foot upper-floor cantilever",
-        "vertical narrow concrete window bays",
-        "central atrium roof lantern",
-        "2018 roof skylights"
+        "Three above-ground levels with a genuinely recessed lower envelope and 11-foot upper cantilever",
+        "Thick limestone panel walls with recessed 25-foot-wide renovated top-floor glass bays",
+        "Independent stone entrance arch, recessed two-storey glazing and connected granite steps",
+        "Two shaped glazed atrium/stair rooflights and smaller renovation skylights",
+        "Stone panel joints, window reveals, soffit divisions, handrails and low planting walls"
       ],
+      "modeling_level": "detailed exterior reconstruction",
       "cantilever_m": 3.3528,
-      "atrium_roof_lantern": true
+      "atrium_roof_lantern": true,
+      "entry_center": [
+        379.51297814855354,
+        922.7574583794922
+      ],
+      "upper_glazed_bays": [
+        [
+          373.428,
+          990.11,
+          7.62
+        ],
+        [
+          363.684,
+          990.09,
+          7.62
+        ],
+        [
+          353.94,
+          990.07,
+          7.62
+        ],
+        [
+          344.19599999999997,
+          990.05,
+          7.62
+        ],
+        [
+          334.452,
+          990.03,
+          7.62
+        ],
+        [
+          329.6010714285714,
+          985.4110714285714,
+          7.62
+        ],
+        [
+          329.6432142857143,
+          976.1932142857142,
+          7.62
+        ],
+        [
+          329.68535714285713,
+          966.9753571428571,
+          7.62
+        ],
+        [
+          329.72749999999996,
+          957.7574999999999,
+          7.62
+        ],
+        [
+          329.76964285714286,
+          948.5396428571429,
+          7.62
+        ],
+        [
+          329.8117857142857,
+          939.3217857142857,
+          7.62
+        ],
+        [
+          329.8539285714286,
+          930.1039285714286,
+          7.62
+        ],
+        [
+          331.64,
+          925.5,
+          2.180014164277504
+        ],
+        [
+          333.37833333333333,
+          921.225,
+          7.210166145843441
+        ],
+        [
+          333.325,
+          912.665,
+          7.210166145843441
+        ],
+        [
+          333.27166666666665,
+          904.105,
+          7.210166145843441
+        ],
+        [
+          337.5415,
+          899.8180000000001,
+          7.243011404624104
+        ],
+        [
+          346.1345,
+          899.8040000000001,
+          7.243011404624104
+        ],
+        [
+          354.72749999999996,
+          899.79,
+          7.243011404624104
+        ],
+        [
+          363.3205,
+          899.7760000000001,
+          7.243011404624104
+        ],
+        [
+          371.9135,
+          899.762,
+          7.243011404624104
+        ],
+        [
+          376.2033333333333,
+          904.1341666666667,
+          7.408343482391828
+        ],
+        [
+          376.19,
+          912.8924999999999,
+          7.408343482391828
+        ],
+        [
+          376.1766666666667,
+          921.6508333333334,
+          7.408343482391828
+        ],
+        [
+          377.5425,
+          926.035,
+          1.3950182148758183
+        ],
+        [
+          378.87107142857144,
+          930.6171428571429,
+          7.62
+        ],
+        [
+          378.7832142857143,
+          939.7714285714285,
+          7.62
+        ],
+        [
+          378.6953571428572,
+          948.9257142857143,
+          7.62
+        ],
+        [
+          378.6075,
+          958.0799999999999,
+          7.62
+        ],
+        [
+          378.51964285714286,
+          967.2342857142858,
+          7.62
+        ],
+        [
+          378.43178571428575,
+          976.3885714285715,
+          7.62
+        ],
+        [
+          378.3439285714286,
+          985.5428571428572,
+          7.62
+        ]
+      ],
+      "large_rooflights": 2,
+      "small_rooflights": 8,
+      "manual_joinery": {
+        "framed_openings": 91,
+        "transoms": 0,
+        "roof_coping_m": 0,
+        "hollow_bells": 0,
+        "added_triangles": 10904,
+        "authored_joinery": true
+      },
+      "limits": "Mapped outline retained. Published 11 ft overhang, 11 ft tall and up-to-25 ft wide replacement panes inform the model; local heights, entry placement, stone panel joints and rooflight sections are exterior interpretations."
     },
     "ordinary_joinery": null,
     "highlight_joinery": {
-      "framed_openings": 233,
+      "framed_openings": 91,
       "transoms": 0,
-      "roof_coping_m": 0.0,
+      "roof_coping_m": 0,
       "hollow_bells": 0,
-      "added_triangles": 7456
+      "added_triangles": 10904,
+      "authored_joinery": true
     },
     "architecture_reference": {
       "name": "John Crerar Library",
@@ -8536,7 +8725,7 @@
     },
     "optimization_2026_10_18": {
       "family": "protected_highlight",
-      "decision": "Retain the existing individually reconstructed or reviewed Highlight; do not replace with a generic campus recipe.",
+      "decision": "Explicitly reworked at user request in release 26.10.18.15; retain the authored detailed/optimized exterior instead of applying an ordinary generic recipe.",
       "references": [
         "https://data.cityofchicago.org/Buildings/Building-Footprints/syp8-uezg"
       ],
@@ -8552,7 +8741,7 @@
       "克雷拉图书馆"
     ],
     "short": "Crerar Library",
-    "partition_en": "Upper-floor overhang follows the published 11 ft / 3.3528 m description. Three above-ground levels and rooflights are simplified; total 15 m height is estimated.",
+    "partition_en": "Three above-ground levels with a genuinely recessed lower envelope and 11-foot upper cantilever; Thick limestone panel walls with recessed 25-foot-wide renovated top-floor glass bays; Independent stone entrance arch, recessed two-storey glazing and connected granite steps; Two shaped glazed atrium/stair rooflights and smaller renovation skylights; Stone panel joints, window reveals, soffit divisions, handrails and low planting walls. Mapped outline retained. Published 11 ft overhang, 11 ft tall and up-to-25 ft wide replacement panes inform the model; local heights, entry placement, stone panel joints and rooflight sections are exterior interpretations.",
     "basis_en": "Estimated exterior height. Floor count used: 3. Published/OSM floor counts or a functional massing estimate; local floor heights are assumed."
   },
   {
@@ -9070,9 +9259,9 @@
     "osm_type": "way",
     "zone": "quads",
     "landmark": false,
-    "height": 20.7,
+    "height": 32.0,
     "height_status": "estimated",
-    "levels": 5,
+    "levels": 6,
     "area": 1798.15,
     "width": 39.03,
     "depth": 55.53,
@@ -9080,35 +9269,34 @@
       450.459,
       914.772
     ],
-    "basis": "Source-informed exterior interpretation; local eave and roof heights are estimates. estimated exterior dimensions; storeys documented only where identified below",
+    "basis": "Source-informed exterior interpretation; local eave and roof heights are estimates. Owner/architect exterior character and mapped outline; local floor heights, facade modules and secondary dimensions remain estimates.",
     "partition": "本轮按该楼的独立方案优化主要体量、屋顶、成组开窗与入口衔接，保留地图轮廓和庭院。未公开的构件尺寸及重复窗位为室外形态估算，并非实测或施工模型。",
     "source": "https://architecture.uchicago.edu/locations/henry_hinds_laboratory_for_geophysical_sciences/",
     "footprint_source": "https://www.openstreetmap.org/way/88865426",
     "campus_refinement": {
       "profile": "hinds",
-      "height": 20.7,
-      "levels": 5,
+      "height": 32.0,
+      "levels": 6,
       "features": [
-        "Flat grey concrete laboratory slabs",
-        "Eight attached red-brick vertical service accents following the mapped side bays",
-        "Inset roof edges and separate slab courses",
-        "Tower widths and local slab levels are exterior estimates",
-        "Recessed grouped glazing, supported local wall courses and ground-connected entrance"
+        "Six photo-interpreted window rows and a distinct flat main laboratory roof",
+        "Four attached stone service shafts with split heads rising above the main block",
+        "Separate red-brick vent housings, dark louvers and continuous slab courses",
+        "Tower positions and all unpublished section elevations remain estimates"
       ],
       "reference": "https://architecture.uchicago.edu/locations/henry_hinds_laboratory_for_geophysical_sciences/",
-      "approximation": "Mapped footprint, documented architectural character; secondary dimensions and partition lines are exterior estimates.",
+      "modeling_level": "optimized exterior",
       "optimization_recipe": {
         "family": "retained",
-        "storeys": 5,
-        "eave_m": 20.7,
-        "roof_rise_m": 0.0,
+        "storeys": 6,
+        "eave_m": 23.4,
+        "roof_rise_m": 0,
         "entry": "south",
         "references": [
           "https://architecture.uchicago.edu/locations/henry_hinds_laboratory_for_geophysical_sciences/",
           "https://www.openstreetmap.org/way/88865426"
         ],
-        "evidence": "Mapped footprint and source-described architectural family; facade module, roof section and local entry dimensions estimated.",
-        "dimension_status": "estimated exterior dimensions; storeys documented only where identified below",
+        "evidence": "Individual Science Quadrangle source comparison, 18 October 2026",
+        "dimension_status": "Owner/architect exterior character and mapped outline; local floor heights, facade modules and secondary dimensions remain estimates.",
         "confidence": "existing individual massing retained; facade and entrance reviewed",
         "retained_profile": "hinds",
         "wall": "LightStone",
@@ -9118,17 +9306,17 @@
         "roof_form": "retain existing source-specific roof",
         "code": "U064",
         "osm_id": 88865426,
-        "name": "Henry Hinds Laboratory for Geophysical Sciences"
+        "name": "Henry Hinds Laboratory for Geophysical Sciences",
+        "science_quad_review": true
       },
-      "modeling_level": "optimized exterior",
-      "coverage": "Individual profile retained and refined"
+      "approximation": "Source-informed exterior massing; undocumented dimensions and minor openings remain estimates."
     },
     "exterior_reconstruction": null,
     "ordinary_joinery": {
-      "window_surrounds": 250,
+      "window_surrounds": 0,
       "entrances": 1,
       "buttresses": 0,
-      "courses": 2,
+      "courses": 0,
       "entry_ground_xy": [
         458.7275,
         887.1775
@@ -9140,16 +9328,16 @@
     "architecture_reference": null,
     "optimization_2026_10_18": {
       "family": "retained",
-      "storeys": 5,
-      "eave_m": 20.7,
-      "roof_rise_m": 0.0,
+      "storeys": 6,
+      "eave_m": 23.4,
+      "roof_rise_m": 0,
       "entry": "south",
       "references": [
         "https://architecture.uchicago.edu/locations/henry_hinds_laboratory_for_geophysical_sciences/",
         "https://www.openstreetmap.org/way/88865426"
       ],
-      "evidence": "Mapped footprint and source-described architectural family; facade module, roof section and local entry dimensions estimated.",
-      "dimension_status": "estimated exterior dimensions; storeys documented only where identified below",
+      "evidence": "Individual Science Quadrangle source comparison, 18 October 2026",
+      "dimension_status": "Owner/architect exterior character and mapped outline; local floor heights, facade modules and secondary dimensions remain estimates.",
       "confidence": "existing individual massing retained; facade and entrance reviewed",
       "retained_profile": "hinds",
       "wall": "LightStone",
@@ -9159,7 +9347,8 @@
       "roof_form": "retain existing source-specific roof",
       "code": "U064",
       "osm_id": 88865426,
-      "name": "Henry Hinds Laboratory for Geophysical Sciences"
+      "name": "Henry Hinds Laboratory for Geophysical Sciences",
+      "science_quad_review": true
     },
     "name_zh": "亨利·欣兹地球物理科学实验楼",
     "short_zh": "欣兹地球物理科学实验楼",
@@ -9167,8 +9356,8 @@
       "欣兹地球物理实验楼"
     ],
     "short": "Henry Hinds Laboratory for Geophysical Sciences",
-    "partition_en": "Flat grey concrete laboratory slabs; Eight attached red-brick vertical service accents following the mapped side bays; Inset roof edges and separate slab courses; Tower widths and local slab levels are exterior estimates; Recessed grouped glazing, supported local wall courses and ground-connected entrance. Exterior interpretation; local dimensions approximate.",
-    "basis_en": "Exterior dimensions and floor count are estimated from the mapped footprint and architectural family. Modeled maximum includes the roof; local section dimensions are approximate."
+    "partition_en": "Six photo-interpreted window rows and a distinct flat main laboratory roof; Four attached stone service shafts with split heads rising above the main block; Separate red-brick vent housings, dark louvers and continuous slab courses; Tower positions and all unpublished section elevations remain estimates. Exterior interpretation; local dimensions approximate.",
+    "basis_en": "Owner/architect exterior character and mapped outline; local floor heights, facade modules and secondary dimensions remain estimates. Modeled maximum includes the roof; local section dimensions are approximate."
   },
   {
     "code": "U065",
@@ -10329,7 +10518,7 @@
     "osm_type": "way",
     "zone": "quads",
     "landmark": false,
-    "height": 17.3,
+    "height": 18.5305,
     "height_status": "estimated",
     "levels": 4,
     "area": 1179.68,
@@ -10339,44 +10528,46 @@
       515.481,
       897.629
     ],
-    "basis": "Source-informed exterior interpretation; local eave and roof heights are estimates. estimated exterior dimensions; storeys documented only where identified below",
+    "basis": "Source-informed exterior interpretation; local eave and roof heights are estimates. Owner/architect exterior character and mapped outline; local floor heights, facade modules and secondary dimensions remain estimates.",
     "partition": "本轮按该楼的独立方案优化主要体量、屋顶、成组开窗与入口衔接，保留地图轮廓和庭院。未公开的构件尺寸及重复窗位为室外形态估算，并非实测或施工模型。",
-    "source": "https://maps.uchicago.edu/",
+    "source": "https://photoarchive.lib.uchicago.edu/db.xqy?one=apf2-04547.xml",
     "footprint_source": "https://www.openstreetmap.org/way/154859380",
     "campus_refinement": {
-      "profile": "modern_academic",
-      "height": 17.3,
+      "profile": "jones",
+      "height": 18.54,
       "levels": 4,
       "features": [
-        "Individual mapped wings, setbacks and courtyard voids",
-        "Grouped recessed facade bays with supported lintels, sills and thin mullions",
-        "recessed flat roof with supported parapet"
+        "Historic stone chemistry ranges replace the incorrect generic modern profile",
+        "Connected slate wing roofs, parapet and grouped Gothic entry",
+        "Mapped setbacks and existing link to the adjacent chemistry ranges retained"
       ],
-      "reference": "https://maps.uchicago.edu/",
+      "reference": "https://photoarchive.lib.uchicago.edu/db.xqy?one=apf2-04547.xml",
       "modeling_level": "optimized exterior",
       "optimization_recipe": {
-        "family": "modern_academic",
+        "family": "gothic_lab",
         "storeys": 4,
-        "eave_m": 16.8,
-        "roof_rise_m": 0.0,
+        "eave_m": 14.8,
+        "roof_rise_m": 3.6,
         "entry": "east",
         "references": [
+          "https://photoarchive.lib.uchicago.edu/db.xqy?one=apf2-04547.xml",
           "https://maps.uchicago.edu/",
           "https://www.openstreetmap.org/way/154859380"
         ],
-        "evidence": "Mapped footprint and source-described architectural family; facade module, roof section and local entry dimensions estimated.",
-        "dimension_status": "estimated exterior dimensions; storeys documented only where identified below",
+        "evidence": "Individual Science Quadrangle source comparison, 18 October 2026",
+        "dimension_status": "Owner/architect exterior character and mapped outline; local floor heights, facade modules and secondary dimensions remain estimates.",
         "confidence": "conservative mapped exterior interpretation",
         "wall": "LightStone",
-        "roof": "RoofMembrane",
+        "roof": "RoofSlate",
         "bay_m": 4.1,
         "window_group": "recessed metal-framed bays",
         "roof_form": "recessed flat roof with supported parapet",
         "code": "U075",
         "osm_id": 154859380,
-        "name": "Jones Laboratory"
+        "name": "Jones Laboratory",
+        "science_quad_review": true
       },
-      "approximation": "Mapped footprint and source-described architectural family; facade module, roof section and local entry dimensions estimated."
+      "approximation": "Source-informed exterior massing; undocumented dimensions and minor openings remain estimates."
     },
     "exterior_reconstruction": null,
     "ordinary_joinery": {
@@ -10394,33 +10585,35 @@
     "highlight_joinery": null,
     "architecture_reference": null,
     "optimization_2026_10_18": {
-      "family": "modern_academic",
+      "family": "gothic_lab",
       "storeys": 4,
-      "eave_m": 16.8,
-      "roof_rise_m": 0.0,
+      "eave_m": 14.8,
+      "roof_rise_m": 3.6,
       "entry": "east",
       "references": [
+        "https://photoarchive.lib.uchicago.edu/db.xqy?one=apf2-04547.xml",
         "https://maps.uchicago.edu/",
         "https://www.openstreetmap.org/way/154859380"
       ],
-      "evidence": "Mapped footprint and source-described architectural family; facade module, roof section and local entry dimensions estimated.",
-      "dimension_status": "estimated exterior dimensions; storeys documented only where identified below",
+      "evidence": "Individual Science Quadrangle source comparison, 18 October 2026",
+      "dimension_status": "Owner/architect exterior character and mapped outline; local floor heights, facade modules and secondary dimensions remain estimates.",
       "confidence": "conservative mapped exterior interpretation",
       "wall": "LightStone",
-      "roof": "RoofMembrane",
+      "roof": "RoofSlate",
       "bay_m": 4.1,
       "window_group": "recessed metal-framed bays",
       "roof_form": "recessed flat roof with supported parapet",
       "code": "U075",
       "osm_id": 154859380,
-      "name": "Jones Laboratory"
+      "name": "Jones Laboratory",
+      "science_quad_review": true
     },
     "name_zh": "琼斯实验楼",
     "short_zh": "琼斯实验楼",
     "aliases_zh": [],
     "short": "Jones Laboratory",
-    "partition_en": "Individual mapped wings, setbacks and courtyard voids; Grouped recessed facade bays with supported lintels, sills and thin mullions; recessed flat roof with supported parapet. Exterior interpretation; local dimensions approximate.",
-    "basis_en": "Exterior dimensions and floor count are estimated from the mapped footprint and architectural family. Modeled maximum includes the roof; local section dimensions are approximate."
+    "partition_en": "Historic stone chemistry ranges replace the incorrect generic modern profile; Connected slate wing roofs, parapet and grouped Gothic entry; Mapped setbacks and existing link to the adjacent chemistry ranges retained. Exterior interpretation; local dimensions approximate.",
+    "basis_en": "Owner/architect exterior character and mapped outline; local floor heights, facade modules and secondary dimensions remain estimates. Modeled maximum includes the roof; local section dimensions are approximate."
   },
   {
     "code": "U076",
@@ -17428,18 +17621,40 @@
       659.432
     ],
     "basis": "最高点依据公开资料，檐口、屋顶分区及立面细节为近似表达。",
-    "partition": "两端哥特式塔楼采用历史资料公布的135英尺（41.148米）高度。中央阅览大厅、屋顶及小塔细节为近似表达。",
+    "partition": "优化双塔、中央高阅览大厅及每个长立面的八个哥特式主窗格，区分下部两层成组开窗、石材腰线、连续坡屋顶、角部小塔与中央入口。塔顶保留公开资料所载135英尺（41.148米）；其他局部标高与重复窗位为形态近似，雕刻作抽象表达。",
     "source": "https://campub.lib.uchicago.edu/text/?docId=mvol-0001-0016-0000",
     "footprint_source": "https://www.openstreetmap.org/way/156128082",
     "campus_refinement": null,
-    "exterior_reconstruction": null,
+    "exterior_reconstruction": {
+      "reference": "https://architecture.uchicago.edu/locations/william_rainey_harper_memorial_library/",
+      "features": [
+        "Two differentiated Gothic end towers at the retained published maximum",
+        "Central high reading-hall range with eight tall traceried window bays",
+        "Two lower academic floors, stone courses and grounded central entrance",
+        "Connected pitched roof and four attached corner turrets on each tower",
+        "Recessed paired lower lights, narrow tower gallery lights and upper Gothic windows"
+      ],
+      "modeling_level": "optimized exterior",
+      "central_reading_hall_bays": 8,
+      "tower_peak_m": 41.148,
+      "manual_joinery": {
+        "framed_openings": 153,
+        "transoms": 0,
+        "roof_coping_m": 0,
+        "hollow_bells": 0,
+        "added_triangles": 15252,
+        "authored_joinery": true
+      },
+      "limits": "Published tower maximum retained. Hall eaves, turrets, window groups and entrance members are proportional exterior estimates; heraldic sculpture is abstracted."
+    },
     "ordinary_joinery": null,
     "highlight_joinery": {
-      "framed_openings": 285,
+      "framed_openings": 153,
       "transoms": 0,
-      "roof_coping_m": 0.0,
+      "roof_coping_m": 0,
       "hollow_bells": 0,
-      "added_triangles": 16704
+      "added_triangles": 15252,
+      "authored_joinery": true
     },
     "architecture_reference": {
       "name": "William Rainey Harper Memorial Library",
@@ -17479,7 +17694,7 @@
     },
     "optimization_2026_10_18": {
       "family": "protected_highlight",
-      "decision": "Retain the existing individually reconstructed or reviewed Highlight; do not replace with a generic campus recipe.",
+      "decision": "Explicitly reworked at user request in release 26.10.18.15; retain the authored detailed/optimized exterior instead of applying an ordinary generic recipe.",
       "references": [
         "https://campub.lib.uchicago.edu/text/?docId=mvol-0001-0016-0000"
       ],
@@ -17492,7 +17707,7 @@
     "short_zh": "哈珀纪念图书馆",
     "aliases_zh": [],
     "short": "Harper Memorial",
-    "partition_en": "Two Gothic end towers use the historical published 135 ft / 41.148 m peak. The central reading hall, roof and turret details are approximate.",
+    "partition_en": "Two differentiated Gothic end towers at the retained published maximum; Central high reading-hall range with eight tall traceried window bays; Two lower academic floors, stone courses and grounded central entrance; Connected pitched roof and four attached corner turrets on each tower; Recessed paired lower lights, narrow tower gallery lights and upper Gothic windows. Published tower maximum retained. Hall eaves, turrets, window groups and entrance members are proportional exterior estimates; heraldic sculpture is abstracted.",
     "basis_en": "Published maximum height from university or project sources; local roof and facade dimensions remain approximate."
   },
   {

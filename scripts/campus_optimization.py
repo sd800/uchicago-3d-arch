@@ -14,6 +14,7 @@ from shapely import contains_xy
 from shapely.affinity import rotate
 from campus_refinement import rebuild as retained_rebuild, oriented
 import medical_optimization
+from science_exteriors import neighbor as science_neighbor, NEIGHBOR_IDS
 
 CATALOG=json.loads((Path(__file__).resolve().parents[1]/'sources/building_optimization.json').read_text())
 SPECS={row['osm_id']:row for row in CATALOG['buildings']}
@@ -201,6 +202,7 @@ def rebuild(ident,p,h,levels,ctx):
     cfg=SPECS[ident]
     if cfg['family']=='protected_highlight':return None
     if cfg.get('medical_profile'):return medical_optimization.rebuild(ident,p,h,levels,ctx)
+    if ident in NEIGHBOR_IDS:return science_neighbor(ident,p,h,levels,ctx)
     kind=cfg['family'];ms=ctx.ms;a,b,c,d=p.bounds;cx,cy=p.centroid.coords[0]
     e=cfg['eave_m'];rise=cfg['roof_rise_m'];wall=cfg['wall'];roof=cfg['roof'];features=[]
     def add(g,z,hh,mat=wall,lev=None,windows=True):
