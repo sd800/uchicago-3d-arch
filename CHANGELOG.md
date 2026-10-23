@@ -1,5 +1,10 @@
 # Changelog
 
+## 26.10.23.1 — 2026-10-23
+
+- Use "University of Chicago Campus 3D Model" for browser titles in both language modes, search/social metadata and the structured website/page names; remove the abbreviated name and campus suffix from title metadata.
+- Preserve the visible page heading, campus descriptions, interface, model files and download assets; keep the static homepage, offline edition and future packaging output consistent.
+
 ## 26.10.18.16 — 2026-10-18
 
 - Reconstruct 33 Main Quadrangles / Hull Court / immediately enclosing building exteriors, retain the already authored Mitchell Tower, and limit other campus changes to the separately documented satellite roof corrections. Differentiate red roof ranges, gables, dormers, lecture volumes, entries and projecting bays rather than applying one facade finish.
